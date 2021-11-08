@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Crowdsourcing the analysis of scholarly
+tweets</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-02-19">
+<day>19</day>
+<month>2</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>In December Euan Adie and I
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/http://blogs.plos.org/mfenner/2011/12/20/crowdometer-or-trying-to-understand-tweets-about-journal-papers/">started
+the CrowdoMeter projec</ext-link>t, an analysis of the semantic content
+of tweets linking to scholarly papers. Because classifying almost 500
+tweets is a lot of work, we turned this into a crowdsourcing project. We
+got help from 36 people, who did 953 classifications, and we discussed
+the preliminary results (available
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/http://crowdometer.org/ratings">here</ext-link>)
+at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/http://scienceonline2012.com/">ScienceOnline2012</ext-link>
+conference.</p>
+<p>There is no reason to stop the crowdsourcing here, so we have
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/http://hdl.handle.net/10779/01c28ce592291e7e294ed328208a5869">uploaded
+the result set</ext-link> to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/http://blogs.plos.org/mfenner/2012/02/16/figshare-interview-with-mark-hahnel/">figshare</ext-link>
+and invite everybody to help us with the data analysis. For this purpose
+I have created a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/https://github.com/mfenner/crowdometer">public
+repository</ext-link> on Github which contains not only the source code
+for the CrowdoMeter website, but also all data – the same dataset made
+available on figshare. I have written a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/https://github.com/mfenner/crowdometer/blob/crowdometer/public/assets/shares_author.R">first
+R script</ext-link> that produces the following pie chart:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161027000313im_/http://blogs.plos.org/mfenner/files/2012/02/authors.png" xlink:title="authors" />
+</fig>
+<p>The figure doesn’t look all that exciting, but there is some
+calculation involved. There are different numbers of classifications per
+tweet and sometimes there is disagreement: true means at least 50% of
+classifications were true. It would be great if we find people willing
+to help with data analysis, preferably using
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/http://rstudio.org/">R</ext-link>
+and contributing their scripts to the Github repository. Please send me
+an email or contact me
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000313/http://twitter.com/#!/mfenner">via
+Twitter</ext-link> if you need write access to the repository.</p>
+</body>
+<back>
+</back>
+</article>

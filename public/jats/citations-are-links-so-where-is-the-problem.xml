@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Citations are links, so where is the
+problem?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-12-11">
+<day>11</day>
+<month>12</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Citations are a fundamental concept of scholarly works. Unfortunately
+they are also difficult to do. Traditional writing tools such as
+Microsoft Word can’t really handle them in a way that is appropriate for
+a scientific manuscript, and that is why we have reference managers such
+as Endnote, Zotero or Mendeley. And the lack of this functionality is a
+major reason that Google Docs and other online collaborative writing
+tools haven’t become popular for writing scholarly works.</p>
+<fig>
+  <caption><p><italic><italic>1958 Edsel Citation by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://www.flickr.com/photos/roadsidepictures/">Roadsidepictures</ext-link>,
+  on Flickr.</italic></italic></p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611074314im_/http://farm3.static.flickr.com/2678/4363633528_5026a5ce8b.jpg" xlink:title="" />
+</fig>
+<p>Using citations is hard for paper authors. The process is still
+complicated when using a reference manager, and it remains one of the
+more time consuming aspects of writing a manuscript. The main reason is
+that something always seems to go wrong with the formatting of the
+bibliography, but there are also issues of wrong or duplicate citations
+(including
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://www.the-scientist.com/news/display/57698/">citation
+mutations</ext-link>), correct citation styles, etc. I can’t comment on
+how well BibTeX integrates citation management into LaTeX, but the main
+issue seems to be that citations usually are not one of the core
+functions of the writing tool.</p>
+<sec id="wordpress-and-reference-managers">
+  <title>WordPress and reference managers</title>
+  <p>The blogging platform <bold><bold>WordPress</bold></bold> could
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://blogs.plos.org/mfenner/2010/12/05/blogging-beyond-the-pdf/">become
+  an excellent authoring platform</ext-link> for scientific papers. But
+  to become successful, WordPress has to handle scholarly citations, and
+  not just with copy and paste. Carl Boettinger
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://www.carlboettiger.info/archives/570">has
+  written about doing citations in WordPress</ext-link> ealier this week
+  and there is also an
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://friendfeed.com/science-2-0/deef8494/how-do-you-manage-citations-when-writing-on-web">ongoing
+  FriendFeed discussion</ext-link>. I have also looked at the available
+  plugins, in particular
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://wordpress.org/extend/plugins/papercite/">papercite</ext-link>
+  (based on
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://wordpress.org/extend/plugins/bib2html/">bib2html</ext-link>)
+  which uses the BibTex format and is giving me some problems. I can’t
+  get the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://labs.crossref.org/site/blog_plugins.html">CrossRef
+  Citation plugin</ext-link> to work (SyntaxError: Parse error) and the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://wordpress.org/extend/plugins/mendeleyplugin/">Mendeley
+  Plugin</ext-link> is displaying bibliographies, rather than inserting
+  citations. There is currently probably no easy solution to cite
+  scholarly works in WordPress and I don’t think that creating a
+  WordPress Plugin for one of the reference managers is the right
+  approach.</p>
+</sec>
+<sec id="citations-are-links">
+  <title>Citations are links</title>
+  <p>If we think about it, citations are nothing more than specialized
+  links that contain additional information and formatting. And the
+  references section is a list of footnotes. Links are a genuine part of
+  WordPress, and this system should therefore also be used when writing
+  scholarly works with WordPress. A Citation Plugin should extend this
+  system, and solve these issues:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>WordPress isn’t very smart about footnotes. I use the
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://www.elvery.net/drzax/wordpress-footnotes-plugin">WP-Footnotes</ext-link>
+      Plugin, but we need additional functionality: avoid duplicates,
+      formatting options of in-text citations (e.g. range of citations
+      or author-year) and sorting of footnotes by occurence or name.</p>
+    </list-item>
+    <list-item>
+      <p>The tool to create links in articles is not really integrated
+      with the WordPress Links system (in contrast to images, where you
+      have access to the media gallery when inserting an image).</p>
+    </list-item>
+  </list>
+  <p>Both of  these issues can be solved, especially since they are not
+  specific to scholarly works and could be tackled by thousands of
+  WordPress developers out there.</p>
+  <p>We don’t want to use WordPress as a reference manager, as there are
+  already many tools out there that can do this job much better. We
+  rather want reference manager integration with WordPress, and the
+  easiest way to do this would be an automatic synchronization with the
+  WordPress Links database. We can already do this with the social
+  bookmarking tool <bold><bold>delicious</bold></bold> (I use
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://wordpress.org/extend/plugins/wp-deliciouslinks/">DeliciousLinkSync</ext-link>),
+  so it shouldn’t be difficult to do this with the social bookmarking
+  tools for scientists such as <bold><bold>CiteULike</bold></bold> (you
+  can
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://blog.citeulike.org/?p=174">sync
+  CiteULike with delicious</ext-link>, a workaround I currently use),
+  <bold><bold>Connotea</bold></bold> or
+  <bold><bold>BibSonomy</bold></bold>.</p>
+</sec>
+<sec id="links-are-powerful">
+  <title>Links are powerful</title>
+  <p>Using the WordPress Links system makes it very easy to extend the
+  core functionality, and many interesting tools are already out there.
+  A good example is the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://wordpress.org/extend/plugins/broken-link-checker/">Broken
+  Link Checker</ext-link>. The Plugin can regularly check the links in
+  your blog posts, but could also be used to check DOIs for references
+  in a semi-automated way. The Broken Link Checker found 30 broken links
+  in the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://blogs.xartrials.org/2010/12/05/the-mycobacterium-tuberculosis-drugome-and-its-polypharmacological-implications-2/">Blogging
+  Beyond the PDF sample article</ext-link> (all my fault), and
+  automatically changed the display style for them.</p>
+  <p>And there is so much more that can be done with links. I am
+  particularly interested in adding meaning to links using the Citation
+  Typing Ontology
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://dx.doi.org/10.1186/2041-1480-1-S1-S6">CiTO</ext-link>).
+  And I want to be able to cite specific parts of an article. Dave Winer
+  has
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://scripting.com/stories/2010/10/21/newBloggingTechniques.html">introduced</ext-link>
+  paragraph-level permalinks to blogs, and I can do this on WordPress
+  using the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://danielbachhuber.com/2010/10/27/winerlinks-v0-2-released/">WinerLinks
+  Plugin</ext-link>. The broken links in my Blogging Beyond the PDF
+  sample article are all internal links, and I can now use WinerLinks to
+  fix them. An example where I have already done this is the reference
+  to Table S8 in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://blogs.xartrials.org/2010/12/05/the-mycobacterium-tuberculosis-drugome-and-its-polypharmacological-implications-2/#p16">this
+  paragraph</ext-link>.</p>
+  <p><italic><italic>Update on 12/11/10: I’ve installed the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611074314/http://ptsefton.com/2010/12/09/beyond-the-pdf-proposed-session-bring-the-web-to-the-researcher-mainly-on-authoring-tools.htm">Anotar
+  Plugin</ext-link> by Peter Sefton that adds paragraph-level
+  commenting.</italic></italic></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

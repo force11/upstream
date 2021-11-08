@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>German Genetics Society Meeting 2009: Session
+VI</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-09-25">
+<day>25</day>
+<month>9</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><italic><italic>Another guest post by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032254/http://network.nature.com/people/alexander-knoll/profile">Alex
+Knoll</ext-link> reporting from the German Genetics Society Meeting in
+Cologne.</italic></italic></p>
+<p>Saturday had two more sessions before the end of the meeting. Irina
+Stancheva from the Wellcome Trust Centre for Cell Biology at the
+University of Edinburgh started us into the day with a talk on
+epigenetics in mouse development.</p>
+<p>One form of epigenetic silencing is methylation of cytosine bases in
+DNA. This is done by DNA methyltransferases like Dnmt1 for maintenance
+methylation, or Dnmt3a and Dnmt3b for de novo methylation, at CpG
+sequences enriched at promoters. During mouse embryonic development, DNA
+methylation is essential, for a loss of either of the DNA
+methyltransferases is embryonically lethal. Methylation and
+demethylation during development is surprisingly dynamic, with loss and
+new gain, and differences between the embryo and the trophectoderm.
+Besides the Dnmts, there are further proteins involved in the regulation
+of methylation levels. One interesting protein here is Lsh, a chromatin
+remodelling ATPase belonging to the SNF2 family. It seems to have a low
+ATPase activity in vitro, but it cooperates with several known factors
+like the DNA methyltransferases and Histone deacetylases. With mouse
+promoter microarrays, Irina Stancheva's group compared wildtype and Lsh
+knockout cells, and found a reduction in promoter methylation when Lsh
+is missing. The patterns of DNA methylation observed in Lsh null cells
+suggest that this protein has a role in developmentally-programmed
+methylation events in the early mouse embryo.</p>
+<p>Dominique Soldati-Favre from the University of Geneva in Switzerland
+gave an interesting talk about her work on apicomplexan parasites. This
+phylum includes important human and animal pathogens such as Toxoplasma
+gondii and Plasmodium falciparum causing toxoplasmosis and malaria
+respectively. They belong to the clade of Chromalveolates, whose
+ancestor acquired a plastid organelle by the secondary endosymbiosis of
+an alga. While some members of this clade are free living organisms or
+predators the Apicomplexa have evolved as obligate intracellular
+parasites. These parasites have developed an elaborated strategy to
+actively penetrate the host cells by a mechanism distinct from
+phagocytosis and involving gliding motility. This active mode of entry
+is favorable to the parasites, because this way they can evade the host
+cell defense mechanisms. To identify and study the molecular components
+of the vital process leading to host invasion, the Soldati's group has
+developed genetic tools beginning from reliable DNA transfection up to
+the establishment of an inducible expression system for the malaria
+parasites based on transcription machinery elements similar to those
+found in plants. Studies performed on T. gondii have established that
+the mechanism of host cell entry is the result of a concerted action of
+adhesins involved in the attachment of the parasite to the host cell,
+the actin cytoskeleton and myosin motors that relocalize these adhesins
+from anterior to posterior pole of the parasite, and proteases that
+finally release these adhesins from the parasite surface.</p>
+</body>
+<back>
+</back>
+</article>

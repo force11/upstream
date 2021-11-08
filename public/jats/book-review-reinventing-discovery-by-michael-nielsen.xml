@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Book Review: Reinventing Discovery by Michael
+Nielsen</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-10-22">
+<day>22</day>
+<month>10</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="gif" xlink:href="https://web.archive.org/web/20120525040623im_/http://press.princeton.edu/images/k9517.gif" xlink:title="Reinventing Discovery" />
+</fig>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040623/http://press.princeton.edu/titles/9517.html"></ext-link><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040623/http://press.princeton.edu/titles/9517.html">Reinventing
+Discovery</ext-link>, the book by Michael Nielsen we all have been
+waiting for, has finally been published on Friday. Today I flew to
+Boston for the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040623/http://research.microsoft.com/en-us/events/escience2011-scholarly-communications/agenda.aspx">Microsoft
+Research eScience Workshop: Transforming Scholarly
+Communication</ext-link>, and reading the book on the plane was the
+perfect preparation for the workshop.</p>
+<p>Michael says in the book:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p><italic><italic>I wrote this book with the goal of lightning an
+    almighty fire under the scientific community. … We have an
+    opportunity to change the way knowledge is
+    constructed.</italic></italic></p>
+  </disp-quote>
+</p>
+<p>You can
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040623/http://press.princeton.edu/chapters/s9517.pdf">download
+the chapter 1 as PDF</ext-link>, and you can also watch the videos of
+two of his recent presentations:
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040623/http://www.youtube.com/watch?v=DnWocYKqvhw">TEDx
+Waterloo</ext-link> in March and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040623/http://river-valley.tv/keynote-solo2011/">Science
+Online London</ext-link> in September.</p>
+<p>The book uses examples from science and related disciplines – e.g.
+programming or chess – to examine both the opportunities and challenges
+of doing Open Science. The book is good reading, because Michael is
+aware of the many challenges that we face before science can be done
+differently. One example for this is the peer-reviewed journal article
+as the main currency to evaluate researchers. Until scientists are also
+rewarded for producing or curating data, programming scientific
+software, etc., we will not be able to start a new era of networked
+science.</p>
+<p>Highly recommended reading.</p>
+<p>Timo Hannay has also written a
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nphys2109">review
+of the book</ext-link> for Nature Physics, and I’m sure we will soon see
+many more.</p>
+</body>
+<back>
+</back>
+</article>

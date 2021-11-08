@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>ORCID has launched. What’s next?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-10-22">
+<day>22</day>
+<month>10</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last week has been busy. I went to Berlin for the launch of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://orcid.org/">Open
+Researcher &amp; Contributor ID (ORCID)</ext-link> service. ORCID allows
+researchers to obtain a persistent identifier that can be used to claim
+publications and other scholarly works. I’m
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://orcid.org/0000-0003-1419-2405">0000-0003-1419-2405</ext-link>,
+and we put the ID (and the QR code linking to the profile on the ORCID
+website) on the name tags for the ORCID Outreach Meeting last Wednesday
+(Geek alert: I also have received a T-shirt with my name, ORCID and QR
+code).</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170518120701im_/http://blogs.plos.org/mfenner/files/2012/10/nametag-500x283.png" xlink:title="" />
+</fig>
+<p>I was invited to work with ORCID in early 2010 after writing about
+the initiative that was started in November 2009 on this blog
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://blogs.plos.org/mfenner/2010/01/03/orcid_or_how_to_build_a_unique_identifier_for_scientists_in_10_easy_steps/">ORCID
+or how to build a unique identifier for scientists in 10 easy
+steps</ext-link>). And now, after three years and a lot of work by a lot
+of people, ORCID is real and everyone can use the system. As a
+researcher, you can go to the ORCID website and register.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170518120701im_/http://blogs.plos.org/mfenner/files/2012/10/orcid-500x445.png" xlink:title="" />
+</fig>
+<p>Obtaining a number is of course not very interesting in itself, few
+people get excited about the fact of having a 16-digit unique
+identifier. What ORCID is really about is claiming your publications and
+other scholarly works, and <bold>Connecting Research and
+Researchers</bold> is the slogan of the organization. In the ORCID
+system you can now claim publications found in the CrossRef database,
+and other work types will be added over time.</p>
+<p>What I’m particularly interested in is the claiming of research
+datasets. Everyone wants to give researchers better credit for the data
+they have produced, transformed and annotated, but data citation is
+still not a widespread practice. I am therefore very excited to be
+involved in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://www.odin-project.eu/">ORCID
+and DataCite Interoperability Network</ext-link> (ODIN), a EU-funded
+project that had its kickoff meeting last week in Berlin.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170518120701im_/http://blogs.plos.org/mfenner/files/2012/10/odin-500x319.png" xlink:title="" />
+</fig>
+<p>In the ODIN project we will work closely with
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://www.datacite.org/">DataCite</ext-link>,
+an organization that provides digital object identifiers (DOIs) for
+research data. One of the many things I like about ODIN is that social
+sciences is one of the disciplines where we will build a proof of
+concept (with the British Library, the other discipline is high-energy
+physics and CERN). We also want to understand how to best link
+researchers, data and publications.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://datadryad.org/">Dryad</ext-link>
+is an ODIN project partner and obviously has a lot of experience linking
+biological datasets to publications, and we will discuss how to
+integrate ORCID identifiers into the workflow.</p>
+<p>Unique identifiers for researchers are of course also an essential
+part of any work on article-level metrics. I
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://blogs.plos.org/mfenner/2012/06/25/random-notes-from-the-altmetrics12-conference/">spoke
+about this</ext-link> at the altmetrics12 conference in June, and I’m
+excited that we can now finally start linking things together.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://impactstory.org/">ImpactStory</ext-link>
+was one of the ORCID launch partners, and I demoed their ORCID
+integration last week in Berlin.</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://sciencecard.org/">ScienceCard</ext-link>
+is a fork of the open source
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://article-level-metrics.plos.org/">PLOS
+Article-Level Metrics application</ext-link>, and is a project I started
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://blogs.plos.org/mfenner/2011/11/20/sciencecard-named-finalist-in-mendeleyplos-api-binary-battle/">about
+a year ago</ext-link>. ScienceCard allows researchers to list all their
+publications, and the metrics associated with them. With the launch of
+ORCID I was able to finally add one important missing piece. Through
+automatic lookup of the ORCID identifier and retrieval of the
+publications claimed in the ORCID profile is has become much easier to
+create and maintain a ScienceCard profile – it shouldn’t take more than
+5 min and a few mouse clicks (collecting all metrics takes longer
+because that happens in the background). I added ORCID integration to
+ScienceCard over the weekend, using the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://dev.orcid.org/resources">free
+public ORCID API</ext-link>.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170518120701im_/http://blogs.plos.org/mfenner/files/2012/10/sciencecard-500x438.png" xlink:title="" />
+</fig>
+<p>ScienceCard is a great tool to explore how research impact can be
+collected and displayed, and I appreciate feedback in the form of
+feature requests and bug reports, ideally in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/https://github.com/mfenner/alm/issues">GitHub
+issue tracker</ext-link> of the project. This will also provide very
+valuable feedback to improve the PLOS Article-Level Metrics application,
+as they use almost the same code base. The API is for example completely
+the same,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/https://github.com/ropensci/rplos">rplos</ext-link>
+and other tools using the PLOS ALM API can be used with ScienceCard by
+just changing the URL. Another example is the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/http://wordpress.org/extend/plugins/plos-alm-widget/">PLOS
+ALM WordPress Widget</ext-link>, with minor modifications it can be also
+be used with ScienceCard, allowing a researcher to display the metrics
+for his publications from PLOS and other sources on his blog. The
+upcoming
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170518120701/https://sites.google.com/site/altmetricsworkshop/">Altmetrics
+workshop and hackathon</ext-link> (November 1-3 in San Francisco) will
+be a great opportunity to explore this further.</p>
+</body>
+<back>
+</back>
+</article>

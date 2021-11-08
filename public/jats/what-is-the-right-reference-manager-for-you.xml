@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>What is the right reference manager for
+you?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-05-17">
+<day>17</day>
+<month>5</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Reference managers are essential tools to read and write scholarly
+papers. In the last few years we have seen both a number of new
+reference managers (most of them web-based), but also a trend for the
+established reference managers to gain social networking features. More
+choice is great, but it also creates confusion about the right tool to
+use. I have talked about reference managers
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002030110/http://network.nature.com/people/mfenner/blog/2009/03/15/reference-manager-overview">before</ext-link>,
+but in this slideshow I look at the features that I find important.</p>
+<p>And there are at least two features that I like, but haven't really
+seen implemented in a reference manager:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><italic><italic>Integration of an RSS reader for journal table of
+    contents (TOC)</italic></italic>. Currently I use a standard RSS
+    reader, and it requires too many steps to get interesting references
+    from a TOC into my reference manager.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Tracking the post-publication
+    discussion</italic></italic>. I want my reference manager to link to
+    the papers that cite a particular reference (I currently use
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002030110/http://www.scopus.com/">Scopus</ext-link>
+    for that) and link to
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002030110/http://network.nature.com/people/mfenner/blog/2009/04/28/faculty-of-1000-interview-with-richard-grant">Faculty
+    of 1000</ext-link> or
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002030110/http://researchblogging.org/">ResearchBlogging.org</ext-link>
+    comments on that paper.</p>
+  </list-item>
+</list>
+<p>In the last slide I wonder whether there is a) one perfect reference
+manager, b) one perfect reference manager for my particular needs, or c)
+I will always need more than one reference manager and have to move
+references back and forth between them. Currently I'm at c), using
+mostly Papers, Endnote and Connotea. But Mendeley, Zotero, Refworks and
+Endnote are moving in a direction where they try to cover all
+requirements.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>FDAAA: Push to open data in clinical
+medicine</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-08-02">
+<day>2</day>
+<month>8</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>In 2005 registration of clinical trials in publicly available
+databases before the first patient was entered became
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611042509/http://www.icmje.org/clin_trial.pdf">mandatory</ext-link>
+for papers submitted to the most important medical journals. In
+September of last year, U.S. President Bush signed the Federal Drug
+Administration Amendment Act (FDAAA) into law. Starting September 2008,
+all clinical trials registered in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611042509/http://www.clinicaltrials.gov/">clinicaltrials.gov</ext-link>
+database (with the exception of phase I trials) have to report key
+results of the main outcomes no later than 12 months after data for the
+last subject were received.</p>
+<p>This required reporting of results has so far largely gone unnoticed
+in the medical community, but will dramatically change the way research
+involving patients is conducted and reported. The 12 month deadline will
+probably lead to earlier reporting of many trial results, and not
+publishing negative results will be much more difficult. The required
+reporting in a standardized format will also facilitate the
+meta-analysis of several similar trials.</p>
+<p>Reporting of trial results in this format
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611042509/http://www.bmj.com/cgi/content/full/334/7605/1177">will
+not be considered previous publication</ext-link> by member journals of
+The Internal Committee of Medical Journal Editors (ICMJE).</p>
+</body>
+<back>
+</back>
+</article>

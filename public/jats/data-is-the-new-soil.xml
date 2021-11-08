@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Data is the new soil</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-09-13">
+<day>13</day>
+<month>9</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>One of the main themes at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525101008/http://www.scienceonlinelondon.org/programme.php">Science
+Online London Conference</ext-link> last weekend was
+<bold><bold>data</bold></bold>, with several sessions devoted to
+publishing primary research data, connecting scientific data from
+various resources, and a scientific experiment taking place before and
+during the conference
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525101008/http://scienceonlinelondon.wikidot.com/topics:green-chain-reaction">Green
+Chain reaction</ext-link>).</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525101008/http://www.informationisbeautiful.net/visualizations/">David
+McCandless</ext-link> talked about Data Visualization, a fascinating way
+to filter and make sense of the enormous amounts of data that we
+produce. This is of course also very relevant to science. Those that
+couldn’t attend the conference, or were in one of the parallel sessions
+like myself
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525101008/http://blogs.plos.org/mfenner/2010/09/07/orcid-as-unique-author-identifier-what-is-it-good-for-and-should-we-worry-or-be-happy/">speaking
+about author identifiers</ext-link>), can watch this video of a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525101008/http://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization.html">TED
+talk</ext-link> that David gave in July:</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Digital Science launched: closing the gap between science
+and technology?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-12-18">
+<day>18</day>
+<month>12</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Two weeks ago <bold><bold>Eva Amsen</bold></bold> wrote in a
+thoughtful
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://blogs.nature.com/eva/2010/12/05/a-metaphor-for-science-and-technology">blog
+post</ext-link>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>There’s a gap between science and technology, and it’s
+    growing.</p>
+  </disp-quote>
+</p>
+<p>Eva argues that – contrary to popular belief – there is actually a
+divide between science and technology. Scientists are on average not
+really comfortable using technology, and many computing tools aimed for
+scientists really miss the point of what scientists really care
+about.</p>
+<fig>
+  <caption><p><italic><italic>Canada Science and Technology Museum logo
+  by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://www.flickr.com/photos/cstmweb">cstmweb</ext-link>,
+  on Flickr.</italic></italic></p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120612094223im_/http://farm3.static.flickr.com/2649/3877930229_a84a550d0e.jpg" xlink:title="" />
+</fig>
+<p>Two days later, on December 7,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://www.digital-science.com/">Digital
+Science</ext-link>, a new division of Macmillan Publishing launched.
+From the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://international.macmillan.com/MediaArticle.aspx?id=2598">press
+release</ext-link>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>Digital Science will focus on providing world-class software
+    tools and services to scientists, managers and funders with the
+    ultimate aim of making research more productive through the use of
+    technology.</p>
+  </disp-quote>
+</p>
+<p>Initial products include the chemical text-mining tool
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://www.surechem.org/">SureChem
+Portal</ext-link>, the laboratory research management system
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://www.biodata.com/">BioData</ext-link>
+and the research information system
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://www.symplectic.co.uk/products/publications.html">Sympletic
+Elements</ext-link>. You might see some familiar faces when you look at
+the Digital Science
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://www.digital-science.com/meet-the-team/">team
+pictures</ext-link>.</p>
+<p>As a big fan of using technology for science I am looking forward to
+what Digital Science will do in the coming months. I am particularly
+interested in their answer to the questions asked by Eva. Have they
+found a better way to understand what technologies scientists really
+want? Or are tools for digital science something that the majority of
+scientists don’t really care about?</p>
+<p>Related posts:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Cameron Neylon:
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://cameronneylon.net/blog/macmillan-do-interesting-stuff/">Macmillan
+    do interesting stuff</ext-link></p>
+  </list-item>
+  <list-item>
+    <p>Benjamin Good:
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://i9606.blogspot.com/2010/12/digital-science-launches.html">Digital
+    Science launches</ext-link></p>
+  </list-item>
+  <list-item>
+    <p>John Dupuis:
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094223/http://scienceblogs.com/confessions/2010/12/open_digital_research_science.php">Open
+    Science Digital Computation Research</ext-link></p>
+  </list-item>
+</list>
+</body>
+<back>
+</back>
+</article>

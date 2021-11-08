@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Writing a paper with Buzzword</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-12-20">
+<day>20</day>
+<month>12</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611091413/http://www.buzzword.com/">Buzzword</ext-link>
+is a free online word processor based on the Adobe Flash technology. I
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611091413/http://network.nature.com/blogs/user/mfenner/2007/09/27/more-on-online-writing-tools-buzzword-is-different">previously</ext-link>
+wrote about Buzzword and how it could be used to write a scientific
+paper. The first impressions were positive, so I decided to write my
+next paper with Buzzword. This paper has been submitted this week. What
+did I like and dislike about Buzzword?</p>
+<sec id="good">
+  <title>Good</title>
+  <p>Most importantly, there is only one version of your manuscript. You
+  and your coauthors can simultaneously work on different parts of the
+  manuscript, the software saves all versions of the text. Buzzword is
+  very pleasant to use, thanks to the elegant interface. Importing and
+  exporting to Microsoft Word is possible. And Buzzword is free.</p>
+</sec>
+<sec id="bad">
+  <title>Bad</title>
+  <p>Buzzword doesn't handle references. You can create footnotes, but
+  for referencing papers, you have to use another software. That's what
+  I did in the final stages of manuscript writing, switching to
+  Microsoft Word and Endnote. Buzzword doesn't show you the changes
+  between different versions of a manuscript. This makes it difficult to
+  see the changes that your coauthors made. Because Buzzword is an
+  online word processor, you can't use it without an internet
+  connection. One of my coauthors had Buzzword crashing several times,
+  probably because of a slow internet connection.</p>
+</sec>
+<sec id="conclusions">
+  <title>Conclusions</title>
+  <p>Manuscript writing with Buzzword is fun. But without support for
+  references and better version management, it is not ready for prime
+  time.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

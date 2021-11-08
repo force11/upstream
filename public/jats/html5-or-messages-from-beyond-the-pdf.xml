@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>HTML5 or messages from beyond the PDF</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-01-05">
+<day>5</day>
+<month>1</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>In 1990 Tim Berners-Lee and others started HTML and the world wide
+web to facilitate scientific communications at CERN, the world’s largest
+particle physics laboratory.</p>
+<fig>
+  <caption><p><italic><italic>xmos_basser by .M., on Flickr, November
+  1993</italic></italic></p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611084546im_/http://farm3.static.flickr.com/2333/2429771653_68e45ff431.jpg" xlink:title="" />
+</fig>
+<p>Although the world wide web profoundly changed scholarly publishing
+(and of course many other things), HTML did not become the standard
+document format for scientific papers. In fact, there is no standard
+document format. We have document formats for authors, for the internal
+workflow of publishers, and for the distribution and reading of
+papers.</p>
+<p>There are of course many good reasons to use LaTeX for writing, XML
+for workflows, PDF to print papers or ePub for mobile devices. But
+reformatting a manuscript into different formats several times is both
+expensive (in terms of time and costs) and means that the formatting
+options used will be a compromise of what is available in all
+formats.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611084546im_/http://farm6.static.flickr.com/5088/5327592909_f00585d28e.jpg" xlink:title="" />
+</fig>
+<p>All this would be much easier if we just used HTML. With HTML,
+authors, publishers and readers can all use the same document format.
+And they will have an endless number of tools at their hands, including
+of course
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611084546/http://blogs.plos.org/mfenner/2010/12/05/blogging-beyond-the-pdf/">WordPress</ext-link>
+for writing and the web browser of choice for reading. HTML in 2010 is
+very different from HTML in 1990. HTML5 supports new semantic elements
+such as &lt;article&gt;, microdata, embedding of video without plugins,
+geolocation, and offline web applications.</p>
+<p>An HTML-based scholarly publishing workflow will make it</p>
+<list list-type="bullet">
+  <list-item>
+    <p>faster and cheaper to publish a paper,</p>
+  </list-item>
+  <list-item>
+    <p>easier to create rich interactive documents,</p>
+  </list-item>
+  <list-item>
+    <p>easier to add additional steps, such as integration of data from
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611084546/http://www.axiope.com/">lab
+    notebooks</ext-link>,
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611084546/http://www.arxiv.org/">publishing
+    of pre-prints</ext-link>, etc.</p>
+  </list-item>
+  <list-item>
+    <p>easier to integrate additional services, from
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611084546/http://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf">data
+    visualisation</ext-link> to
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611084546/http://languageediting.nature.com/editing-services">language
+    editing</ext-link>.</p>
+  </list-item>
+</list>
+</body>
+<back>
+</back>
+</article>

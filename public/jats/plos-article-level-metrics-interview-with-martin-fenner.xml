@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>PLoS Article-Level Metrics: Interview with Martin
+Fenner</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-04-23">
+<day>23</day>
+<month>4</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This blog occasionally does interviews with people providing
+interesting tools for scholars. These
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://blogs.plos.org/mfenner/category/interviews/">interviews</ext-link>
+have always been among my favorite blog posts. This now is obviously an
+interview with myself, but I felt this is the best format to explain
+some important news.</p>
+<fig>
+  <caption><p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://www.flickr.com/photos/stevec77/429781913/">Flickr
+  photo</ext-link> my stevec77.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://martinfenner.ghost.io/content/images/2021/02/429781913_9524791cff_w.jpg" xlink:title="" />
+</fig>
+<p>Starting May 16 I will be working full-time as technical lead for the
+PLoS
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://article-level-metrics.plos.org/">Article
+Level Metrics</ext-link> (ALM) project. I will help with development of
+the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://code.google.com/p/alt-metrics/">PLoS
+ALM application</ext-link>, and will do community developer outreach for
+this project.</p>
+<p>The PLoS ALM application is written in
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://rubyonrails.org/">Ruby
+on Rails</ext-link>, an open-source web framework I have been working
+with since 2005. The ALM project was launched in 2009, and I first
+learned about ALM in a July 2009 presentation by Pete Binfield at
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://blogs.plos.org/mfenner/2009/07/10/i_was_at_scibarcamp_palo_alto/">SciBarCamp
+Palo Alto</ext-link>. A month later I did an
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://blogs.plos.org/mfenner/2009/07/10/i_was_at_scibarcamp_palo_alto/">interview
+with Pete</ext-link> about Article Level Metrics and PLoS ONE.</p>
+<sec id="what-is-article-level-metrics">
+  <title>What is Article Level Metrics?</title>
+  <p>Article Level Metrics <italic>place transparent and  comprehensive
+  information about the usage and reach of published articles onto the
+  articles themselves, so that the entire academic community can assess
+  their value</italic> (from the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://article-level-metrics.plos.org/">PLoS
+  ALM website</ext-link>). A
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://dx.doi.org/10.1371/journal.pbio.1000242">November
+  2009 paper</ext-link> by Cameron Neylon and Shirley Wu gives a more
+  detailed introduction. And a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://www.slideshare.net/kristenratan/metrics-the-new-black">recent
+  presentation</ext-link> by Kristen Ratan, PLoS Director of Product
+  Management, given at the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://www.nfais.org/page/361-program-2012-nfais-annual-conference">2012
+  NFAIS meeting</ext-link>, provides an update for 2012.</p>
+  <p>Article Level Metrics is part of the larger
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://altmetrics.org/manifesto/">altmetrics</ext-link>
+  movement, which also looks at metrics for other scholarly works
+  besides journal articles.</p>
+</sec>
+<sec id="does-this-mean-that-you-will-be-moving-to-san-francisco">
+  <title>Does this mean that you will be moving to San
+  Francisco?</title>
+  <p>For personal reasons I will continue to live in Hannover, Germany
+  and work from home as a contractor with occasional trips to San
+  Francisco.</p>
+</sec>
+<sec id="will-you-miss-treating-cancer-patients-and-doing-cancer-research">
+  <title>Will you miss treating cancer patients and doing cancer
+  research?</title>
+  <p>Absolutely. This has not been an easy decision. To make the
+  transition easier, I will continue to spend 10% of my time at Hannover
+  Medical School. I will no longer be seeing patients, but this will
+  allow me to conclude the RADIT
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://clinicaltrials.gov/ct2/show/NCT01242631">clinical
+  trial</ext-link> for testicular cancer patients where I am the
+  principal investigator.</p>
+  <p>I hope to continue doing research in the new position, but with a
+  focus on information science. There are for example still a lot of
+  things we don’t know about altmetrics. A more detailed analysis of our
+  recent
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://blogs.plos.org/mfenner/2012/02/19/crowdsourcing-the-analysis-of-scholarly-tweets/">CrowdoMeter</ext-link>
+  project (a crowdsourced analysis of tweets linking to scholarly
+  papers) would be a good start.</p>
+</sec>
+<sec id="what-will-happen-with-sciencecard">
+  <title>What will happen with ScienceCard?</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://sciencecard.org/">ScienceCard</ext-link>
+  is a website that collects author level metrics and was my entry into
+  the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://blogs.plos.org/mfenner/2011/11/20/sciencecard-named-finalist-in-mendeleyplos-api-binary-battle/">Mendeley/PLoS
+  Binary Battle API contest</ext-link> last fall. ScienceCard is based
+  on the PLoS ALM code (which is open source and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://code.google.com/p/alt-metrics/">available
+  via Google Code</ext-link>). I will decide in the coming months what
+  to do with ScienceCard. This depends mainly on how much author level
+  metrics make sense in the PLoS ALM project.</p>
+</sec>
+<sec id="and-what-will-happen-to-your-other-scholarly-communication-activities">
+  <title>And what will happen to your other scholarly communication
+  activities?</title>
+  <p>There is no reason not to continue my other activities, including
+  involvement in the Open Researcher &amp; Contributor ID
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://about.orcid.org/">ORCID</ext-link>)
+  initiative, and using WordPress as a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161226124822/http://blogs.plos.org/mfenner/tag/wordpress/">tool
+  to write and publish manuscripts</ext-link>.</p>
+</sec>
+<sec id="what-are-your-future-plans-for-this-blog">
+  <title>What are your future plans for this blog?</title>
+  <p>I plan to continue this blog in a very similar format, and I will
+  have more time for more in-depth articles. And of course I will
+  indicate a conflict of interest when I write about Article Level
+  Metrics.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

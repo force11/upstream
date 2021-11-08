@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>ScienceOnline09: Providing public health and medical
+information to all</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-01-16">
+<day>16</day>
+<month>1</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This Sunday I will moderate a session called
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.scienceonline09.com/index.php/wiki/Public_health_and_medical_information/">Providing
+public health and medical information to all</ext-link> at
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.scienceonline09.com/index.php/wiki">ScienceOnline09</ext-link>.
+I didn't pick the title, but it is a topic I care a lot about. Because
+the session is intended as an open discussion, I thought that a blog
+post would be good way to organize my thoughts and ideas that I have for
+this
+session<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://blogs.plos.org/mfenner/2009/01/16/scienceonline09_providing_public_health_and_medical_information_to_all/#fn1">1</ext-link></sup>.
+And even though there are only two days left, I might even get some
+valuable feedback.</p>
+<p>We science bloggers have many recurring themes, and this session is
+again about access to information and filtering out the important
+information.</p>
+<sec id="access">
+  <title>Access</title>
+  <p>The traditional format to provide important medical information is
+  the peer-reviewed journal article. Unless you work at a large research
+  institution or university hospital, only part of these papers will be
+  available as full-text articles. Notable examples of journals with
+  immediate open access to peer reviewed research are the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.bmj.com/channels/research.dtl">British
+  Medical Journal</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://medicine.plosjournals.org/">PLoS
+  Medicine</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.biomedcentral.com/bmcmed/">BMC
+  Medicine</ext-link> and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.openmedicine.ca/">Open
+  Medicine</ext-link>. Many other medical journals provide free fulltext
+  access 6-12 months after publication, and this is now a requirement
+  for research funded by many funding agencies, including the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://publicaccess.nih.gov/policy.htm">NIH</ext-link>,
+  the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.wellcome.ac.uk/About-us/Policy/Spotlight-issues/Open-access/Policy/index.htm">Wellcome
+  Trust</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.hhmi.org/about/research/journals/main?action=search">Howard
+  Hughes Medical Institute</ext-link>.</p>
+  <p>Clinical trials are essential to improve the prevention, diagnosis
+  and treatment of many medical conditions. Since 2005 all clinical
+  trials have to registered in one of several central databases (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.clinicaltrials.gov/">clinicaltrials.gov</ext-link>)
+  before the first patient is treated. The information in these publicly
+  accessible databases includes the trial design and participating
+  centers. Since September 2008, clinicaltrials.gov started to also
+  report key results, as required by the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://network.nature.com/people/mfenner/blog/2008/08/02/fdaaa-push-to-open-data-in-clinical-medicine">Federal
+  Drug Administration Amendment Act</ext-link>. It is important to
+  remember that
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://network.nature.com/people/mfenner/blog/2009/01/10/what-science-is-worth-shouting-about">not
+  all clinical trials eventually will be published</ext-link>, so that
+  looking just at the published literature will not give a complete
+  picture.</p>
+</sec>
+<sec id="filtering">
+  <title>Filtering</title>
+  <p>Access to important medical information is only the first step. The
+  filtering of this information is at least as important. With filtering
+  I mean both finding the important research papers and evaluating them
+  in a larger context. A meta-analysis is a systematic review that
+  follows a standard set of rules for finding and evaluating research
+  papers, a format championed by the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.cochrane.org/">Cochrane
+  Collaboration</ext-link>. A meta-analysis can not only summarize
+  published research papers, but sometimes also uses the raw data of the
+  published research (the so-called individual patient data
+  meta-analysis). I would wish that the meta-analysis receives the same
+  kind of attention in the blogosphere as the open access to research
+  papers.</p>
+  <p>Whereas a positive outcome in a good meta-analysis is the best
+  evidence for the usefulness of a healthcare intervention, most
+  filtering of biomedical research papers comes to us in different
+  ways:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Review articles</p>
+    </list-item>
+    <list-item>
+      <p>Journal editorials</p>
+    </list-item>
+    <list-item>
+      <p>Science blogging</p>
+    </list-item>
+    <list-item>
+      <p>Articles by science journalists</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://network.nature.com/people/mfenner/blog/2008/12/05/open-access-is-not-enough-the-source-is-also-important">Direct
+      to consumer advertising</ext-link> (United States and New Zealand
+      only)</p>
+    </list-item>
+    <list-item>
+      <p>Social networking sites such as
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.connotea.org/">Connotea</ext-link>,
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.citeulike.org/">CiteULike</ext-link>
+      or
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.friendfeed.com/">FriendFeed</ext-link></p>
+    </list-item>
+  </list>
+  <p>I would argue that science articles in traditional media (e.g.
+  newspapers) and direct to consumer advertising may work in drawing
+  your attention to a research paper, but they are usually useless in
+  evaluating biomedical research. And obviously I believe that science
+  blogging has great potential to help in both the finding and
+  evaluation of important biomedical research. Meta-analyses take a very
+  long time and review articles take a long time. A thoughtful blog post
+  on a recently published paper can provide an important service.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://researchblogging.org/">Research
+  Blogging</ext-link> and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://blogs.nature.com/">Nature
+  Blogs</ext-link> are two services to help find these blog posts.
+  Social networking sites for scientists are a great tool to find
+  interesting research papers, but I don't know how they can help
+  evaluate a research paper.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.f1000medicine.com/">Faculty
+  of 1000 Medicine</ext-link> is a very interesting approach to the
+  filtering problem, but I haven't used the service enough to comment on
+  it here.</p>
+  <p><italic><italic>Addendum (01/18/09)</italic></italic>
+  It can be a good thing to have your presentation on the second day of
+  a conference. You come up with new ideas. I changed the title to
+  better convey what I would like to talk about in this session:
+  <italic><italic>Reporting medical research:</italic></italic>
+  <italic><italic>specific problems and specific
+  solutions</italic></italic>. And I've added another topic besides
+  access and filtering:</p>
+</sec>
+<sec id="motivation">
+  <title>Motivation</title>
+  <p>There are many reasons why people are interested in reporting or
+  learning about medical research. But betroffenheit and financial
+  interests are two very strong reasons that should always be kept in
+  mind. Betroffenheit is a German word that means something that is
+  directly affecting your life. If you are a patient with a serious
+  medical condition, or have a sick friend or relative, you obviously
+  have very different needs than someone who just wants to catch up on
+  the latest research on the release of calcium from intracellular
+  stores. Betroffenheit is not confined to medical research, climate
+  change is another example.
+  Obviously there are often important financial interests behind the
+  outcome of medical research. And this not only means the interests of
+  drug companies or device manufacturers. Most presentations of medical
+  research in larger meetings now begin with a financial disclosure
+  slide.</p>
+  <p>I've updated the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.slideshare.net/mfenner/providing-public-health-and-medical-information-to-all-presentation-924116">Slideshare
+  Presentation</ext-link> that I want to give as an introduction to the
+  session. And the conference Wiki page for the session is
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003022812/http://www.scienceonline09.com/index.php/wiki/Public_health_and_medical_information/">here</ext-link>.</p>
+  <p>fn1. Yet another argument for the usefulness of science
+  blogging.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

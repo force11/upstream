@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Altmetrics: first we need the for what? and only then the
+how? OK?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-07-09">
+<day>9</day>
+<month>7</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170913082053im_/http://blogs.plos.org/mfenner/files/2012/11/cute-500x132.png" xlink:title="" />
+</fig>
+<p>Altmetrics track the impact of scholarly works in the social web.
+Article-Level Metrics focuses on articles, but also looks at traditional
+citations and usage statistics. The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://article-level-metrics.plos.org/">PLOS
+Article-Level Metrics</ext-link> project was started in 2008. The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://altmetrics.org/manifesto/">altmetrics
+manifesto</ext-link> was published in October 2010 and described the
+fundamental ideas. By October 2011 we had a number of altmetrics tools,
+fueled by the Mendeley/PLOS API
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://blog.mendeley.com/design-research-tools/winners-of-the-first-binary-battle-apps-for-science-contest/">programming
+contest</ext-link>. In 2012 the focus shifted from the fact that we can
+provide these numbers to a discussion of the many open questions. We
+could see this at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://blogs.plos.org/mfenner/2012/06/25/random-notes-from-the-altmetrics12-conference/">altmetrics12
+conference</ext-link> in June, and even more so at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/https://sites.google.com/site/altmetricsworkshop/">altmetrics
+workshop</ext-link> hosted by PLOS last week in San Francisco.</p>
+<p>Altmetrics can provide a large amount of information about the
+post-publication activity around an article (and other scholarly
+content), and this is exciting, but at the same time also somewhat
+overwhelming and scary. Some of the things that we as a community have
+to figure out include standards for collecting, aggregating and
+displaying altmetrics data, strategies to combat attempts to game these
+metrics, and finding appropriate ways for the different organizations
+providing altmetrics to work together as a community. These and other
+topics were discussed in great detail at the PLOS altmetrics workshop,
+and we made excellent progress not least thanks to the excellent
+moderation by <italic>Cameron Neylon</italic>. The third day of the
+workshop was a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/https://sites.google.com/site/altmetricsworkshop/altmetrics-hackathon">hackathon</ext-link>,
+and we were able to translate some of the ideas into prototypes of new
+tools.</p>
+<p>The most important conclusion from the workshop for me personally was
+that we should really should focus on use cases. Altmetrics should help
+answer questions that we can’t answer today, and despite the promise,
+the various altmetrics tools still have a log way to go. A case in point
+is the promise that altmetrics can make it easier to find relevant
+scholarly content. We all use social media to help us find papers and
+other stuff, but integration of altmetrics into the traditional
+scholarly search tools is still missing.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://rerank.it/">ReRank</ext-link>
+is a cool prototype developed during the hackathon last Saturday, but we
+are still a long way from having altmetrics feeding directly into the
+relevance sorting of search results.</p>
+<p>With these thoughts in the back of mind, I look forward to the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.nature.com/spoton/event/spoton-london-2012-altmetrics-beyond-the-numbers/">altmetrics
+session</ext-link> at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.nature.com/spoton/in/london/">SpotOn
+London conference</ext-link> this Sunday afternoon. <italic>Sarah
+Venis</italic> from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.msf.org/">Médecins
+sans Frontières</ext-link> (MSF) will talk about the questions that she
+hopes altmetrics can answer for her organization. MSF is very interested
+to look beyond citations for the impact of their publications, as their
+primary target audience is not really the scholarly community, but
+rather people in need in various parts of the world. <italic>Marie
+Boran</italic> from the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.deri.ie/about/team/member/marie_boran/">Digital
+Research Enterprise Institute</ext-link> (DERI) is interested in using
+altmetrics as a recommendation tool to find researchers with similar
+interests. <italic>Euan Adie</italic> from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://altmetric.com/">altmetric.com</ext-link>
+and I (technical lead for the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://article-level-metrics.plos.org/">PLOS
+Article-Level Metrics project</ext-link>) will use our respective tools
+to try to answer some of these questions. For me altmetrics are
+primarily tools to tell a good story, and that is one reason why we
+picked the title <italic>Altmetrics beyond the Numbers</italic> for this
+session. The focus of the session will then shift to an open discussion,
+and I hope we can get some good answers to this and other questions.</p>
+<p>A clear focus on use cases should go a long way to reduce that
+feeling of being overwhelmed by all the numbers that altmetrics can
+provide. If we have specific goals for which we need altmetrics, it
+becomes much easier to decide what numbers work best for us, what
+standards we need and whom to ask to collect this information.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.nature.com/spoton/2012/11/spoton-london-2012-altmetrics-everywhere-but-what-are-we-missing-solo12impact/">AJ
+Cann</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://ukwebfocus.wordpress.com/2012/11/08/understanding-the-limits-of-altmetrics-slideshare-statistics/">Brian
+Kelly</ext-link> have written two excellent blog post about the
+confusion that too many altmetrics numbers can create, and the workshop
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.nature.com/spoton/event/spoton-london-2012-assessing-social-media-impact/">Assessing
+Social Media Impact</ext-link> during SpotOn London addresses some of
+these questions. Hackathons have played an important role in the history
+of altmetrics. I invite you to come to the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.nature.com/spoton/event/spoton-london-2012-fringe-event-hackday/">SpotOn
+London hackathon</ext-link> this Saturday if you have some cool ideas
+and want to get started with the help of others.</p>
+<sec id="other-reports-from-the-plos-article-level-metrics-aka-altmetrics-workshop">
+  <title>Other reports from the PLOS Article-Level Metrics (aka
+  Altmetrics) Workshop</title>
+  <list list-type="bullet">
+    <list-item>
+      <p><bold>Paul Groth</bold>:
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://thinklinks.wordpress.com/2012/11/05/trip-report-plos-article-level-metrics-workshop-and-hackathon/">Trip
+      Report: PLOS Article Level Metrics Workshop and
+      Hackathon</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><bold>Karthik Ram</bold>:
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://inundata.org/2012/11/08/plos-altmetrics-workshop/">PLOS
+      Altmetrics workshop</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><bold>Carl Boettiger</bold>:
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://www.carlboettiger.info/2012/11/03/altmetrics-conference.html">Altmetrics
+      Conference</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><bold>Pedro Beltrao</bold>:
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://pbeltrao.blogspot.de/2012/11/scholarly-metrics-with-heart.html">Scholarly
+      metrics with a heart</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><bold>Ian Mulvany</bold>:
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/https://plus.google.com/u/0/photos/102755743034732738536/albums/5807181863066123265">a
+      photo post</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><bold>Euan Adie</bold> (who couldn’t attend in person but
+      followed remotely):
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913082053/http://altmetric.com/blog/?p=316">Want
+      some hackathon friendly altmetrics data? arXiv tweets dataset now
+      up on figshare</ext-link></p>
+    </list-item>
+  </list>
+  <p><italic>Please let me know if you see other reports of the workshop
+  that I have missed.</italic></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

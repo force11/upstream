@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>The Complete Article</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-10-20">
+<day>20</day>
+<month>10</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Open access to research data is becoming increasingly important, as
+manifested by memos or press releases from the
+<ext-link ext-link-type="uri" xlink:href="http://www.wellcome.ac.uk/About-us/Policy/Policy-and-position-statements/WTX035043.htm">Wellcome
+Trust</ext-link>, the
+<ext-link ext-link-type="uri" xlink:href="http://europa.eu/rapid/press-release_IP-12-790_en.htm">European
+Commission</ext-link>, and the
+<ext-link ext-link-type="uri" xlink:href="http://www.whitehouse.gov/blog/2013/02/22/expanding-public-access-results-federally-funded-research">the
+Office of Science and Technology Policy</ext-link> (OSTP) from the White
+House.</p>
+<p>Open access to research data is important as this makes it easier for
+other researchers to reproduce the research, and to build upon the
+research by others by re-analysis of data or combination with other
+research data. In other words,
+<ext-link ext-link-type="uri" xlink:href="http://royalsociety.org/policy/projects/science-public-enterprise/report/">Science
+as an open enterprise</ext-link>.</p>
+<p>The major challenge to open access to research data is that data
+sharing is not a widespread practice. Several strategies have been
+developed to create incentives for researchers to share research data,
+including services that make it easier to share research data (e.g.
+<ext-link ext-link-type="uri" xlink:href="http://figshare.com/">figshare</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="http://dataup.cdlib.org/">DataUp</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="http://www.zenodo.org/">Zenodo</ext-link>),
+<ext-link ext-link-type="uri" xlink:href="http://www.knowledge-exchange.info/Default.aspx?ID=586">metrics
+for research data</ext-link>, and data journals such as
+<ext-link ext-link-type="uri" xlink:href="http://www.earth-system-science-data.net/">Earth
+System Science Data</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="http://www.gigasciencejournal.com/">GigaScience</ext-link>
+or the
+<ext-link ext-link-type="uri" xlink:href="http://openarchaeologydata.metajnl.com/">Journal
+of open archaeology data</ext-link>. Some of the sticks that have been
+tried in addition to the carrots above include data management plan
+requirements such as those
+<ext-link ext-link-type="uri" xlink:href="http://www.nsf.gov/bfa/dias/policy/dmp.jsp">set
+forth by the National Science Foundation (NSF)</ext-link> in 2011.</p>
+<p>I would argue that all these carrots and sticks will eventually fall
+short, unless we redefine what the journal article (and similarly
+monograph) in the digital age should be about. Research data should
+become a required part of any research article, rather than an optional
+afterthought, or taking on a life on their own in a separate data
+journal.</p>
+<p>The <italic>complete article</italic> - as I would like to call this
+journal article made fit for the digital age - should not only include
+the research data used to create figures and tables and reportes as
+results. Equally important are descriptions of reagents, workflows and
+software tools that go into much more detail compared to what is common
+practice today.</p>
+<fig>
+  <caption><p><bold>Ingredients of the complete
+  article</bold></p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="http://blog.martinfenner.org/images/complete_paper.png" xlink:title="" />
+</fig>
+<p>The <italic>complete article</italic> does not have to come as one
+big file. More likely the research data will be hosted at one or more
+data centers elsewhere. Authorship will turn into contributorship and
+will include all roles required to put the <italic>complete
+article</italic> together, including for example data collection and
+-analysis, and writing software needed to analyze the data. The
+<italic>complete article</italic> can be shorter or longer than the
+typical article today, important is not article length, but the
+combination of text, data, and description of reagents and analysis
+tools.</p>
+<p>The <italic>complete article</italic> should also include (or link
+to) the text of the peer reviews and previous article versions,
+including preprints. This makes it much easier to understand the article
+(and the data) in context. The <italic>complete article</italic> should
+also link to article-level metrics post-publication for similar
+reasons.</p>
+<p>This idea of a <italic>complete article</italic> is not too far away
+from the best practices used today, but it is important to make it the
+default for scientific publication. Too much of what we publish today is
+still centered around the concept of what can be printed on paper, and
+telling exciting stories that have impact counts more than telling
+complete stories that can be reproduced.</p>
+</body>
+<back>
+</back>
+</article>

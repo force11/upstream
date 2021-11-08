@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Advice for scientists who want to become Wikipedia
+editors</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-10-02">
+<day>2</day>
+<month>10</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This week <italic><italic>PLoS Computational
+Biology</italic></italic> published another helpful editorial in their
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101016090759/http://www.ploscollections.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcol.v03.i01">10
+Simple Rules</ext-link> collection (Logan 2010): <italic>Ten Simple
+Rules for Editing Wikipedia.</italic></p>
+<p>I have very rarely edited Wikipedia articles myself, and I suspect
+this behavior is the rule and not the exception among science bloggers.
+And this always puzzled me, as editing Wikipedia articles should be a
+natural thing to do for those familiar with blogs and other online
+tools.</p>
+<p>The editorial not only gives good advice for the beginning Wikipedia
+editor, there are many other places where you can also find this
+information. But the editorial is written with the scientist as
+Wikipedia editor in mind and clarifies some of the issues that can
+arise.</p>
+<sec id="references">
+  <title>References</title>
+  <p>Logan DW, Sandal M, Gardner PP, Manske M, Bateman A. Ten Simple
+  Rules for Editing Wikipedia. <italic><italic>PLoS Computational
+  Biology</italic></italic>. 2010;6:e1000941+.
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101016090759/http://dx.doi.org/10.1371/journal.pcbi.1000941">10.1371/journal.pcbi.1000941</ext-link>.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

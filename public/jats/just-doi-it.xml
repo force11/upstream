@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Just DOI it!</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-12-22">
+<day>22</day>
+<month>12</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>With the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://www.nature.com/nature/journal/v456/n7224/">December
+18 issue</ext-link> <italic><italic>Nature</italic></italic> started to
+support XMP markup in article PDFs (reported last week on the
+<italic><italic>Nascent</italic></italic> blog by <italic><italic>Tony
+Hammond</italic></italic>)<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/#fn1">1</ext-link></sup>.
+XMP stands for Extensible Metadata Platform and is a technology to embed
+metadata in files, including
+PDFs<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/#fn2">2</ext-link></sup>.
+XMP was created by Adobe (with XMP support in PDF files since 2001), but
+is an open standard with backing by others, including Creative
+Commons<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/#fn3">3</ext-link></sup>.
+The Digital Object Identifier
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://www.doi.org/">DOI</ext-link>)
+is the most important piece of information in the metadata, as the DOI
+provides a link to the journal publisher website where more metadata can
+be retrieved. XMP support in scientific PDFs is unfortunately still very
+uncommon and probably hasn't changed much since
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://network.nature.com/people/lindenb/profile">Pierre
+Lindenbaum</ext-link> checked last
+year<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/#fn4">4</ext-link></sup>.</p>
+<p>Adding metadata to PDFs seems to be a no-brainer. We have done the
+same with music (mp3 ID) and photos (IPTC and EXIF) for years and it has
+been a tremendous help in organizing these files stored on our
+computers. Unfortunately there aren't too many tools that can extract
+the DOI or other metadata from the XMP in article PDFs. But I expect
+more desktop software to support XMP, once XMP support in scientific
+articles is more widespread. We will then be able to add a journal PDF
+to our reference manager of choice and have the relevant metadata
+(including authors, title, journal and issue) automatically filled in.
+As well as many other creative uses. Until then we need tools like
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://mekentosj.com/papers/">Papers</ext-link>
+or
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://www.mendeley.com/">Mendeley</ext-link>
+that can extract metadata from PDF files without this XMP
+information.</p>
+<p>For a more technical discussion of XMP in scientific articles, please
+read the set of blog posts by Tony
+Hammond<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/#fn5">5</ext-link></sup>,<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/#fn6">6</ext-link></sup>,<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/#fn7">7</ext-link></sup>.</p>
+<p>fn1.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://blogs.nature.com/wp/nascent/2008/12/xmp_labelling_for_nature.html">XMP
+Labelling for Nature</ext-link></p>
+<p>fn2.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://www.adobe.com/products/xmp/">Adding
+intelligence to media</ext-link></p>
+<p>fn3.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://wiki.creativecommons.org/XMP">XMP</ext-link></p>
+<p>fn4.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://plindenbaum.blogspot.com/2007/05/is-there-any-xmp-in-scientific-pdf-no.html">Is
+there any XMP in scientific pdf? No</ext-link></p>
+<p>fn5.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://www.crossref.org/CrossTech/2007/08/metadata_in_pdf_1_strategies.html">Metadata
+in PDF: 1. Strategies</ext-link></p>
+<p>fn6.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://www.crossref.org/CrossTech/2007/08/metadata_in_pdf_2_use_cases.html">Metadata
+in PDF: 2. Use Cases</ext-link></p>
+<p>fn7.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053153/http://www.crossref.org/CrossTech/2007/08/metadata_in_pdf_3_deployment_1.html">Metadata
+in PDF: 3. Deployment</ext-link></p>
+</body>
+<back>
+</back>
+</article>

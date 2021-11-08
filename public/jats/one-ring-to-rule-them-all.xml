@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>One Ring to Rule them All</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2014-07-30">
+<day>30</day>
+<month>7</month>
+<year>2014</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>One Ring to rule them all, One Ring to find them, One Ring to
+    bring them all and in the darkness bind them.</p>
+  </disp-quote>
+</p>
+<p>Yesterday 60 years ago the first volume of the <italic>Lord of the
+Rings</italic> trilogy by <italic>J.R.R. Tolkien</italic> was published.
+The quote above obviously doesn’t quiet apply to scholarly publishing,
+but one recurring theme that I have often heard in the last few years is
+that of a need for a canonical digital document format for scholarly
+content that rules all other formats.</p>
+<fig>
+  <caption><p>Document formats in scholarly Publishing</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="http://blog.martinfenner.org/images/rings.png" xlink:title="" />
+</fig>
+<p>A few years ago almost everyone you would have said that
+<monospace>xml</monospace> is that format, with the NLM Archiving and
+Interchange Tag Suite - which has evolved into
+<ext-link ext-link-type="uri" xlink:href="http://jats.nlm.nih.gov/publishing/">JATS</ext-link>
+- probably the most commonly used Document Type Definition (DTD).
+<monospace>xml</monospace> does many things really well, but also has
+important shortcomings, most importantly that it is probably not a good
+format for authors (and don’t tell me that <monospace>docx</monospace>
+and <monospace>odt</monospace> are XML-based). We therefore don’t really
+expect authors to submit manuscripts in JATS <monospace>xml</monospace>,
+but rather convert documents into this format after a manuscript has
+been accepted for publication. This conversion step is often
+time-consuming and labor-intensive.</p>
+<p>More recently <monospace>html</monospace> has become the most
+interesting candidate for a canonical scholarly document format. The big
+advantage over <monospace>xml</monospace> is that
+<monospace>html</monospace> - or at least <monospace>html5</monospace>
+which is most popular today - is an attractive format for online
+authoring tools (that is why <monospace>html</monospace> is listed both
+as input and output format) The downside of this flexibility is that it
+is much harder to embed structure and metadata into
+<monospace>html5</monospace> compared to <monospace>xml</monospace>.
+There are initiatives such as
+<ext-link ext-link-type="uri" xlink:href="http://schema.org/">schema.org</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://github.com/oreillymedia/HTMLBook">HTMLBook</ext-link>
+that hope to change that, but we aren’t quiet there yet.</p>
+<p>Or maybe we should learn from Tolkien and give up on the idea of a
+canonical document format and rather spend our energy on building tools
+that make it easier to transition from one format to another.
+<ext-link ext-link-type="uri" xlink:href="http://johnmacfarlane.net/pandoc/">Pandoc</ext-link>
+is such as tool, but can’t do all the required conversions, e.g. it
+can’t yet use <monospace>docx</monospace> as input. The downside here is
+that every file conversion runs the risk of loosing important
+information. But the increase in flexibility hopefully outweights these
+shortcomings.</p>
+</body>
+<back>
+</back>
+</article>

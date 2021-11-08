@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Six degrees of separation on Nature
+Network</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-03-18">
+<day>18</day>
+<month>3</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>A March 13 Nature News article
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094211/http://www.nature.com/news/2008/080313/full/news.2008.670.html">Six
+degrees of messaging</ext-link>) talks about a study on Microsoft
+Messenger chat users. Any random two Microsoft Messenger users (out of
+about 240 million) could be connected two each other via an average of 6
+users that have chatted with each other.</p>
+<p>This study is just another confirmation of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094211/http://en.wikipedia.org/wiki/Six_degrees_of_separation">six
+degrees of separation</ext-link> concept. A 2001
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094211/http://www.pnas.org/cgi/reprint/98/2/404.pdf">PNAS
+paper</ext-link> found the same for scientific collaboration networks,
+using common authorship for a paper as connector. The mean distance of
+two random authors in the MEDLINE database was 4.6.</p>
+<p>Based on these findings, you can almost expect the same connections
+through joint authorship between two random Nature Network members. Now
+if I could only find a tool that would help with that task. Not
+everybody is a mathematician and can simply calculate his
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612094211/http://www.ams.org/mathscinet/collaborationDistance.html">Erdös
+number</ext-link> right from the American Mathematical Society
+website.</p>
+</body>
+<back>
+</back>
+</article>

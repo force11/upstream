@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>There is still so much to learn in reference
+management</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-02-22">
+<day>22</day>
+<month>2</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last week
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://wikify.org/">Lambert
+Heller</ext-link> and myself did a two-day workshop
+<italic><italic>Reference Management in Times of Web
+2.0</italic></italic> for a group of German librarians. We introduced
+and tested the following five programs:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.refworks.com/">RefWorks</ext-link></p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.zotero.org/">Zotero</ext-link></p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.citeulike.org/">CiteULike</ext-link></p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.mendeley.com/">Mendeley</ext-link></p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.endnote.com/">Endnote</ext-link></p>
+  </list-item>
+</list>
+<p>The goal of the workshop was to introduce the participants to the Web
+2.0 aspects of these reference managers. We briefly talked about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.mekentosj.com/papers">Papers</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.citavi.com/">Citavi</ext-link>,
+but neither of them offers any Web 2.0 functionality. The goal of the
+workshop was <italic><italic>not</italic></italic> to pick the best
+reference manager. With the exception of
+<italic><italic>CiteULike</italic></italic> (which is more of a social
+bookmarking service and can't be used to directly put references into
+manuscripts), all of them are probably good choices for most users. For
+some of the minor differences, please check my reference manager chart
+that I have updated for the workshop (PDF
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.slideshare.net/mfenner/reference-manager-overview-2-1-3250074">here</ext-link>):</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611033209im_/http://blogs.plos.org/mfenner/files/2010/11/Reference%20Manager%20Overview%202.3.jpg" xlink:title="" />
+</fig>
+<p>We had used FriendFeed for the slides, links and comments in a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://friendfeed.com/bibman2">similar
+workshop last July</ext-link>. This time we picked
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.sciencefeed.com/">ScienceFeed</ext-link>,
+both because ScienceFeed can be used for reference management, and to
+test the service that launched just three days earlier. The ScienceFeed
+group can be found
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.sciencefeed.com/zblit2">here</ext-link>,
+but is in German. FriendFeed and ScienceFeed are not only great for
+conference microblogging, but are also excellent teaching tools,
+especially in a workshop where every participant has an
+internet-connected computer. We also had a few people listening in and
+putting up comments.</p>
+<p>The workshop did help me understand what could become one of the most
+important features of reference managers. (I would exclude
+<italic><italic>Endnote</italic></italic>, because it doesn't allow
+public groups or sharing of fulltext files). Libraries used to be places
+where you could find, store and read literature. A library would hold a
+subset of all the available literature, but still far more texts than an
+individual could keep at his home. A library serves as an intermediary
+that helps the user get access to the literature he is interested
+in.</p>
+<p>A reference manager that stores all references and the associated
+fulltext PDF files in an accessible (public or password-protected) place
+can fullfill exactly the same role. It is not necessary that an
+individual user stores every reference and fulltext paper on his own
+computer. And he doesn't have to find all references for himself.
+Librarians could help with this, e.g. by not only handling a users
+search request, but also filing the associated PDF files in a group
+folder. Other group folders would have the table of contents of your
+favorite journals (e.g.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.citeulike.org/journals">CiteULike
+Journals</ext-link>). We used to go to the library for exactly these
+things. And now we do this all on our own, often not asking for help
+from our local library.</p>
+<fig>
+  <caption><p>Flickr photo by haydnseek.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611033209im_/http://farm4.static.flickr.com/3047/2587796561_36fea74569.jpg" xlink:title="" />
+</fig>
+<p>In the last session I talked about non-traditional ways to find
+scientific literature. Traditional would mean one of the following
+search strategies, summarized by Duncan Hull et
+al.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://blogs.plos.org/mfenner/2010/02/22/there_is_still_so_much_to_learn_in_reference_management/#fn1">1</ext-link></sup>:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><italic><italic>Search</italic></italic> – Search bibliographic
+    databases</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Browse</italic></italic> – Scan tables of
+    contents</p>
+  </list-item>
+  <list-item>
+    <p>Recommend – Recommendations by colleagues</p>
+  </list-item>
+</list>
+<p><italic><italic>Twitter</italic></italic> is just a modern tool for
+strategies <italic><italic>#2</italic></italic> (check the Twitter list
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://twitter.com/mfenner/science-journals">@mfenner/science-journals</ext-link>
+for some science journals using Twitter to announce interesting
+articles) and <italic><italic>#3</italic></italic> (papers recommended
+by friends you talk to via Twitter).</p>
+<p>The non-traditional approach basically lets other people do the work
+for you. Some examples include:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Experts pick noteworthy papers in your field –
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.f1000.com/">Faculty
+    of 1000</ext-link> and
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.researchblogging.org/">Research
+    Blogging</ext-link>.</p>
+  </list-item>
+  <list-item>
+    <p>You follow what people with similar interests are reading –
+    <italic><italic>CiteULike</italic></italic> and
+    <italic><italic>Mendeley</italic></italic></p>
+  </list-item>
+  <list-item>
+    <p>Recommendations based on what is in your library –
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://blog.citeulike.org/?p=136">CiteULike
+    recommendations</ext-link></p>
+  </list-item>
+  <list-item>
+    <p>Most popular articles in your research field of interest –
+    <italic><italic>CiteULike</italic></italic> and
+    <italic><italic>Mendeley</italic></italic>. The
+    <italic><italic>PLoS</italic></italic>
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://www.plos.org/cms/node/485">article-level
+    metrics</ext-link> have the potential to do the same.</p>
+  </list-item>
+</list>
+<sec id="references">
+  <title>References</title>
+  <p><italic><italic>Hull D, Pettifer SR, Kell DB.</italic></italic>
+  Defrosting the digital library: bibliographic tools for the next
+  generation web. <italic><italic>PLoS Computational
+  Biology</italic></italic>. 2008
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611033209/http://dx.doi.org/10.1371/journal.pcbi.1000204">10.1371/journal.pcbi.1000204</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

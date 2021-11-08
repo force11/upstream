@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Did you receive spam because you published a
+paper?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-07-13">
+<day>13</day>
+<month>7</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Brendan Thomas has published an interesting paper that looks at
+author email addresses in the PubMed database of biomedical literature.
+Email addresses of first authors have been added to PubMed since 1996,
+and they can be retrieved via the standard web interface or automated
+software. This makes PubMed an excellent place to find the email address
+of an academic author, but also shows that PubMed is very vulnerable to
+email address harvesting.</p>
+<p>The problem is not limited to PubMed; this is also an issue with many
+scholarly journals. Email addresses are used as contact information in
+scholarly papers, and they are commonly displayed on journal webpages.
+You can harvest email addresses from
+<italic><italic>NEJM</italic></italic>,
+<italic><italic>Science</italic></italic> or
+<italic><italic>PLoS</italic></italic> webpages, and you don’t even need
+a subscription. <italic><italic>JAMA</italic></italic> is hiding the
+email address, and <italic><italic>Nature</italic></italic> is providing
+an author contact form. Both journals provide the email address in the
+PDF.</p>
+<p>Most journals provide the postal address of corresponding authors.
+Journals added email addresses in the 1990s, and this of course has
+become the preferred method of communication among scientists – when was
+the last time you received a postcard for a reprint request?
+Unfortunately we have long learned that it is no longer safe to make
+email addresses publicly available – more than 90% of email traffic is
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611043917/http://www.ftc.gov/bcp/edu/microsites/spam/">spam</ext-link>.</p>
+<p>Journal publishers have to rethink their policies regarding contact
+information of their authors. And authors should demand from journals
+that their email addresses are treated with more respect for privacy.
+There are better ways to provide contact information for corresponding
+authors, and I don’t mean a link to their Twitter account or LinkedIn
+profile. Journal publishers should create author profile pages that not
+only list all publications of a particular author, but also the relevant
+contact information. There should be contact forms instead of plain
+email addresses, and authors should be able to control what information
+is displayed in their author profile. Author profiles of course can be
+further extended in many ways, from links to publications with other
+publishers to author-level metrics.</p>
+<p><italic><italic>Disclaimer: I sit on the Board of Directors of the
+Open Researcher &amp; Contributor ID (ORCID) initiative which aims to
+help solve this and related problems.</italic></italic></p>
+<sec id="references">
+  <title>References</title>
+  <p><bold><bold>Thomas, B.</bold></bold> (2011). E-mail Address
+  Harvesting on PubMed–A Call for Responsible Handling of E-mail
+  Addresses. <italic><italic>Mayo Clinic Proceedings Mayo
+  Clinic</italic></italic>, 86(4), 362.
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4065/mcp.2010.0817">10.4065/mcp.2010.0817</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

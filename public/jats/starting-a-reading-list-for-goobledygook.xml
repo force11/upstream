@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Starting a reading list for Gobbledygook</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-09-16">
+<day>16</day>
+<month>9</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>All science bloggers do a lot of reading for background information,
+or write blog posts based on a (newly published) paper, blog post or
+news item. So I thought that it would be a good idea to collect those
+references in a single place.</p>
+<fig>
+  <caption><p>Flickr photo by margolove.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120604134625im_/http://farm2.static.flickr.com/1359/1252522330_78b53d7e16.jpg" xlink:title="" />
+</fig>
+<p>Reading lists are perfect for this, and they are easy to create and
+maintain with web-based reference managers. Reading lists are used in
+teaching, e.g. to provide a list of required reading material for a
+class. But I can also see a number of benefits for science blogs:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>they help the blogger to organize his background material for
+    writing</p>
+  </list-item>
+  <list-item>
+    <p>they help the reader find and keep referenced material</p>
+  </list-item>
+  <list-item>
+    <p>they can provide additional reading not mentioned in the blog
+    post</p>
+  </list-item>
+</list>
+<p>There are several good tools for reading lists. I decided to use
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120604134625/http://www.citeulike.org/">CiteULike</ext-link>,
+because what I really want here is a social bookmarking tool that
+understands references. My Goobledygook reading list is
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120604134625/http://www.citeulike.org/group/13987/library">here</ext-link>,
+the RSS feed is
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120604134625/http://www.citeulike.org/rss/group/13987/library">here</ext-link>,
+and the most recent items in the reading list are also shown in a new
+sidebar to the right. I started with references to papers, but plan to
+also include blog posts and other web resources.</p>
+</body>
+<back>
+</back>
+</article>

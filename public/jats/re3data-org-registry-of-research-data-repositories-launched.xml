@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>re3data.org: registry of research data repositories
+launched</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-06-01">
+<day>1</day>
+<month>6</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Earlier this week re3data.org – the Registry of Research Data
+Repositories –
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20171029050202/http://www.re3data.org/2013/05/re3data-org-launched/">officially
+launched</ext-link>. The registry is nicely described in a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20171029050202/http://dx.doi.org/10.7287/peerj.preprints.21v1">preprint</ext-link>
+also published this week.</p>
+<p><italic>re3data.org offers researchers, funding organizations,
+libraries and publishers and overview of the heterogeneous research data
+repository landscape. Information icons help researchers to identify an
+adequate repository for the storage and reuse of their
+data.</italic></p>
+<p>I really like re3data.org, and that is not because I personally know
+several of the people involved in this project, or because they
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20171029050202/http://blogs.plos.org/mfenner/2012/02/16/figshare-interview-with-mark-hahnel/">cited
+this blog</ext-link> in their preprint. I think that we are just at the
+beginning of building the infrastructure needed for research data
+management, and re3data.org fills an important need. In my opinion it is
+not enough to provide lists of research data repositories, we need
+additional information that can help guide researchers in selecting an
+appropriate research data repository. re3data.org has addressed this
+nicely by providing a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20171029050202/http://blogs.plos.org/mfenner/2013/06/01/re3data-org-registry-of-research-data-repositories-launched/10.2312/re3.002">vocabulary
+for the registration and description of research data
+repositories</ext-link>, and by creating a simple icon system:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20171029050202im_/http://blogs.plos.org/mfenner/files/2013/06/figure2.png" xlink:title="" />
+</fig>
+<p><italic>Possible values for each icon. From
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20171029050202/http://dx.doi.org/10.7287/peerj.preprints.21v1">http://dx.doi.org/10.7287/peerj.preprints.21v1</ext-link></italic></p>
+<p>Future directions I would like re3data.org to take include:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><bold>Training and education.</bold> Researchers probably pick
+    research data repositories mainly based on the familiarity of the
+    repository within their community rather than the criteria developed
+    by re3data.org. A lot more training and education is needed before
+    researchers understand the importance of persistent identifiers,
+    licenses and other criteria.</p>
+  </list-item>
+  <list-item>
+    <p><bold>Integration.</bold> re3data.org can make it easier to
+    integrate into existing scientific infrastructure, e.g. by using
+    persistent identifiers such as DOIs for research data repositories,
+    or by providing an API that makes it easier for other services to
+    integrate re3data.org.</p>
+  </list-item>
+  <list-item>
+    <p><bold>Governance</bold>. Whether or not scientific infrastructure
+    such as re3data.org is accepted and used by the community depends on
+    many factors, and governance is one of the most important ones.
+    re3data.org should seek the support of other organizations, in
+    particular from outside Germany. A governing board, re3data.org as
+    an independent organization, and strategies to coordinate with
+    similar efforts such as
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20171029050202/http://www.databib.org/">Databib</ext-link>
+    are possible strategies.</p>
+  </list-item>
+</list>
+</body>
+<back>
+</back>
+</article>

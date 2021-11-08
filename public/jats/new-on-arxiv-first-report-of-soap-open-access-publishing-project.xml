@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>New on Arxiv: first report of SOAP open access publishing
+project</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-10-09">
+<day>9</day>
+<month>10</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Practically all papers in high-energy physics (&gt; 90% since the
+late 1990s) are first published on the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101013051257/http://arxiv.org/">ArXiv</ext-link>
+preprint server. Several related disciplines also have a long ArXiv
+tradition. But ArXiv is also an excellent source of interesting papers
+about scientific publishing, including this one from last Monday:</p>
+<p><bold><bold>Dallmeier-Tiessen S, Darby R, Goerner B, Hyppoelae J,
+Igo-Kemenes P, Kahn D, et al.</bold></bold> First results of the SOAP
+project. Open access publishing in 2010. 2010 Oct; Available from:
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101013051257/http://arxiv.org/abs/1010.0506">http://arxiv.org/abs/1010.0506</ext-link>.</p>
+<p>The paper is a comprehensive report on the current state of open
+access publishing – and deserves a separate blog post.
+<bold><bold>Salvatore Mele</bold></bold> (one of the coauthors) pointed
+me to this paper in a very interesting dinner conversation last night.
+Follow the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101013051257/http://www.citeulike.org/group/13987/library">Gobbledygook
+reading list</ext-link> for more interesting ArXiv papers, including a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101013051257/http://arxiv.org/abs/0906.5418">gem</ext-link>
+from 2009 on the citation behavior in high-energy physics.</p>
+</body>
+<back>
+</back>
+</article>

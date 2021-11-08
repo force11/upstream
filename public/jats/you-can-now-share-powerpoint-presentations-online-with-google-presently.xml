@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>You can now share Powerpoint presentations online with
+Google Presently</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-09-19">
+<day>19</day>
+<month>9</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This Monday
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101530/http://googleblog.blogspot.com/2007/09/our-feature-presentation.html">Google</ext-link>
+officially announced Presently, their web-based application for
+presentations, a.k.a. Microsoft Powerpoint clone.</p>
+<p>Although it is possible to create presentations from scratch using
+Presently, most users will probably use it to upload their finished (or
+almost finished) Microsoft Powerpoint presentations (there is a 10 MB
+size limit). The presentations can then be shared either globally or to
+a restricted list of colleagues.</p>
+<p>There are other online tools that can do similar things, most notably
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101530/http://show.zoho.com/">Zoho
+Show</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101530/http://www.slideshare.net/">Slideshare</ext-link>.
+Zoho Show is similar to Google Presently, but Slideshare doesn't allow
+online editing of your presentation and currently you can't limit access
+to your presentation to just the people you want to.</p>
+<p>Google Presently (and Zoho Show) are a great way to share your
+presentations for a lab meeting or conference. Email is just not the
+best tool for this, especially since presentations are usually large
+files. Did I mention that using either Google Presently and Zoho Show is
+free?</p>
+</body>
+<back>
+</back>
+</article>

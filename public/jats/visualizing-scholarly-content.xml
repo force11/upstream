@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Visualizing Scholarly Content</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2014-08-09">
+<day>9</day>
+<month>8</month>
+<year>2014</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>One topic I will cover this Sunday in a presentation on
+<ext-link ext-link-type="uri" xlink:href="http://wikimania2014.wikimedia.org/wiki/Submissions/Open_Scholarship_Tools_-_a_whirlwind_tour.">Open
+Scholarship Tools</ext-link> at <italic>Wikimania 2014</italic> together
+with
+<ext-link ext-link-type="uri" xlink:href="https://twitter.com/ianmulvany">Ian
+Mulvany</ext-link> is visualization.</p>
+<p>Data visualization is all about <italic>telling stories with
+data</italic>, something that is of course not only important for
+scholarly content, but for example increasingly common in journalism.
+This is a big and complex topic, but I hope the following will get you
+started.</p>
+<sec id="learn-the-basics">
+  <title>Learn the Basics</title>
+  <p>Work on visualization of scientific data should start with a good
+  understanding of the best practices and pitfalls of data visualization
+  in general, as well as the specific aspects of visualizing scientific
+  data. The following resources have helped me get started - please
+  suggest more in the comments:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="http://book.flowingdata.com/">Visualize
+      this</ext-link>. A book from Nathan Yau published in 2011. Very
+      helpful in understanding the different ways data can be visualized
+      (e.g. when to use a treemap or what is a
+      <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Choropleth_map">chloropleth
+      map</ext-link>), and an introduction to some tools using practical
+      examples. Nathan’s
+      <ext-link ext-link-type="uri" xlink:href="http://flowingdata.com/">FlowingData</ext-link>
+      blog is also a great resource.</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://github.com/mbostock/d3/wiki/Gallery">D3
+      Gallery</ext-link>. Lots of examples generated using Mike
+      Bostock’s d3.js visualization library. A great inspiration for
+      data visualization on the web, even if you use a different
+      visualization tool.</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="http://docs.ggplot2.org/current/index.html">ggplot2</ext-link>.
+      Not only a very popular visualization library for the R language
+      by Hadley Wickham, but also an implementation of Leland Wilkison’s
+      Grammar of Graphics. The
+      <ext-link ext-link-type="uri" xlink:href="http://www.springer.com/statistics/computational+statistics/book/978-0-387-98140-6">ggplot2
+      book</ext-link> describes this powerful concept (p. 14):</p>
+    </list-item>
+  </list>
+  <p specific-use="wrapper">
+    <disp-quote>
+      <p>In brief, the grammar tells us that a statistical graphic is a
+      mapping from data to aesthetic attributes (colour, shape, size) of
+      geometric objects (points, lines, bars). The plot may also contain
+      statistical transformations of the data and is drawn on a specific
+      coordinate system. Faceting can be used to generate the same plot
+      for different subsets of the dataset. It is the combination of
+      these independent components that make up a graphic.</p>
+    </disp-quote>
+  </p>
+</sec>
+<sec id="learn-to-use-at-least-one-visualization-tool">
+  <title>Learn to use at least one visualization tool</title>
+  <p>There are many great tools available, pick one and learn it well.
+  Some options include:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p><bold><bold>Excel</bold></bold>. Probably the most popular tool
+      for data visualization. Commercial, with open source alternatives
+      such as Libre Office.</p>
+    </list-item>
+    <list-item>
+      <p><bold><bold>R</bold></bold>. Software for statistical computing
+      and analysis. Open source.
+      <ext-link ext-link-type="uri" xlink:href="http://www.rstudio.com/">RStudio</ext-link>
+      is a powerful user interface for R and a good way to get
+      started.</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="http://d3js.org/"><bold>d3.js</bold></ext-link>.
+      A visualization library for Javascript. Open source.</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="http://www.graphpad.com/scientific-software/prism/"><bold>Prism</bold></ext-link>.
+      A popular visualization tool among scientists. Commercial.</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://datawrapper.de/"><bold>Datawrapper</bold></ext-link>.
+      An open source tool and hosted service for data visualization.</p>
+    </list-item>
+  </list>
+  <p>I do most visualizations in either R or d3.js. Both are open source
+  tools with a large community and a rich set of libraries, examples and
+  documentation, and both take a systematic approach to data
+  visualization (see grammar of graphics above).</p>
+</sec>
+<sec id="learn-data-analysis">
+  <title>Learn data analysis</title>
+  <p>Unless your interest is more in information design - see
+  <ext-link ext-link-type="uri" xlink:href="http://www.informationisbeautiful.net/">Information
+  is beautiful</ext-link> for some great examples - data visualization
+  is tightly coupled with data analysis. You need to know at least the
+  basics of data analysis to do proper data visualizations, e.g. how to
+  handle wrongly formatted data (e.g. text in a number column), missing
+  values and outliers. The most time-consuming step in my experience is
+  data transformation, i.e. bringing data into the format that you want
+  for the analysis and visualization.</p>
+  <p>R, Python and the relatively new
+  <ext-link ext-link-type="uri" xlink:href="http://julialang.org/">Julia</ext-link>
+  are popular languages for data analysis available as open source.
+  There are many packages for these languages that help with common data
+  analysis problems. One additional advantage of using a proper language
+  over a set of tools cobbled together is that it is easy to
+  automatically recreate a visualization with a new set of data -
+  convenient when you need to analyze and visualize an ongoing
+  experiment that repeatedly produces new data.</p>
+</sec>
+<sec id="use-a-vector-file-format">
+  <title>Use a vector file format</title>
+  <p>Too many scientific data are still visualized using bitmap graphic
+  formats such as <monospace>tiff</monospace>,
+  <monospace>jpg</monospace> and <monospace>png</monospace>. These
+  formats are not appropriate for charts and only make sense for images.
+  They don’t scale to the screen resolution, and it is
+  <ext-link ext-link-type="uri" xlink:href="http://blog.f1000research.com/2014/02/20/the-importance-of-providing-data-and-not-just-images-of-data/">very
+  hard to impossible</ext-link> to reuse or even modify them. Use vector
+  graphic formats such as <monospace>svg</monospace> or
+  <monospace>pdf</monospace> instead. <monospace>svg</monospace> is my
+  preferred format because in contrast to <monospace>pdf</monospace> it
+  can be embedded into a larger HTML document, and R and d3.js (my
+  preferred visualization tools) can generate this format.
+  <ext-link ext-link-type="uri" xlink:href="http://www.inkscape.org/">Inkscape</ext-link>
+  is an open source SVG editor, and the commercial <bold><bold>Adobe
+  Illustrator</bold></bold> can be used to manually polish graphics in
+  <monospace>svg</monospace> or <monospace>pdf</monospace> format, e.g.
+  for journal publication.</p>
+</sec>
+<sec id="get-inspired-by-great-visualizations">
+  <title>Get inspired by great visualizations</title>
+  <p>At the end of the day data visualization is all about telling a
+  story with data. Unfortunately the current state of affairs for
+  scientific visualizations is very different. In my opinion most graphs
+  and figures used in publications don’t provide the data underlying the
+  visualization
+  (<ext-link ext-link-type="uri" xlink:href="https://datawrapper.de/">Datawrapper</ext-link>
+  is a great example how this can be done), focus too much on detail
+  rather than the overall message, don’t take advantage of the different
+  chart types available, and are sometimes even misleading. And I’m not
+  even talking about the fact that figures in scholarly papers are
+  <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.12688/f1000research.4263.1">almost
+  never</ext-link> interactive. It rarely happens that I read a paper
+  and get excited by looking at a figure - if I do it is usually because
+  the underlying data are so compelling that even the simplest
+  visualization will convey the right message.</p>
+  <p>We should become more creative with visualizing data in scholalry
+  documents, and one important step towards that goal is publishers
+  accepting more reasonable file formats in manuscript submissions -
+  instead of just <monospace>tiff</monospace> and
+  <monospace>eps</monospace>
+  (<ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/static/figureGuidelines#figures">PLOS</ext-link>),
+  or <monospace>tiff</monospace>, <monospace>eps</monospace> and
+  <monospace>pdf</monospace>
+  (<ext-link ext-link-type="uri" xlink:href="http://www.sciencemag.org/site/feature/contribinfo/prep/prep_revfigs.xhtml#format">Science</ext-link>),
+  and often with a 10 MB file site limit.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

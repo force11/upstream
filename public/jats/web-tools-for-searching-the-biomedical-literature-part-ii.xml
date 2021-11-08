@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Web Tools for Searching the Biomedical Literature – part
+II</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-05-09">
+<day>9</day>
+<month>5</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Ten days ago I
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://blogs.plos.org/mfenner/2011/04/29/web-tools-for-searching-the-biomedical-literature-part-i/">mentioned</ext-link>
+a paper by Zhiyong Lu that gives an overview over the available web
+tools to search the biomedical literature. Most of these tools enhance
+the PubMed service, and Zhiyong Lu in fact works for the NCBI, the
+developer of PubMed. In this post I want to take a more detailed look at
+the available tools.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20120610114233im_/http://blogs.plos.org/mfenner/files/2011/05/pubmed-500x177.png" xlink:title="pubmed" />
+</fig>
+<p>A good starting point is the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/search/">companion
+webpage</ext-link> to the paper, listing 28 services. One of the most
+painful shortcomings of PubMed is the sorting of results by date.
+Zhiyong lists 8 tools that can present search results sorted by
+relevance. Semantic search, seeking relevant concepts, and visualization
+of search results are all offered by several tools. Three tools will
+identify similar publications, and three tools will find potential
+experts, reviewers or collaborators. It is a good sign that there are so
+many tools that integrate with PubMed – in addition to the reference
+managers (e.g. Endnote, Papers) that do the same.</p>
+<p>The analysis has one important shortcoming: only tools that
+specifically cover the biomedical literature are discussed. General
+purpose search tools such as <bold><bold>Web of Science</bold></bold>,
+<bold><bold>Scopus</bold></bold>, <bold><bold>Google
+Scholar</bold></bold> or <bold><bold>Microsoft Academic
+Search</bold></bold> are therefore not covered, neither are online
+bibliographic tools such as <bold><bold>Mendeley</bold></bold> and
+<bold><bold>CiteULike</bold></bold>. All of them also include biomedical
+literature – although the coverage at the fairly new Microsoft Academic
+Search is still limited. They all offer unique features not found in
+Pubmed or the 28 tools discussed in the paper.</p>
+<p>When I think about how I find interesting articles, then it is
+increasingly through my social networks - including this paper by
+Zhiyong Lu. His paper unfortunatel fails to discuss this important
+search strategy. Twitter, FriendFeed, science blogs, etc. are strange
+places to find interesting literature, but they work for me.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://www.massgenomics.org/2011/04/whole-genome-sequencing-for-cancer-patients.html">This
+April 22 post</ext-link> on the wonderful
+<bold><bold>Massgenomics</bold></bold> blog alerted me to two
+interesting papers published in JAMA on April 20 that describe the use
+of whole-genome sequencing in the care of two patients with acute
+leukemia. I presented the paper by Welch et al. in a journal club last
+Friday and we had a very interesting discussion.</p>
+<p>The paper has also been discussed in the following places:
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://nnlm.gov/pnr/dragonfly/2011/02/15/beyondpubmed/">Dragonfly</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://cmch.typepad.com/cmch/2011/03/res.html">Center
+on Media and Child Health</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://beckerinfo.net/scp/2011/04/29/pubmed-and-beyond-a-survey-of-web-tools-for-searching-biomedical-literature/">Bernard
+Becker Medical Library</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://laikaspoetnik.wordpress.com/2011/05/08/3rd-call-for-submissions-for-medical-information-matters-tools-for-searching-the-biomedical-literature/">Medical
+Information Matters</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://autoimmunbuch.de/?p=447">Friendly
+Fire</ext-link> (German),
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://usalbiomedica.wordpress.com/2011/05/05/pubmed-and-beyond-a-survey-of-web-tools-for-searching-biomedical-literature/">Usalbiomedica</ext-link>
+(Spanish). This post is my much-delayed contribution to the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610114233/http://blogcarnival.com/bc/cprof_6092.html">medlib’s
+round</ext-link> blog carnival. Unfortunately I haven’t received any
+submissions since my call on April 29, but I probably didn’t do enough
+advertising.</p>
+<sec id="references">
+  <title>References</title>
+  <p><bold><bold>Lu Z.</bold></bold> PubMed and beyond: a survey of web
+  tools for searching biomedical literature.
+  <italic><italic>Database</italic></italic>. 2011 Jan;2011. doi:
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/database/baq036">http://doi.org/10.1093/database/baq036</ext-link>.</p>
+  <p><bold><bold>Welch JS, Westervelt P, Ding L, Larson DE, Klco JM,
+  Kulkarni S, et al</bold></bold>. Use of whole-genome sequencing to
+  diagnose a cryptic fusion oncogene. <italic><italic>JAMA : the journal
+  of the American Medical Association</italic></italic>. 2011
+  Apr;305(15):1577-1584. doi:
+   <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2011.497">http://doi.org/10.1001/jama.2011.497</ext-link>.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

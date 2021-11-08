@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>German Genetics Society Meeting 2009: Session
+I</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-09-18">
+<day>18</day>
+<month>9</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><italic><italic>The second guest post from fellow science blogger
+Alex Knoll reporting from the German Genetics Conference currently held
+in Cologne.</italic></italic></p>
+<p>The first session was all over the place in terms of topics.</p>
+<p>Starting off the meeting, Linda Partridge from the Institute of
+Healthy Ageing in London and the Max Planck Institute for Biology of
+Ageing in Cologne told us about the Genetics of Ageing.</p>
+<p>Looking back, there has been a linear increase of life expectancy in
+humans for a rather long time now, with about 2.5 years added every
+decade. That comes down to about 6 hours of increased life expectancy
+per day!</p>
+<p>While there is no single cause for ageing, it is nonetheless
+controlled by genes and can evolve. And although life expectancy is
+generally correlated with the body size of animals, there are several
+exceptions like the little Brandt's bat that can live for 38 years, and
+there are also some organisms that don't seem to age at all!</p>
+<p>At first it was thought that the research of ageing in model
+organisms would not be too relevant for the understanding of human
+ageing, because there were many unique pathways in the different
+animals. Interestingly, in many model organisms like the worm
+Caenorhabditis elegans, the fly <italic><italic>Drosophila
+melanogaster</italic></italic> and also the mouse, the insulin pathway
+plays a big role: When components of this pathway are knocked out, the
+lifespan of the animal increases. This means the healthy lifespan, the
+organisms spend more time in the prime of their life instead of just
+being old and sick for a longer time. Even in humans, population
+genetics studies found homologues of some of these genes as candidates.
+The implication of the insulin pathway fits nicely to earlier
+observations of dietary restriction: If you put an organism on a diet
+with less calories than it usually eats, it will live longer. This is
+rather easy to do in the fly: just dilute the sugar solution it eats.
+This way it was possible for the people in Linda Partridge's lab to
+compare putative genes implicated in ageing with dietary
+restriction.</p>
+<p>They then asked the question: how deeply is the genetics of ageing
+conserved between organisms? By using comparative microarray studies
+with worm, fly and mouse, they were able to identify functional
+categories of genes that are up- or downregulated in ageing.</p>
+<p>Frank Grosveld from the Erasmus Medical Center in Rotterdam talked
+about a systems biology approach to understand the transcriptional
+regulation of globin genes in the mouse. During the development of red
+blood cells, several large multiprotein complexes act as transcription
+factors and bind to regulate the proliferation and differentiation. With
+a systems biology procedure, Frank Grosveld's lab tried to find and
+identify binding partners of known transcription factors during early
+and late stages of erythrocyte differentiation. For example, GATA1 makes
+several different complexes that very early on repress non red cell
+genes to prime the lineage, later another complex with GATA1 represses
+proliferation as a requirement for differentiation.</p>
+<p>Interestingly, the globin locus that is expressed during erythrocyte
+development, lies in between many olfactory genes. With the help of
+several proteins binding at a number of regulatory regions, the
+structure of the chromatin is altered so that these olfactory genes are
+looped out and the components of the globin locus come to lie near each
+other. This also enables long range interactions of elements that are
+farther away, sometimes several megabases! The chromatin loops also
+change depending on the tissue: the globin locus is expressed in the
+fetal liver, and there it contacts other actively expressed genes. In
+the fetal brain, on the other hand, the globin locus is inactive, and it
+contacts mostly other inactive genes. The looping can even be shown
+microscopically by measuring the volume of the the globin locus. In
+expressing tissue the volume decreases, which indicates extra looping.
+Another interesting aspect of Frank Grosveld's work touches blood
+disorders like thalassemia and sickle cell anemia. These result from
+defects in the beta-globin gene and are hard to treat. The idea here is
+great: in fetal tissues, the gamma-globin genes are expressed, but they
+are repressed perinatally. They have been able to identify a handful of
+proteins that are responsible for this repression in mice, and
+downregulation of these proteins leads to an upregulation of
+gamma-globin expression and a downregulation of beta-globin. These
+repressors are now novel targets to develop a new type of treatment for
+these anemias.</p>
+<p>Finally, Marjori Matzke from the Gregor Mendel Institute in Vienna
+spoke about epigenetics in plants. Specifically, she told us about her
+research into RNA-dependent DNA methylation (RdDM) as a way to regulate
+transcription in plants, where not only repeats and other such elements
+are processed, but also single genes. This is done via small RNAs and
+the action of the two RNA polymerases PolIV and PolV. These are related
+to the standard RNA polymerase PolII, but possess different C-terminal
+domains that are responsible for their functional diversification. After
+24-nt long siRNAs are produced, they lead to de novo methylation and
+thus inactivation of target sites with the help of PolV and other
+factors. From this inactivated locus then further siRNAs are produced
+with PolIV to keep the methylated state. Using a silenced GFP expression
+system, the Matzke lab searched for mutants with defects in RdDM, and
+found several until now.
+RNA-dependent DNA methylation as a further method of transcriptional
+regulation in the cell, for example for stress responses in plants that
+can't run away from the stress arrived at an interesting time in plant
+evolution. The group of flowering plants appeared rather abruptly in the
+fossil record, prompting Charles Darwin famously to speak about an
+'abominable mystery'. PolV and other factors involved in RdDM are only
+to be found in flowering plants, which could let one conclude that the
+newly evolved epigenetic plasticity played at least a part in the
+evolution of this successful group.</p>
+<p>The first day of the meeting ended with a public lecture by Peter
+Propping from Bonn in Germany. His talk in German was about the history
+and future of human genetics (“Der Mensch und seine Gene in der Welt von
+morgen”). He started by telling us about the problematic standing of
+human genetics in the middle of the last century, mostly because of
+concerns stemming from the earlier decades with eugenics, sterilizing
+and killing people because of genetic concerns.</p>
+<p>The big successes then came with the research into monogenetic
+diseases, which firstly were reached by methods such as positional
+cloning. Now is the time to study multifactorial diseases, which are
+much harder to tackle; here we have many genes which only contribute a
+small amount to the phenotype, and environmental effects contributing as
+well. A nice example of a new kind of genetic defect are copy number
+variants, where a sequence is repeated a different number of times
+between individuals. But this is not well understood for now, because
+the same CNVs can be found in diseased patients, but also in healthy
+people.</p>
+<p>In the future a lot of work will be done with next generation
+sequencing, which will hopefully put a lot of data into the hands of the
+researchers. On the other hand, this means that a lot of money will be
+spent – a criticism that can be heard already now.</p>
+<p>Another part of his talk was about the possibilities of and problems
+of prenatal screening. It was rather surprising for me to hear that in
+Germany in about 10% of pregnancies a screening is done, mostly to look
+for chromosomal mutations like trisomy 21 (that is responsible for Down
+syndrome)! Pre-implantation diagnostics in the course of in
+vitro-fertilization, however, is not allowed in Germany, which lead to a
+PID tourism into other European countries.</p>
+<p>Finally Peter Propping also talked about the new law for genetics
+diagnostics in Germany, which has some problems. For example, genetic
+analysis is defined by methods in the law, which leads to the curious
+case that even simple biochemical work such as blood group determination
+falls under the regulations of the new law!</p>
+</body>
+<back>
+</back>
+</article>

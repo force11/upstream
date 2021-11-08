@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>What a publication timeline can tell you</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-08-06">
+<day>6</day>
+<month>8</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Now that I can
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/08/04/automatically-list-all-your-publications-in-your-blog/">automatically
+import my publications from my ORCID profile and display them</ext-link>
+in this blog, I also want to visualize them. I have started with
+<ext-link ext-link-type="uri" xlink:href="https://github.com/mfenner/blog/blob/master/_includes/by_year.js">d3.js
+code</ext-link> that displays the number of publications per year -
+using the list of my publications in Citeproc JSON format. The chart is
+displayed on my
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/about.html">About
+page</ext-link>, but I have also embedded the Javascript here:</p>
+<p>I am a big fan of data visualizations because they can highlight
+something that you would otherwise miss. In this case I was really
+surprised to see how well my different academic jobs over the years
+(1991-1993, 1994-1998, 1998-2000, 2000-2005, 2005-2012) are reflected in
+my publication pattern. You clearly see the gaps between the jobs,
+indicating that I not only switched jobs, but also changed the research
+focus every time. The publications are listed chronologically on the
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/about.html">About
+page</ext-link> page and you can look at the papers I wrote since my
+first publication in 1993. My publication pattern seems to indicate that
+I was never really on track for a typical academic career, so it should
+not be a surprise that I left academia in 2012.</p>
+<p>There are at least two other visualizations I want to do:
+publications by type (journal article, book chapter, dataset, etc.), and
+author position with number of co-authors. You can reuse the Javascript
+code with small modifications (CSS and the JSON query) even if you are
+not running a Jekyll blog.</p>
+</body>
+<back>
+</back>
+</article>

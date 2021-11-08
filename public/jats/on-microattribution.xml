@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>On Microattribution</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-08-28">
+<day>28</day>
+<month>8</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>At the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://www.scienceonlinelondon.org/">Science
+Online London Conference</ext-link> later this week I will moderate a
+session on <bold><bold>microattribution</bold></bold>, together with
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://www.mikepeel.net/blog/">Mike
+Peel</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://blogs.scientificamerican.com/a-blog-around-the-clock/">Bora
+Zivkovic</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://blogs.openaccesscentral.com/blogs/gigablog/">Scott
+Edmunds</ext-link>. I thought that microattribution would be an
+established concept, so I was surprised to find so little information
+about it. Wikipedia
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://en.wikipedia.org/w/index.php?title=Microattribution&amp;action=edit&amp;redlink=1">doesn’t
+know</ext-link> about microattribution. A search in PubMed retrieves
+only two hits (the 2011 <italic><italic>Nature
+Genetics</italic></italic> paper mentioned below and an editorial in the
+same issue). One of the first mentions of the term appears to be an
+August 2007 Editorial in <italic><italic>Nature
+Genetics</italic></italic>
+(<bold><bold><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://dx.doi.org/10.1038/ng0807-931">Compete,
+collaborate, compel</ext-link></bold></bold>), but at the time the term
+also included what we today would call data citation. It therefore might
+be a good idea to try a definition:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>Microattribution ascribes a small scholarly contribution to a
+    particular author.</p>
+  </disp-quote>
+</p>
+<p>Important for this definition is the <bold><bold>small scholarly
+contribution</bold></bold>, which until now we have been unable to
+appropriately associate with its contributor. This scholarly
+contribution is too small to merit a scholarly paper or publication as
+dataset. And in most cases we have not bothered to provide unique
+identifiers for the scholarly contribution and/or the author.</p>
+<p>A very good example for where microattribution can be valuable is the
+description of genetic variation. A March 2011 <italic><italic>Nature
+Genetics</italic></italic> paper
+(<bold><bold><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://dx.doi.org/10.1038/ng.785">Systematic
+documentation and analysis of human genetic variation in
+hemoglobinopathies using the microattribution
+approach</ext-link>)</bold></bold> concluded that microattribution
+<italic><italic>demonstrably increased the reporting of human variants,
+leading to a comprehensive online resource for systematically describing
+human genetic variation</italic></italic>. One example described in the
+paper is the genetic variation in the promoter of the KLF1 erythroid
+transcription factor, explaining differences in the level of fetal
+hemoglobin (HbF). Most of these variants were never published in a paper
+(the blue squares in the figure).</p>
+<fig>
+  <caption><p><bold><bold>Figure 3</bold></bold> <italic><italic>from
+  Giardine B et al. Nature Genetics 2011.</italic>
+  https://<italic><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ng.785">doi.org/10.1038/ng.785</ext-link>.</italic></italic></p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120610133410im_/http://blogs.plos.org/mfenner/files/2011/08/ng.785-F3-500x305.jpg" xlink:title="ng.785-F3" />
+</fig>
+<p>For the first time we now seem to have both the technology and
+willingness to enable microattributions on a large scale. There will be
+ample time for discussion in the microattribution session on Friday, but
+I’m personally most interested in the next practical steps to move
+microattribution forward. My background is unique author identifiers
+(ORCID) and my co-moderators bring in their experience with Wikipedia
+(Mike Peel), science blog aggregation (Bora Zivkovic) and crowdsourcing
+of sequencing efforts (Scott Edmunds). Some of the questions that I
+would like to address in the session are:</p>
+<list list-type="order">
+  <list-item>
+    <p>Should all microattribution information be collected in one,
+    several or many places?</p>
+  </list-item>
+  <list-item>
+    <p>Do we need one, several or many identifier schemes for
+    contributions and authors?</p>
+  </list-item>
+  <list-item>
+    <p>What level of detail should we allow for microattributions?</p>
+  </list-item>
+  <list-item>
+    <p>Should microattributions use persistent identifiers?</p>
+  </list-item>
+  <list-item>
+    <p>Can and should we keep our scholarly contributions separate from
+    other contributions?</p>
+  </list-item>
+</list>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120610133410im_/http://blogs.plos.org/mfenner/files/2011/08/Scientific-Attribution-v.2.jpg" xlink:title="Scientific Attribution v.2" />
+</fig>
+<p><italic><italic>My simplified view of the scholarly record,
+updated</italic></italic></p>
+<p>I
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610133410/http://blogs.plos.org/mfenner/scientific-attribution-principles/">have
+said before</ext-link> that I think that attribution should be separated
+from evaluation, and I think is also true for microattribution. The main
+reason is that evaluation is something we still know very little about,
+and a scholarly record available to everybody will make it much easier
+to make progress here. I don’t think anybody knows yet what
+distinguishes a good from a bad microattribution, or whether it is
+possible to compare the scientific impact of 10 or 100 microattributions
+to one scholarly paper.</p>
+<p><italic><italic>Disclaimer: I sit on the Board of Directors of the
+Open Researcher &amp; Contributor ID (ORCID) initiative which aims to
+help solve this and related problems.</italic></italic></p>
+<sec id="references">
+  <title>References</title>
+</sec>
+</body>
+<back>
+</back>
+</article>

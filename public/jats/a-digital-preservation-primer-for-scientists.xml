@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>A digital preservation primer for
+scientists</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-02-01">
+<day>1</day>
+<month>2</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><italic>This weeks's
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032500/http://www.corporeality.net/museion/2010/02/01/a-digital-preservation-primer-for-scientists/">blog
+post</ext-link> is a guest post on the Biomedicine on Display blog – I
+was kindly invited by Thomas Soderqvist from the Medical Museum of the
+University of Copenhagen.</italic></p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>The first email was sent in 1964, but that first email has been
+    lost forever. -
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.esf.org/ext-ceo-news-singleview/article/digital-preservation-alliance-set-to-tackle-sciences-new-frontier-368.html">Lucy
+    Nowell</ext-link></p>
+  </disp-quote>
+</p>
+<p>As we have moved to digital formats both for primary research data
+and scientific publications, digital preservation has become critical to
+secure permanent access to scientific information. Digital preservation
+turned out to be much more difficult than creating digital content, as
+preservation requires long-term thinking about many issues including
+file formats, storage solutions and funding. Digital preservation turned
+out to be too big for individual libraries, publishers or research
+disciplines, and large collaborative efforts were started in the last
+five years.</p>
+<sec id="alliance-for-permanent-access">
+  <title>Alliance for Permanent Access</title>
+  <p>The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.alliancepermanentaccess.eu/">Alliance
+  for Permanent Access</ext-link> is a European strategic framework for
+  digital preservation of scientific information. The alliance
+  coordinates the efforts of different funders, research support
+  organizations and major European research laboratories (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://public.web.cern.ch/">CERN</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.esa.int/esaCP/index.html">ESA</ext-link>).</p>
+</sec>
+<sec id="sustainable-digital-data-preservation-and-access-network-partners-datanet-">
+  <title>Sustainable Digital Data Preservation and Access Network
+  Partners (DataNet)</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503141">Sustainable
+  Digital Data Preservation and Access Network Partners</ext-link> is a
+  digital preservation project by the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.nsf.gov/">National
+  Science Foundation</ext-link>. The deadline for proposals was May
+  2009, and $100 million will be awarded over the next five years.
+  Wow.</p>
+</sec>
+<sec id="portico">
+  <title>Portico</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.portico.org/">Portico</ext-link>
+  is a not-for-profit digital preservation service for scholarly
+  content. Portico was launched in 2005 with initial support by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.jstor.org/">JSTOR</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.ithaka.org/">Ithaka</ext-link>,
+  the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.loc.gov/">Library
+  of Congress</ext-link>, and the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.mellon.org/">Andrew
+  W. Mellon Foundation</ext-link>. The Portico archive currently
+  contains close to 15 million papers and is archiving journal content
+  for many publishers and libraries for a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.portico.org/publishers/pub_contribution.html">fee</ext-link>.
+  Portico steps in (a so-called trigger event) when a publisher</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>stops operations</p>
+    </list-item>
+    <list-item>
+      <p>ceases to publish a title</p>
+    </list-item>
+    <list-item>
+      <p>no longer offers back issues</p>
+    </list-item>
+    <list-item>
+      <p>has a castastrophic failure of the delivery platform</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="file-formats">
+  <title>File formats</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.pdfa.org/">PDF/A</ext-link>
+  was approved as an ISO standard for long-term archiving of electronic
+  documents in 2005. Before PDF/A, many organizations (including our
+  institution) used the raster graphics format TIFF. The major advantage
+  of the PDF format is the handling text and vector graphics in addition
+  to raster images, allowing full-text search and smaller file sizes.
+  Because the PDFformat is constantly changing, PDF/A was based on a
+  specific PDF version (1.4) with the following specifications:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>self-contained, no external images or fonts</p>
+    </list-item>
+    <list-item>
+      <p>no sound or movies</p>
+    </list-item>
+    <list-item>
+      <p>metadata in the
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://blogs.nature.com/wp/nascent/2008/12/xmp_labelling_for_nature.html">XMP</ext-link>
+      format</p>
+    </list-item>
+    <list-item>
+      <p>no password protection</p>
+    </list-item>
+  </list>
+  <p>Most scientific papers are now produced in XML, usually using the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://dtd.nlm.nih.gov/">NLM
+  DTD</ext-link>. The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://dtd.nlm.nih.gov/archiving/">Archiving
+  and Interchange Tag Set</ext-link> is a flavor of the NLM DTD that is
+  intented for archiving.</p>
+</sec>
+<sec id="storage-solutions">
+  <title>Storage solutions</title>
+  <p>Hard disks, tape and optical media are possible storage solutions.
+  Tape is the ideal solution for long-term storage of research papers,
+  but the digital preservation of research data in many areas (e.g.
+  sequencing, high-energy physics) can’t be done with tape because of
+  the exponential growth of these data. Hard disk storage has another
+  problem: the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20100405101403/http://www.genomeweb.com/sequencing/wellcome-trust-sanger-institute-upgrade-sequencing-capacity-unveils-annual-revie">energy
+  requirements of data centers</ext-link>.</p>
+  <p>We live in a digital world, and this of course includes how we do
+  and communicate science. It is surprising that we have barely started
+  to think about digital preservation.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

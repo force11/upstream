@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>CommonMark and the Future of Scholarly
+Markdown</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2014-09-07">
+<day>7</day>
+<month>9</month>
+<year>2014</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>One of the important outcomes of the
+<ext-link ext-link-type="uri" xlink:href="https://github.com/scholmd/scholmd/wiki">Markdown
+for Science</ext-link> workshop that took place in June 2013 was a
+decision on a name - <italic>Scholarly Markdown</italic> - and a brief
+<ext-link ext-link-type="uri" xlink:href="https://github.com/scholmd/scholmd/wiki/What-is-Markdown">definition</ext-link>:</p>
+<list list-type="order">
+  <list-item>
+    <p>Markdown that supports the requirements of scientific texts</p>
+  </list-item>
+  <list-item>
+    <p>Markdown as format that glues open scientific text resources
+    together</p>
+  </list-item>
+  <list-item>
+    <p>A reference implementation with documentation and tests</p>
+  </list-item>
+  <list-item>
+    <p>A community</p>
+  </list-item>
+</list>
+<p>In my eyes this is still a great definition. And this week something
+important happened that is very relevant for Scholarly Markdown. A small
+group of people deeply involved in Markdown announced
+<ext-link ext-link-type="uri" xlink:href="http://commonmark.org/">Standard
+Markdown</ext-link>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>We propose a standard, unambiguous syntax specification for
+    Markdown, along with a suite of comprehensive tests to validate
+    Markdown implementations against this specification. We believe this
+    is necessary, even essential, for the future of Markdown.</p>
+  </disp-quote>
+</p>
+<p>Markdown is in widespread use, but a lack of standard syntax and set
+of comprehensive tests has hindered the adoption for more complex use
+cases, the development of cross-platform tools, and the use of markdown
+as a document interchange format. I am therefore 100% behind this
+initiative. In particular since this is not just an initiative by large
+commercial organizations heavily using Markdown such as Stackexchange,
+Github or Reddit, but that the entire spec and both reference
+implementations have been written by
+<ext-link ext-link-type="uri" xlink:href="http://johnmacfarlane.net/">John
+MacFarlane</ext-link>, the author of Pandoc, the universal document
+converter. Not only does Pandoc already support many of the features
+required by Scholarly Markdown (e.g. math and citations), but John is
+the Chair of the Department of Philosophy at UC Berkeley.</p>
+<p>Markdown was developed in 2004 by John Gruber, and he
+<ext-link ext-link-type="uri" xlink:href="http://daringfireball.net/projects/markdown/license">holds
+the rights</ext-link> to the name Markdown. He didn’t want this
+initiative to use the name <bold><bold>Standard Markdown</bold></bold>,
+so the implementation was
+<ext-link ext-link-type="uri" xlink:href="http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/">renamed</ext-link>
+to
+<ext-link ext-link-type="uri" xlink:href="http://commonmark.org/">CommonMark</ext-link>.</p>
+<p>The consequences of all this for Scholarly Markdown?</p>
+<list list-type="bullet">
+  <list-item>
+    <p>CommonMark focusses on the basic features of the language, but
+    once the specification is agreed upon and implemented by a critical
+    mass of tools, it is clear that there needs to be a standardized way
+    to handle extensions of the language. This is both about features
+    used by lots of people such as tables, but also functionality
+    relevant only for scholarly content.</p>
+  </list-item>
+  <list-item>
+    <p>This brings us one gigantic step closer to a reference
+    implementation and set of tests for Scholarly Markdown, as hopefully
+    Scholarly Markdown can build upon the work by John and the
+    CommonMark team.</p>
+  </list-item>
+  <list-item>
+    <p>The name Scholarly Markdown might not be a good idea going
+    forward. We should either change the name to align with CommonMark,
+    or we should come up with a totally different name, something that
+    the screenwriters have done with
+    <ext-link ext-link-type="uri" xlink:href="http://fountain.io/">their</ext-link>
+    implementation of Markdown.</p>
+  </list-item>
+</list>
+</body>
+<back>
+</back>
+</article>

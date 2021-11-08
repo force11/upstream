@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>More fun with Visualizations</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-07-20">
+<day>20</day>
+<month>7</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This has been another week working on visualizations. I have
+summarized some of the results in a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528080207/http://api.plos.org/2012/07/20/example-visualizations-using-the-plos-search-and-alm-apis/">blog
+post</ext-link> over at the PLoS API website. One of my current
+favorites is the dot chart. PLoS Computational Biology publishes a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528080207/http://www.ploscollections.org/article/browseIssue.action?issue=info:doi/10.1371/issue.pcol.v03.i01">collection
+of Ten Simple Rules</ext-link>. The dot chart below summarizes the HTML
+pageviews, PDF downloads and Mendeley readers for this collection (click
+on the image for a larger size).</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20160528080207im_/http://blogs.plos.org/mfenner/files/2012/07/dotchart2-500x386.png" xlink:title="dotchart2" />
+</fig>
+<p>On Wednesday I gave a presentation about Article-Level Metrics, using
+many of the same visualizations. You can find the slides over at
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528080207/https://speakerdeck.com/u/mfenner/p/article-level-metrics">Speaker
+Deck</ext-link> (my new favorite to upload presentation slides).</p>
+</body>
+<back>
+</back>
+</article>

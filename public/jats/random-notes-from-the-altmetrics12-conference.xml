@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Random notes from the altmetrics12
+conference</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-06-21">
+<day>21</day>
+<month>6</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last week I attended the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://altmetrics.org/altmetrics12/">altmetrics12</ext-link>
+workshop in Chicago. You can read all 11 abstracts
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://altmetrics.org/altmetrics12/program/">here</ext-link>,
+and the conference had good Twitter coverage (using the hashtag
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/https://twitter.com/search/%23altmetrics12">#altmetrics12</ext-link>),
+at least until Twitter had a total blackout around 12 PM our time.</p>
+<p>All but two presenters used slides – I have uploaded
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/https://speakerdeck.com/u/mfenner/p/altmetrics-will-be-taken-personally-at-plos">my
+presentation</ext-link> to Speaker Deck. Kelli Barr used the blackboard
+to explain that</p>
+<list list-type="bullet">
+  <list-item>
+    <p>filtering (via altmetrics or any other means) by definition
+    always selects out content and therefore runs against the
+    democratization of science</p>
+  </list-item>
+  <list-item>
+    <p>peer review is a black box. altmetrics is also a black box, only
+    much bigger</p>
+  </list-item>
+</list>
+<fig>
+  <caption><p>Kelli Barr used the blackboard for two important points in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://altmetrics.org/altmetrics12/barr/">her
+  talk</ext-link>.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20160528073512im_/http://blogs.plos.org/mfenner/files/2012/06/barr.jpg" xlink:title="barr" />
+</fig>
+<p>altmetrics12 was one of the best conferences that I have attended
+recently. The intensity of the discussions was palpable. My only regrets
+are that there wasn’t more time for discussions, but many of us convened
+in the bar afterwards.</p>
+<p>We were off to a very strong start with two excellent keynote
+presentations by Johann Bollen ( Altmetrics: from usage data to social
+media) and Gregg Gordon
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://ssrnblog.com/2012/05/18/alternative-is-the-new-grey/">Alternative
+is the new Grey</ext-link>). Johann emphasized why it is both important
+and fascinating to study how science is actually working. He stressed
+that science is a gift economy, where the currency is acknowledgement of
+influence in the form of citations. He sees two major problems with the
+present citation-based analysis of scientific impact: a) data and b) the
+metrics. Citation data are very domain specific (with very different
+citation practices in different disciplines), and delayed (several years
+after publication of the research they are citing). The problem with
+current citation-based metrics is that they ignore the network effect in
+science. Johann then went on to explain the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://mesur.informatics.indiana.edu/">MESUR</ext-link>
+project, which studies the patterns of scientific activity on a very
+large scale (1 billion usage events, 500 million citations, 50 million
+papers).</p>
+<fig>
+  <caption><p>Map of science from
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://dx.doi.org/10.1371/journal.pone.0004803">2009
+  PLoS ONE paper</ext-link>.</p></caption>
+  <graphic mimetype="image" mime-subtype="" xlink:href="https://web.archive.org/web/20160528073512im_/http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0004803.g005&amp;representation=PNG_I" xlink:title="Map of Science" />
+</fig>
+<p>Johann then briefly explained the results of another
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://dx.doi.org/10.1371/journal.pone.0006022">2009
+PLoS ONE paper</ext-link> where he analyzed 39 metrics with principal
+component analysis. He found two major components in the metrics
+analysis: counting vs. social influence and fast vs. slow.</p>
+<fig>
+  <caption><p>Correlation of 37 metrics mapped onto first two principal
+  components in another
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://dx.doi.org/10.1371/journal.pone.0006022">2009
+  PLoS ONE paper</ext-link>.</p></caption>
+  <graphic mimetype="image" mime-subtype="" xlink:href="https://web.archive.org/web/20160528073512im_/http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0006022.g002&amp;representation=PNG_I" xlink:title="PCA" />
+</fig>
+<p>Johann then told the interesting story behind a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://arxiv.org/abs/1010.3003">2010
+paper</ext-link> where he showed that <bold>Twitter mood can predict the
+stock market</bold>. The paper was rejected by all publishers and was
+finally published on ArXiV in October 2010. It immediately became very
+popular in terms of downloads and media attention (and was eventually
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://dx.doi.org/10.1016/j.jocs.2010.12.007">published</ext-link>
+in the <italic>Journal of Computational Science</italic> in March
+2011).</p>
+<p>Gregg Gordon has summarized his keynote in a May
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://ssrnblog.com/2012/05/18/alternative-is-the-new-grey/">blogpost</ext-link>,
+so I will focus on a few highlights. Gregg Gordon runs the Social
+Science Research Network
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://ssrn.com/">SSRN</ext-link>),
+a leading resource for sharing social sciences research. Gregg thinks
+that altmetrics can provide the compass to navigate the map of science
+described earlier. He told us some very interesting anecdotes of users
+trying to game SSRN by inflating their download counts (e.g. “downloads
+for donuts”), and mentioned a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1346397">research
+paper</ext-link>analyzing gaming at SSRN. Download counts are apparently
+taken very seriously by SSRN authors and are also used for hiring
+decisions. SSRN not only has written software to protect against gaming,
+but also has a person constantly looking over these numbers (Gregg feels
+that computer algorithms alone are not enough).</p>
+<p>The two keynotes were followed by 11 short (10-15 minute)
+presentations, including two presentations about the PLoS
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://article-level-metrics.plos.org/">Article-Level
+Metrics</ext-link> project. Jennifer Lin spoke about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://altmetrics.org/altmetrics12/lin/">anti-gaming
+mechanisms</ext-link> and I emphasized the importance of
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://altmetrics.org/altmetrics12/fenner/">personalizing
+altmetrics</ext-link> to fully understand the “network of science”. All
+presentation abstracts are available
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://altmetrics.org/altmetrics12/program/">online</ext-link>.</p>
+<p>After the lunch break (and some interesting discussions) we continued
+with demos of various altmetrics applications and users, including
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://total-impact.org/">Total
+Impact</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://www.plumanalytics.com/">Plum
+Analytics</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://www.altmetric.com/">altmetric.com</ext-link>,
+the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://alm.plos.org/">PLoS
+Article-Level Metrics</ext-link> application,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://knodeinc.com/">Knode</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://academia.edu/">Academia.edu</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://www.biomedcentral.com/">BioMed
+Central</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://www.ubiquitypress.com/">Ubiquity
+Press</ext-link> (example
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://openarchaeologydata.metajnl.com/article/intensive-survey-data-from-antikythera-greece/">here</ext-link>).</p>
+<p>In the last our and a half we split up into several smaller group to
+discuss issues relevant for altmetrics. I was in the
+<bold>standards</bold> group and we all agreed that it is too early to
+sep up rigid standards for this evolving field, but not too early to
+start the discussion. The two standards experts in our group (Todd
+Carpenter from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://www.niso.org/home/">NISO</ext-link>
+and David Baker from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://casrai.org/">CASRAI</ext-link>)
+were of course very helpful with the discussion in our group. In the
+closing group discussion the breakout groups reported their major
+discussion points (which will hopefully be written up by someone). We
+also learned that the NIH is considering changing the Biosketch format
+for CVs and is looking for input via a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160528073512/http://grants.nih.gov/grants/guide/notice-files/NOT-OD-12-115.html">Request
+for Information</ext-link> (RFI) until June 29.</p>
+</body>
+<back>
+</back>
+</article>

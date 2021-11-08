@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>New and emerging technologies for reference
+software</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-12-23">
+<day>23</day>
+<month>12</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Jason Rollins gave a presentation with that topic at the recent
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://www.stm-assoc.org/event.php?event_id=58">STM
+Innovations Seminar</ext-link> in London. The video of his presentation
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://river-valley.tv/new-and-emerging-technologies-for-reference-software/">has
+now been made available</ext-link> by River Valley TV, and his slides
+are
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://www.stm-assoc.org/2010_12_03_Innovations_Rollins_Bibliographic_Management_Software.pdf">here</ext-link>.</p>
+<p>Jason talks about some recent trends in reference management
+software. For him one important new trend is APIs/extensions. I fully
+agree with him, but we haven’t really seen many tools based on these
+APIs. Reference managers that provide APIs include
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://dev.mendeley.com/">Mendeley</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://www.endnote.com/api/">Endnote</ext-link>,
+Refworks,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://developer.mekentosj.com/">Papers</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://www.zotero.org/blog/zoteros-next-big-step/">Zotero</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://www.connotea.org/wiki/WebAPI">Connotea</ext-link>.
+The availability of an API has done a lot for the success of Web 2.0
+tools such as Twitter and Flickr.</p>
+<p>Another interesting topic was brought up in the discussion: should
+reference managers track difference versions of an article (e.g.
+pre-print, post-print, publisher PDF)? According to Jason many Endnote
+users request this feature. Jason is leading the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120612114551/http://www.endnote.com/">Endnote</ext-link>
+development team, but also mentions Mendeley, CiteULike and Papers in
+his presentation. I
+<ext-link ext-link-type="uri" xlink:href="https://blog.martinfenner.org/posts/endnote_interview_with_jason_rollins/">interviewed</ext-link>
+Jason about Endnote back in August.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>UK PubMed Central: Interview with Phil
+Vaughan</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-11-04">
+<day>4</day>
+<month>11</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611110953im_/http://ukpmc.ac.uk/ppmc-localhtml/images/ukpmc_145.jpg" xlink:title="" />
+</fig>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.ncbi.nlm.nih.gov/pmc/">PubMed
+Central</ext-link> was launched in February 2000 by the U.S. National
+Institutes of Health (NIH) as a free digital archive of journal
+articles. Just as PubMed, PubMed Central covers research in the life
+sciences, but not other areas of research, e.g. engineering, physical
+sciences or astronomy.</p>
+<p>Some journal articles are available as full text as soon as they are
+published, and most journals provide free access to full text articles
+within a year of publication. Some journals only provide the full text
+of some articles, including research funded by the NIH under the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://publicaccess.nih.gov/policy.htm">NIH
+Public Access Policy</ext-link>. The majority of fulltext articles in
+PubMed Central are not Open Access, but are protected by copyright.
+These articles are often made available under a license that allows
+redistribution and reuse.</p>
+<p>All articles are deposited using the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://dtd.nlm.nih.gov/">NLM-DTD</ext-link>
+XML format, which is a standard text format suitable for text mining and
+long-term archiving. Most articles are deposited directly by the
+journals, so that authors do not have to get involved in the technical
+aspects of article deposition.</p>
+<p>PubMed Central is a centralized archive of full text papers and not
+simply an interface to search these articles at the websites of the
+participating journals. Neither is PubMed Central an interface to search
+the various institutional repositories at universities and institutions.
+The NIH thinks that this centralized approach makes it easier to develop
+additional functionality, including the integration with other databases
+(e.g. the protein or nucleotide databases) hosted at the NIH.</p>
+<p>UK PubMed Central was launched in 2007 as the first PubMed Central
+outside the United States
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://pubmedcentralcanada.ca/">PubMed
+Central Canada</ext-link>, the second international PubMed Central,
+launched this week). In January 2010 UK PubMed Central will launch a
+number of new services, and I used the opportunity to ask UK PubMed
+Central Programme Manager Philip Vaughan a few questions.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611110953im_/http://gallery.me.com/mfenner/100079/philip_vaughan/web.jpg" xlink:title="" />
+</fig>
+<sec id="1-what-is-uk-pubmed-central">
+  <title>1. What is UK PubMed Central?</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://ukpmc.ac.uk/">UK
+  PubMed Central</ext-link> offers free access to 1.6 million full text
+  journal articles in the fields of Life Sciences, Biomedicine and
+  Health. Our content is free to read, print off and download. There is
+  no registration process required: users can simply visit our site and
+  start searching!It has been developed in consultation with the UK
+  biomedical and health research community, and is about to launch some
+  exciting new services in January 2010. Usage of our service has been
+  growing steadily; we average 300,000 downloads a month currently.</p>
+</sec>
+<sec id="2-why-do-we-need-more-than-one-pubmed-central-and-how-are-they-connected">
+  <title>2. Why do we need more than one PubMed Central, and how are
+  they connected</title>
+  <p>UKPMC gives the UK research community access to all the content of
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.ncbi.nlm.nih.gov/pmc/">PMC</ext-link>,
+  but with added value specifically for the UK. For example, it offers
+  Grant Reporting features, whereby users can search for current grants
+  from all of our 8 Funders, can link the publications they produce to
+  the grants they originated from, and view the impact of their work
+  through access to citations. UK researchers can also
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/https://ukmss.mimas.ac.uk/ukmss">deposit
+  their manuscripts directly</ext-link> into UKPMC.We will also be
+  accessing additional content not in PMC; around 475,000 extra
+  articles, reviews, guidelines and theses. Through the involvement of
+  our funders, we are capturing around 90% of recently published journal
+  articles from biomedical research conducted in the UK.We are therefore
+  increasing the visibility of UK research in the field.</p>
+  <p>Our colleagues at NCBI in the US have been very supportive of our
+  activities: they have been keen for the PMC “project” to expand beyond
+  the US. A Canadian version
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://pubmedcentralcanada.ca/">PMC
+  Canada</ext-link>) launched this week.</p>
+</sec>
+<sec id="3-why-does-a-search-use-pubmed-central-and-not-the-uk-version">
+  <title>3. Why does a search use PubMed Central and not the UK
+  version?</title>
+  <p>The current UKPMC site searches PMC as it “mirrors” its content.
+  But this about to change; from January UKPMC will be a “stand alone”
+  service with its own up to date archive of content, as well as access
+  to all the content of PubMed and PubMed Central.</p>
+</sec>
+<sec id="4-what-is-the-relationship-between-uk-pubmed-central-and-institutional-repositories">
+  <title>4. What is the relationship between UK PubMed Central and
+  institutional repositories?</title>
+  <p>UKPMC is a subject repository and as such receives content from
+  researchers at Higher Education institutions across the UK. Deposition
+  in UKPMC is mandatory if a researcher has a grant from any of our 8
+  Funders:
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.wellcome.ac.uk/">Wellcome
+  Trust</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.cancerresearchuk.org/">Cancer
+  Research UK</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.mrc.ac.uk/">Medical
+  Research Council</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.bhf.org.uk/">British
+  Heart Foundation</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.arc.org.uk/">Arthritis
+  Research Campaign</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.bbsrc.ac.uk/">Biotechnology
+  and Biosciences Research Council</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.nihr.ac.uk/">National
+  Institute for Health Research</ext-link> and the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.sehd.scot.nhs.uk/cso/">Chief
+  Scientists Office</ext-link>. Consequently we do not need to harvest
+  content from other repositories. However, institutional repositories
+  are welcome to harvest our content; we have an OAI-PMH interface to
+  enable this. On the other hand, there are no plans to develop of
+  institutional repositories from within UK PubMed Central.</p>
+</sec>
+<sec id="5-what-is-the-material-that-can-t-be-put-into-uk-pubmed-central">
+  <title>5. What is the material that can't be put into UK PubMed
+  Central?</title>
+  <p>If the material is not peer-reviewed research published in a
+  recognized journal by a known publisher, it would not be deposited
+  into UK PubMed Central. One aspect of our development programme has
+  been to identify what further content we could provide links to, for
+  example published research theses and NHS clinical guidelines. But, we
+  have rigid quality control procedures in place even to provide links
+  to material. That said, we do remain open minded, in terms of what
+  material we may consider linking to in the future. And who knows what
+  might arise in the future. For example, there does seem to be an
+  appetite to include images.</p>
+</sec>
+<sec id="6-can-i-submit-my-accepted-manuscript-if-it-was-not-funded-by-one-of-the-uk-pubmed-central-funders">
+  <title>6. Can I submit my accepted manuscript if it was not funded by
+  one of the UK PubMed Central funders?</title>
+  <p>Unfortunately not at this time. We are hopeful that other UK
+  research councils and funders of life sciences research will come on
+  board in due course. The more funders that come on board, the stronger
+  our service will become and the stronger our message on the importance
+  of OA.</p>
+</sec>
+<sec id="7-what-is-the-uk-pubmed-central-oai-service">
+  <title>7. What is the UK PubMed Central OAI service?</title>
+  <p>The UK PubMed Central OAI service,
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://ukpmc.ac.uk/ppmc-localhtml/oai_service.html">UKPMC-OAI</ext-link>)
+  provides access to metadata of all items in the UKPMC archive, as well
+  as to the full text of a subset of these items.</p>
+</sec>
+<sec id="8-what-are-your-responsibilities-at-uk-pubmed-central">
+  <title>8. What are your responsibilities at UK PubMed Central?</title>
+  <p>I am the Programme Manager. I am responsible for the current
+  service which has been in existence since January 2007. I also
+  co-ordinate all our current development activities, which are
+  undertaken by ourselves at the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.bl.uk/">British
+  Library</ext-link>, by the University of Manchester
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://mimas.ac.uk/">MIMAS</ext-link>),
+  the National Centre for Text Mining
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.nactem.ac.uk/">NacTEM</ext-link>
+  – based at the University of Manchester) and the European
+  Bioinformatics Institute
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.ebi.ac.uk/">EBI</ext-link>)
+  based at Hinxton in Cambridgeshire.</p>
+</sec>
+<sec id="9-what-did-you-do-before-starting-to-work-on-uk-pubmed-central">
+  <title>9. What did you do before starting to work on UK PubMed
+  Central?</title>
+  <p>I originally trained as a librarian. Since then I have worked
+  mainly in health and medical information work, both in Higher
+  Education and in the National Health Service. My most recent post was
+  for
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.jisc.ac.uk/">JISC</ext-link>
+  (Joint Information Systems Committee) as a Programme Manager. I was
+  responsible for a portfolio of development projects in the digital
+  library sphere. I joined UKPMC at the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.bl.uk/">British
+  Library</ext-link> in May 2008.</p>
+</sec>
+<sec id="10-do-you-want-to-talk-about-future-plans-for-uk-pubmed-central">
+  <title>10. Do you want to talk about future plans for UK PubMed
+  Central?</title>
+  <p>Yes please! We are soon to launch some exciting new initiatives in
+  January 2010. Our website has been completely redesigned with a new
+  more intuitive interface, and we will be expanding our content to
+  include all content from PubMed (c. 18m references), patents, theses
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://www.library.nhs.uk/GUIDELINESFINDER/">NHS
+  Clinical Guidelines</ext-link>. Consequently our users will be able to
+  access a vast collection of relevant content through one portal.</p>
+  <p>Our search engine will be utilising innovative new techniques such
+  as text mining to retrieve more contextually relevant information,
+  link to other relevant databases and provide a richer search
+  experience for the user. We are also expanding our Grant Reporting
+  functions to allow Grantees and Funders to assess the impact and value
+  of their funded research, and increase their visibility.</p>
+  <p>Our Funders are keen to expand the programme, possibly towards a
+  future <italic><italic>European PubMed Central</italic></italic>.We
+  are hopeful that as part of this process some European Funders may be
+  joining the programme shortly. Our Funders hope to make an
+  announcement regarding this shortly.</p>
+  <p>We are holding a Showcase event on January 12th at the British
+  Library in London to highlight these new developments and the future
+  potential of the service.</p>
+</sec>
+<sec id="11-could-you-provide-contact-information-for-people-that-have-further-questions-about-pubmed-central">
+  <title>11. Could you provide contact information for people that have
+  further questions about PubMed Central?</title>
+  <p>By all means, people can email us at
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/mailto:ukpmc%40bl.uk">ukpmc@bl.uk</ext-link>
+  and my email is
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110953/http://bl.uk/">Philip.Vaughan@bl.uk</ext-link>.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

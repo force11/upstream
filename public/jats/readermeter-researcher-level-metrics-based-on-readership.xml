@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>ReaderMeter: researcher-level metrics based on
+readership</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-10-03">
+<day>3</day>
+<month>10</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>In a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101016090754/http://www.academicproductivity.com/2010/readermeter-crowdsourcing-research-impact/">blog
+post last week</ext-link>, Dario Taraborelli officially announced
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101016090754/http://readermeter.org/">ReaderMeter</ext-link>.
+ReaderMeter takes the usage data from reference managers (starting with
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101016090754/http://www.mendeley.com/">Mendeley</ext-link>)
+to analyze the impact of publications by a particular author.</p>
+<p>ReaderMeter is a welcome addition to other metrics of researcher
+impact, most of which are citation-based. And ReaderMeter was hacked
+together in a few nights, so the service should improve over time. Dario
+mentions some of the current limitations in his blog post:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><bold><bold>Usage data only from Mendeley</bold></bold>. We don’t
+    know whether the reading patterns of users from other reference
+    managers (e.g. CiteULike, Zotero, Endnote Web and Refworks) differ.
+    Dario is working on adding more services.</p>
+  </list-item>
+  <list-item>
+    <p><bold><bold>Author disambiguation</bold></bold>. This is a
+    critical component, and the
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101016090754/http://blogs.plos.org/mfenner/2010/09/07/orcid-as-unique-author-identifier-what-is-it-good-for-and-should-we-worry-or-be-happy/">ORCID</ext-link>
+    initiative is probably the best tool to overcome this limitation,
+    especially when data from several reference managers have to be
+    integrated.</p>
+  </list-item>
+  <list-item>
+    <p><bold><bold>Article disambiguation</bold></bold>. Multiple copies
+    of the same reference are common in reference manager databases. The
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101016090754/http://dx.doi.org/">DOI</ext-link>
+    can solve this problem for those publications that have a DOI, but
+    consequent use of the DOI by journals, citation databases and
+    reference managers has yet to become standard practice.</p>
+  </list-item>
+</list>
+<p>ReaderMeter is visually pleasing and fun to use. And the data are
+also provided in JSON format, which allows integration into other web
+pages, e.g. the researcher’s home page.</p>
+</body>
+<back>
+</back>
+</article>

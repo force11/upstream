@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Beyond the PDF – it is time for a
+workshop</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-10-06">
+<day>6</day>
+<month>10</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>PDF has become the standard way we consume scientific papers, but in
+fact is not a good format for this purpose at all. Or as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.mjrobbins.net/">Martin
+Robbins</ext-link>
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.nature.com/franknorman/2010/09/10/my-science-online-london-2010-impressions">said
+at the recent Science Online London conference</ext-link>:
+<italic><italic>PDF is an insult to science</italic></italic>. The
+problem was nicely illustrated by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://wwmm.ch.cam.ac.uk/blogs/murrayrust/">Duncan
+Hull</ext-link>, using a quote from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://wwmm.ch.cam.ac.uk/blogs/murrayrust/">Peter
+Murray-Rust</ext-link> from a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://wwmm.ch.cam.ac.uk/blogs/murrayrust/?p=1069">May
+2008</ext-link> article:</p>
+<fig>
+  <caption><p><italic><italic>Flickr image by dullhunk. From
+  his</italic></italic>
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.slideshare.net/dullhunk/defrosting-the-digital-library-a-survey-of-bibliographic-tools-for-the-next-generation-web"><italic><italic>Defrosting
+  the Digital Library</italic></italic></ext-link>
+  <italic><italic>slideshow.</italic></italic></p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20101124185433im_/http://farm4.static.flickr.com/3470/3367901850_5b137da197.jpg" xlink:title="" />
+</fig>
+<p>There are of course ways journal publishers can add metadata to PDF
+files, e.g. using
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2008/12/22/just_doi_it/">XMP</ext-link>
+markup. But that is only a workaround – what we really want is journal
+papers in a format that is all about document structure and not about
+looking good in print. XML is obviously that format with the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.inera.com/nlmresources.shtml">NLM-DTD</ext-link>
+as the de facto standard for scholarly publications. Many journal
+publishers use that format internally, as does
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.ncbi.nlm.nih.gov/pmc/">PubMed
+Central</ext-link> for displaying fulltext papers, as well as archiving
+projects such as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.portico.org/digital-preservation/">Portico</ext-link>.</p>
+<p>But there are two problems with how NLM-DTD is used now. The first
+problem is that most scientific papers still are ultimately read as
+printouts of PDF files, even though most journals now are online only. I
+wrote in January that this reading behavior is starting to change
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2010/01/10/how_do_you_read_papers_2010_will_be_different/">How
+do you read papers? 2010 will be different</ext-link>), and new article
+formats – such as the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2009/07/26/how_does_the_article_of_the_future_look_like/">Article
+of the Future</ext-link> by Cell Press – and the success of the iPad are
+two major reasons for that.</p>
+<p>The second problem is that there are no good NLM-DTD tools for
+authors.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2009/02/27/lemon8_xml_interview_with_mj_suhonos/">Lemon8-XML</ext-link>
+and the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2008/11/07/interview_with_pablo_fernicola/">Microsoft
+Word Article Authoring Add-In</ext-link> are two examples that I have
+written about before. Publishers spend a significant amount of time and
+money (and using tools such as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2009/05/01/extyles_interview_with_elizabeth_blake_and_bruce_rosenblum/">eXtyles</ext-link>)
+to convert submitted manuscripts from Microsoft Word, Open Office or
+LaTeX formats into NLM-DTD. I wrote about my
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2008/06/14/my_paper_writing_dream_machine_1_0/">paper
+writing dream machine</ext-link> that would use the NLM-DTD more than
+two years ago. I still believe that the ideal authoring tool should be
+web-based, but in 2010 this should be done in HTML5 and not Adobe Flash
+or Microsoft Silverlight.</p>
+<p>The two problems are obviously related. When more people are reading
+papers in other formats than PDF and see the advantages, it changes the
+idea of a scientific paper that most people have from a static document
+do a document that is enriched with primary research data,
+visualizations that use 3D and video, links to related resources, the
+possibility to comment, and has more than one document version. In other
+words, what HTML and the WWW
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html">were
+invented for</ext-link> by Tim Berners-Lee when working at CERN. At this
+point the incentives to create better authoring tools will be much
+greater, and the second problem should solve itself. And HTML and
+related technologies have now evolved to the point where they allow the
+building of some very attractive authoring tools.</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.sdsc.edu/~bourne/">Phil
+Bourne</ext-link> has written and talked a lot about this problem,
+including a recent editorial in <italic><italic>PLoS Computational
+Biology</italic></italic>
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://dx.doi.org/10.1371/journal.pcbi.1000787">What
+do I want from the publisher of the future?</ext-link>) and a related
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.scivee.tv/node/18299">SciVee
+video</ext-link>. He has also been working very hard to organize the
+<bold><bold>Beyond the PDF</bold></bold> workshop, to be held in San
+Diego January 19-21. The workshop
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/https://sites.google.com/site/beyondthepdf/">website</ext-link>
+went live last week and is a very good source of information. The goal
+of the workshop is to identify a set of requirements and to start
+developing open source code that accelerates moving beyond PDF for
+scientific papers.</p>
+<p>I will of course do everything possible to attend this workshop, but
+haven’t yet secured funding for the trip. What I hope to contribute to
+the <bold><bold>Beyond the PDF</bold></bold> project is a more
+intelligent use of citations (the following was also posted to the
+Beyond the PDF
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://groups.google.com/group/beyond-the-pdf">discussion
+group</ext-link>):</p>
+<sec id="unique-author-identifiers">
+  <title>Unique Author Identifiers</title>
+  <p>Unique author identifiers such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.orcid.org/">ORCID</ext-link>
+  not only are a big help in knowledge discovery (finding other
+  interesting papers, datasets, etc. by the same person), but they can
+  also help to better define the contributions of a researcher to a
+  particular paper. This could mean a general description of the
+  contribution (had idea for project, collected data, helped write
+  manuscript, etc.), or could also describe a very specific contribution
+  (researcher X did experiment Y).</p>
+</sec>
+<sec id="citation-styles">
+  <title>Citation styles</title>
+  <p>We already have far too many citation styles, but the styles we use
+  have several important shortcomings. I suggest the following
+  changes:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Use the
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.doi.org/">DOI</ext-link>
+      instead of volume and page numbers whenever possible</p>
+    </list-item>
+    <list-item>
+      <p>Use <bold><bold>ORCID</bold></bold> to link to the authors of
+      the citations</p>
+    </list-item>
+    <list-item>
+      <p>Use the Citation Typing Ontology
+      (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://www.crossref.org/CrossTech/2009/03/citation_typing_ontology.html">CiTO</ext-link>)
+      to describe the meaning of the citation</p>
+    </list-item>
+    <list-item>
+      <p>Use a note field to explain why the citation was used</p>
+    </list-item>
+  </list>
+  <p>Any authoring tool should obviously use the Citation Style Language
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://blogs.plos.org/mfenner/2010/09/24/citation-style-language-an-interview-with-rintze-zelle-and-ian-mulvany/">CSL</ext-link>)
+  to format citations. And the citations should be provided with a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://creativecommons.org/publicdomain/zero/1.0/">CC
+  Zero</ext-link> or similar license to allow reuse.</p>
+</sec>
+<sec id="cited-by">
+  <title>Cited by</title>
+  <p>At least as important as the citations by a particular paper are
+  the incoming citations, the works that cite a paper. We need much
+  better mechanisms to automate these “trackbacks”, and this should go
+  beyond other papers and also include datasets, blog posts, etc. The
+  incoming citations are of course very helpful for discovery, and the
+  basis for
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20101124185433/http://altmetrics.org/manifesto/">alternative
+  metrics</ext-link>.</p>
+</sec>
+<sec id="references">
+  <title>References</title>
+</sec>
+</body>
+<back>
+</back>
+</article>

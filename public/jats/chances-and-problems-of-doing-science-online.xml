@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Chances and problems of doing science
+online</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-03-15">
+<day>15</day>
+<month>3</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last month (shortly after
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://go2.wordpress.com/?id=725X1342&amp;site=scholarlykitchen.wordpress.com&amp;url=http%3A%2F%2Fscienceonline2010.com%2Findex.php%2Fwiki">ScienceOnline2010</ext-link>)
+<italic><italic>David Crotty</italic></italic> wrote in a blog post
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://scholarlykitchen.sspnet.org/2010/02/08/science-and-web-2-0-talking-about-science-versus-doing-science/">Science
+and Web 2.0: Talking About Science vs. Doing Science</ext-link>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p><italic><italic>Nearly all of the more visible attempts (of
+    science and Web 2.0) so far have focused on talking about science,
+    rather than tools for actually doing science.</italic></italic></p>
+  </disp-quote>
+</p>
+<fig>
+  <caption><p>Flickr picture from Ivan Walsh.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611095611im_/http://farm4.static.flickr.com/3661/3655816702_769a47f34d_d.jpg" xlink:title="" />
+</fig>
+<p>The blog post is required reading for everybody interested in science
+and Web 2.0 and has attracted a lot of thoughtful comments (on the blog
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://friendfeed.com/the-life-scientists/9bdff1e4/science-and-web-2-0-talking-about-vs-doing">on
+FriendFeed</ext-link>). In another discussion <italic><italic>Thomas
+S</italic>ö<italic>derquist</italic></italic> from the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.corporeality.net/museion/">Medical
+Museion in Copenhagen</ext-link> reminded me that there are limitations
+of what can be done online. My blog focusses on talking about science
+rather than doing science, but this post is about doing science online.
+My research focusses on clinical cancer research, and in this field the
+advantages and limitations of doing science online are obviously
+different from other subject areas (bioinformatics for example obviously
+looks very different). It probably makes sense to ask yourself the
+following questions:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Are your research data collected in (or easily converted into)
+    digital form?</p>
+  </list-item>
+  <list-item>
+    <p>Are standard data formats and standard tools (preferably as open
+    source software) available?</p>
+  </list-item>
+  <list-item>
+    <p>Do you regularly collaborate with scientists in other
+    locations?</p>
+  </list-item>
+  <list-item>
+    <p>Is information about ongoing research projects publicly
+    available?</p>
+  </list-item>
+  <list-item>
+    <p>Do journals have policies regarding the publication of your
+    primary research data?</p>
+  </list-item>
+  <list-item>
+    <p>Are there objections to make the research data freely
+    available?</p>
+  </list-item>
+</list>
+<sec id="are-your-research-data-collected-in-or-easily-converted-into-digital-form">
+  <title>Are your research data collected in (or easily converted into)
+  digital form</title>
+  <p>Electronic medical records
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://en.wikipedia.org/wiki/Electronic_health_record">EMR</ext-link>)
+  have the potential to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.nytimes.com/2009/03/01/business/01unbox.html">improve
+  patient care and reduce costs</ext-link>. But for now, often only some
+  clinical information (particularly lab and radiology results) is
+  available electronically and paper-based patient records are still
+  commonly used. And both electronic and paper-based records have to be
+  adapted to be useful for clinical research, e.g. by allowing a
+  detailed documentation of adverse events.</p>
+  <p>The raw clinical data of a patient in a trial (called
+  <italic><italic>source data</italic></italic> in clinical research)
+  are entered into a case-report form
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://en.wikipedia.org/wiki/Case_report_form">CRF</ext-link>).
+  The purpose of this two-step process is to make sure that all required
+  data are collected and that they are entered correctly. Many clinical
+  trials now use electronic CRFs or electronic data capture (EDC). But
+  these tools are still surprisingly difficult to use and more expensive
+  than paper-based solutions, so that many trials stick to paper CRFs
+  and enter the data into a computer at a later stage. It also doesn't
+  help that the EDC market is very fragmented, so that institutions have
+  to learn to use several different tools.</p>
+</sec>
+<sec id="are-standard-data-formats-and-standard-tools-preferably-as-open-source-software-available">
+  <title>Are standard data formats and standard tools (preferably as
+  open source software) available?</title>
+  <p>Clinical Data Interchange Standard
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.cdisc.org/">CDISC</ext-link>)
+  is the standard format for clinical research data.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.openclinica.org/">OpenClinica</ext-link>
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/https://cabig.nci.nih.gov/workspaces/CTMS/?pid=primary.2006-10-24.9768040952&amp;sid=ctmsws&amp;status=True">Clinical
+  Trials Management System of CaBIG</ext-link> are two examples of Open
+  Source tools for clinical research.</p>
+</sec>
+<sec id="do-you-regularly-collaborate-with-scientists-in-other-locations">
+  <title>Do you regularly collaborate with scientists in other
+  locations?</title>
+  <p>Most clinical trials are multi-center trials that are conducted in
+  different locations, often even in different countries or continents.
+  The coordination of the different trial locations uses email and web
+  conferencing, but often relies more on human resources than on modern
+  Web 2.0 tools.</p>
+</sec>
+<sec id="is-information-about-ongoing-research-projects-publicly-available">
+  <title>Is information about ongoing research projects publicly
+  available?</title>
+  <p>Clinical research is one of only a few research areas where
+  information about (almost) all ongoing research project is publicly
+  available. Clinical trial registries serve two purposes. They make it
+  much easier for patients and their treating physicians to find
+  relevant clinical trials. And they allow clinical researchers to
+  understand what clinical research is going on in their field, and to
+  avoid publication bias.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://clinicaltrials.gov/">ClinicalTrials.gov</ext-link>
+  at the US National Institutes of Health is the largest clinical trial
+  registry. For reasons that are difficult to understand, the European
+  Clinical Trials database
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/https://eudract.emea.europa.eu/">EudraCT</ext-link>)
+  is not available to the public, but work is in progress to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.ecpc-online.org/component/docman/doc_download/68-ecpc-comments-on-qconsultation-for-data-fields-from-eudract-made-available-on-eudrapharmq.html?ItemId=127">change</ext-link>
+  that.</p>
+</sec>
+<sec id="do-journals-have-policies-regarding-the-publication-of-your-primary-research-data">
+  <title>Do journals have policies regarding the publication of your
+  primary research data?</title>
+  <p>An article in the <italic><italic>BMJ</italic></italic> last month
+  by Iain Hrynaszkiewicz and
+  colleagues<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://blogs.plos.org/mfenner/2010/03/15/chances_and_problems_of_doing_science_online/#fn1">1</ext-link></sup>
+  tries to provide guidance on how to provide raw clinical data for
+  publication. The main focus of the paper is patient privacy.
+  Publication of raw clinical data either as dataset or as part of a
+  research paper is still very uncommon. The meta-analysis of individual
+  patient
+  data<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://blogs.plos.org/mfenner/2010/03/15/chances_and_problems_of_doing_science_online/#fn2">2</ext-link></sup>
+  requires the raw clinical data of several clinical trials, and because
+  of the required effort is probably underused.</p>
+</sec>
+<sec id="are-there-objections-to-make-the-research-data-freely-available">
+  <title>Are there objections to make the research data freely
+  available?</title>
+  <p>Patient privacy is a major concern when publishing raw clinical
+  data, and it's therefore critical to remove all identifying
+  information from the dataset. This not only includes
+  <italic><italic>direct identifiers</italic></italic> such as patient
+  names, birthdates, unique identifying numbers or facial photographs,
+  but also <italic><italic>indirect identifers</italic></italic> such as
+  place of treatment, rare disease or treatment, occupation or place of
+  work, etc. It is the consensus of the authors of the
+  <italic><italic>BMJ</italic></italic> paper that datasets with three
+  or more indirect identifiers should be evaluated for the risk that
+  individuals might be identifiable before they are made available,</p>
+  <p>In contrast to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://usefulchem.wikispaces.com/">Open
+  Notebook Science</ext-link>, it is impossible to make the results of a
+  clinical trial publicly available before the trial is completed. The
+  statistical design of the clinical trial is based on the number of
+  patients needed to show a significant difference – looking at interim
+  data could influence patient recruitment. Double-blind designs (where
+  neither patient nor treating physician now which treatment arm the
+  patient is in) are based on the same principle.</p>
+  <p>In clinical research there is often more at stake than the
+  well-being of patients and the careers of the scientists involved.
+  <italic><italic>Pfizer</italic></italic> and
+  <italic><italic>Roche</italic></italic> last week each lost $1 billion
+  in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.marketwatch.com/story/abbott-pfizer-lead-drug-stocks-lower-2010-03-12">stock
+  market value</ext-link> after they both announced
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.pharmastrategyblog.com/2010/03/more-phase-iii-cancer-trials-flop-pfizer-sutent-and-roche-avastin.html">negative
+  results of large phase III cancer trials</ext-link>. Drug companies
+  therefore have a great interest in whether and when research findings
+  are published, and that includes the raw clinical data. The selective
+  publication of positive research findings is called
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://blogs.nature.com/mfenner/2009/11/18/publication-bias-in-clinical-trials">publication
+  bias</ext-link> and the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://blogs.nature.com/mfenner/2008/08/02/fdaaa-push-to-open-data-in-clinical-medicine">mandatory
+  reporting of clinical trial results in ClinicalTrials.gov</ext-link>
+  was introduced by the FDA to reduce publication bias.</p>
+</sec>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Online tools can help with doing clinical research and there is
+  probably a lot of untapped potential. From the perspective of an
+  individual researcher or a small research group, it probably makes the
+  most sense to develop and/or use tools that solve specific problems. I
+  use the online project management tool
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://basecamphq.com/">Basecamp</ext-link>
+  to coordinate one clinical research project. And I have created a
+  web-based
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://www.mh-hannover.de/studien/">clinical
+  trials registry</ext-link> for our university hospital. The internet
+  version of this registry helps patients and referring physicians to
+  find clinical trials at our institution. The intranet version helps us
+  manage our clinical trials, e.g. by keeping all required documents in
+  one place, keeping track of the patients registered in clinical
+  trials, and serious adverse event reporting. And I don't see why
+  clinical researchers can't adopt the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://pantonprinciples.org/">Panton
+  Principles</ext-link> – which endorse that data related to published
+  science should be explicitly placed in the public domain – whenever
+  possible.</p>
+</sec>
+<sec id="references">
+  <title>References</title>
+  <p><italic><italic>Hrynaszkiewicz et al</italic></italic>. Preparing
+  raw clinical data for publication: guidance for journal editors,
+  authors, and peer reviewers. <italic><italic>BMJ</italic></italic>
+  2010
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://dx.doi.org/10.1136/bmj.c181">https://doi.org/10.1136/bmj.c181</ext-link></p>
+  <p><italic><italic>Simmonds et al</italic></italic>. Meta-analysis of
+  individual patient data from randomized trials: a review of methods
+  used in practice. <italic><italic>Clin Trials</italic></italic> 2005
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611095611/http://dx.doi.org/10.1191/1740774505cn087oa">https://doi.org/10.1191/1740774505cn087oa</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

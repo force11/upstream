@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Recipe: Distributing papers for a journal
+club</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-08-08">
+<day>8</day>
+<month>8</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<sec id="problem">
+  <title>Problem</title>
+  <p>You want to distribute papers for a regular journal club in your
+  department.</p>
+</sec>
+<sec id="solution">
+  <title>Solution</title>
+  <p>Create a group for your journal club in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://www.friendfeed.com/">FriendFeed</ext-link>.
+  You can create a either a private group, where only group member can
+  read and post messages, or a public group that is open to everyone.
+  Then invite all regular participants of your journal club to
+  <italic><italic>FriendFeed</italic></italic> and make them join the
+  group.</p>
+  <p>Announce the papers that you want to discuss in the journal club
+  via a <italic><italic>FriendFeed</italic></italic> message. For this
+  go to the webpage for the paper you want to discuss (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://www.nature.com/nature/journal/v460/n7256/full/nature08237.html">this
+  paper</ext-link>) and then use the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://friendfeed.com/share/bookmarklet">FriendFeed
+  bookmarklet</ext-link> to announce the paper (and additional
+  information such as the date of the journal club) in the
+  <italic><italic>FriendFeed</italic></italic> group. If the copyright
+  of the paper allows this, you could also post the fulltext PDF of the
+  paper to the <italic><italic>FriendFeed</italic></italic> group.</p>
+  <p>Use <italic><italic>FriendFeed</italic></italic> comments to
+  capture the discussion about the paper in the journal club. The
+  comments can also contain links to other relevant papers and the
+  slides you may have prepaped for the journal club. This is helpful for
+  those unable to attend the journal club in person, or to look back at
+  the journal club a few months later.</p>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://network.nature.com/forums">Nature
+  Network forums</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://www.citeulike.org/">CiteULike</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://www.labmeeting.com/">Labmeeting</ext-link>
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://blogs.plos.org/mfenner/2009/08/08/recipe_distributing_papers_for_a_journal_club/http//www.basecamphq.com">Basecamp</ext-link>
+  (and probably some other tools) offer similar functionality, so use
+  the service you are most comfortable with. Of the tools mentioned,
+  <italic><italic>FriendFeed</italic></italic> for me is the easiest to
+  set up and use.</p>
+</sec>
+<sec id="discussion">
+  <title>Discussion</title>
+  <p>Email is not a good solution for regularly sending around large
+  files. And discussions among a larger group of people (i.e. all
+  members of a journal club) are difficult to follow via email.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://wave.google.com/">Google
+  Wave</ext-link> is a good alternative without these limitations, but
+  is not yet publicly available.</p>
+  <p>A
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://openwetware.org/wiki/Journal_Club">Wiki</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150922174148/http://blogs.nature.com/nature/journalclub/">blog</ext-link>
+  could also be used to organize a journal club, but requires a larger
+  effort to set up and maintain.</p>
+  <p>Many reference managers allow their users to create private groups
+  for sharing references. But in order to work as a tool for a journal
+  club, we also need messages/comments. Not only to discuss the paper,
+  but simply to provide the date and presenter for the journal club or
+  other organisational information. But I wouldn't be surprised if more
+  reference managers besides <italic><italic>CiteULike</italic></italic>
+  add these features in the future.</p>
+  <p>If all journal club papers should automatically be stored in a
+  reference manager, use either
+  <italic><italic>CiteULike</italic></italic> or put the papers for the
+  journal club first into the reference manager and then export them via
+  RSS feed into <italic><italic>FriendFeed</italic></italic>. This step
+  can be automated if you create a group/folder for the journal club in
+  your reference manager.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

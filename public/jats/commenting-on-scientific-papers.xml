@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Commenting on scientific papers</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-10-25">
+<day>25</day>
+<month>10</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>I think it is fair to say that commenting on scientific papers is
+broken. And with commenting I mean online comments that are publicly
+available, not informal discussions in journal clubs or at meetings.
+This definition would include discussions of papers on social media such
+as Twitter or Facebook. Why do I think that commenting is broken?</p>
+<list list-type="bullet">
+  <list-item>
+    <p>the number of papers with online comments is low. For PLOS
+    Biology we have comments on the journal platform for 11% of
+    articles, tweets for 14% of articles and Facebook activity for 22%
+    of articles (Fenner, 2013). The numbers for Twitter and Facebook are
+    much higher for more recently published articles, but are nowhere
+    close to every article having at least one comment.</p>
+  </list-item>
+  <list-item>
+    <p>even though there is a fair amount of social media activity
+    around articles, the quality of the discussion is varied. Twitter
+    for example seems to work mostly as an alerting service for
+    interesting articles with little more than the title of the article
+    in the tweet text and not much discussion.</p>
+  </list-item>
+  <list-item>
+    <p>when comments are made, they are really hard to find coming from
+    the article. Unless they are made on the journal platform, or the
+    publisher tracks article-level metrics and links out to these
+    comments.</p>
+  </list-item>
+</list>
+<p>What can be done to address these issues, i.e. increase the number of
+comments, increase the depth of the discussion, and make it easier to
+link comments to articles? Some of the thoughts that I and others have
+had include the following:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>lower the technical barriers for commenting by providing a common
+    and familiar commenting platform with an attractive user interface.
+    Many blogs (including this one) and
+    <ext-link ext-link-type="uri" xlink:href="http://elife.elifesciences.org/">some
+    publishers</ext-link> use Disqus, which is arguably the most popular
+    third-party commenting platform.</p>
+  </list-item>
+  <list-item>
+    <p>develop new features that make commenting more attractive,
+    including comments linked to specific sections of the text and notes
+    that can be public, semi-public or private. See for example
+    <ext-link ext-link-type="uri" xlink:href="https://medium.com/about/5972c72b18f2">what
+    Medium is doing</ext-link>, check out
+    <ext-link ext-link-type="uri" xlink:href="http://hypothes.is/">Hypothes.is</ext-link>
+    and
+    <ext-link ext-link-type="uri" xlink:href="http://blog.peerj.com/post/62886292466/peerj-questions-a-new-way-to-never-publish-forget">PeerJ
+    Questions</ext-link>, or study what services such as
+    <ext-link ext-link-type="uri" xlink:href="http://stackoverflow.com/">Stackoverflow</ext-link>
+    are doing.</p>
+  </list-item>
+  <list-item>
+    <p>Link comments made in different places about the same object
+    together, e.g. through Article-Level Metrics services.</p>
+  </list-item>
+  <list-item>
+    <p>create incentives for scientists to comment, e.g. through
+    <ext-link ext-link-type="uri" xlink:href="http://openbadges.org/">Mozilla
+    Open Badges</ext-link> or by making them part of a community.</p>
+  </list-item>
+</list>
+<p>On Tuesday the US National Library of Medicine launched
+<ext-link ext-link-type="uri" xlink:href="http://ncbiinsights.ncbi.nlm.nih.gov/2013/10/22/pubmed-commons-a-new-forum-for-scientific-discourse/">PubMed
+Commons</ext-link> as a <italic>New Forum for Scientific
+Discourse</italic>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>We hope that PubMed Commons will leverage the social power of the
+    internet to encourage constructive criticism and high quality
+    discussions of scientific issues that will both enhance
+    understanding and provide new avenues of collaboration within the
+    community.</p>
+  </disp-quote>
+</p>
+<p>PubMed Commons is still a pilot project and in order to read or write
+comments you have to be a PubMed Commons participant and be signed in
+with your My NCBI account. PubMed Commons has some important
+features:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>PubMed is probably the place where most life sciences researchers
+    search for literature. Having comments and discussion there makes
+    perfect sense, and is probably a better place than a publisher
+    platform that only targets particular journals. PubMed also has a
+    reputation that is very different from social media tools that are
+    popular, but not really familiar to most scientists.</p>
+  </list-item>
+  <list-item>
+    <p>Access to PubMed Commons is restricted to researchers, and this
+    is one strategy to have the comments focus on scientific discourse.
+    It has to be seen whether the process of registering for PubMed
+    Commons (which currently is a bit more involved than most commenting
+    systems) is a barrier for scientists to take part in the discussion,
+    or whether it generates an audience that makes it more likely that
+    scientists contribute.</p>
+  </list-item>
+  <list-item>
+    <p>For people signing in with their My NCBI account (I don’t know
+    the percentage of PubMed users that do that on a regular basis),
+    commenting is really easy and the interface is straightforward. The
+    comment editor uses markdown, which makes it easy to format comments
+    and to include links.</p>
+  </list-item>
+</list>
+<p><italic>10/26/13: added link to the recently launched
+<ext-link ext-link-type="uri" xlink:href="http://blog.peerj.com/post/62886292466/peerj-questions-a-new-way-to-never-publish-forget">PeerJ
+Questions</ext-link> which uses a question and answer format (thanks to
+Jason Hoyt for reminding me).</italic></p>
+<sec id="references">
+  <title>References</title>
+  <p>Fenner, M. (2013). What can article-level metrics do for you?
+  <italic>PLoS Biol</italic>, <italic>11</italic>(10), e1001687.
+  <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1371/journal.pbio.1001687">doi:10.1371/journal.pbio.1001687</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

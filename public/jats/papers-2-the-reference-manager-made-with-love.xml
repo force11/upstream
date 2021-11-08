@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Papers 2: the reference manager made with
+love</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-03-08">
+<day>8</day>
+<month>3</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>The reference management software
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525044214/http://www.mekentosj.com/papers/">Papers</ext-link>
+has been a regular topic on this blog. I wrote about Papers in one of my
+first blog posts in May 2008,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525044214/http://blogs.plos.org/mfenner/2008/10/03/interview_with_alexander_griekspoor/">interviewed</ext-link>
+main developer Alex Griekspoor in October 2008, and held a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525044214/http://blogs.plos.org/mfenner/2009/02/19/papers_for_iphone_released_time_for_more_poetry/">poetry
+contest</ext-link> when Papers for iPhone was released in February 2009
+(Stephen Curry won the first price for
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525044214/http://blogs.plos.org/mfenner/2009/02/19/papers_for_iphone_released_time_for_more_poetry/#comment-898">this
+poem</ext-link>).</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120525044214im_/http://blogs.plos.org/mfenner/files/2011/03/Papers-2c.jpg" xlink:title="Papers 2c" />
+</fig>
+<p>Today Papers 2
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525044214/http://news.mekentosj.com/">was
+released</ext-link>, and with this major update Papers has grown into a
+full-fledged reference manager for the Macintosh (there is no Windows or
+Linux version). Papers 1 was released in 2007 as a tool to manage the
+PDF files of scholarly papers on your hard drive. Papers 1 did this job
+very well, but it was not a reference manager in the strict sense,
+because you couldn’t use Papers to insert citations into the manuscripts
+you were writing.</p>
+<p>In order to add this feature, Papers first had to be completely
+rewritten to not only handle journal articles and the associated PDF
+files, but also all the other common reference formats – conference
+proceeding, book chapter, website, etc. A nice side effect that I
+haven’t fully explored yet is that Papers can now also store all your
+Powerpoint or Keynote presentations (but fulltext search in these
+presentations doesn’t seem to work yet).</p>
+<p>Inserting references into manuscripts is done using a floating window
+activated from the menu bar or with a shortcut:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120525044214im_/http://blogs.plos.org/mfenner/files/2011/03/papers2-500x475.jpg" xlink:title="papers2" />
+</fig>
+<p>This feature works similar to the plugins used by Endnote, Mendeley,
+Zotero, etc., but in typical Papers fashion the implementation is much
+nicer. The plugin is available to all applications, e.g. other word
+processors besides Microsoft Word, your blogging software or your email
+program.</p>
+<p>The other big limitation of Papers 1 wasn’t so obvious when Papers
+originally launched in 2007. But today most major reference managers
+allow users to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525044214/http://blogs.plos.org/mfenner/reference-manager-overview/">share
+their references</ext-link> in private and/or public groups, as most
+research is done in groups and most manuscripts are written by multiple
+authors.</p>
+<p>The sharing feature of Papers 2 is called
+<bold><bold>Livfe</bold></bold>. It is not as complete as the sharing
+features of some other reference managers (e.g. CiteULike or Mendeley).
+It is for example not yet possible to upload a complete Papers library
+to Livfe. And Livfe doesn’t have a web interface, but only works through
+Papers.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120525044214im_/http://blogs.plos.org/mfenner/files/2011/03/Papers-2a-500x243.jpg" xlink:title="Papers 2a" />
+</fig>
+<p>The difference between Papers 2 and other reference managers is not
+so much the feature set. What sets Papers really apart is the love that
+went into the design of the program. Papers doesn’t just get the job
+done, it allows you to have fun searching for references or reading –
+and now also writing – a paper. This makes Papers 2 a strong competitor
+against some of the other established programs that for example have
+more than 25 years of experience with reference management (Endnote),
+think that reference management should be done as Open Source software
+(Zotero), do everything in the browser (Refworks), or see reference
+management primarily as a social application (Mendeley).</p>
+</body>
+<back>
+</back>
+</article>

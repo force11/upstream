@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Two reviews of new reference manager
+ReadCube</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-10-11">
+<day>11</day>
+<month>10</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120610121628im_/http://blogs.plos.org/mfenner/files/2011/10/readcube3.jpeg" xlink:title="readcube3" />
+</fig>
+<p>Today,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121628/http://www.digital-science.com/">Digital
+Science</ext-link> announced an investment in startup
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121628/http://www.labtiva.com/">Labtiva</ext-link>.
+And Labtiva released a “community preview” of their reference manager
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121628/http://www.readcube.com/">ReadCube</ext-link>.
+The community preview is a free download for Windows and Mac, and this
+is the summary of my first impressions.</p>
+<p>You could write two different reviews about ReadCube. The first
+version would mention the really slick interface, and the fun you have
+using the program. ReadCube is doing a good job importing the PDFs on
+your hard drive and adding bibliographic information to them. In
+addition to PDF import you can also search PubMed and Google Scholar.
+ReadCube helps you find related papers by listing the references and
+citing papers of the paper you imported. ReaderCube also gives
+recommendations based on the papers in your library.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120610121628im_/http://blogs.plos.org/mfenner/files/2011/10/readcube1-500x276.jpg" xlink:title="readcube" />
+</fig>
+<p>ReadCube includes an integrated PDF viewer that also allows text
+highlighting and note taking.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120610121628im_/http://blogs.plos.org/mfenner/files/2011/10/readcube-500x275.jpg" xlink:title="readcube" />
+</fig>
+<p>The community preview is free, so please download ReadCube to find
+out whether you like it.</p>
+<p>The second review would take a different approach. It would ask what
+problem ReadCube tries to solve, and why researchers should start using
+ReadCube rather than the tools they already use, maybe for many years.
+ReadCube is a reference manager with a particular focus on organizing
+the PDFs of scholarly papers. There a number of programs out there that
+can do the same.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121628/http://www.mekentosj.com/papers/">Papers</ext-link>
+for Macintosh for example is a very similar program, but the first
+version of it has been released four years ago. Even more traditional
+reference managers now include inline PDF readers with annotation
+support, including the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121628/http://www.endnote.com/enx5info.asp">latest
+version of Endnote</ext-link>. Mendeley and Zotero are two other
+alternatives, and they are both free and available for Windows, Mac and
+Linux. It’s difficult to see what is unique in ReadCube, and on the
+other hand some important features are missing (e.g. no bookmarklet to
+import from other sources, no reference type other than journal
+articles, no group sharing feature, no integration with Microsoft Word).
+And ReadCube is based on Adobe Air, a cross-platform development
+environment that you either love or hate.</p>
+<p>It will be interesting to watch what direction ReadCube development
+will take. They started a few years later than their competitors, and it
+will be a lot of work to catch up. I wish the Labtiva team good
+luck.</p>
+</body>
+<back>
+</back>
+</article>

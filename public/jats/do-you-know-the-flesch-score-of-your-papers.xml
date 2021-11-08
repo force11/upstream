@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Do you know the Flesch score of your
+papers?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-10-14">
+<day>14</day>
+<month>10</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>We just had a very interesting discussion in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630154317/http://network.nature.com/forums/askthenatureeditor/567">Ask
+the Nature Editor</ext-link> Forum about scientific writing. Most people
+agreed that the quality of the writing in the end doesn't really
+influence the decision to accept or reject a paper. But good writing,
+especially in the first paragraph, certainly helps.</p>
+<p>But what is good scientific writing? Two weeks ago I suggested a few
+good books on the subject in a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630154317/http://network.nature.com/blogs/user/mfenner/2007/09/30/books-about-scientific-writing">blog
+post</ext-link>. Once you have written the paper using the advice in
+these books, you can use a number of tools to measure the readability of
+your paper.</p>
+<p><italic><italic>Flesch Reading Ease Score</italic></italic>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>206.835 - 1.015 x ASL - 84.6 x ASW</p>
+  </disp-quote>
+</p>
+<p>ASL is average sentence length and ASW is average number of syllables
+per word. The Flesch Reading Ease Score can be between 0 and 100, 100
+being the most difficult.</p>
+<p>The <italic><italic>Flesch-Kincaid Grade Level Test</italic></italic>
+is similar, but rates the text on a U.S. school grade level. Both Flesch
+scores are built into recent versions of Microsoft Word or you could use
+the Open Source application
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630154317/http://flesh.sourceforge.net/">Flesh</ext-link>.
+Flesh is much easier to use than the Microsoft Word tool and will also
+open PDF files. Try to rewrite your manuscript if your Flesch Reading
+Ease Score is too low, e.g. below 30.</p>
+<p>Readability is important not only for manuscripts. Informed consent
+forms for patients wishing to participate in clinical trials in Medicine
+are often
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630154317/http://content.nejm.org/cgi/content/abstract/348/8/721">difficult
+to read</ext-link>. And a perspective article by Celeste Condit in the
+current <italic><italic>Nature Reviews Genetics</italic></italic> talks
+about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630154317/http://www.nature.com/nrg/journal/v8/n10/abs/nrg2201.html">How
+geneticists can help reporters to get their story right</ext-link>. She
+points out the importance of readability to communicate often highly
+technical material to lay people.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>German Research Foundation says that numbers aren’t
+everything</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-03-01">
+<day>1</day>
+<month>3</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last Tuesday the <italic><italic>German Research
+Foundation</italic></italic> (DFG)
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://www.dfg.de/en/service/press/press_releases/2010/pressemitteilung_nr_07/index.html">announced</ext-link>
+changes to the grant application process, going in effect in July.
+Researchers are no longer allowed to list all their publications in
+their grant proposals. The number of publications is limited to five per
+researcher and to two per year of planned funding (e.g. 6 papers for a
+3-year grant). Publications submitted but not yet accepted for
+publication will no longer be allowed.</p>
+<fig>
+  <caption><p>Flickr image by CarbonNYC.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611102053im_/http://farm1.static.flickr.com/37/76463757_24a1858d2e_m_d.jpg" xlink:title="" />
+</fig>
+<p>Some of the reasoning behind this change was explained in the press
+conference where the policy change was announced. The DFG wants to put
+more emphasis on quality instead of quantity, in other words counteract
+the trend to publish several small pieces of incremental research
+findings (the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://scienceblogs.com/drugmonkey/2009/01/repost_thoughts_on_the_least_p.php">least
+publishable unit</ext-link> or <italic><italic>LPU</italic></italic>).
+The DFG didn't say so, but this might also reduce the practice of
+“honorary coauthorship” with some researchers being coauthors of 20 or
+even 50 papers per year. And the DFG is not happy with the increasing
+use of the Journal Impact Factor and other metrics as a token measure
+for the quality of research output. And as a reaction to problems with
+publication lists in
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://www.spiegel.de/unispiegel/studium/0,1518,622474,00.html">G&amp;Atilde;¶ttingen</ext-link>
+they want to stop the practice of including unpublished work in
+reference lists for grant applications.</p>
+<p>These changes will decrease the administrative workload of the
+applicant, reviewer and the DFG. With much shorter reference lists in
+grant applications, reviewers will have it much easier to take a closer
+look at the research output of the applicant, instead of relying on an
+unfortunate proxy such as the <italic><italic>Journal Impact
+Factor</italic></italic>. Researchers seeking funding from the DFG will
+now probably be more likely to write fewer but more substantial papers.
+And research that doesn't have the potential for a substantial paper,
+but is nevertheless worth publishing, can be quickly published in a
+reasonable journal instead of going through several rounds of
+submissions to a number of journals.</p>
+<p>But how do you select your five best publications (assuming you have
+written more than five)? Choices include:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>publication date, e.g. a list of the five most recent
+    publications</p>
+  </list-item>
+  <list-item>
+    <p>Journal Impact Factor</p>
+  </list-item>
+  <list-item>
+    <p>citation counts, page views, downloads or other article-level
+    metrics</p>
+  </list-item>
+  <list-item>
+    <p>personal preference</p>
+  </list-item>
+</list>
+<p>Using my personal preference (and not too much thought), I picked
+four papers and one correspondence:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><italic><italic>Shioda T, Fenner MH, Isselbacher
+    KJ</italic></italic> Msg1, a novel melanocyte-specific gene, encodes
+    a nuclear protein and is associated with pigmentation.
+    <italic><italic>PNAS</italic></italic> 1996
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC37985/?tool=pubmed">PubMed
+    Central</ext-link>
+    The first paper from my postdoctoral research project. We identified
+    and cloned a new gene thought to be involved in cancer metastasis,
+    using a technology called differential display to compare the gene
+    expression profile of two melanoma cell lines. This was before the
+    mouse and human genomes were sequenced, and before microarrays
+    became available. What took us two years of work 15 years ago can
+    now probably be done in a few weeks.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Sado T, Fenner MH, Tan SS Tam P, Shioda T, Li
+    E</italic></italic> X Inactivation in the Mouse Embryo Deficient for
+    Dnmt1: Distinct Effect of Hypomethylation on Imprinted and Random X
+    Inactivation. <italic><italic>Dev Biol</italic></italic> 2000
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://dx.doi.org/10.1006/dbio.2000.9823">doi:10.1006/dbio.2000.9823</ext-link>
+    I spent most of my time as a post-doc generating a knockout mouse
+    for the gene identified in the previous paper. As the knockout mouse
+    had no obvious phenotype, it took another post-doc (the first
+    author) to finish the project.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Krege S et al.</italic></italic> European
+    consensus conference on diagnosis and treatment of germ cell cancer:
+    a report of the second meeting of the European Germ Cell Cancer
+    Consensus group (EGCCCG): part I. <italic><italic>Eur
+    Urol</italic></italic> 2008
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://dx.doi.org/10.1016/j.eururo.2007.12.024">doi:10.1016/j.eururo.2007.12.024</ext-link>
+    This paper summarizes the conclusions of a consensus conference on
+    the diagnosis and treatment of testicular cancer, and is the best
+    review on the subject. I am one of over 80 coauthors, something I
+    haven't done before or since. The journal published this as two
+    papers because of length. This would have been a perfect paper for
+    an Open Access journal, I hope I can convince the coauthors to do so
+    when we update this in 2011.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Fenner MH, Beutel G, Gruenwald
+    V.</italic></italic> Targeted therapies for patients with germ cell
+    tumors. <italic><italic>Expert Opin Investig Drugs</italic></italic>
+    2008
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://dx.doi.org/10.1517/13543784.17.4.511">doi:10.1517/13543784.17.4.511</ext-link>
+    Testicular cancer is one of the few chemotherapy success stories, as
+    most patients with advanced metastatic disease can be cured.
+    Targeted therapies have become important treatment options in many
+    cancers. This is the first review to look at the evidence for the
+    use of targeted therapies in testicular cancer.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Fenner MH.</italic></italic> Duplication: stop
+    favouring applicant with longest list.
+    <italic><italic>Nature</italic></italic> 2008
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://dx.doi.org/10.1038/452029a">doi:10.1038/452029a</ext-link>
+    This is a <italic><italic>Nature</italic></italic> correspondence,
+    included here only to show that comments made in a Nature Network
+    forum can end up in <italic><italic>Nature</italic></italic>. And
+    because it is relevant to this blog post, as I suggested to
+    <italic><italic>ask applicants to select their best three, five or
+    ten papers</italic></italic> instead of giving grants or jobs to
+    those with the longest publication list.</p>
+  </list-item>
+</list>
+<p>The Wellcome Trust last year
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://www.wellcome.ac.uk/Funding/investigator-awards/Implementation/index.htm">announced</ext-link>
+a different change to they grant application process. Starting later
+this year, they will stop accepting proposals for project grants, and
+rather evaluate the reaseach output of the scientist asking for funding
+(<italic><italic>Investigator Awards</italic></italic>). They argue that
+researchers that alrady have shown excellence in the past shoudn't be
+burdened with the administrative overhead and restrictions of writing a
+detailed project proposal every three years.</p>
+<p>It will be interesting to see how institutions and other research
+funders in Germany (e.g.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://www.helmholtz.de/en/">Helmholtz</ext-link>
+or
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://www.wgl.de/">Leibniz</ext-link>)
+or elsewhere react to this DFG policy change. I would be happy if this
+is a step towards more reasonable publication policies. And I hope that
+the upcoming unique author identifier
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102053/http://www.orcid.org/">ORCID</ext-link>
+will not be used for even more complicated bibliometric calculations,
+but rather as a tool for researchers to showcase their most interesting
+work.</p>
+</body>
+<back>
+</back>
+</article>

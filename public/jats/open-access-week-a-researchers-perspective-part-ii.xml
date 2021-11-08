@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Open Access Week: a researcher’s perspective part
+II</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-10-23">
+<day>23</day>
+<month>10</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This week (October 19-23) is
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://www.openaccessweek.org/">Open
+Access Week</ext-link> – a good opportunity to think and write about
+this topic. On Monday I wrote in a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://network.nature.com/people/mfenner/blog/2009/10/18/open-access-week-a-researchers-perspective">blog
+post</ext-link>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>Open Access can be looked at from many different angles,
+    including the researcher, the science library, the institution, the
+    funding organization, the journal, the science journalist, and the
+    general public. Most arguments for or against Open Access depend on
+    that angle. As a researcher, I am most interested in whether Open
+    Access will make my work easier. Again, a researcher can look at
+    Open Access from different roles: reader, author, reviewer,
+    editor.</p>
+  </disp-quote>
+</p>
+<p>In that blog post I then wrote about the role of the researcher as a
+reader. Now I want to look at the perspective of the researcher as an
+author.</p>
+<sec id="choice-of-journal">
+  <title>Choice of journal</title>
+  <p>The decision of where to publish a manuscript for most researchers
+  probably works something like “find the best journal where I can
+  publish my work with the least amount of trouble”.
+  <italic><italic>Best journal</italic></italic> usually is a subjective
+  decision, but probably correlates with the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://thomsonreuters.com/products_services/science/free/essays/impact_factor/">Impact
+  Factor</ext-link> of a journal. As the average quality of manuscripts
+  is higher in a <italic><italic>better journal</italic></italic>, this
+  will help to value your research in the eyes of granting agencies and
+  job search committees. <italic><italic>Better
+  journal</italic></italic> often means higher rejection rates and/or
+  higher numbers of readers. Both factors – and journals that publish a
+  relatively small number of papers – favor a subscription business
+  model<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://blogs.plos.org/mfenner/2009/10/23/open_access_week_a_researchers_perspective_part_ii/#fn1">1</ext-link></sup>.</p>
+</sec>
+<sec id="publication-cost">
+  <title>Publication cost</title>
+  <p>Most Open Access journals use an author-pays model to pay for
+  publication costs. Funding agencies or institutions may pick up these
+  costs, but authors may be left with costs of $2500 or more.</p>
+</sec>
+<sec id="institutional-repositories">
+  <title>Institutional Repositories</title>
+  <p>Self-archiving in institutional repositories (green access) is a
+  great way to make your publication freely available if the paper is
+  published in a journal that is not Open Access. Unfortunately this
+  often requires extra efforts by the researcher, and the publication
+  will be more difficult to find in the repository than in the journal.
+  This creates little incentive for a researcher to get involved in
+  self-archiving.</p>
+</sec>
+<sec id="citation-advantage">
+  <title>Citation advantage</title>
+  <p>The effect of free access to the scientific literature on article
+  downloads and citations is difficult to measure.
+  Some<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://blogs.plos.org/mfenner/2009/10/23/open_access_week_a_researchers_perspective_part_ii/#fn2">2</ext-link></sup>,
+  but not all
+  studies<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://blogs.plos.org/mfenner/2009/10/23/open_access_week_a_researchers_perspective_part_ii/#fn3">3</ext-link></sup>
+  show higher citation rates for articles that are freely available and
+  this citation advantage might be
+  modest<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://blogs.plos.org/mfenner/2009/10/23/open_access_week_a_researchers_perspective_part_ii/#fn4">4</ext-link></sup>.
+  Citations are generated by other researchers who have access to your
+  paper, and therefore I'm not surprised if there is not much of a
+  difference between papers in Open Access journals and popular journals
+  that are subscribed my many institutions.</p>
+</sec>
+<sec id="better-access">
+  <title>Better Access</title>
+  <p>Researchers in poorer countries will have easier access to papers
+  published in Open Access journals, although many subscription journals
+  wave access fees through initiatives such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611105548/http://www.who.int/hinari/en/">Hinari</ext-link>.
+  Open Access makes it easier for journalists, high school students,
+  patient advocacy groups and many more people to read your papers. This
+  is obviously of great value to these groups, but I haven't seen many
+  examples where the paper author directly benefitted from this.</p>
+</sec>
+<sec id="social-responsibility">
+  <title>Social responsibility</title>
+  <p>The argument that publicly funded research should be available to
+  everybody at time of publication can be a motivation for many
+  scientists, but I would be careful to turn this into an obligation.
+  Different countries have different traditions, but in my home country
+  Germany the independence of research and researchers (including the
+  decision where to publish) has become a constitutional right after the
+  atrocities committed in the name of “science” in Nazi Germany. All
+  major German research organizations support Open Access, but in
+  contrast to other countries there is no Open Access mandate.</p>
+</sec>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Publishing in an Open Access journal has surprisingly little
+  benefits for the author of a paper, and often means additional costs.
+  Unless we want to mandate Open Access publishing from authors because
+  it benefits the other stakeholders (which at least in Germany would be
+  difficult), we should make publishing in an Open Access journal more
+  attractive to authors. It looks like PLoS ONE is doing exactly that,
+  as 400 manuscripts published per month testify.</p>
+</sec>
+<sec id="references">
+  <title>References</title>
+  <p>Science in the open. (2009). Nature Materials, 8(8), 611–611.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nmat2497">https://doi.org/10.1038/nmat2497</ext-link></p>
+  <p>Eysenbach, G. (2006). Citation Advantage of Open Access Articles.
+  PLoS Biology, 4(5), e157.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pbio.0040157">https://doi.org/10.1371/journal.pbio.0040157</ext-link></p>
+  <p>Davis, P. M., Lewenstein, B. V., Simon, D. H., Booth, J. G., &amp;
+  Connolly, M. J. L. (2008). Open access publishing, article downloads,
+  and citations: randomised controlled trial. BMJ, 337(jul31 1),
+  a568–a568.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.a568">https://doi.org/10.1136/bmj.a568</ext-link></p>
+  <p>Evans, J. A., &amp; Reimer, J. (2009). Open Access and Global
+  Participation in Science. Science, 323(5917), 1025–1025.
+  https://doi.org/10.1126/science.1154562</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

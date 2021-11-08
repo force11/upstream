@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>The Value of Peer Review</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-07-13">
+<day>13</day>
+<month>7</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This weekend I was at
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161107033419/http://www.nature.com/scifoo/everything.html">SciFoo</ext-link>,
+an invitation-only unconference by <italic>O'Reilly Media</italic>,
+<italic>Nature</italic> and <italic>Google</italic> that took place at
+Google. I was fortunate to be invited, and I'm still digesting all the
+impressions and discussions that I had (there were
+<italic>many</italic>). This post is the indirect result of two sessions
+and several related discussions on one particular topic that I'm most
+interested in – the process of scientific publication.</p>
+<p>Peer review
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161107033419/http://www.nature.com/nature/peerreview/debate/index.html">is
+usually seen as essential</ext-link> for the quality of a published
+paper. At the same time peer review puts a large burden of work on the
+research community, and in general is unpaid work. But peer review is
+not living up to its full potential. We should start to see it not as a
+necessary, costly and time-consuming burden, but rather as a business
+opportunity. But for this the information communicated in the peer
+review process needs to leave the (digital) drawers of the journal
+editorial offices.</p>
+<p>The published research paper is the most important piece of
+information used to evaluate the reputation of a scientist (the
+published book takes that role in many social sciences). This evaluation
+is most important when large sums of money and the personal careers of
+the involved scientists (in the form of research grants and jobs) depend
+on it. We usually begin with applying some sort of metrics to the
+publications of the scientist(s) under evaluation, most often the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161107033419/http://thomsonreuters.com/products_services/science/free/essays/">Journal
+Impact Factor</ext-link>. Once we have reduced the number of scientists
+and papers to a small enough number, we can start reading the full-text
+papers in order to evaluate the quality of the science. Both approaches
+have shortcomings that I don't want to go into detail here (citation
+metric: artificial number, delay of several years if relying on citation
+counts; reading full-text paper: time constraints, often needs outside
+experts as science has become so specialized). The information contained
+in the peer review process is a large untapped resource that could
+potentially overcome many of these shortcomings.</p>
+<p>The typical revenue streams of a scientific journal are currently
+subscriptions and author submission fees, and to a lesser extend
+advertising and subscription-based added value in the form of news items
+and editorials. The information contained in the peer review process is
+extremely valuable to granting agencies and job search committees and
+has the potential to become an additional major revenue source for
+scientific journals, thus allowing a reduction in author submission fees
+and/or free full-text access without a subscription. Many research
+organizations and funding agencies currently pay for journal
+subscriptions and author submission fees. If they would pay the journal
+publishers similar amounts of money for peer review information, they
+would obviously get much more value out of their money. Whereas this
+revenue would probably come mainly from granting agencies, large
+research organizations or companies would also pay for this information,
+as would the typical academic journal reader (obviously a much smaller
+sum) if it helps in filtering out the most relevant scientific
+papers.</p>
+<p>The peer review process obviously would have to change in this model.
+If peer review becomes a major source of revenue for the journals,
+reviewers need to get paid for their efforts. And it will affect of what
+reviewers and editors write in their assessment if that information
+might later be seen by third parties – even if they remain anonymous. It
+is also not clear if the peer review information of rejected papers
+should be used (a large body of information at journals with high
+rejection rates). And if journal publishers don't buy in that model of
+selling peer review information, nobody stops other parties from doing
+additional peer review of papers already published and selling that
+information. Which sounds pretty much like what
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161107033419/http://www.f1000biology.com/">Faculty
+of 1000</ext-link> is doing, although they seem to be targeting the
+academic journal reader rather than the much more important funding
+agencies.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Are names important?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-02-17">
+<day>17</day>
+<month>2</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>A Nature News article last week talked about the confusion that
+happens if a number of authors have the same or similar names
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://www.nature.com/news/2008/080213/full/451766a.html">Scientific
+publishing: Identity crisis</ext-link>). This is apparently a special
+issue in China because of the difficulties transliterating Chinese
+characters into English and the use of only a limited number of
+surnames. The Nature Nanotechnology – Asia Pacific and Beyond Forum has
+a discussion about this topic
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://network.nature.com/forums/nnano/939">What's
+in an Asian name?</ext-link>).</p>
+<p>The difficulties for German authors are much smaller, and this is
+probably true for other European languages. We do have a fair number of
+surnames, but umlauts in our names (e.g. in the very popular last name
+Müller) are frequently lost. As
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://network.nature.com/profile/cesarsanchez">Cesar
+Sanchez</ext-link> pointed out in the Nature Nanotechnology discussion
+mentioned above, Pubmed started using diacritics, including umlauts,
+last year
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://www.nlm.nih.gov/pubs/techbull/nd07/nd07_diacritics.html">Diacritics
+in PubMed Displays and Searching</ext-link>). And the American Physical
+Society started to allow Chinese, Japanese and Korean authors to use
+names in their own language
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://pra.aps.org/PhysRevLett.99.230001">Editorial:
+Which Wei Wang?</ext-link>).</p>
+<p>But the problem is the same. There are at least 6 different
+<italic><italic>M. Fenner</italic></italic> in the MEDLINE database, one
+of them my cousin. Using the middle initial can help. I try to publish
+as <italic><italic>MH Fenner</italic></italic>, and very smart people
+will figure out that papers written by <italic><italic>H
+Fenner</italic></italic> are from my father. And what happens when you
+marry? My wife and I have different last names (which is uncommon in
+Germany) and one small reason was the scientific track record (including
+publications) connected to this name. Some of the other issues are
+nicely summarized in a PLOS post by Richard Cave
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://www.plos.org/cms/node/133">Unique
+Author Identification</ext-link>, thanks Cesar Sanchez).</p>
+<p>The solution? We need unique identifiers for authors. I recently
+wrote about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://network.nature.com/blogs/user/mfenner/2008/01/21/thomson-scientific-launches-researcherid-to-uniquely-identify-authors">ResearcherID</ext-link>,
+one such effort announced this January by Thomson Scientific. The
+problem with ResearcherID is that author identity is a very sensitive
+issue and many people will be reluctant to rely on a private company for
+that. Elsevier is doing something similar in their Scopus database
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://info.scopus.com/etc/authoridentifier/">The
+Scopus Author Identifier</ext-link>).</p>
+<p>Author identifiers should really come from a neutral organization
+such as CrossRef (a publishing organization that brought us the DOI to
+uniquely identify a scientific paper). They held a meeting with various
+interested parties in February 2007
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://www.crossref.org/CrossTech/2007/02/crossref_author_id_meeting.html">CrossRef
+Author ID meeting</ext-link>). Because of the number of parties involved
+and the different issues, this is a very slow process. And what is the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110744/http://www.nlm.nih.gov/">U.S.
+Library of Medicine</ext-link> doing on this issue? After all, they
+publish MEDLINE, the most important database of biomedical research.</p>
+</body>
+<back>
+</back>
+</article>

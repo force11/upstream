@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>German Genetics Society Meeting 2009: Session Cellular
+Genetic Mechanisms</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-09-22">
+<day>22</day>
+<month>9</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><italic><italic>Another guest post by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032931/http://network.nature.com/people/alexander-knoll/profile">Alex
+Knoll</ext-link> reporting from the German Genetics Society Meeting in
+Cologne.</italic></italic></p>
+<p>Both sessions had some interesting talks, so it was really hard to
+decide between attending Cellular Genetic Mechanisms or Human Genetics,
+but in the end I went to the former.</p>
+<p>The first talk by Marina Rodnina from the Max Planck Institute for
+Biophysical Chemistry is not easy to put into words. Not because of a
+bad presentation, I should add! Her work on biochemical properties of
+translation involves kinetic data of a row of proteins involved in the
+phases of translation: initiation, elongation, termination and ribosome
+recycling.</p>
+<p>I'll give you a short summary of the initiation of translation in
+bacteria: First the 30S subunit of the ribosome binds a mRNA and the
+initiator tRNA with the help of effector proteins to form the 30S
+initiation complex. The 50S subunit then binds to that to form the 70S
+initiation complex. By fluorescently labelling all of the components of
+the complex, they were able to measure the rate constants (how do they
+bind and dissociate from the ribosome) and then calculate the binding
+rates to find the order of binding. This is hardest to establish for the
+mRNA, because of control elements like the composition of the
+Shine-Dalgarno sequence or secondary structures. But ignoring all of
+these elements, the most significant factor at this step is the mRNA
+concentration. Looking at secondary structure, the unfolding of the mRNA
+is the slow step after a quick binding. This represents a kind of
+stability switch to enable correct start codon recognition. Not only
+during initiation, but also for elongation Marina Rodnina's lab could
+show that a lot of checks are kinetic in nature. Essentially, this can
+be summarized by the concept of induced fit: correct substrates are
+selectively stabilized by accelerating their forward steps.</p>
+<p>Following was a short presentation by Matthias Schäfer on unpublished
+research. At the ETH Zürich in Switzerland, he is looking into the
+molecular role of protection against reactive oxygen species (ROS) in
+the epidermis.</p>
+<p>Aria Baniahmad fom the Jena University Hospital, Germany, talked
+about an interesting connection of telomerase activity and androgens in
+prostate cancer. There, telomerase is usually active, as in many cancers
+to allow the cancer cell to divide indefinitely. Androgens repress
+telomerase activity, which is probably one reason why prostate cancer
+occurs later in life, when androgen levels decrease in men.</p>
+<p>The decrease of telomerase activity is based on binding of the
+androgen receptor to the promoter of the catalytic telomerase subunit
+hTERT. In many prostate cancers, an androgen receptor with a specific
+point mutation can be found. This mutated AR's binding to the telomerase
+promoter is weaker, which results in increased telomerase
+expression.</p>
+<p>The session was closed with a talk by Thorsten Hoppe from the
+Institute for Genetics of Köln University, who presented intruiging, but
+unpublished data about his research on ubiquitin and ageing in
+<italic><italic>C. elegans</italic></italic>.</p>
+</body>
+<back>
+</back>
+</article>

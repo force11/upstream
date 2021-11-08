@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Books about scientific writing</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-09-30">
+<day>30</day>
+<month>9</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last weekend I visited my brother-in-law in Cambridge (UK). In the
+Cambridge University Press bookstore I found the wonderful little book
+<italic><italic>How to Write and Illustrate a Scientific
+Paper</italic></italic> by Björn Gustavii
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101312/http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521823234">Cambridge
+University Press 2003</ext-link>). On less than 150 pages B. Gustavii
+gives a good summary of the typical problems and their solutions. He
+encourages the reader to avoid unnecessary verbosity, use the active
+voice more often, draw less complicated charts and to be very careful
+with statistics.</p>
+<p>A few years ago I bought an old copy of <italic><italic>Scientific
+Writing</italic></italic> by Lester S. King and Charles G. Roland
+(Journal of the American Medical Association 1968). King and Roland
+encourage the reader to avoid unnecessary verbosity and use the active
+voice more often (they don't talk much about graphs and statistics).
+Scientific writing seemed to have almost the same problems 40 years ago.
+This raises two interesting questions:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Could the writing of the average scientific paper be improved and
+    are we in need of these books?</p>
+  </list-item>
+  <list-item>
+    <p>Does the quality of the writing help in getting a paper accepted?
+    In other words, should I make the effort and improve my writing
+    skills or should I rather do experiments?</p>
+  </list-item>
+</list>
+<p>Journal editors can probably better answer these questions. My guess
+would be that most people would answer these questions with
+<italic><italic>yes</italic></italic> and
+<italic><italic>no</italic></italic>. So we will continue to struggle
+with our writing skills, especially those of us who learned English as a
+second language, but it will not be that important in our career. I
+therefore rather list some other books about scientific writing that I
+own and can recommend:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><italic><italic>Medical Writing: a Prescription for
+    Clarity</italic></italic> by Neville W. Goodman and Martin B.
+    Edwards (Cambridge University Press 2006). Very detailed
+    instructions about the use of the language. Includes many examples
+    of bad scientific writing and suggestions for better
+    alternatives.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>The Elements of Style</italic></italic> by
+    William Strunk Jr. and E.B. White (Logman 2000). The classic text
+    from the beginning of the 20th century, not specific to scientific
+    writing.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>The Visual Display of Quantitative
+    Information</italic></italic> by Edward R. Tufte (Graphics Press
+    2001). Another classic text and a beautiful book.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Clinical Epidemiology</italic></italic> by R.
+    Brian Haynes, David L. Sackett, Gordon H. Guyatt and Peter Tugwell
+    (Lippincott 2006). This epidemiology/statistics textbook has a small
+    chapter about scientific writing. More importantly, it is very
+    helpful in how to read a scientific paper and the statistics behind
+    it.</p>
+  </list-item>
+</list>
+<p>And I finish with an example for good scientific writing that is used
+a lot in the books mentioned above:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>We wish to suggest a structure for the salt of deoxyribose
+    nucleic acid (D.N.A.). This structure has novel features which are
+    of considerable biological interest…</p>
+  </disp-quote>
+</p>
+<p>This is of course the opening paragraph of the 1953
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101312/http://www.nature.com/nature/dna50/watsoncrick.pdf">Nature
+paper</ext-link> by Watson and Crick. Which brings us back to
+Cambridge…</p>
+</body>
+<back>
+</back>
+</article>

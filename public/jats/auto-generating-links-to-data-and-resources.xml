@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Auto generating links to data and
+resources</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-07-02">
+<day>2</day>
+<month>7</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>A few weeks ago Kafkas et al. (2013) published a paper looking at
+current patterns of how datasets o biological databases are cited in
+research articles, based on an analysis of the full text Open Access
+articles available from Europe PMC. They identified data ctiations
+by:</p>
+<list list-type="order">
+  <list-item>
+    <p>Accession numbers available in articles as publisher-supplied,
+    structured content;</p>
+  </list-item>
+  <list-item>
+    <p>Accession numbers identified in articles by text mining;</p>
+  </list-item>
+  <list-item>
+    <p>References to articles from the ENA, UniProt and PDBe
+    records.</p>
+  </list-item>
+</list>
+<p>They could show that text mining doubles the number of structured
+annotations available in journal articles (from 2.26% to 5.15%), and
+that these structured annotations should be extended beyond the ENA,
+UniProt and PDB identifiers that their analysis focused on. ENA
+identifiers (for nucleotide sequences in GenBank, EMBL or DDBJ) make up
+the largest group, with 160,112 identifiers found in the 410,364
+articles that were analyzed.</p>
+<fig>
+  <caption><p><bold>Database Citation in Full Text Biomedical
+  Articles</bold>. Fig. 3 from <milestone-start />(Kafkas et al.,
+  2013)<milestone-end />.</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="http://blog.martinfenner.org/images/journal.pone.0063184.g003.png" xlink:title="" />
+</fig>
+<p>Another result in the paper is that references to articles in these
+databases show little overlap with database links found in articles. One
+of the conclusions drawn by the author is that</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>Text-mining can be used to extend structured data citation, and
+    could be a basis for the development of services to help authors or
+    editors to add structured content at the beginning of the
+    publication process, rather than after the fact.</p>
+  </disp-quote>
+</p>
+<p>Adding structured data citations during the authoring phase of a
+manuscript requires tools that make this process easier, providing
+auto-linking and verification of the without requiring extra input from
+the author. Scholarly Markdown is an ideal platform for these tools, as
+it is easier to extend than traditional word processors such as
+Microsoft Word. During a small workshop around persistent identifiers
+for data
+(<ext-link ext-link-type="uri" xlink:href="http://datacite.org/">DataCite</ext-link>),
+people
+(<ext-link ext-link-type="uri" xlink:href="http://orcid.org/">ORCID</ext-link>)
+and geological samples
+(<ext-link ext-link-type="uri" xlink:href="http://www.geosamples.org/igsnabout">IGSN</ext-link>)
+that took place yesterday and today at the
+<ext-link ext-link-type="uri" xlink:href="http://www.gfz-potsdam.de/portal/gfz/cegit">GFZ
+Potsdam</ext-link> I worked on a tool that does auto-linking for these
+identifiers:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>IGSN.
+    <ext-link ext-link-type="uri" xlink:href="http://www.geosamples.org/igsnabout">International
+    Geosample Number</ext-link></p>
+  </list-item>
+  <list-item>
+    <p>MGI identifiers for genetically modified mouse strains in the
+    <ext-link ext-link-type="uri" xlink:href="http://www.findmice.org/about">Internal
+    Mouse Strain Resource</ext-link></p>
+  </list-item>
+  <list-item>
+    <p>ENA.
+    <ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ena/about/about">Genbank
+    / ENA / DDBJ nucleotide sequences</ext-link></p>
+  </list-item>
+  <list-item>
+    <p>UniProt protein sequences from the
+    <ext-link ext-link-type="uri" xlink:href="http://www.uniprot.org/help/about">UniProt
+    database</ext-link></p>
+  </list-item>
+  <list-item>
+    <p>PDB.
+    <ext-link ext-link-type="uri" xlink:href="http://www.rcsb.org/pdb/static.do?p=home/faq.html">Protein
+    Data Bank protein structure information</ext-link></p>
+  </list-item>
+</list>
+<p>The list includes the IGSN, the database identifiers studied by
+Kafkas et al (2013), and the MGI identifier for genetically altered
+mice. In the life sciences there is a long tradition - and requirement
+by journals - to use database identifiers for data, but identifiers for
+resources such as genetically modified mice are unfortunately not in
+common use.</p>
+<p>This blog uses the Pandoc markdown processor and the Jekyll static
+website generator. The easiest way to implement this functionality was
+by writing a filter for the liquid templating engine used by Jekyll, and
+provide this filter as a Jekyll plugin. The Jekyll plugin can be found
+at
+<ext-link ext-link-type="uri" xlink:href="https://github.com/mfenner/jekyll-scholmd">mfenner/jekyll-scholmd</ext-link>.
+The plugin expects the name of the identifier, followed by a colon and
+optional space, followed by the identifier:</p>
+<preformat>GenBank:  M10090
+IGSN:  JRH964436
+MGI:  96922
+UniProt:  P02144
+PDB:  1mbn</preformat>
+<p>This input is automatically translated into
+<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ena/data/view/M10090">GenBank:M10090</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10273/JRH964436">IGSN:JRH964436</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="http://www.findmice.org/summary?gaccid/96922">MGI:96922</ext-link>,
+and information about the human myoglobin protein
+(<ext-link ext-link-type="uri" xlink:href="http://www.uniprot.org/uniprot/P02144">UniProt:P02144</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="http://www.rcsb.org/pdb/explore/explore.do?structureId=1mbn">PDB:1mbn</ext-link>)
+is generated in a similar fashion.</p>
+<p>The plugin was written in a few hours today, and is my first Jekyll
+plugin. There is room for improvement, e.g. support for more
+identifiers, better regex matching, validation of the resulting links,
+and automated tag generation if an identifier is found. Ideally the
+auto-linking should happen in the markdown and not the HTML output, so
+that these structured database links are also available in other
+markdown outputs such as PDF. But this is another example how Scholarly
+Markdown can make it easier for researchers to author documents without
+requiring a fancy web-based user interface.</p>
+<sec id="references">
+  <title>References</title>
+  <p>Kafkas, Ş., Kim, J.-H., &amp; McEntyre, J. R. (2013). Database
+  Citation in Full Text Biomedical Articles. <italic>PLoS ONE</italic>.
+  <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1371/journal.pone.0063184">doi:10.1371/journal.pone.0063184</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

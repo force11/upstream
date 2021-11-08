@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Schema.org for Scholarly HTML?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-06-07">
+<day>7</day>
+<month>6</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last Thursday the search engines Google, Bing and Yahoo
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://googleblog.blogspot.com/2011/06/introducing-schemaorg-search-engines.html">announced</ext-link>
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://schema.org/">schema.org</ext-link>,
+a new initiative for structured data markup on the web. Websites that
+use this schema to markup their data (more than 100 data types are
+supported) will make it easier for the three largest web search engines
+to find their content. Schema.org uses microdata, not microformats or
+RDFa, according to the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://schema.org/docs/faq.html#15">FAQ</ext-link>
+this was a pragmatic decision.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120525041638im_/http://blogs.plos.org/mfenner/files/2011/06/schema-500x456.jpg" xlink:title="schema" />
+</fig>
+<p>Schema.org also defines the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://schema.org/ScholarlyArticle">ScholarlyArticle</ext-link>,
+but unfortunately this data type doesn’t add any properties beyond those
+of the parent
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://schema.org/Article">Article</ext-link>
+(e.g. the Digital Object Identifier). The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://www.schema.org/Person">Person</ext-link>
+data type is also interesting (and uses a professor as an example), but
+for example doesn’t include an <bold><bold>isAuthor</bold></bold>
+relationship.</p>
+<p>It will be interesting to see whether future versions of the
+schema.org standard will have better support for scholarly content, and
+how well this microformat can be integrated into our efforts to create
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://scholarlyhtml.org/">Scholarly
+HTML</ext-link>. And how quickly scholarly publishers and other
+providers of scholarly content will adopt this new standard., which in
+its current form already is a big improvement over plain HTML.</p>
+<p><italic>Update (6/7/11): Google today
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041638/http://insidesearch.blogspot.com/2011/06/authorship-markup-and-web-search.html">announced</ext-link>
+support for authorship markup, either via the schema.org format or using
+the <bold><bold>rel</bold></bold> attribute.</italic></p>
+</body>
+<back>
+</back>
+</article>

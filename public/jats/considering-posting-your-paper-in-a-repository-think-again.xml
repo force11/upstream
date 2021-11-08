@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Considering posting your paper in a repository? Think
+again</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-04-29">
+<day>29</day>
+<month>4</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Our
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://network.nature.com/blogs/user/mfenner/2008/04/11/public-access-week-who-could-read-my-papers">recent</ext-link>
+discussion on public access made me have a closer look on the options I
+have for my own papers. The results aren't pretty.</p>
+<sec id="most-journals-allow-posting-post-prints-on-a-university-website">
+  <title>Most journals allow posting post-prints on a university
+  website</title>
+  <p>The copyright agreement with the journal is the easy part. Most
+  publishers allow posting of post-prints (after peer-review, but not
+  the journal PDF) in a non-commercial repository, usually the
+  repository of your institution. Below are the policies of three
+  prominent publishers.</p>
+</sec>
+<sec id="elsevier">
+  <title><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://www.elsevier.com/wps/find/supportfaq.cws_home/rightsasanauthor">Elsevier</ext-link></title>
+  <p specific-use="wrapper">
+    <disp-quote>
+      <p><italic><italic>As an author, you retain rights for a large
+      number of author uses, including use by your employing institute
+      or company. These rights are retained and permitted without the
+      need to obtain specific permission from Elsevier. These include
+      (…) the right to post a revised personal version of the text of
+      the final article (to reflect changes made in the peer review
+      process) on the author's personal or institutional web site or
+      server, with a link to the journal home page</italic></italic></p>
+    </disp-quote>
+  </p>
+</sec>
+<sec id="springer">
+  <title><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://www.springer.com/authors/journal+contributors?SGWID=0-154202-12-467999-0">Springer</ext-link></title>
+  <p specific-use="wrapper">
+    <disp-quote>
+      <p><italic><italic>An author may self-archive an author-created
+      version of his/her article on his/her own website. He/she may also
+      deposit this version on his/her institution's and funder's
+      (funder-designated) repository at the funderâ€™s request or as a
+      result of a legal obligation, including his/her final version,
+      provided it is not made publicly available until after 12 months
+      of official publication. He/she may not use the publisher's PDF
+      version which is posted on www.springerlink.com for the purpose of
+      self-archiving or deposit. Furthermore, the author may only post
+      his/her version provided acknowledgement is given to the original
+      source of publication and a link is inserted to the published
+      article on Springer's website. The link must be accompanied by the
+      following text: “The original publication is available at
+      www.springerlink.com”.</italic></italic></p>
+    </disp-quote>
+  </p>
+</sec>
+<sec id="nature-publishing-group">
+  <title><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://www.nature.com/authors/editorial_policies/license.html">Nature
+  Publishing Group</ext-link></title>
+  <p specific-use="wrapper">
+    <disp-quote>
+      <p><italic><italic>When a manuscript is accepted for publication
+      in an NPG journal, authors are encouraged to submit the author's
+      version of the accepted paper (the unedited manuscript) to
+      PubMedCentral or other appropriate funding body's archive, for
+      public release six months after publication. In addition, authors
+      are encouraged to archive this version of the manuscript in their
+      institution's repositories and, if they wish, on their personal
+      websites, also six months after the original publication. In all
+      these cases, authors should cite the publication reference and DOI
+      number on any deposited version, and provide a link from it to the
+      URL of the published article on the journal's
+      website.</italic></italic></p>
+    </disp-quote>
+  </p>
+  <p>The policies of some of the smaller publishers can be more
+  difficult to find. Sometimes an email exchange with the publisher will
+  be necessary.</p>
+</sec>
+<sec id="many-universities-have-institutional-repositories">
+  <title>Many universities have institutional repositories</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://www.opendoar.org/">OpenDOAR</ext-link>
+  is a directory of open access repositories. My university doesn't yet
+  have an institutional repository. After a short email exchange they
+  offered to host my post-prints on a public webserver. I currently have
+  no details on the software platform used or how many people in my
+  university use this service.</p>
+</sec>
+<sec id="post-prints-may-no-longer-be-available">
+  <title>Post-prints may no longer be available</title>
+  <p>Most publishers don't allow posting of the journal PDF. You have to
+  post the final manuscript after per-review (post-print). The problem:
+  I no longer have these manuscripts for papers published more than a
+  few years ago – thinking that the PDF would be enough.</p>
+</sec>
+<sec id="your-post-prints-are-hard-to-find">
+  <title>Your post-prints are hard to find</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://www.opendoar.org/search.php">OpenDOAR</ext-link>
+  has a search function, but searching several institutional
+  repositories at once is complicated. Your best bet is probably to find
+  a paper in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://www.pubmed.gov/">Pubmed</ext-link>
+  and then try to find the institutional repository for that author. But
+  maybe you have to check several institutional repositories if the
+  authors are not all from the same institution.</p>
+</sec>
+<sec id="conclusions">
+  <title>Conclusions</title>
+  <p>Posting your paper in an institutional repository can be a
+  challenging project. It is therefore advisable to think about this
+  before paper submission. What is your publication strategy? Do you
+  need open access? Does the journal offer free content after an embargo
+  period of 6 or 12 months? What is the journal policy regarding
+  post-prints? And most importantly, keep the manuscript version right
+  after peer-review. A central repository such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611110637/http://www.pubmedcentral.nih.gov/">Pubmed
+  Central</ext-link> doesn't have most of these shortcomings.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

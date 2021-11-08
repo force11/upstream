@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Update of Reference Manager Overview
+Chart</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-09-19">
+<day>19</day>
+<month>9</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>In
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120603140937/http://blogs.nature.com/mfenner/2009/03/15/reference-manager-overview">March
+2009</ext-link> I posted an overview chart of how popular reference
+managers have implemented some important features. I’ve since updated
+this chart several times, and the chart probably has outgrown the format
+of a blog post. For that reason I now made the chart available</p>
+<list list-type="bullet">
+  <list-item>
+    <p>on a dedicated page with an easy to remember URL
+    (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120603140937/http://bit.ly/refman">http://bit.ly/refman</ext-link>),</p>
+  </list-item>
+  <list-item>
+    <p>as PDF file for downloading and printing,</p>
+  </list-item>
+  <list-item>
+    <p>under a
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120603140937/http://creativecommons.org/licenses/by/3.0/">Creative
+    Commons Attribution</ext-link> license (like all content here on
+    PLoS Blogs) for redistribution and reuse.</p>
+  </list-item>
+</list>
+</body>
+<back>
+</back>
+</article>

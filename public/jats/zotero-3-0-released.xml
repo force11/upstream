@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Zotero 3.0 Released</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-01-31">
+<day>31</day>
+<month>1</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Zotero 3.0 was
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161026235801/http://www.zotero.org/blog/zotero-3-0-is-here/">officially
+released</ext-link> today. The big change in version 3.0 of the
+reference manager is a standalone version that runs outside the Firefox
+browser. The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161026235801/http://blogs.plos.org/mfenner/2011/08/23/zotero-3-0-beta-released-works-with-chrome-and-safari/">first
+beta</ext-link> was released in August 2011.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161026235801im_/http://blogs.plos.org/mfenner/files/2012/01/zotero.png" xlink:title="zotero" />
+</fig>
+</body>
+<back>
+</back>
+</article>

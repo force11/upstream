@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>How do you read papers?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-11-02">
+<day>2</day>
+<month>11</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Working in science is as much about reading papers as it is about
+writing papers. There are usually two ways you can come across an
+interesting scientific paper:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><italic><italic>Active Searching</italic></italic>. Literature
+    search on a particular topic</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Passive Browsing</italic></italic>. Scanning the
+    literature in regular intervals for papers of interest</p>
+  </list-item>
+</list>
+<p>The focused active search is typically used when you collect
+information for a research project or write a paper or grant proposal.
+This is stuff for another blog post and can be better explained by a
+science librarian like
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://network.nature.com/people/obst/profile">Oliver
+Obst</ext-link> or
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://network.nature.com/people/U81B5C465/profile">Frank
+Norman</ext-link>. Now I want to talk about different ways to keep track
+of the current literature in your field. I would assume that most if not
+all people involved in science do this in one way or another, and I also
+think that many people are struggling with the best strategy (see
+Richard's related post on this topic:
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://network.nature.com/people/rpg/blog/2008/10/27/too-many-fish-in-the-sea">Too
+many fish in the sea</ext-link>).</p>
+<p>The basic concept behind browsing is that it is a passive activity
+where the scientific papers come to you regularly in one way or another.
+A good strategy should be efficient (not involve too much of your time),
+cost-effective and should have a good signal to noise ratio (i.e. finds
+many interesting papers without going through too much uninteresting
+stuff).</p>
+<sec id="journal-subscriptions">
+  <title>Journal Subscriptions</title>
+  <p>The old-fashioned way. You receive a print copy of journals of
+  interest in regular intervals and flip through the journal. This
+  strategy works for a few journals, but is usually too expensive and
+  too unfocused as a general strategy. I currently have three personal
+  journal subscriptions, but the main reasons are that I either can't
+  get them in electronic form or have no institutional subscription.
+  Departmental subscriptions that are circulated around help saving some
+  costs. But I have to confess that I haven't been to a library to flip
+  through a few journals for more than 10 years. I very much like the
+  feeling of a printed journal in my hands, but browsing in electronic
+  form is not only cheaper but also much faster (even more so with
+  articles released early in electronic form). Many journals now exist
+  only in electronic form or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://resources.bmj.com/bmj/about-bmj/the-bmjs-publishing-model">publish
+  articles continously</ext-link> rather than in a weekly or monthly
+  schedule.</p>
+</sec>
+<sec id="journal-tables-of-content-toc-by-email-or-rss">
+  <title>Journal tables of content (TOC) by email or RSS</title>
+  <p>I would guess that this is currently the most popular browsing
+  strategy. I prefer RSS to email because it means less clutter in my
+  email inbox and because every journal article is a separate item that
+  can be saved for later. I currently follow 8 journals.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://mekentosj.com/papers/">Papers</ext-link>
+  also uses this strategy, but this feature could be refined in future
+  versions of the program. The TOC strategy probably works best for the
+  leading journals in your field of research, but isn't very efficient
+  for journals with only 1-2 interesting articles per issue, e.g. high
+  volume general interest journals such as
+  <italic><italic>PNAS</italic></italic>. Podcasts (e.g. the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://www.nature.com/nature/podcast/">Nature
+  Podcast</ext-link>) are basically extended TOCs in audio format.</p>
+</sec>
+<sec id="filtering-by-experts">
+  <title>Filtering by experts</title>
+  <p>You let someone else do the filtering for you. The traditional
+  approach is the review article. The major drawback is of course the
+  delay between publication of the original research and the publication
+  of the review. A different – and faster – approach is used by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://www.f1000biology.com/">Faculty
+  of 1000 Biology</ext-link> (they also have a similar service for
+  medicine). The most interesting papers are highlighted and reviewed by
+  leading researchers in the field. <italic><italic>Research
+  Highlights</italic></italic> in
+  <italic><italic>Nature</italic></italic> and similar features in other
+  journals try to do the same on a much smaller scale.</p>
+  <p>Filtering by experts is a resource-intensive and subjective
+  process, and it is very possible that very exciting research published
+  in an obscure journal might be missed. Most will remember that
+  internet search started out with expert filtering, exemplified by
+  Yahoo. It didn't work.</p>
+</sec>
+<sec id="filtering-by-author-or-keyword">
+  <title>Filtering by author or keyword</title>
+  <p>A good browsing strategy should consider the papers you have read
+  already. In the approaches mentioned above this happens in your mind
+  when you flip through the table of contents of a journal. A smarter
+  approach is to regularly receive customized searches (again delivered
+  via email or RSS). This is a popular strategy (explained
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://www.nlm.nih.gov/pubs/techbull/mj05/mj05_rss.html">here</ext-link>
+  for PubMed) and can involve keywords (e.g. the molecule or organism
+  you work on) or authors (your colleagues and competitors).</p>
+</sec>
+<sec id="filtering-by-papers-you-read">
+  <title>Filtering by papers you read</title>
+  <p>A more systematic approach would not just pick a few keywords, but
+  would use the information from all the papers you've read already,
+  particulary those that you liked. Social bookmarking tools such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://www.connotea.org/">Connotea</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://www.citeulike.org/">CiteULike</ext-link>
+  have this information, but only if you give type in all those papers.
+  It is more convenient to use that information directly from your
+  reference manager where you have stored references or even fulltext
+  PDFs to your most important papers anyway. Reference managers are
+  usually used for writing papers and unfortunaly don't yet use this
+  information to help you find interesting papers. One reason I like
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://network.nature.com/people/mfenner/blog/2008/10/03/interview-with-alexander-griekspoor">Papers</ext-link>
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003123041/http://network.nature.com/people/mfenner/blog/2008/09/05/interview-with-victor-henning-from-mendeley">Mendeley</ext-link>
+  is that they both have the potential to fill this gap.</p>
+</sec>
+<sec id="filtering-by-papers-others-read">
+  <title>Filtering by papers others read</title>
+  <p>You probably have guessed that this blog post would somehow suggest
+  a Web 2.0 solution to this problem. The papers stored in the reference
+  manager of other scientists can of course be used to find papers that
+  might also interest you. This process can of course be automated
+  (rather than the personal recommendation from a colleague) and should
+  be anonymous. But neither Connotea nor CiteULike do that, and I don't
+  know of any other online tool currently available.</p>
+  <p>In 2010 I want to use a tool that scans Pubmed or other databases
+  for papers of interest based on the papers stored in my reference
+  manager. The tool would give me a weekly report that can also be
+  printed out for reading and note taking.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

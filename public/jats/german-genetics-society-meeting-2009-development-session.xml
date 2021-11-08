@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>German Genetics Society Meeting 2009: Development
+Session</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-09-19">
+<day>19</day>
+<month>9</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><italic><italic>Another guest post by Alex Knoll reporting from the
+German Genetics Society Meeting in Cologne.</italic></italic></p>
+<p>This time I had to decide between two parallel sessions for the first
+time at this meeting. Plant genetics or Development? Coming from plant
+molecular genetics myself, there perhaps was a ready-made decision, but
+I decided otherwise. There will be a second plant genetics session, and
+work with the axolotl and spiders lured me to the developmental
+biologists. But I had a rather hard time following all the new
+information, so please bear with me! To get at least a little bit of
+information about the plant genetics session, take a look into the
+meeting program for the abstracts
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611031830/http://conventus.de/fileadmin/media/2009/genetik/PDF/2009_09_14_Genetik_2009_Programm_klein.pdf">PDF</ext-link>).</p>
+<p>Elly Tanaka from the Center for Regenerative Therapies in Dresden,
+Germany is working with the axolotl, a salamander, as her model to
+research the molecular and cellular events needed for spinal cord
+regeneration. Choosing the axolotl was a good idea because it can
+regenerate lots of tissues and organs, it even grows back whole legs and
+its tail. On the other hand, her group had to develop all of the
+molecular genetics fresh from the start, which was quite a lot of work I
+guess. But they did it, and now have EST sequences, can do single cell
+electroporation for gene transformations, morpholino knockdown of gene
+expression is possible. They were able to get transgenes transferred
+through the germline, can express genes in specific tissues and
+establish cell cultures. Quite a set, isn't it?</p>
+<p>This enabled Elly Tanaka's lab to look at the events after the
+axolotl loses its tail by a cut, specifically how the spinal cord is
+able to grow back. There are two basic ideas how this is done: either it
+grows from the end, or it expands by cell division within the spinal
+cord. They found that the second hypothesis is true, because a about 500
+Âµm long zone right after the cut gives rise to the cells of the
+regenerated spinal cord. By looking at molecular markers at this zone,
+they were able to determine that the glial cells are the progenitors for
+the regeneration, and they need to revert to a more primitive state.</p>
+<p>The second invited speaker of this session, Thomas Klein from the
+Institute of Genetics at the University of Düsseldorf, spoke about the
+newly analyzed gene Lgd in the fly <italic><italic>Drosophila
+melanogaster</italic></italic> that regulates the activity of the
+well-known Notch gene by a new mechanism. Since this is about
+unpublished work, I won't go into more detail here.</p>
+<p>Of the three short presentations in this session, the talk of
+Annegret Bördlein from the Institute of Human Genetics in Erlangen,
+Germany, also contained essentially unpublished data.</p>
+<p>Luckily, I am free to write about the other two talks! Thomas Widmann
+from the Max Planck Institute for Cell Biology and Genetics in Dresden
+looked at the cell shape changes in the imaginal disc in Drosophila.
+This structure of the fly larva will later give rise to parts of the
+outside of the adult body, including the wings (who would have
+guessed?). In the wing disc epithelium there are to cell layers that
+chance their shape during development: One flattens, the other elongates
+to columns. Thomas Widmann was able to find the two transcription
+factors Dpp and Wingless implicated in this shape change, since columnar
+cells lacking these factors are shorter. How is this done in the cell?
+The actin-myosin cytoskeleton builds a meshwork underneath the plasma
+membrane to generate tension, and the amount of force is controlled by
+Rho1 that can phosphorylate Myosin II. By downregulating Rho1, the cell
+get elongated, its overexpression shortens them. Dpp is one factor that
+enhances the activity of Rho1. That way, Dpp and Rho1 maintain the
+length in these cells.</p>
+<p>Finally Wim Damen told us about his work on the developmental
+processes in the spider <italic><italic>Achaearanea
+tepidariorum</italic></italic>. At the Deparment of Genetics at the
+University of Jena, he is looking into segmentation processes. What
+happens during segmentation is very well understood in Drosophila, where
+a gene cascade forms all of the segments at approximately the same time.
+In vertebrates, the somites are comparable as a segmentation process,
+but here one forms after the other. Wim Damen found that in the spider,
+the anterior and central segments are formed like in insects rapidly and
+almost at the same time, but the posterior segments are formed one by
+one like in vertebrates. Here are even homologous genes like Notch and
+Wnt8 required for the segmentation. In the central region, Hunchback is
+essential for the production of the spider's legs. After RNAi knockdown
+of Hunchback, the spiders lack some of their legs because the L1, 2 and
+4 segments don't form. This combination of insect and vertebrate-like
+processes during segmentation probably means that also their last common
+ancestor possessed both mechanisms.</p>
+</body>
+<back>
+</back>
+</article>

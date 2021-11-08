@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>CSL is more than citation styles</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-08-08">
+<day>8</day>
+<month>8</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>According to the
+<ext-link ext-link-type="uri" xlink:href="http://citationstyles.org/">description</ext-link>
+on the Citation Style Language (CSL) website, CSL <italic>is an open
+XML-based language to describe the formatting of citations and
+bibliographies</italic>. We use reference managers such as
+<bold>Zotero</bold>, <bold><bold>Mendeley</bold></bold>, or
+<bold><bold>Papers</bold></bold> to format our references in manuscripts
+we submit for publication, and underneath a CSL processor such as
+<ext-link ext-link-type="uri" xlink:href="https://bitbucket.org/fbennett/citeproc-js/wiki/Home">Citeproc-js</ext-link>
+- together with a CSL file for a particular citation style - is doing
+the work:</p>
+<fig>
+  <caption><p>Citation processing during manuscript
+  writing</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://martinfenner.ghost.io/content/images/2021/02/csl.png" xlink:title="" />
+</fig>
+<p>When the journal article is accepted the publisher takes the text
+with the formatted text citation and turns it into XML, a process that
+is error-prone and takes time:</p>
+<fig>
+  <caption><p>Citation processing by the publisher</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://martinfenner.ghost.io/content/images/2021/02/csl2.png" xlink:title="" />
+</fig>
+<p>It is not hard to see that something is very wrong here:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Authors are required to use a specific citation style (there are
+    probably about 1,000 different citation styles and many more
+    dependent styles) even though the publisher doesn’t directly use the
+    formatted text. The publisher eLife
+    <ext-link ext-link-type="uri" xlink:href="http://www.elifesciences.org/elife-references/">accepts
+    references in any format</ext-link>.</p>
+  </list-item>
+  <list-item>
+    <p>Turning structured information into plain text and back into
+    structured XML is always a bad idea.
+    <ext-link ext-link-type="uri" xlink:href="http://twitter.com/kaveh1000">Kaveh
+    Bazargan</ext-link> is a typesetter who has gone on record for
+    saying that we should stop this nonsense and put him out of
+    business.</p>
+  </list-item>
+</list>
+<p>It is also obvious how the ideal workflow should look like:</p>
+<fig>
+  <caption><p>Ideal workflow of citation processing</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://martinfenner.ghost.io/content/images/2021/02/csl3.png" xlink:title="" />
+</fig>
+<p>We go from structured content to structured content, and never use
+citations formatted as text as intermediary steps in the workflow.</p>
+<p>What is surprising is that this is an ideal workflow and not
+something that publishers actually do. Most journal author instructions
+don’t even mention CSL styles (I work for PLOS and they are no
+exception). There are some issues to be solved, but they are all
+minor:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>The Citeproc JSON citation format isn’t really an official
+    standard, but rather something invented for the most popular CSL
+    processor, Citeproc-js.</p>
+  </list-item>
+  <list-item>
+    <p>People like to fight over standards, and there are always people
+    you prefer bibtex, RIS, MODS or BibJSON over Citeproc JSON, or want
+    authors to to use JATS XML.</p>
+  </list-item>
+</list>
+<p>I would really like to push Citeproc JSON as a standard bibliographic
+exchange format for authors. There are several things I like about
+Citeproc JSON:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>It is the native format to format citations, so it is used
+    internally by many reference managers anyway.</p>
+  </list-item>
+  <list-item>
+    <p>Citeproc JSON is really good in handling all the possible
+    variations of author names. Putting all authors into a single text
+    field as in bibtex requires a lot of trickery to get it right.</p>
+  </list-item>
+  <list-item>
+    <p>JSON is a standard serialization format and there are a kinds of
+    libraries in different programming languages to do things like
+    searching, sorting or finding of duplicates. And JSON is easily
+    extensible, e.g. if we would want to add ORCID identifiers for
+    authors.</p>
+  </list-item>
+</list>
+<p>I have five suggestions to move forward:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Make a specification for Citeproc JSON that is as clear as the
+    CSL specification.</p>
+  </list-item>
+  <list-item>
+    <p>Consider extending the specification to include content other
+    than citations. Ideally we should be able to add arbitrary
+    <ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/06/29/metadata-in-scholarly-markdown/">metadata
+    about a manuscript</ext-link>.</p>
+  </list-item>
+  <list-item>
+    <p>Consider other serialization formats besides JSON. I particularly
+    <ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/">like
+    YAML</ext-link> as it is very similar to JSON, but human-readable,
+    but other people might prefer XML. It is relatively easy to
+    transform data between these serialization formats, in particular
+    between JSON and YAML. In my
+    <ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/about.html">About
+    page</ext-link> I only need the
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/nodeca/js-yaml">js-yaml</ext-link>
+    library and one extra line of code to use Citeproc YAML instead of
+    Citeproc JSON (in the d3.js visualization).</p>
+  </list-item>
+  <list-item>
+    <p>Add Citeproc JSON (and YAML) support to reference managers.
+    Zotero is already doing this, but it should be an easy to add
+    feature if the reference manager is already using CSL internally
+    (Mendeley and Papers).</p>
+  </list-item>
+  <list-item>
+    <p>Push publishers to accept Citeproc JSON with manuscript
+    submissions.</p>
+  </list-item>
+</list>
+</body>
+<back>
+</back>
+</article>

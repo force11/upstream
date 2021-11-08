@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Altmetrics to go – mobile version of ScienceCard
+available</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-01-08">
+<day>8</day>
+<month>1</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000751/http://sciencecard.org/">ScienceCard</ext-link>
+is a web service that collects all scientific articles published by an
+author and displays their aggregate article-level metrics. Yesterday I
+added a mobile version to ScienceCard, simply browse to ScienceCard with
+your mobile phone or go to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000751/http://mobile.sciencecard.org/">http://mobile.sciencecard.org</ext-link>.
+This is a first version based on my work with jQuery Mobile on
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000751/http://blogs.plos.org/mfenner/2012/01/04/crowdometer-goes-mobile/">CrowdoMeter</ext-link>,
+but I think ScienceCard works really well on a small screen.My
+ScienceCard looks like
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000751/http://mobile.sciencecard.org/mfenner">this</ext-link>.
+Further down the screen are the articles I have published and the
+collective metrics of these papers.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161027000751im_/http://blogs.plos.org/mfenner/files/2012/01/sciencecard2.png" xlink:title="sciencecard2" />
+</fig>
+<p>Other ScienceCard users have much more impressive metrics, both in
+traditional citations, and in altmetrics such as PDF downloads of papers
+published with PLoS:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161027000751im_/http://blogs.plos.org/mfenner/files/2012/01/sciencecard3.png" xlink:title="sciencecard3" />
+</fig>
+<p>Metrics of an individual paper
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161027000751/http://doi.org/dm9">http://doi.org/dm9</ext-link>),
+with links to the journal and metrics (e.g. CiteULike bookmarks) look
+like this:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161027000751im_/http://blogs.plos.org/mfenner/files/2012/01/sciencecard.png" xlink:title="sciencecard" />
+</fig>
+<p>One idea behind ScienceCard is to make the collection and display of
+this kind of information as simple as possible. I hope this is another
+small step in the right direction.</p>
+</body>
+<back>
+</back>
+</article>

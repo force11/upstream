@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Book Review: Visualize This by Nathan Yau</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-08-13">
+<day>13</day>
+<month>8</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>In July Wiley published the book
+<bold><bold><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111645/http://book.flowingdata.com/">Visualize
+This – The Flowing Data Guide to Design, Visualization and
+Statistics</ext-link></bold></bold>. The book is written by
+<italic><italic>Nathan Yau</italic></italic>, and he is of course also
+behind the popular
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111645/http://flowingdata.com/">FlowingData</ext-link>
+blog about the same topic. This is a short review of the book.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20120611111645im_/http://book.flowingdata.com/images/visualize-this-drop.png" xlink:title="Visualize This" />
+</fig>
+<p>Please keep in mind that I’m no expert in data visualization. The
+book is written for people like me, an expert in the topic will probably
+look at the book differently.</p>
+<p>And the book is intended as an introduction to important concepts. It
+is probably the wrong book if you are interested in using a particular
+tool – e.g. Adobe Illustrator, R or Flash – for Data Visualization.</p>
+<p>The examples in the book are about topics similar to those used in
+the FlowingData blog, most of them are about data journalism. This is
+not a book about visualization of scientific experiments.</p>
+<p>The first chapter of the book talks about how to tell stories with
+data. This is a very important chapter, as learning how to tell a good
+story is more important than knowing all the details on how to use a
+tool for visualization.</p>
+<p>Nathan continues with a chapter on how to find and format data for
+data visualization. We are then introduced to a number of important
+visualization tools, and their particular strengths. Nathan uses a large
+number of tools in the book, but seems to particularly like Python for
+formatting data, R for for calculation and visualization, and Adobe
+Illustrator for perfecting the result for publication. This is one of
+the take-home messages of the book for me: instead of perfecting the use
+of one particular tool, learn to decide what works best for a particular
+problem. R and Illustrator are a good start for most problems.</p>
+<p>The next few chapters look at visualizations in different contexts:
+patterns over time, proportions, relationships, differences and spatial
+relationships. All chapters are written with examples that you can
+follow along, and with enough basic information that you can start
+solving similar problems on your own. Below is a chart I tried myself
+after reading the book. It looks at the number of member organizations
+of the non-profit ORCID over time (more info
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111645/http://www.orcid.org/news/250-participating-organizations-have-joined-orcid">here</ext-link>).</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20120611111645im_/http://blogs.plos.org/mfenner/files/2011/08/orcid-500x400.png" xlink:title="orcid" />
+</fig>
+<p>I can highly recommend <bold><bold>Visualize This</bold></bold> to
+anybody interested in learning about data visualization. I found only
+two things I didn’t like. I wish Nathan had spent more time explaining
+how a data graph can be improved visually. In many examples he shows how
+small changes in color or font size can make a big difference in
+presentation, but I would prefer to see a more systematic approach to
+this important topic. I wouldn’t mind if he would drop the chapter on
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111645/http://en.wikipedia.org/wiki/Chernoff_face">Chernoff
+faces</ext-link> instead – fun stuff, but not really important in an
+introductory text.</p>
+<p>My other problem is with the publisher. I read the book as ePub on my
+iPad. It is nice to have weblinks you can click in the text, but it
+would have been even nicer if the ePub had ben prepared with a little
+bit more care. Most images in the text (there are many) are too small –
+in an ePub you expect figures to enlarge and show more detail when you
+click on them. And figure headings were regularly orphaned (on a
+different page than the figure itself). ePub is an evolving standard,
+but a little bit of consideration for typography and layout would go a
+long way.</p>
+</body>
+<back>
+</back>
+</article>

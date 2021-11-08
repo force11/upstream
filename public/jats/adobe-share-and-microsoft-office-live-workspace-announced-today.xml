@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Adobe Share and Microsoft Office Live Workspace announced
+today</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-10-01">
+<day>1</day>
+<month>10</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Both Adobe and Microsoft today announced free web-based solutions for
+document sharing.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630153745/http://share.adobe.com/">Adobe
+Share</ext-link> uses the Flash technology to display various document
+formats.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630153745/http://feeds.feedburner.com/~r/oreilly/radar/atom/~3/163539601/adobe_share_document_widget.html">Tim
+O'Reilly</ext-link> has a nice writeup of the new service.</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630153745/http://workspace.officelive.com/">Microsoft
+Office Live Workspace</ext-link> allows the sharing of Microsoft Office
+documents. Just as with Adobe Share, and in contrast to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630153745/http://docs.google.com/">Google
+Docs</ext-link>, you can't directly edit documents online.</p>
+<p>Why should a scientist care about all this? Because these are
+excellent tools to share your presentations and to collaborate on
+manuscripts you are writing. No more emailing Powerpoint, Excel, Word or
+PDF files back and forth. And with several major players (Microsoft,
+Google, Adobe and the smaller
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630153745/http://www.zoho.com/">Zoho</ext-link>)
+offering web-based document sharing, this will soon become as
+commonplace as web-based email.</p>
+<p>In related news, Adobe today also announced the acquisition of
+Buzzword, the online word processor that I wrote about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630153745/http://network.nature.com/blogs/user/mfenner/2007/09/27/more-on-online-writing-tools-buzzword-is-different">last
+week</ext-link>.</p>
+</body>
+<back>
+</back>
+</article>

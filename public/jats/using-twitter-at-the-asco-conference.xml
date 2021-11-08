@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Using Twitter at the ASCO Conference</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-06-15">
+<day>15</day>
+<month>6</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last week I attended the annual meeting of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://www.asco.org/">American
+Society of Clinical Oncology</ext-link> (ASCO) in Chicago. For my work
+it is the most important scientific meeting of the year, and it is also
+by far the biggest with more than 30.000 participants.</p>
+<fig>
+  <caption><p>Chicago last Thursday. Flickr image by
+  ifmuth.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120630144308im_/http://farm5.static.flickr.com/4010/4691440146_bcaea61ee0.jpg" xlink:title="" />
+</fig>
+<p>Blogging is a great way to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://blogs.nature.com/mfenner/2010/01/17/scienceonline2010-i-wish-i-was-there">report
+from conferences</ext-link>, and for me
+<italic><italic>FriendFeed</italic></italic> is the best microblogging
+tool to do that. Its use at the 2008 ISMB conference was nicely
+described in a <italic><italic>PLoS Comp Biol</italic></italic> paper
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://dx.doi.org/10.1371/journal.pcbi.1000263">doi:10.1371/journal.pcbi.1000263</ext-link>)
+by Neil Saunders et al. Unfortunately it seems as if the use of
+FriendFeed is declining at every online science conference I go to, as
+everybody seems to be switching to
+<italic><italic>Twitter</italic></italic>. At the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://bibcamp.wordpress.com/">BibCamp</ext-link>
+that we organized in May we didn't even bother trying FriendFeed (or
+similar microbloging tools such as Google Buzz, ScienceFeed,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://hotpotato.com/">Hot
+Potato</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://www.snapgroups.com/">Snapgroups</ext-link>
+or Google Wave).</p>
+<p>My main problem with using Twitter at conferences is that it is
+difficult to connect all tweets talking about a particular session
+together. General hashtags like
+<italic><italic>#asco10</italic></italic> are not a solution for
+conferences with several thousand tweets. The ASCO conference organizers
+asked us to use two
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://www.asco.org/ascov2/MyASCO/Twitter">special
+hash tags</ext-link> for some sessions, but it seemed as if almost
+nobody was using them. I would not be surprised if someone invents (or
+has already done so) a nice service that connects tweets to conference
+sessions.</p>
+<p>Another shortcoming of Twitter is the lack of automatic long-term
+archiving. Therefore
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://www.twitter.com/RMEOncology">@RMEOncology</ext-link>
+created a Twapper Keeper that was
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://twapperkeeper.com/hashtag/asco10">used
+to archive</ext-link> the about 4500 tweets with the
+<italic><italic>#asco10</italic></italic> hashtag. You can do
+interesting things with such an archive, Cornelius Puschmann did an
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://wisspub.net/2010/05/11/bibcamp-auswertung/">analysis</ext-link>
+of the Twitter activity at our recent
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://blogs.nature.com/mfenner/2010/05/11/action-points">BibCamp</ext-link>
+using the R statistical software.</p>
+<p>On the second conference day we were invited by the ASCO organizers
+to a tweetup. We were twice as many people compared to the tweetup at
+last year's ASCO (including one familiar face,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://www.twitter.com/MaverickNY">@MaverickNY</ext-link>).
+We had an interesting discussion for about an hour. The most important
+message for me: we were encouraged to freely tweet about the sessions,
+restricted only by common sense and not a particular policy. A large
+meeting like ASCO with a lot of press coverage and videotaping of most
+sessions obviously has it easier to allow widespread Twitter use than a
+smaller meeting like the Cold Spring Harbor Biology of Genomes meeting.
+The discussions at that meeting in May were nicely covered by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://scienceblogs.com/geneticfuture/2010/05/what_a_difference_a_year_makes.php">Daniel
+MacArthur</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://embargowatch.wordpress.com/2010/05/24/can-you-tweet-from-cold-spring-harbor-laboratory-meetings/">Ivan
+Oransky</ext-link>.</p>
+<p>ASCO was also the first conference that I attended with an iPad. We
+had free WiFi (that worked in most places) and the iPad was great to
+write Tweets, look through the PDF of the sessions and posters I wanted
+to see (created back home), and to keep in touch via email and Skype.
+The only caveat: adding links to Tweets was difficult without
+multitasking – although this should become easier with the soon to be
+released iOS 4.</p>
+<p>I did not like all Tweets about the conference. Twitter was obviously
+also used as a marketing tool. Although there is nothing wrong with
+that, some pharma companies felt it necessary to tweet exactly the same
+message again and again. I would have like more tweets reporting key
+findings from the sessions and/or adding comments or interesting links
+(e.g. with background information). But I'm optimistic that Twitter
+coverage at ASCO11 will be even better, and that by ASCO12 Twitter will
+be as mainstream and popular as email was at ASCO10.</p>
+<p><italic><italic>Starting tomorrow, I will also write for the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://lindau.nature.com/">Lindau
+Nobel Laureate Meeting</ext-link> blog (the meeting itself will start
+June 27). The Nature Network blog has
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120630144308/http://blogs.nature.com/u6e5b2ce1/2010/06/15/nature-at-the-lindau-nobel-laureates-meeting-2010">more
+info</ext-link> about the event.</italic></italic></p>
+</body>
+<back>
+</back>
+</article>

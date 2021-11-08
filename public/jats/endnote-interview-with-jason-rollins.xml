@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Endnote: Interview with Jason Rollins</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-08-03">
+<day>3</day>
+<month>8</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Reference management is a frequent topic on this blog. The last few
+years we have seen both a large increase in the number of
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://blogs.nature.com/mfenner/2009/03/15/reference-manager-overview">available
+tools</ext-link>, but also big changes in
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://blogs.nature.com/mfenner/2010/05/19/post">how
+we use reference management software</ext-link>. But for many of us the
+first reference management software was Endnote.</p>
+<p>I first used Endnote as a medical student in 1990 (Endnote Plus at
+that time, published by Niles Software), and I’m still a regular user. I
+can’t say that for many other programs (probably also Microsoft Word,
+Excel and Powerpoint, Adobe Photoshop, SPSS and until recently
+Freehand). The latest version – Endnote X4 – was just released/is about
+to be released (Windows in June, Macintosh in August). This is a good
+opportunity to look at how Endnote has changed over the years and why it
+is still such a popular application. For this I interviewed
+<italic><italic>Jason Rollins</italic></italic>, who is leading the
+Endnote development team.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120524201927im_/http://blogs.plos.org/mfenner/files/2010/11/endnote_group.jpg" xlink:title="" />
+</fig>
+<p><italic><italic>Members of the EndNote development team: Jason
+Rollins, Jiaquan Ma, David Pedrick, Rachel Hubbard, Mayra Aguas, Paul
+Patanella, Lisa Epps, Lynette Grabow, Howard Harrison, Jennifer Melinn,
+Bill Colsher, Tilla Edmunds, Gandalf Sollenberger (with the Philadelphia
+in the background).</italic></italic></p>
+<sec id="1-what-is-endnote">
+  <title>1. What is EndNote?</title>
+  <p>Researchers around the world depend on EndNote to simplify
+  collaboration, reference collection, and bibliography formatting. It
+  is these researchers who have molded the EndNote you see today,
+  allowing us to address the pain points as technology evolves. While
+  EndNote originated on the Macintosh and Windows desktops, users now
+  have the added combination of the Web where they can transfer
+  reference groups and share them with colleagues easily. EndNote
+  connects to many parts of the research landscape including online
+  resources for both basic bibliographic information and full text, word
+  processors,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://www.researcherid.com/">ResearcherID</ext-link>
+  for uniquely identifying personal works that will dovetail into the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://www.orcid.org/">ORCID</ext-link>
+  initiative as well as decreasing time to publish when submitting
+  EndNote formatted documents into publishing systems.</p>
+</sec>
+<sec id="2-how-is-endnote-different-from-other-reference-managers">
+  <title>2. How is EndNote different from other reference
+  managers?</title>
+  <p>EndNote defined reference management software for generations of
+  researchers and continues to offer the highest quality formatting
+  available in any tool. Today some variation of the core functionality
+  – searching, organizing, sharing, and citing of scholarly reference
+  material – is available in many competing tools.</p>
+  <p>Two key differences between EndNote and other reference management
+  tools include gathering and formatting references. First, EndNote is
+  far more accurate and flexible when it comes to the variety of
+  publishing styles it supports. EndNote not only provides
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://www.endnote.com/support/enstyles.asp">over
+  4,500 formatting styles</ext-link> but it also allows for the most
+  control and customization of this formatting. Our EndNote team works
+  closely with leading publishers and editors across many academic
+  disciplines to ensure that EndNote offers the formatting control our
+  users need to meet exacting publisher specifications. Most of the
+  power of this formatting is built-in and achieved automatically by
+  EndNote – without the user having to think about it. Of course there
+  are many customization options too; these allow users to easily make
+  changes and tweaks to the way EndNote formats citations, footnotes,
+  and bibliographies.</p>
+  <p>Second, EndNote offers the best options for easy import and export
+  of user data. The Online Search, Find Full Text, importing, and Web
+  capture options are all features that make it easy to obtain accurate
+  bibliographic information and manage full text data in EndNote. The
+  “RIS Tagged Data” format has become a de facto standard for hundreds
+  of databases and software tools. Plus, the EndNote XML specification
+  is something that is openly shared with partners and competitors alike
+  in hopes of making it easier for our customers to move their data into
+  and out of any system they may need to use.</p>
+</sec>
+<sec id="3-what-is-new-in-endnote-x4">
+  <title>3. What is new in EndNote X4?</title>
+  <p>There’s a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://www.endnote.com/enx4wnvid/Whats_New-SD.asp">longer
+  list of new and improved features</ext-link>, but a few of the key
+  features are new PDF functions, better support for collaborative
+  writing and more robust footnote handling.</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120524201927im_/http://blogs.plos.org/mfenner/files/2010/11/endnote_screenshot.jpg" xlink:title="" />
+  </fig>
+  <p>EndNote X4 can create records from PDFs using metadata and a DOI,
+  attaching the original file to the newly created reference. Then, PDFs
+  are further incorporated into users’ libraries by indexing the
+  attached files and making them searchable along with the reference
+  data.</p>
+  <p>The connection between EndNote and a word processor is more visible
+  by incorporating cited references from documents right into the
+  EndNote interface. This way, users can work with their references in a
+  word processor, and focus on the references in a particular paper
+  while managing things in EndNote. Editing and managing individual
+  citations in Word now combines all the functionality in one place
+  which is a big help for people working on large projects, or
+  collaboratively. The “Traveling Library” sharing feature in Word has
+  also been significantly improved to help people work together. The APA
+  6th style is fully supported and EndNote X4 offers much more
+  customization and intelligence to the way footnote formatting styles
+  are handled.</p>
+  <p>The full list of features, online videos, and a free trial version
+  of EndNote X4 are available at
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://www.endnote.com/">www.endnote.com</ext-link>.
+  EndNote version X4 was released in June for Windows with the Macintosh
+  version available by the end of this summer.</p>
+</sec>
+<sec id="4-how-does-endnote-handle-pdf-management-can-you-share-pdf-files-with-other-users">
+  <title>4. How does EndNote handle PDF management? Can you share PDF
+  files with other users?</title>
+  <p>With version X4, we have added more PDF-related functionality to
+  EndNote. Now, you can import PDF meta-data and search the full text of
+  attached PDF files. You can share EndNote library files that contain
+  PDF attachments easily – or any other file type. EndNote Web does not
+  currently support direct file attachments but this is something we are
+  currently working on.</p>
+</sec>
+<sec id="5-what-is-endnote-web-how-does-it-relate-to-endnote">
+  <title>5. What is EndNote Web, how does it relate to EndNote?</title>
+  <p>EndNote provides
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201927/http://www.endnoteweb.com/">EndNote
+  Web</ext-link> to users for easy sharing and collaboration features.
+  Transferring references up to the web provides extra flexibility to
+  work with EndNote references anywhere. There’s a browser plug-in
+  available with EndNote Web, that captures and saves references from
+  web pages and allows users to send references to a desktop or
+  web-based library. The web version has some features that the desktop
+  doesn’t, and vice versa; each is complimentary to the other. EndNote
+  Web is also integrated into the Web of Knowledge database platform and
+  a limited version of EndNote Web is provided to ResearcherID users for
+  managing their personal publication list.</p>
+</sec>
+<sec id="6-can-i-use-endnote-with-collaborative-writing-tools-such-as-google-docs-or-microsoft-office-live">
+  <title>6. Can I use EndNote with collaborative writing tools such as
+  Google Docs or Microsoft Office Live?</title>
+  <p>While we do not have any custom built plug-ins or similar tools for
+  Google Docs or Microsoft Office Live, as always, it’s easy to
+  drag-and-drop or copy-and-paste in EndNote citations. If you look
+  closely at other products that claim to be compatible, you’ll see that
+  they are offering a simple copy and paste function as well. Based on
+  our research thus far, these writing tools do not yet offer the right
+  APIs to build more robust integration. This is something we hear from
+  customers quite often so we will keep an eye on developments and hope
+  to offer something more once the APIs are available.</p>
+</sec>
+<sec id="7-how-does-endnote-help-with-reference-management-beyond-writing-manuscripts-e-g-reading-lists-for-students-writing-blog-posts-etc-">
+  <title>7. How does EndNote help with reference management beyond
+  writing manuscripts, e.g reading lists for students, writing blog
+  posts, etc.?</title>
+  <p>You can easily use EndNote to include citations, hyperlinks, or any
+  other reference data into nearly any type of document in almost any
+  format and customize the output for your specific needs. You can share
+  groups of references with both read only and read-write access; this
+  supports sharing reading lists and more involved collaboration. But,
+  reference management has evolved into so much more than just finding
+  things to insert into a document. With the grouping, searching, and
+  file attachment options, EndNote is a way to organize the majority of
+  your research. These features make EndNote robust and flexible at
+  handling a huge volume of items. Plus, you’ve always been able to
+  store files of any type with EndNote, therefore making it possible to
+  utilize much of the organizational capabilities for non-traditional
+  sources like video clips or datasets.</p>
+</sec>
+<sec id="8-endnote-has-seen-many-updates-since-its-initial-release-more-than-20-years-ago-what-do-you-see-as-some-of-the-most-significant-changes-during-that-time">
+  <title>8. EndNote has seen many updates since its initial release more
+  than 20 years ago. What do you see as some of the most significant
+  changes during that time?</title>
+  <p>EndNote started out for the Mac Plus and DOS; so clearly a lot has
+  changed along with many of the major developments in personal software
+  technology since the late 1980′s. EndNote introduced online searching
+  and direct export to simplify the movement of references from
+  discovery to a personal collection for citing in papers. Cite While
+  You Write is often imitated but never duplicated for ease of use when
+  citing references in Apple Pages, Microsoft Word, and OpenOffice.org
+  Writer. The fundamental problem that EndNote has been solving for our
+  customers has morphed over the years. While keeping up with changes in
+  formatting rules and reference types, which have always been the core
+  strength of EndNote, we have also evolved EndNote into a more complete
+  reference management solution. Where at one time the majority of our
+  users worked alone on a single computer writing a static manuscript,
+  today most customers interact with a global network of collaborators
+  on multiple projects that might be delivered in several formats. Now
+  with EndNote Web and ResearcherID, EndNote users can easily promote
+  their work and connect with others. Another area that has
+  significantly changed over the last twenty years is the means by which
+  users access research material, and as our user’s focus has shifted
+  from basic reference data and description to inclusion of the full
+  text of sources and supporting documentation, EndNote has too. EndNote
+  supports this with OpenURL linking, proxy and open source
+  authentication, browser plug-ins, and other functions.</p>
+  <p>Many of the developments we currently have underway will further
+  support online sharing and connectivity and should prove to be some of
+  the most valuable including mobile functionality and more.</p>
+</sec>
+<sec id="9-what-are-your-responsibilities-at-thomson-reuters">
+  <title>9. What are your responsibilities at Thomson Reuters?</title>
+  <p>My team is responsible for the development of bibliographic
+  management tools. This involves leading the development teams for
+  EndNote and Reference Manager, listening to customer input, and
+  coordinating partnerships.</p>
+</sec>
+<sec id="10-what-did-you-do-before-working-at-thomson-reuters">
+  <title>10. What did you do before working at Thomson Reuters?</title>
+  <p>I joined the EndNote team in 2001. Before that, I was completing a
+  PhD in Educational Technology from Drexel University and working for
+  two different consulting firms and a small web start-up.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

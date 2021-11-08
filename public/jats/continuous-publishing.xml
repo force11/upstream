@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Continuous Publishing</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2014-03-10">
+<day>10</day>
+<month>3</month>
+<year>2014</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Earlier this week Björn Brembs wrote in a blog post
+(<ext-link ext-link-type="uri" xlink:href="http://bjoern.brembs.net/2014/03/what-is-the-difference-between-text-data-and-code/">What
+Is The Difference Between Text, Data And Code?</ext-link>):</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>To sum it up: our intellectual output today manifests itself in
+    code, data and text.</p>
+  </disp-quote>
+</p>
+<p>The post is about the importance of publication of data and software
+where currently <italic>the rewards are stacked disproportionately in
+favor of text publications</italic>. The intended audience is probably
+mainly other scientists (Björn is a neurobiologist) who are reluctant to
+publish data and/or code, but there is another interesting aspect to
+this.</p>
+<p>Just as scientific publication increasingly means more than just text
+and includes data and software, we are also increasingly seeing tools
+and methodologies common in software development applied to scientific
+publishing. This in particular includes the ideas behind Open Source
+software (which shares many commonalities with Open Access and Open
+Science), but also tools like the git version control system
+(<ext-link ext-link-type="uri" xlink:href="http://marciovm.com/i-want-a-github-of-science/">We
+Need a Github of Science</ext-link>) or the markdown markdown language
+(<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2012/12/13/a-call-for-scholarly-markdown/">A
+Call for Scholarly Markdown</ext-link>).</p>
+<fig>
+  <caption><p>Delivery, image from
+  <ext-link ext-link-type="uri" xlink:href="http://commons.wikimedia.org/wiki/File:Agile-vs-iterative-flow.jpg">Wikimedia
+  Commons</ext-link>.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="http://blog.martinfenner.org/images/Agile-vs-iterative-flow.jpg" xlink:title="" />
+</fig>
+<p>Continuous Delivery is another concept increasingly popular in
+software development that has many implications on how research can be
+performed and reported. Martin Fowler describes it as:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>Continuous Delivery is a software development discipline where
+    you build software in such a way that the software can be released
+    to production at any time.</p>
+  </disp-quote>
+</p>
+<p>The concept of frequent small releases is of course familiar to
+everyone practicing
+<ext-link ext-link-type="uri" xlink:href="http://usefulchem.wikispaces.com/">Open
+Notebook Science</ext-link>, writing science blogs, presenting
+preliminary data at conferences or publishing
+<ext-link ext-link-type="uri" xlink:href="http://arxiv.org/">preprints</ext-link>,
+and is even relevant to
+<ext-link ext-link-type="uri" xlink:href="http://www.crossref.org/crossmark/">CrossMark</ext-link>,
+a service that tracks corrections, enhancements and other changes of
+scholarly documents.</p>
+<p>When you read the definition given by Martin Fowler carefully, you
+see that Continuous Delivery is about more than the frequency of
+software updates – it is in fact about improving the process of
+releasing software. The scientific publication is the corresponding
+event in science, and I think that nobody would argue with me that the
+experience publishing a paper is too complex, time-consuming and often
+frustrating. The focus here is not on the time it takes to do peer
+review, or the multiple revisions needed before a manuscript is
+accepted. I am talking about the pain submitting a manuscript, the back
+and forth regarding file formats, citation styles and other technical
+requirements, the reformatting of manuscripts, and also the time it
+takes from accepting a manuscript to finally publishing it online.</p>
+<p>I would argue that the main reason publishing is so painful for
+everyone involved is that it is still very much a manual process. Just
+as software development is creative work, but still can benefit
+tremendously from tools such as automated tests and build tools, we can
+apply the same principles to scientific publishing. This means that
+everything that can be automated should be automated so that we can
+focus on those areas that need human judgement. The mistake that I think
+is commonly made is that automation for many publishers means automation
+for the publisher, with even more work for the author who submits a
+manuscript. A good example is that authors are increasingly asked to
+submit publication-ready manuscripts even though typesetting and desktop
+publishing is not their area of expertise and the manuscript text will
+be very different after one or more rounds of revision. The pain of
+processing manuscripts into something that can be published was
+summarized perfectly by typesetter and friend Kaveh Bazargan at the
+<ext-link ext-link-type="uri" xlink:href="http://www.youtube.com/watch?feature=player_embedded&amp;v=CGkcsvofjdg">SpotOn
+London 2012 Conference</ext-link> (via
+<ext-link ext-link-type="uri" xlink:href="http://rossmounce.co.uk/2012/11/19/yet-another-solo12-recap-part2/">Ross
+Mounce’s blog</ext-link>):</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>It’s madness really. I’m here to say I shouldn’t be in
+    business.</p>
+  </disp-quote>
+</p>
+<p>The promise of Continuous Delivery for publishing is to develop tools
+and best practices that make the process of publication faster, with
+better quality, and less frustrating. Continuous Integration
+(<ext-link ext-link-type="uri" xlink:href="http://martinfowler.com/articles/continuousIntegration.html">again
+Martin Fowler</ext-link>) is an important part of Continuous Delivery
+and means frequently merging all developer working copies of a software
+project into a central repository, combined with running automated unit
+tests and software builds using an integration server.</p>
+<p>We can apply Continuous Integration to scholarly documents - instead
+of automated tests and software builds we can automate the
+transformation of documents into
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/12/12/from-markdown-to-jats-xml-in-one-step/">JATS
+XML</ext-link> and other output formats, and we can automate the process
+of checking for required metadata, correct file formats for images, etc.
+And we can use the same software tools for this, many of which are
+freely available to Open Source projects.</p>
+<p>As an example of how this can be done
+<ext-link ext-link-type="uri" xlink:href="https://github.com/mfenner/jekyll-travis">I
+have integrated</ext-link> the
+<ext-link ext-link-type="uri" xlink:href="https://travis-ci.org/">Travis
+CI</ext-link> Continuous Integration server with the book project
+<ext-link ext-link-type="uri" xlink:href="http://book.openingscience.org/">Opening
+Science</ext-link>. The recently published book is a dynamic book that
+hopefully is updated frequently in the coming months. Every time an
+editor approves a correction to the text -
+<ext-link ext-link-type="uri" xlink:href="https://github.com/openingscience/book">hosted
+in markdown format on Github</ext-link> - the Travis CI server is
+automatically triggered to build a new HTML version of the book and to
+push the new version to the book website. The Travis server is running
+the
+<ext-link ext-link-type="uri" xlink:href="http://johnmacfarlane.net/pandoc/">Pandoc</ext-link>
+document converter to not only convert the changed document from
+markdown to HTML, but Pandoc will also insert and format references, and
+the
+<ext-link ext-link-type="uri" xlink:href="http://jekyllrb.com/">Jekyll</ext-link>
+site generator will build a nice website around the markdown files. Over
+time this build process can be extended to do other things as well, from
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/07/02/auto-generating-links-to-data-and-resources/">auto-generating
+links to data and resources</ext-link> to transforming the document into
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/12/12/from-markdown-to-jats-xml-in-one-step/">other
+file formats</ext-link> besides HTML.</p>
+</body>
+<back>
+</back>
+</article>

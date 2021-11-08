@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>CrowdoMeter goes Mobile</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-01-04">
+<day>4</day>
+<month>1</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Two weeks ago Euan Adie from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://altmetric.com/">altmetric.com</ext-link>
+and myself
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://blogs.plos.org/mfenner/2011/12/20/crowdometer-or-trying-to-understand-tweets-about-journal-papers/">launched</ext-link>
+the website
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://crowdometer.org/">CrowdoMeter</ext-link>,
+a crowdsourcing project that tries to classify tweets about scholarly
+articles using the Citation Typing Ontology (CiTO). Despite the holidays
+we have gotten off to a good start with currently 597 classifications by
+56 different users, already covering 93% of the tweets we wanted to
+classify. We will discuss the results of this project at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://scienceonline2012.com/">ScienceOnline2012</ext-link>
+conference in two weeks, but the most important findings can also be
+watched in real-time
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://crowdometer.org/ratings">here</ext-link>.</p>
+<p>To our knowledge this is the first time that CiTO has been used for
+the systematic classification of tweets, and the preliminary results
+seem to confirm what we and others had thought, i.e. that most tweets
+contain little semantic information and often only retweet the title of
+a paper. But not only do we now have numbers to confirm this, but we can
+also make some interesting additional observations. We find for example
+that only 1% of tweets disagree with the statements made in a paper –
+most Twitter users don’t seem to care telling others about papers they
+dislike or disagree with.</p>
+<p>This project is far from over, ideally we want 3-5 classifications
+per tweet or an additional 1,000 classifications. It is a challenge to
+build a website so that enough people want to help with this project.
+One idea is to make the classifications as simple as possible, and to
+help further with this we today launched a mobile version of
+CrowdoMeter. Simply browse to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://crowdometer.org/">http://crowdometer.org</ext-link>
+with your iPhone or Android phone, sign in via your Twitter account, and
+you should see something similar to this:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170107002621im_/http://blogs.plos.org/mfenner/files/2012/01/crowdometer.png" xlink:title="crowdometer" />
+</fig>
+<p>CrowdoMeter uses
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://jquerymobile.com/">jQuery
+Mobile</ext-link>, a touch-optimized Javascript framework for
+smartphones and tablets. There are still some minor issues, but in
+general jQuery Mobile is a great tool to optimize a website for mobile
+users. Users are presented with 10 random tweets they haven’t classified
+yet, and see a simple classification screen when clicking (touching) a
+tweet:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170107002621im_/http://blogs.plos.org/mfenner/files/2012/01/crowdometer1.png" xlink:title="crowdometer1" />
+</fig>
+<p>It should not take longer than 15 minutes to classify 15-25 tweets,
+and this would be a tremendous help for the project.</p>
+<p>The CrowdoMeter results page displayed the same information as in the
+desktop version of the website, the charts are produced by the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170107002621/http://www.highcharts.com/">Highcharts</ext-link>
+Javascript library (and again jQuery).</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170107002621im_/http://blogs.plos.org/mfenner/files/2012/01/crowdometer2.png" xlink:title="crowdometer2" />
+</fig>
+<p>I’m interested to see how well the crowdsourcing for CrowdoMeter will
+work in the coming weeks. We hope to finish the data gathering part in
+January. If this project generates enough interest I could imagine doing
+another crowdsourcing project, maybe again using the Citation Typing
+Ontology, but this time for blog posts about scholarly papers.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Beyond the PDF … is ePub</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-01-23">
+<day>23</day>
+<month>1</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Having breakfast at the end of a conference is a good way to recap
+what was discussed and can help to generate new ideas. Two years ago at
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://scienceonline09.com/">ScienceOnline09</ext-link>
+a conversation with Cameron Neylon that followed up on the session
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://precedings.nature.com/documents/2801/version/1/html">Reputation,
+authority and incentives. Or: How to get rid of the Impact
+Factor</ext-link> (moderated by Björn Brembs and Pete Binfield) was
+started my interest in unique author identifiers for researchers. An
+<ext-link ext-link-type="uri" xlink:href="https://blog.martinfenner.org/posts/nterview_with_geoffrey_bilder/">interview
+with Geoff Bilder</ext-link> about author identifiers and the CrossRef
+Contributor ID project followed a month later – still one of my favorite
+blog posts. I have since become deeply involved with author identifiers
+and have joined the Board of the Open Researcher &amp; Contributor ID
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://www.orcid.org/">ORCID</ext-link>)
+initiative last September.</p>
+<fig>
+  <caption><p><italic><italic>Beyond the PDF group photo my
+  lesliekwchan, on Flickr</italic></italic></p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120628140912im_/http://farm6.static.flickr.com/5010/5376544624_9914bebffa.jpg" xlink:title="" />
+</fig>
+<p>Wednesday to Friday I attended the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/https://sites.google.com/site/beyondthepdf/">Beyond
+the PDF</ext-link> workshop in San Diego to discuss how we can do better
+in scholarly publishing. The limitations of the PDF format were just one
+topic, the main themes were annotation, data, provenance, new models,
+writing and reviewing and impact. This is my presentation:</p>
+<p>We had two very productive breakout sessions about writing and
+reading tools, and we agreed that we should
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/https://sites.google.com/site/beyondthepdf/home/program-draft/notes-from-the-breakout">build
+something that makes it much easier to describe and distribute our
+research data</ext-link>. Most people in the group took a very pragmatic
+approach and want to build simple tools appropriate for small research
+groups in the next few months. We thought that graduate students would
+be good early adopters, and we already have three principal
+investigators willing to test these tools in their labs.</p>
+<fig>
+  <caption><p><italic><italic>Our first prototype, as drawn by Peter
+  Murray Rust</italic></italic></p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120628140912im_/http://blogs.plos.org/mfenner/files/2011/01/BTPDFdiagram-500x373.jpg" xlink:title="BTPDFdiagram" />
+</fig>
+<p>Peter Sefton demonstrated his
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://fascinator-demo.com/portal/default/search">Fascinator</ext-link>
+tool that already has a lot of the required functionality. But it was
+the breakfast discussion before departing – again with Cameron Neylon,
+but this time also including Peter Murray Rust, Peter Sefton and Ana
+Nelson – that helped me to put all my thoughts into place.</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>ePub should become the standard document format for authoring,
+    distributing and reading scholarly content.</p>
+  </disp-quote>
+</p>
+<p>The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://www.idpf.org/">ePub
+format</ext-link> uses a collection of files held together in a zip
+archive. Content is displayed using a combination of XHTML and CSS – not
+different from web pages – and the ePub can also contain other files.
+Journal publishers use XML internally, and it is therefore easy to
+distribute journal articles in ePub format –
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://www.hindawi.com/epub.html">some
+of them</ext-link> are already doing this routinely. ePub has several
+advantages over PDF, including:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>ePub can be used for all steps in the creation of a scholarly
+    document, including data collection, authoring, annotating and peer
+    review. There is no need for time-consuming and expensive format
+    conversions. Currently most manuscripts are submitted in Microsoft
+    Word or LateX formats, and then converted first to XML and then to
+    HTML and PDF. Metadata such as author identifiers, digital object
+    identifiers and semantic information can be added early on and don’t
+    get lost in a format conversion.</p>
+  </list-item>
+  <list-item>
+    <p>ePub makes it easy to include supplementary material, e.g. video
+    and other multimedia content, the datasets used in the publication
+    (particularly the data used for tables and figures), all cited
+    references in BibTeX format, etc.</p>
+  </list-item>
+  <list-item>
+    <p>ePub is much better suited for reading on mobile devices, as the
+    format allows reflowing of content. Most articles today are printed
+    from the PDF and then read, but this behavior is
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://blogs.plos.org/mfenner/2010/01/10/how_do_you_read_papers_2010_will_be_different/">rapidly
+    changing</ext-link>.</p>
+  </list-item>
+</list>
+<p>ePub is relatively new, and not many applications for scientists
+already support this format. We want lab equipment that stores its data
+in ePub, lab notebooks that write all files from an experiment into an
+ePub file, reference managers that store and display papers in ePub
+format, authoring tools that import all these ePub files and thus make
+it much easier to write, annotate and submit a manuscript, and journal
+submission systems that take ePub files. I have
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://blogs.plos.org/mfenner/2010/12/28/wordpress-for-reference-management/">written
+a lot about WordPress</ext-link> recently and this is of course a
+platform that would play nicely with ePub. At least two WordPress
+plugins
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://wordpress.org/extend/plugins/tags/epub">support
+ePub</ext-link>, and it should be possible to modify them to the
+requirements of the scholarly paper.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120628140912im_/http://blogs.plos.org/mfenner/files/2011/01/epub-500x199.jpg" xlink:title="epub" />
+</fig>
+<p>Almost as important as the document format is the distribution
+mechanism of these ePub files. We need a system that makes it easy to
+collaborate on a document, and that includes version control. The
+simplest solution would of course be centralized and web-based, but I’m
+not sure that this is a realistic scenario. We talked a lot about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://www.dropbox.com/">Dropbox</ext-link>
+during the meeting, but a solution using git (and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/https://github.com/">github</ext-link>),
+Amazon
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://aws.amazon.com/s3/">Simple
+Storage Service</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://explore.live.com/windows-live-skydrive">Windows
+Live SkyDrive</ext-link> or the repository software ePrints or DSpace is
+also possible. As an ePub document can contain all required documents,
+the submission of a manuscript to a journal or institutional repository
+could become as simple as uploading a single file, and all the peer
+review (including reviewer comments and revisions) could be done with
+that file. Submissions of datasets to databases such as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://datadryad.org/about">Dryad</ext-link>
+could of course also be done using ePub files. A versioned distribution
+system should also make it easier to automatically get information about
+corrections or retractions (e.g. using the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://www.crossref.org/crossmark.html">CrossMark</ext-link>
+system that will launch in 2011), and to receive regular updates of
+article-level metrics, including new citations of the article or
+dataset.</p>
+<p>Several of us attending the meeting will continue the discussion in
+the coming weeks, and I hope I can convince them of the advantages of
+ePub. It shouldn’t take us more than a month or two to produce a nice
+ePub of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120628140912/http://dx.doi.org/10.1371/journal.pcbi.1000976">sample
+PLoS Computational Biology article</ext-link> provided for the Beyond
+the PDF workshop. The next <bold><bold>Science Online London
+Conference</bold></bold> will be September 2-3 at the British Library.
+This is a good opportunity to discuss the progress of this project,
+ideally including reports about new ePub tools for scientists, more
+journals using ePub for their articles, and practical feedback from the
+first users.</p>
+</body>
+<back>
+</back>
+</article>

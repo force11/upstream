@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Standards for the Conduct of Science in the Information
+Age</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-04-17">
+<day>17</day>
+<month>4</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Assuming our airports are again open next weekend, I will be
+attending a meeting organized by the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.nsf.gov/">NSF</ext-link>
+(National Science Foundation) and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.eurohorcs.org/E/Pages/home.aspx">EuroHORCS</ext-link>
+(European Heads of Research Councils) on <italic><italic>Changing the
+Conduct of Science in the Information Age</italic></italic> in
+Washington on April 26. We have been asked to submit a one page white
+paper in advance of the
+meeting.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://blogs.plos.org/mfenner/2010/04/17/improving_the_conduct_of_science/#fn1">1</ext-link></sup>
+I decided to focus on the importance of standards, obviously leaving out
+many other important technological and social aspects. But defining and
+adhering to standards will enable or enhance a number of very
+interesting ways to conduct and report science in the information
+age.</p>
+<fig>
+  <caption><p>Flickr photo by Joye~.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611093752im_/http://farm4.static.flickr.com/3569/3429599200_2f54dbd5cd_d.jpg" xlink:title="" />
+</fig>
+<p>Improving the conduct of science through digital technology requires
+standards for linking to and formatting scholarly resources. These
+standards should be coordinated by independent organizations that are
+not restricted to geographic areas or particular research domains.</p>
+<sec id="data-access">
+  <title>Data access</title>
+  <p>Digital Object Identifiers
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.doi.org/">DOIs</ext-link>)
+  are the primary system to link to digital content. The International
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.datacite.org/">DataCite</ext-link>
+  initiative is the DOI registration agency for scientific primary data.
+  Although there are many uses of DOIs for primary research data (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.pangaea.de/">PANGAEA</ext-link>,
+  earth system research), many systems still use different identifiers.
+  Research funders and journals working in specific domains should
+  collaborate on standards and best practices for primary research
+  datasets, and journal publishers should encourage or even require
+  linking to research datasets from publications. Successful examples
+  include
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.ncbi.nlm.nih.gov/genbank/">GenBank</ext-link>
+  (genetic sequences) and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.mged.org/Workgroups/MIAME/miame.html">MIAME</ext-link>
+  (microarray gene expression).</p>
+</sec>
+<sec id="knowledge-access">
+  <title>Knowledge access</title>
+  <p>DOIs have become the standard identifier for electronic scholarly
+  publications and are managed by the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.crossref.org/">CrossRef</ext-link>
+  registration agency. Journal articles, databases and websites linking
+  to scholarly publications should use DOIs whenever possible instead of
+  internal identifiers such as the PubMed ID or direct links to
+  publisher webpages. Publishers should implement citation styles that
+  use the DOI instead of volume, issue and page numbers.
+  The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://dtd.nlm.nih.gov/">NLM
+  DTD</ext-link> is the standard format used by PubMed Central and many
+  scholarly publishers to produce content for reading in the HTML, PDF
+  or ePub formats. The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.microsoft.com/mscorp/tc/scholarly_communication.mspx">Article
+  Authoring Add-in for Microsoft Office Word</ext-link> and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://pkp.sfu.ca/lemon8">Lemon8-XML</ext-link>
+  allow researchers to produce content in the NLM DTD format. The
+  workflow of writing, reviewing and publishing scientific papers should
+  be based completely on the NLM DTD and tools for collaborative
+  writing, journal submission and peer review should be build around
+  that format.</p>
+</sec>
+<sec id="attribution">
+  <title>Attribution</title>
+  <p>The recently
+  announced<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://blogs.plos.org/mfenner/2010/04/17/improving_the_conduct_of_science/#fn2">2</ext-link>
+  Open Researcher and Contributor ID
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.orcid.org/">ORCID</ext-link>)
+  is one of many initiatives for a unique researcher identifier, but has
+  probably the broadest support among institutions, publishers and
+  research organizations. ORCID will be managed by an independent
+  non-profit organization, and will allow the exchange of profiles with
+  other researcher identifier systems such as those used by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.scopus.com/">Scopus</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://repec.org/">RePEc</ext-link>,
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/https://twiki.cern.ch/twiki/bin/view/Inspire/WebHome">Inspire</ext-link>.
+  The information in the author profile may be initially provided by an
+  institution, society or publisher, but should eventually be claimed by
+  the individual researcher because of privacy concerns and because
+  automated author disambiguation is never 100% accurate. Attribution
+  should include all aspects of scholarly activity, including curation
+  of primary research datasets and peer review.
+  The Public Library of Science (PLoS)
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://article-level-metrics.plos.org/">article-level
+  metrics</ext-link> make available comprehensive information
+  (citations, downloads, social bookmarks, comments, etc.) with every
+  published article. This system should be linked to author identifiers
+  and developed into a standard for scholarly resources. Other scholarly
+  publishers and databases for primary research data should then adopt
+  these metrics.</p>
+  <p>fn1. Cameron Neylon's draft white paper is
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://cameronneylon.net/blog/draft-white-paper-researcher-identifiers/">here</ext-link>.</p>
+  <p>fn2. Interestingly both DataCite and ORCID were first announced
+  December 1, 2009 at two independent events in London (press releases
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://www.tib-hannover.de/en/the-tib/news/news/id/133/">here</ext-link>
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611093752/http://orcid.org/media/pdf/ORCID_Announcement.pdf">here</ext-link>).</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>ScienceFeed: Interview with Ijad Madisch</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-02-15">
+<day>15</day>
+<month>2</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Microblogging is blogging of short text messages, photos or other
+media and is best exemplified by
+<italic><italic>Twitter</italic></italic>. Twitter use has grown
+tremendously in 2009, and this also includes many
+scientists.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://blogs.plos.org/mfenner/2010/02/15/sciencefeed_interview_with_ijad_madisch/#fn1">1</ext-link></sup>
+<italic><italic>FriendFeed</italic></italic> is a another microblogging
+tool that not only allows sending of short text messages, but connects
+them together in groups and discussions threads similar to what you can
+do in online forums. FriendFeed, especially
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://friendfeed.com/the-life-scientists">The
+Life Scientists</ext-link> group has been a popular place for many
+scientists for the last 18 months or so.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://network.nature.com/people/U42E63119/profile">Cameron
+Neylon</ext-link> wrote a good introduction to the service back in June
+2008:
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://blog.openwetware.org/scienceintheopen/2008/06/12/friendfeed-for-scientists-what-why-and-how/">FriendFeed
+for scientists: what, why, and how?</ext-link>. FriendFeed is a great
+tool for conference blogging, and the ISBM 2008 conference was probably
+the first scientific conference where it was used extensively, resulting
+in a <italic><italic>PLoS Computational Biology</italic></italic>
+paper.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://blogs.plos.org/mfenner/2010/02/15/sciencefeed_interview_with_ijad_madisch/#fn2">2</ext-link></sup>
+FriendFeed is also often used to comment on blog posts, and here it is
+competing for attention with comments that are put directly on a blog.
+FriendFeed is a good example for a generic Web 2.0 tool that is much
+more useful to scientists than many Web 2.0 tools targeted specifically
+at scientists (the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://fcw.com/Articles/2009/10/26/NIH-grant-creates-Facebook-for-Scientists.aspx">Facebooks
+for scientists</ext-link>).</p>
+<p>FriendFeed
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.facebook.com/press/releases.php?p=116581">was
+acquired by Facebook</ext-link> in August 2009, and users started to
+worry about the long-term future of FriendFeed. An Open Source version
+of the FriendFeed web server was recently released as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://bret.appspot.com/entry/tornado-web-server">Tornado</ext-link>
+(source code on
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://github.com/facebook/tornado">GitHub</ext-link>).
+Although other services (including
+<italic><italic>Facebook</italic></italic>) offer similar functionality,
+no service has (yet) emerged as an alternative popular with scientists.
+FriendFeed use seemed to be declining at the two recent
+<italic><italic>Science Online London 2009</italic></italic> and
+<italic><italic>ScienceOnline2010</italic></italic> conferences, as more
+and more people were using Twitter.</p>
+<p>Last Tuesday
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.google.com/buzz">Google
+Buzz</ext-link> was released. <italic><italic>Buzz</italic></italic> is
+also a microblogging service, tightly integrated with
+<italic><italic>Google Mail</italic></italic> and <italic><italic>Google
+Reader</italic></italic>. If offers many of the same features as
+<italic><italic>FriendFeed</italic></italic>, and because it integrates
+with Google Mail, it has a large number of potential users from the
+start – including a large number of people involved in the Science
+Bloggosphere. <italic><italic>Buzz</italic></italic> will certainly get
+some of the features that are still missing, e.g. an easy way to import
+content from other sources, including a bookmarklet. And
+<italic><italic>Buzz</italic></italic> works very well on iPhone and
+Android phones and there also uses location information – e.g. all the
+<italic><italic>Buzz</italic></italic> discussions near you. But at the
+moment many people wonder how best to integrate
+<italic><italic>Buzz</italic></italic> with
+<italic><italic>FriendFeed</italic></italic> and
+<italic><italic>Twitter</italic></italic>, and all the other online
+tools they use – it doesn't make sense to read the same content again
+and again on all these services.</p>
+<p>In this context it is very interesting to see
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.sciencefeed.com/">ScienceFeed</ext-link>
+launching as a new microblogging service this week.
+<italic><italic>ScienceFeed</italic></italic> in many ways is similar to
+<italic><italic>FriendFeed</italic></italic>, but tries to add features
+of particular interest to scientists. I spoke with <italic><italic>Ijad
+Madisch</italic></italic> about ScienceFeed.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032951im_/http://gallery.me.com/mfenner/100079/ijad_madisch/web.jpg" xlink:title="" />
+</fig>
+<sec id="1-what-is-sciencefeed">
+  <title>1. What is ScienceFeed?</title>
+  <p>ScienceFeed is science as it happens, communicated through a
+  microblogging platform. Conceptualized and designed by scientists, it
+  is a bridge between online scientific networking platforms, scientific
+  databases, and the wider online science community. The ScienceFeed
+  platform allows users to post microblogs, sometimes just a few
+  sentences, on scientific headlines, new findings, controversy,
+  conferences and ideas related to science. Community members can follow
+  the feeds of fellow members and comment on topics in which they are
+  interested, allowing real-time communication and transfer of
+  ideas.</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032951im_/http://gallery.me.com/mfenner/100079/sciencefeed_screenshot/web.jpg" xlink:title="" />
+  </fig>
+  <p>ScienceFeed is an interactive and dynamic platform – like science
+  itself. Here, scientists, journalists, librarians, students, and those
+  with an interest in science, will be able to communicate in a way that
+  has no borders. Individuals from all over the world are able to
+  participate and observe, helping to make science accessible to all.
+  Integral to the concept of Science 2.0 is having online resources that
+  are archivable and searchable – ScienceFeed will do just this. Science
+  is not limited to the laboratory: it happens through interactions of
+  communities. ScienceFeed is excited to build such a community.</p>
+</sec>
+<sec id="2-how-is-sciencefeed-different-from-friendfeed">
+  <title>2. How is ScienceFeed different from FriendFeed?</title>
+  <p>In basic functionality, ScienceFeed isn't much different to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://friendfeed.com/the-life-scientists">FriendFeed</ext-link>.
+  However, I think with the help of the community we will develop and
+  add applications to the platform that could make it very efficient for
+  scientific communication. There are two differences from FriendFeed
+  which we have already implemented: 1) Specific scientific publications
+  can easily be searched for and then entered as a linked-in reference
+  within a feed, and, 2) Groups can be marked as an event (e.g. a
+  conference). My vision is to have event streams in ScienceFeed, which
+  then can be visualized and presented in a much better way. However,
+  the most important part is that we listen to the feedback of the
+  community and develop specific applications based on their ideas and
+  feedback.</p>
+</sec>
+<sec id="3-what-special-features-does-sciencefeed-provide-for-conference-microblogging">
+  <title>3. What special features does ScienceFeed provide for
+  conference microblogging</title>
+  <p>An important feature from ScienceFeed is that groups can be marked
+  as a specific event, such as a conference. Administrators of these
+  groups will be able to import hashtags from Twitter, so all tweets
+  will be aggregated and displayed within this group. A possibility for
+  future growth is the integration of an entire conference program
+  (sessions, panels, etc.) into the group, which then can be commented
+  on by group members. It is important to us that the scientific
+  community has an input into the development of this feature so that we
+  can build a stronger, more efficient platform based on the needs of
+  our users.</p>
+</sec>
+<sec id="4-can-you-import-references-into-sciencefeed-only-via-your-reference-database-or-also-via-citeulike-or-other-bookmarking-service">
+  <title>4. Can you import references into ScienceFeed only via your
+  reference database, or also via CiteULike or other bookmarking
+  service?</title>
+  <p>Martin, thank you so much for this great idea. Based on your
+  feedback we worked hard to make this happen before launch. Yes, now
+  ScienceFeed can import from other bookmarking services such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.citeulike.org/">CiteUlike</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.connotea.org/">Connotea</ext-link>.
+  Furthermore ScienceFeed supports
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.oclc.org/productworks/coins.htm">CoiNS</ext-link>,
+  which identifies automatically based on a weblink whether or not
+  bibliographic data is in the specified URL.</p>
+</sec>
+<sec id="5-how-is-sciencefeed-different-from-twitter">
+  <title>5. How is ScienceFeed different from Twitter?</title>
+  <p>There are several differences, but the largest are that in
+  ScienceFeed there is no character limitation and groups can be tagged
+  as a specific event – facilitating real-time, online communication
+  about the event.</p>
+</sec>
+<sec id="6-what-is-the-advantage-of-having-a-social-networking-tool-specifically-for-scientists">
+  <title>6. What is the advantage of having a social networking tool
+  specifically for scientists?</title>
+  <p>I think the most important part is the non-dilution of information
+  in an environment where the platform and focus is specifically on
+  science. Consider the following: You can find a biomedical scientific
+  paper by searching in Google, but you could also use PubMed, which has
+  a high probability of faster and better results. It is the same as
+  within
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/https://www.researchgate.net/">ResearchGATE</ext-link>:
+  You have large groups (Methods, Immunology, Neuroscience, Philosophy,
+  etc.) with a very focused population, which again makes your search
+  more directed and efficient with better results.</p>
+</sec>
+<sec id="7-what-is-the-relationship-between-sciencefeed-and-researchgate">
+  <title>7. What is the relationship between ScienceFeed and
+  ResearchGATE?</title>
+  <p>ScienceFeed will be a scientific microblogging platform completely
+  autonomous from ResearchGATE, because I think they target the same
+  group, but with various usage patterns.</p>
+  <p>The publication reference tool used for inserting papers into
+  ScienceFeed accesses the custom-built database of ResearchGATE. This
+  database now has a public API which makes it possible for everyone to
+  connect to the ResearchGATE literature database. I think that
+  microarticles which are pretty successful in Researchgate (published
+  in our ResearchBLOG) could be a part of ScienceFeed as well. I see
+  ScienceFeed as a platform which will be useful to various scientific
+  platforms as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.mendeley.com/">Mendeley</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://www.academia.edu/">Academia</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/https://www.researchgate.net/">ResearchGATE</ext-link>,
+  etc. It could be a platform that helps connect all these different
+  platforms.</p>
+</sec>
+<sec id="8-will-there-be-a-publicly-available-api-for-sciencefeed">
+  <title>8. Will there be a publicly available API for
+  ScienceFeed?</title>
+  <p>Yes, there will be an API.</p>
+</sec>
+<sec id="9-what-are-your-responsibilities-in-sciencefeed">
+  <title>9. What are your responsibilities in ScienceFeed?</title>
+  <p>I am, as in ResearchGATE, one of the co-founders and a kind of CEO.
+  I want to build a team of innovative and forward-thinking individuals
+  to help develop ideas and work conceptually on the future directions
+  of ScienceFeed.</p>
+</sec>
+<sec id="10-what-did-you-do-before-working-on-sciencefeed">
+  <title>10. What did you do before working on ScienceFeed?</title>
+  <p>I am a co-founder and CEO of ResearchGATE and I am also working at
+  Massachusetts General Hospital, Harvard Medical School, in Boston as a
+  researcher. Before ResearchGATE I studied Medicine and Computer
+  Science and completed my doctoral thesis in Virology, while working
+  for some time in Gastroenterology as a medical doctor.</p>
+</sec>
+<sec id="11-could-you-provide-contact-information-for-people-that-have-further-questions-about-sciencefeed">
+  <title>11. Could you provide contact information for people that have
+  further questions about ScienceFeed?</title>
+  <p>I can be contacted anytime at:
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/mailto:ijad.madisch@sciencefeed.com">ijad.madisch@sciencefeed.com</ext-link>.</p>
+</sec>
+<sec id="references">
+  <title>References</title>
+  <p><italic><italic>Bonetta L.</italic></italic> Should You Be
+  Tweeting? <italic><italic>Cell</italic></italic> 2009
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://dx.doi.org/10.1016/j.cell.2009.10.017">https://doi.org/10.1016/j.cell.2009.10.017</ext-link></p>
+  <p><italic><italic>Saunders N et al.</italic></italic> Microblogging
+  the ISMB: A New Approach to Conference Reporting. <italic><italic>PLoS
+  Comput Biol</italic></italic> 2009
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032951/http://dx.doi.org/10.1371/journal.pcbi.1000263">10.1371/journal.pcbi.1000263</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

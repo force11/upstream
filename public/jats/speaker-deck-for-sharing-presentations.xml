@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Speaker Deck for Sharing Presentations</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-05-29">
+<day>29</day>
+<month>5</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>It has become common practice to make presentation slides available
+for those unable to attend in person, or for more in-depth review later.
+The most popular service to do this is of course
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160404225654/http://www.slideshare.net/">Slideshare</ext-link>.
+Slideshare is a fine service, but the website has become fairly
+cluttered over the years, and visuals are of course important when it
+comes to presentations.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160404225654/http://speakerdeck.com/">Speaker
+Deck</ext-link> is an alternative to Slideshare with a focus on
+“simplicity and beauty”. The service has the features you would
+expect:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>upload presentations (currently in PDF only)</p>
+  </list-item>
+  <list-item>
+    <p>view presentations, including fullscreen mode</p>
+  </list-item>
+  <list-item>
+    <p>share presentations, including downloads and embedding</p>
+  </list-item>
+</list>
+<fig>
+  <caption><p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160404225654/https://speakerdeck.com/u/mfenner/p/future-formats-representing-the-next-generation-of-scholarly-articles?slide=51">Slide
+  51</ext-link> from a presentation I did with Steve Pettifer at UKSG in
+  March.</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20160404225654im_/http://blogs.plos.org/mfenner/files/2012/05/speakerdeck.png" xlink:title="speakerdeck" />
+</fig>
+<p>Speaker Deck was
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160404225654/http://orderedlist.com/blog/articles/share-presentations-without-the-mess/">announced
+last September</ext-link> and is free to use. It would be helpful if
+Speaker Deck allowed the upload of Powerpoint or Keynote files, making
+it easier to reuse the slides. But the big item on my wish list is an
+improvement of the social activities enabled around a presentation. I
+want to see download counts, comments, number of tweets and Facebook
+likes, and I want an API for them. Ordered List, the company behind
+Speakerdeck, was
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160404225654/http://orderedlist.com/blog/articles/ordered-list-acquired-by-github/">acquired
+by Github</ext-link> in December, turning Speaker Deck into a Github
+product. This makes me confident that we will see these Speaker Deck
+improvements rather sooner than later.</p>
+<p>To see a few Speaker Deck presentations, go to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160404225654/https://speakerdeck.com/u/mfenner">my
+presentations</ext-link> or the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20160404225654/https://speakerdeck.com/c/science">Science
+category</ext-link>.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Discuss Papers with JournalFire</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-07-05">
+<day>5</day>
+<month>7</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>About a year ago I wrote a blog post about how to use Web 2.0 tools
+for a journal club
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://blogs.nature.com/mfenner/2009/08/08/recipe-distributing-papers-for-a-journal-club">Recipe:
+Distributing papers for a journal club</ext-link>). Although reference
+management tools such as <italic><italic>CiteULike</italic></italic> and
+<italic><italic>Mendeley</italic></italic> can be used for journal
+clubs, discussion features are often more of an afterthought. At the
+time I therefore recommended FriendFeed. In February of this year,
+ScienceFeed was released
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://blogs.nature.com/mfenner/2010/02/15/sciencefeed-interview-with-ijad-madisch">ScienceFeed:
+Interview with Ijad Madisch</ext-link>). It is very similar to
+FriendFeed, but is smarter about finding and storing references to
+scientific literature. Unfortunately ScienceFeed integrates very tightly
+with ResearchGate. You have to sign up for both services to use the
+reference management features.</p>
+<p>Last week a new web-based tool specifically for Journal Clubs was
+released.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://journalfire.com/">JournalFire</ext-link>
+was created by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://journalfire.com/johnmdelacruz">John
+Delacruz</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://journalfire.com/riccardoschmid">Riccardo
+Schmid</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://journalfire.com/timhill">Tim
+Hill</ext-link>. JournalFire is free for public discussion groups, but
+costs money for private groups with more than 4 members.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611103044im_/http://blogs.plos.org/mfenner/files/2010/11/journalfire.jpg" xlink:title="" />
+</fig>
+<p>Feel free to participate in the discussion about this article
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://journalfire.com/node/70269107">here</ext-link>.
+I've picked a paper that is not only freely available and nicely
+written, but also in a very hot field.</p>
+<sec id="what-i-like">
+  <title>What I like</title>
+  <p>JournalFire really focuses on discussion around a paper. Journal
+  Clubs are used to organize the discussion, similar to groups in other
+  tools. The interface is uncluttered, and almost everything is
+  available as RSS feed.</p>
+</sec>
+<sec id="what-i-would-like">
+  <title>What I would like</title>
+  <p>JournalFire was just released publicly, so it obviously doesn't
+  have all the features of a more mature product. More importantly,
+  JournalFire covers a fairly specific reference management niche, it is
+  therefore important that data exchange with other reference management
+  tools is as easy as possible.
+  JournalFire has a bookmarklet similar to what other reference managers
+  offer, and you can export one or more references in Endnote or BibTex
+  format.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103044/http://ocoins.info/">COinS</ext-link>
+  support should be an obvious addition, and an API would allow tighter
+  integration with other tools, e.g. to add Journal Club features to
+  your CiteULike, Mendeley or Zotero library.</p>
+  <p>The Journal Club concept of JournalFire fills a very interesting
+  niche. But in the end, social tools for scientists are about critical
+  mass. It will be interesting to see whether JournalFire can attract
+  enough users in this very crowded market.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

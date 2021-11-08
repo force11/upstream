@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Could you write your next paper with Google
+Docs?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-09-09">
+<day>9</day>
+<month>9</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101232/http://docs.google.com/">Google
+Docs</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101232/http://writer.zoho.com/">Zoho
+Writer</ext-link> are web-based writing tools that have gained many of
+the features of traditional word processors such as Microsoft Word.
+Looking at Google Docs as an example (Zoho Writer shares many of the
+strenghts and weaknesses), I wanted to find out if they are mature
+enough to write a scientific paper.</p>
+<sec id="the-good">
+  <title>The Good</title>
+  <p>The major strength is collaboration. All documents are stored
+  online, which makes it very easy for several people to work on a
+  document simultaneously. Because all changes to the text are kept
+  (with author and date), it is easy to go back to an older version. You
+  can import and export documents in various formats, including .doc,
+  .rtf and .pdf.</p>
+</sec>
+<sec id="the-bad">
+  <title>The Bad</title>
+  <p>The obvious missing feature is lack of reference manager
+  integration. Google Docs currently doesn't support footnotes or
+  endnotes, so you can't roll your own references. Google Docs supports
+  font formatting, but unfortunately that doesn't include the Symbol
+  font – needed in almost all scientific documents. And Google Docs
+  online works with an online internet connection, although offline
+  support may come in the form of
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101232/http://gears.google.com/">Google
+  Gears</ext-link>, Zoho Writer already supports Google Gears.</p>
+</sec>
+<sec id="the-summary">
+  <title>The Summary</title>
+  <p>Google Docs is <italic><italic>almost</italic></italic> ready to be
+  an attractive tool for scientific writing. Some of the small problems
+  are easily fixed in future updates. The big problem is integration of
+  scientific references. But Google already has
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101232/http://scholar.google.com/">Google
+  Scholar</ext-link>, maybe the two can be integrated?</p>
+  <p>For now, Google Docs can help with papers that have many active
+  authors (e.g. a review article), but the final steps still have to be
+  done with a word processor.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

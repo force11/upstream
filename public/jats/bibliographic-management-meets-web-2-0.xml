@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Bibliographic Management meets Web 2.0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-08-01">
+<day>1</day>
+<month>8</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Regular readers of this blog know that I often talk about
+bibliographic management tools (most recently
+<ext-link ext-link-type="uri" xlink:href="https://blog.martinfenner.org/posts/what-is-the-right-reference-manager-for-you">here</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://blog.martinfenner.org/posts/reference-manager-overview">here</ext-link>),
+and it was probably for this reason that I was invited to an interesting
+full-day workshop last week at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.royalfree.nhs.uk/">Royal
+Free Hospital Medical Library</ext-link> in London:
+<italic><italic>Bibliographic Management meets Web
+2.0</italic></italic>. The event was organized by science librarians
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://network.nature.com/people/franknorman/profile">Frank
+Norman</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://network.nature.com/people/UB5280986/profile">Nathalie
+Cornee</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://network.nature.com/people/U8136B832/profile">Betsy
+Anagnostelis</ext-link>, and was attended by about 20 science
+librarians. We had demos of the following software:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://endnote.com/">EndnoteWeb</ext-link>,
+    demo by Stephanie Marshall</p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.refworks.com/">RefWorks</ext-link>,
+    demo by Aaron Maierhofer</p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Connotea">Connotea</ext-link>,
+    demo by Grace Barnes</p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/CiteULike">CiteULike</ext-link>,
+    demo by Kevin Emamy</p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://www.zotero.org/">Zotero</ext-link>,
+    demo by Rintze Zelle</p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://www.mendeley.com/">Mendeley</ext-link>,
+    demo by Victor Henning and Jan Reichelt</p>
+  </list-item>
+</list>
+<p>This is a fairly complete list of bibliographic software with Web 2.0
+features. Missing are some tools with similar features, as there simply
+wasn't enough time and money to invite them all (e.g.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.2collab.com/">2collab</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.labmeeting.com/">Labmeeting</ext-link>),
+several popular programs without these features
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.refman.com/">Reference
+Manager</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.citavi.com/">Citavi</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://www.papersapp.com/">Papers</ext-link>),
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://jabref.sourceforge.net/">JabRef</ext-link>
+and similar tools for
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.bibtex.org/">BibTeX</ext-link>
+files used by LaTeX.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20150908064949im_/http://farm4.static.flickr.com/3593/3774951723_0b9e697677.jpg" xlink:title="" />
+</fig>
+<p>I gave a brief introduction of what features I would look for in a
+reference manager today (available on
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.slideshare.net/mfenner/which-reference-manager">slideshare</ext-link>).
+The six presenters then took up a challenge (Word file
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://friendfeed-media.com/f9221d4c733652d64845e3dc6e0c17eaea9a05a2">here</ext-link>)
+that was given to them the week before. We used a simplified version of
+a set of tasks (find reference, put citation into Word document, etc.)
+originally developed for
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://citefest.pbworks.com/">CiteFest</ext-link>
+at Northwestern University. Every participant was sitting in front of a
+computer and follow along with the tasks (the technical staff at the
+Royal Free did a marvelous job installing the software and bookmarklets
+on all computers before the workshop). The demos were nicely captured in
+the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://friendfeed.com/bibman2">FriendFeed
+room</ext-link> we have set up for the workshop, so you can follow the
+details of the sessions there (the room also has some excellent links to
+other resources).</p>
+<p>In the discussion at the end we all felt that all reference managers
+used that day were up to the challenge
+(<italic><italic>Connotea</italic></italic> and
+<italic><italic>CiteULike</italic></italic> couldn't put references into
+a Word document, but managed the rest of the tasks perfectly), and we
+decided not to declare a winner. We also felt that the market is
+developing so fast, that a feature comparison looked very different 12
+months ago (e.g. <italic><italic>Mendeley</italic></italic> just
+launched, no Web version of <italic><italic>Zotero</italic></italic>),
+and will again look very different 12 months from today. Most librarians
+in the room therefore felt that they probably have to support most of
+these tools at their institutions. We briefly talked about the cost of
+these tools (of the tools that were demoed, only
+<italic><italic>Endnoteweb</italic></italic> and
+<italic><italic>Refworks</italic></italic> are commercial). This might
+be an issue when licenses have to be renewed. I've set up a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://network.nature.com/people/mfenner/blog/2009/03/15/reference-manager-overview">reference
+manager feature comparison chart</ext-link> a few months ago, and have
+updated this chart after the workshop.</p>
+<p>One feature I really like in <italic><italic>Papers</italic></italic>
+is full-text search of the PDF files in your library, which I think is a
+much easier way to find information than tagging (and David Crotty
+agrees with me:
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.cshblogs.org/cshprotocols/2009/02/23/why-article-tagging-doesnt-work/">Why
+article tagging doesn't work</ext-link>). I was therefore happy to see
+that <italic><italic>Zotero</italic></italic>,
+<italic><italic>Mendeley</italic></italic>,
+<italic><italic>CiteULike</italic></italic> and
+<italic><italic>Refworks</italic></italic> all support this feature,
+something I have overlooked before. Full-text search is one more reason
+that online reference managers should be able to store PDF files.
+Another reason is that several people working on the same research
+project shouldn't all have to go out and download the full-text files
+themselves – or even worse, email them to each other. This sharing is
+not only an important features of Web 2.0 bibliographic tools, but is
+obviously also an area of potential problems with copyright (for papers
+that are not Open Access). <italic><italic>CiteULike</italic></italic>,
+<italic><italic>Mendeley</italic></italic> and
+<italic><italic>Refworks</italic></italic> all try to avoid these kinds
+of issues by allowing sharing of references and PDF files in private
+groups with a limited number of users.</p>
+<p>It was interesting to see that the tools use very different
+approaches to integrate with the Web.
+<italic><italic>Connotea</italic></italic>,
+<italic><italic>CiteUlike</italic></italic> and
+<italic><italic>Refworks</italic></italic> are Web-based tools (the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908064949/http://www.refworks.com/refworks/WNCDownload.asp">Refworks
+Write-N-Cite Windows module</ext-link> can download the reference
+database for read-only offline use), whereas
+<italic><italic>Zotero</italic></italic>,
+<italic><italic>Mendeley</italic></italic> and
+<italic><italic>Endnote</italic></italic> synchronize between a desktop
+version and web version. I'm really torn between these two approaches.
+Web-only reduces the cost of development and maintenance (no need to
+develop separate versions for Web/Windows/Mac/Linux, users don't have to
+install new versions). Desktop/Web allows offline use users always have
+a copy of their data on their computer. There is probably no right
+answer to this, email is another example where both approaches are very
+successful.</p>
+<p>Only after the meeting did I realize another interesting difference
+between the various tools. They all have different business models
+behind them: <italic><italic>Endnoteweb</italic></italic>: (mostly)
+single-user licenses, <italic><italic>Refworks</italic></italic>: site
+licenses, <italic><italic>Connotea</italic></italic>: owned by a
+publisher, <italic><italic>CiteUlike</italic></italic>: independent with
+support from a publisher, <italic><italic>Zotero</italic></italic>: Open
+Source and <italic><italic>Mendeley</italic></italic>: Web 2.0 company
+that plans free and paid services. This might actually be a deciding
+factor in determining which of these tools will be the most successful
+in the long-term future.</p>
+<p>But in the end, the similarities far outweigh the differences between
+these tools. We didn't have time left to talk more about this, but for
+Bibliographic Management to move to Web 2.0, it's not really just about
+technology, but rather mostly about the users. We had an interesting
+discussion about that topic a few weeks ago
+(<ext-link ext-link-type="uri" xlink:href="https://blog.martinfenner.org/posts/how-to-close-the-digital-divide-among-scientists">How
+to close the digital divide among scientists</ext-link>). I believe that
+ultimately your collection of references should sit in a database that
+is accessible from the web. Some references you want to share with
+everybody (e.g. via tools like FriendFeed), and that includes your own
+publications. And some references you want to share with private groups
+of people, e.g. people in your lab or when coauthoring a paper. All the
+tools presented in the workshop allow you to do that.</p>
+</body>
+<back>
+</back>
+</article>

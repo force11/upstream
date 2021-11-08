@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Visualizing tweets linking to a paper</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-07-14">
+<day>14</day>
+<month>7</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170216233248/http://dx.doi.org/10.1371/journal.pone.0037945">DNA
+Barcoding the Native Flowering Plants and Conifers of Wales</ext-link>
+has been one of the most popular new <italic>PLoS ONE</italic> papers in
+June. In the paper Natasha de Vere <italic>et al.</italic> describe a
+DNA barcode resource that covers the 1143 native Welsh flowering plants
+and conifers.</p>
+<p>My new job as technical lead for the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170216233248/http://article-level-metrics.plos.org/">PLoS
+Article Level Metrics (ALM) project</ext-link> involves thinking about
+how we can best display the ALM collected for this and other papers. We
+want these ALM to tell us something important and/or interesting, and it
+doesn’t hurt if the information is displayed in a visually appealing
+way. There are many different ways this can be done, but here I want to
+focus on <bold>Twitter</bold> and <bold>CiteULike</bold>, the only two
+data sources where PLoS is currently storing every single event (tweet
+or CiteULike bookmark) with a date. Usage data (HTML and XML views, PDF
+downloads) are aggregated on a monthly basis, and PLoS doesn’t store the
+publication dates of citations.</p>
+<p>We know from the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170216233248/http://blogs.plos.org/mfenner/2011/12/20/crowdometer-or-trying-to-understand-tweets-about-journal-papers/">work
+of Gunter Eysenbach</ext-link> and others that most tweets linking to
+scholarly papers are written in the first few days after publication. It
+therefore makes sense to display this information on a timeline covering
+the first 30 days after publication, and the tweets about the de Vere
+paper follow the same pattern.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170216233248im_/http://blogs.plos.org/mfenner/files/2012/07/sparklines.png" xlink:title="sparklines" />
+</fig>
+<p>I like the simplicity of sparklines. It would be interesting to also
+map the 274 Facebook <bold>Likes, Comments</bold> and
+<bold>Shares</bold>, but we don’t have date information for them. The
+same is true for the 9 Mendeley readers and groups.</p>
+<p>Another way to display the time course of tweets (or bookmarks) is to
+use a calendar heat map (the paper was published June 6).</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170216233248im_/http://blogs.plos.org/mfenner/files/2012/07/calendarPlot.png" xlink:title="calendarPlot" />
+</fig>
+<p>The chart looks a little bit empty, a calendar heat map probably
+works better for information with many daily data points. I would
+appreciate feedback on how these visualizations can be improved.</p>
+<p>The charts were created with data from the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170216233248/http://api.plos.org/">PLoS
+ALM API</ext-link> and the statistical computing package
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170216233248/http://www.r-project.org/">R</ext-link>,
+the source code is available
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170216233248/https://github.com/articlemetrics/plosOpenR/blob/master/sparkLines.R">here</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170216233248/https://github.com/articlemetrics/plosOpenR/blob/master/calendarPlot.R">here</ext-link>.</p>
+</body>
+<back>
+</back>
+</article>

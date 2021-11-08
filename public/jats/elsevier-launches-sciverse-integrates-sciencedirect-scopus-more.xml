@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Elsevier launches SciVerse, integrates ScienceDirect +
+Scopus + More</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-08-29">
+<day>29</day>
+<month>8</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Elsevier on Saturday launched
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201220/http://info.sciverse.com/">SciVerse</ext-link>,
+the new Elsevier platform that combines
+<italic><italic>ScienceDirect</italic></italic> (full-text journal
+articles) and <italic><italic>Scopus</italic></italic> (abstract and
+citation database of peer-reviewed literature). In 2011
+<italic><italic>SciTopics</italic></italic> (research summaries) will
+also be integrated and outside developers will be able to build SciVerse
+<italic><italic>applications</italic></italic> (Elsevier and 3rd party
+tools that integrate with ScienceDirect and Scopus). Current users of
+Scopus and ScienceDirect can continue to use these services or access
+them from the SciVerse platform.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120524201220im_/http://blogs.plos.org/mfenner/files/2010/11/sciverse.jpg" xlink:title="" />
+</fig>
+<p>Both the ScienceDirect and Scopus service are not available this
+evening, put the new SciVerse functionality should be available in a few
+hours. As I had no access to SciVerse prior to the launch today, I will
+need a few days to have a closer look at both the integration of
+existing products, and the new features. But obviously missing from the
+announcement is
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201220/http://www.2collab.com/">2collab</ext-link>,
+Elsevier's social bookmarking service that integrates with Scopus and
+ScienceDirect.</p>
+<p>Reference managers a few years ago started to store the PDFs of
+fulltext articles associated with a citation. It is no surprise to see
+the same trend from developers of abstracts databases. The integration
+of Scopus with ScienceDirect almost looks like Elsevier's answer to
+PubMed/PubMed Central. The recently launched
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201220/http://ukpmc.ac.uk/">UK
+PubMed Central</ext-link> is doing a particularly nice job integrating
+abstracts and fulltext articles.</p>
+<p>The most interesting aspect of SciVerse is the possibility for 3rd
+party developers to access the service via APIs and to develop both free
+and commercial applications. We will see whether SciVerse develops into
+an open platform that works with other publishers, funders and
+institutions, or whether SciVerse will become a very large data silo.
+Elsevier's Rafael Sidi
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201220/http://www.researchinformation.info/features/feature.php?feature_id=255">writes</ext-link>
+that <italic><italic>Open data and open APIs offer huge opportunities
+for research and innovation</italic></italic>, and earlier this week
+Mendeley's Jason Hoyt
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201220/http://www.mendeley.com/blog/open-access/researcher-which-side-of-history/">wrote</ext-link>
+something similar. Data is also at the heart of the business models of
+many web-based companies – let's hope that these two interests don't
+collide.</p>
+</body>
+<back>
+</back>
+</article>

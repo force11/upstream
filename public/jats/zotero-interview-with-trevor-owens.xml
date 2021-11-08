@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Zotero: Interview with Trevor Owens</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-03-04">
+<day>4</day>
+<month>3</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.zotero.org/">Zotero</ext-link>
+is a reference manager built as an extension of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.mozilla-europe.org/en/firefox/">Firefox</ext-link>
+web browser. The best introduction to Zotero is probably this short
+video.</p>
+<p>Last week the newest version (1.5 beta)
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.zotero.org/blog/zotero-15-beta-released-join-us-in-the-clouds/">was
+announced</ext-link> on the Zotero blog. Among the most exciting new
+features is the synchronization of library data with the Zotero server,
+which in the future will allow a lot of interesting social features. I
+asked <italic><italic>Trevor Owens</italic></italic> from Zotero a few
+questions about Zotero, particularly some of the new features.</p>
+<sec id="1-can-you-describe-what-zotero-is-and-does">
+  <title>1. Can you describe what Zotero is and does?</title>
+  <p>Zotero is an easy-to-use yet powerful research tool that helps you
+  gather, organize, and analyze sources (citations, full texts, web
+  pages, images, and other objects), and lets you share the results of
+  your research in a variety of ways. An extension to the popular
+  open-source web browser Firefox, Zotero includes the best parts of
+  older reference manager software — the ability to store author, title,
+  and publication fields and to export that information as formatted
+  references — and the best parts of modern software and web
+  applications (like iTunes and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.delicious.com/">del.icio.us</ext-link>),
+  such as the ability to interact, tag, and search in advanced ways.
+  Zotero integrates tightly with online resources; it can sense when
+  users are viewing a book, article, or other object on the web, and on
+  most major research and library sites it will find and automatically
+  save the full reference information for the item. Since it lives in
+  the web browser, it can effortlessly transmit information to, and
+  receive information from, other web services and applications; since
+  it runs on one's personal computer, it can also communicate with
+  software running there (such as Microsoft Word). And it can be used
+  offline as well (e.g., on a plane, in an archive without WiFi).</p>
+</sec>
+<sec id="2-why-is-zotero-a-firefox-plugin-and-not-a-desktop-application">
+  <title>2. Why is Zotero a Firefox plugin and not a desktop
+  application?</title>
+  <p>For most researchers the web is the first and primary point of
+  entry for their research process. We thought it would be ideal to
+  integrate Zotero as tightly as possible with the interface researchers
+  already use to interact with the the journals, libraries, and
+  databases they regularly consult.</p>
+</sec>
+<sec id="3-why-is-zotero-a-firefox-plugin-and-not-a-web-based-application">
+  <title>3. Why is Zotero a Firefox plugin and not a web-based
+  application?</title>
+  <p>Two reasons, first as a extension Zotero can sit alongside any page
+  a researcher visits. Many of our users will keep Zotero partway open
+  as they work on research online, allowing them to organize and
+  annotate their research without leaving the page they are on. Second,
+  as an extension users have full access to their collections when they
+  are offline. This is particularly important for researchers working in
+  remote locations or with flakey connections. For example, researchers
+  working in offline archives can manually add items and attach scans
+  and photos. If you're writing a paper on a plane you can add citations
+  to your documents. In short being inside the browser gives us the best
+  of both worlds. Zotero offers direct connectivity to web content,
+  while still always remaining accessible. The last thing I would note
+  is that Zotero is rapidly becoming a web application. With our newest
+  release users can browse and share their collections online and in the
+  near future users will be able to further manipulate their collections
+  through our web application.</p>
+</sec>
+<sec id="4-did-you-consider-google-gears-for-offline-access">
+  <title>4. Did you consider Google Gears for offline access?</title>
+  <p>Both
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://gears.google.com/">Google
+  Gears</ext-link> and Zotero rely on a local instance of
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.sqlite.org/about.html">sqlite</ext-link>
+  for data storage, but Zotero predates Gears by over a year. Google
+  Gears is intended more to synchronize a web application for offline
+  use, while Zotero fundamentally is a research database that users
+  expect to be able to interact with fully regardless of their network
+  connectivity.</p>
+</sec>
+<sec id="5-does-zotero-work-with-google-docs">
+  <title>5. Does Zotero work with Google Docs?</title>
+  <p>Yes, users can drag and drop citations and bibliographic entries
+  into google documents, or for that matter any sort of text field. We
+  have a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.zotero.org/support/zotero_and_google_tools">short
+  screencast</ext-link> which demos this functionality.</p>
+</sec>
+<sec id="6-can-you-briefly-describe-the-citation-style-language-csl-">
+  <title>6. Can you briefly describe the Citation Style Language
+  (CSL)?</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.zotero.org/support/dev/creating_citation_styles">CSL</ext-link>
+  is an XML language for citation formatting. It is designed to provide
+  a nice balance between power and ease-of-use. It is also designed to
+  be independent of any particular application, document format, or
+  programming language.</p>
+</sec>
+<sec id="7-how-can-zotero-users-share-their-references-with-others">
+  <title>7. How can Zotero users share their references with
+  others?</title>
+  <p>At the moment users can export collections and libraries and email
+  them to associates. Users can also share their library online, and by
+  next week users will be able to import references directly from any
+  users shared library. By next month users will be able to create
+  groups for more seamless sharing of references and attachments.</p>
+</sec>
+<sec id="8-for-zotero-2-0-you-plan-to-offer-users-the-ability-to-share-collections-with-others-through-the-zotero-server-is-there-a-difference-to-similar-services-e-g-connotea-citeulike-or-mendeley-and-do-you-plan-integration-with-them">
+  <title>8. For Zotero 2.0 you plan to offer users the ability to share
+  collections with others through the Zotero Server. Is there a
+  difference to similar services (e.g. Connotea, CiteULike or Mendeley)
+  and do you plan integration with them?</title>
+  <p>In many ways the collaborative features currently in the works for
+  Zotero are similar to the other services you mention. I think the
+  biggest difference is the way in which sharing collections through
+  groups will be tightly coupled into the Zotero client, and writing
+  applications through our Word and Open Office plugins. The social and
+  collaborative features we are launching directly connect into our
+  hundreds of thousands of users' existing workflows. Zotero is also a
+  non-commercial, open-source project directed by academics who are
+  committed to enabling scholarship. Finally, Zotero is oriented toward
+  storing anything related to your research (papers, books, audio,
+  video, datasets, images, etc) while other solutions are almost
+  entirely oriented toward working with research papers.</p>
+</sec>
+<sec id="9-what-are-your-responsibilities-within-the-zotero-project">
+  <title>9. What are your responsibilities within the Zotero
+  project?</title>
+  <p>Over the last two years as the community lead and evangelist I have
+  been responsible for spreading the word about Zotero through workshops
+  and presentations at conferences and institutions, as well as helping
+  support the ever growing community of users, evangelists, and
+  developers through Zotero's forums and by writing a majority of
+  Zotero's user documentation.</p>
+</sec>
+<sec id="10-what-did-you-do-before-starting-to-work-on-zotero">
+  <title>10. What did you do before starting to work on Zotero?</title>
+  <p>Before working on Zotero I worked as the press coordinator for the
+  Games Learning and Society Conference in Madison and as a Academic
+  Advisor at the University of Wisconsin. My undergraduate degree is in
+  the History of Science.</p>
+</sec>
+<sec id="11-do-you-want-to-talk-about-future-plans-for-zotero">
+  <title>11. Do you want to talk about future plans for Zotero?</title>
+  <p>You can consult our development roadmap online
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.zotero.org/support/development_roadmap">here</ext-link>.
+  Beyond that I would recommend taking a look at the work we are doing
+  with the internet archive
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.dancohen.org/2007/12/12/zotero-and-the-internet-archive-join-forces/">here</ext-link>.
+  Once you take a look at those I would be happy to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906100323/http://www.zotero.org/support/contact_us">answer
+  any questions</ext-link> that come up.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

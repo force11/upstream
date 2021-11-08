@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://blog.front-matter.io
+
+# Sitemaps
+Sitemap: https://blog.front-matter.io/sitemap.xml

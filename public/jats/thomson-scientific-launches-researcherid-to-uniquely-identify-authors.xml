@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Thomson Scientific launches ResearcherID to uniquely
+identify authors</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-01-21">
+<day>21</day>
+<month>1</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Thomson Scientific last week
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611092246/http://scientific.thomson.com/press/2008/8429910/">announced</ext-link>
+<italic><italic>ResearcherID</italic></italic>. ResearcherID tries to
+solve a problem that has annoyed me for many years. In contrast to
+papers and journals, authors are not associated with a unique ID in
+databases such as PubMed. You are lucky if you have an uncommon last
+name that contains only letters from the English alphabet. For the rest
+of us, a typical PubMed search for your name will also pick up papers by
+other authors. In my case for example papers by my cousin Mathias
+Fenner.</p>
+<p>The missing unique ID for authors makes it impossible to automate the
+creation of publication lists for authors or insitutions. You already
+can get email alerts or RSS feeds of papers published by a specific
+person (colleague or competitor), but without unique ID, this is tricky.
+ResearcherID will also automate the maintenance of your
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611092246/http://network.nature.com/blogs/user/mfenner/2007/08/17/do-you-know-your-hirsch-number">Hirsch
+number</ext-link> (for those interested in this kind of metric).</p>
+<p>Scientists interested in ResearcherID should register at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611092246/http://www.researcherid.com/">reseacherID.com</ext-link>
+website. Registration is currently by invitation only.</p>
+<p>There is one major problem with ResearcherID. It is not clear from
+the press release of who owns and controls this information. This is a
+very sensitive issue and Thomson Scientific a major player in this
+field. Remember
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611092246/http://www.passport.net/">Microsoft
+Passport</ext-link>? The majority of web users was uncomfortable having
+a central user ID and password managed by Microsoft. The service
+eventually failed, and we now have the open standard
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611092246/http://openid.net/">Open
+ID</ext-link>. Similarly, ResearcherID can only work if the user
+database is either shared openly or hosted by someone like the NIH.</p>
+</body>
+<back>
+</back>
+</article>

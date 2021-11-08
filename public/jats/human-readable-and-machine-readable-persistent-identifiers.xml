@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Human-readable and machine-readable Persistent
+Identifiers</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2015-05-27">
+<day>27</day>
+<month>5</month>
+<year>2015</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Yesterday Julie McMurry and co-authors published a preprint
+<bold><bold>10 Simple rules for design, provision, and reuse of
+persistent identifiers for life science data</bold></bold> (McMurry et
+al., 2015). This is an important paper trying to address a fundamental
+problem: how can we make persistent identifiers both human-readable and
+machine-readable?</p>
+<p>Don’t be fooled by the title (used frequently by
+<ext-link ext-link-type="uri" xlink:href="http://www.ploscollections.org/article/browse/issue/info%3Adoi%2F10.1371%2Fissue.pcol.v03.i01">PLOS
+Computational Biology</ext-link>) - the paper doesn’t describe simple
+rules that help the average life sciences researcher. Rather, the paper
+deals with rather complex issues, and has 36 authors.</p>
+<p>There is general agreement that we need persistent identifiers for
+scholarly communication, and that also includes life sciences datasets,
+the focus of the paper. What is less clear is how to express these
+persistent identifiers. An identifier such as
+<bold><bold>AB020317</bold></bold> - for the mouse p53 gene - is
+ambiguous. It is not clear without additional information that this is
+an identifier for the GenBank nucleotide database, rather than
+<ext-link ext-link-type="uri" xlink:href="https://www.flickr.com/photos/alexcycu/8936663973/">something
+completely different</ext-link>. One common approach to make this
+identifier unambiguous is to use URIs (Uniform Resource Identifiers),
+e.g.
+<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/AB020317">http://www.ncbi.nlm.nih.gov/nuccore/AB020317</ext-link>
+in this case.</p>
+<p>The paper doesn’t like this approach, and even states that “URIs are
+still among the most commonly used and most problematic identifiers in
+the bio-data ecosystem”. The text also states that “their length makes
+them unwieldy for humans working with the data or for referencing in
+publications or other text”, but doesn’t go into any detail why URIs are
+“problematic identifiers”, or why length is an issue in an online
+environment.</p>
+<p>This is an important weakness of the paper, because the authors
+propose an alternative: CURIEs or <bold><bold>compact
+URIs</bold></bold>. CURIEs were
+<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/TR/curie/">proposed</ext-link>
+by the W3C a few years ago, as a way to make URIs
+<ext-link ext-link-type="uri" xlink:href="http://crosstech.crossref.org/2008/12/curies_a_cure_for_uris.html">more
+human-readable</ext-link>. The idea is simple, we use a namespace in
+addition to the local identifier, separated by a colon, e.g.
+<bold><bold><ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ena/data/view/AB020317">Genbank:AB020317</ext-link></bold></bold>.</p>
+<p>This approach has of course been common practice in the life sciences
+before CURIEs or even the WWW existed, and is still the most common
+approach how identifiers for life sciences data are referenced in the
+scholarly literature. Unfortunately there are important problems with
+CURIEs, most of them mentioned in the paper:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Persistent identifiers need to be resolvable, without additional
+    information we don’t know what to do with
+    <bold><bold><ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ena/data/view/AB020317">Genbank:AB020317</ext-link></bold></bold>.
+    Most life sciences researchers understand this CURIE, but that might
+    not necessarily be true for less commonly used namespaces</p>
+  </list-item>
+  <list-item>
+    <p>Namespaces are not necessarily unique, the paper uses
+    <bold><bold>GEO</bold></bold> (which could mean Gene Expression
+    Omnibus or GeoNames Ontology) as an example</p>
+  </list-item>
+  <list-item>
+    <p>Rule 3 in the paper goes into great detail what characters and
+    patterns should be avoided in local identifiers that are part of a
+    CURIE. It is not clear whether these recommendations will always be
+    followed or how to check them</p>
+  </list-item>
+  <list-item>
+    <p>CURIEs should follow a pattern (regular expression) so that they
+    can be extracted from a text. We know (Kafkas, Kim, &amp; McEntyre,
+    2013) that extracting identifiers from journal articles is possible,
+    but difficult</p>
+  </list-item>
+</list>
+<p>URIs don’t have the problems listed above: they resolve, are unique,
+and there is good understanding (and available tools) of how a valid URI
+should look like and how to extract URIs from text documents. That is
+why URIs are good representations of persistent identifiers.</p>
+<p>Another problem I have with CURIEs: the idea doesn’t seem to have
+caught on from the initial work more than five years ago (background
+reading
+<ext-link ext-link-type="uri" xlink:href="http://manu.sporny.org/2011/case-for-curies/">here</ext-link>).
+I’m not even sure what percentage of persistent identifier experts know
+about CURIEs.</p>
+<p>My recommendation for life sciences data: express persistent
+identifiers as URIs. Now that can go into 10 simple rules for the
+average life sciences researcher.</p>
+<p><italic>P.S. This blog uses a tool
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/07/02/auto-generating-links-to-data-and-resources/">I
+wrote two years ago</ext-link> that automatically turns CURIEs in the
+text into links.</italic></p>
+<sec id="references">
+  <title>References</title>
+  <p>Kafkas, Ş., Kim, J.-H., &amp; McEntyre, J. R. (2013). Database
+  Citation in Full Text Biomedical Articles. <italic>PLoS ONE</italic>.
+  <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1371/journal.pone.0063184">doi:10.1371/journal.pone.0063184</ext-link></p>
+  <p>McMurry, J., Blomberg, N., Burdett, T., Conte, N., Dumontier, M.,
+  Fellows, D. K., … Parkinson, H. (2015). 10 Simple rules for design,
+  provision, and reuse of persistent identifiers for life science data.
+  <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.18003">doi:10.5281/zenodo.18003</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

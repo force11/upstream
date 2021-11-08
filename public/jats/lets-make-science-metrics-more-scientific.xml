@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Let’s make science metrics more
+scientific</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-03-29">
+<day>29</day>
+<month>3</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20120611101936im_/http://www.researchblogging.org/public/citation_icons/rb2_large_gray.png" xlink:title="" />
+</fig>
+<p>In the March 25 edition of <italic><italic>Nature</italic></italic>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://client.norc.org/jole/SOLEweb/JLHome.html">Julia
+Lane</ext-link>, Program Director of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=501084&amp;org=NSF&amp;from_org=NSF">Science
+of Science and Innovation Policy Program</ext-link> at the National
+Science Foundation, wrote an interesting opinion piece about the
+assessment of scientific performance. She argues that the current
+systems of measurement are inadequate, as they have several inherent
+problems and do not capture the full spectrum of scientific activities.
+Good scientific metrics are difficult, but without them we risk making
+the wrong decisions about funding and academic positions.</p>
+<p>Julia Lane suggests that we develop and use standard identifiers both
+for researchers and their scientific output (examples given include the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.doi.org/">DOI</ext-link>
+for publications and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.orcid.org/">ORCID</ext-link>
+as unique author identifier), that we develop standards for reporting
+scientific achievements (e.g. using the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.nsf.gov/bfa/dias/policy/rppr/">Research
+Performance Progress Report</ext-link> format), and that we open up and
+connect the various tools and databases that collect scientific output.
+She cites the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://lattes.cnpq.br/english/index.htm">Lattes</ext-link>
+database for Brasilian researchers as a successful example for
+systematically collecting scientific output. Another example given is
+the ongoing
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://nrc59.nas.edu/star_info2.cfm">STAR
+METRICS</ext-link> project which measures the impact of federally funded
+research on economic, scientific and social outcomes.</p>
+<p>The article emphasizes that is not enough to think about how to best
+collect and report scientific output, but that it is equally important
+to understand what these data mean and how to use them, and this may
+differ from field to field. Knowledge creation is complex and measuring
+this can not be reduced to counting scientific papers and the number of
+times they are cited. Social scientists and economists should be
+involved in this step. Julia Lane suggests an international platform
+supported by funding agencies in which ideas and potential solutions for
+science metrics can be discussed.</p>
+<fig>
+  <caption><p>Flickr photo by jepoirrier.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611101936im_/http://farm4.static.flickr.com/3406/3592693331_ae8822f91d_d.jpg" xlink:title="" />
+</fig>
+<p>The article contains a lot of food for thought and has already
+collected some insightful
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.nature.com/nature/journal/v464/n7288/full/464488a.html#comments">comments</ext-link>.
+In perfect timing, <italic><italic>Nature</italic></italic> this week
+not only made
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.nature.com/press_releases/naturenews.html">Nature
+News available without a subscription</ext-link>, but also
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://dx.doi.org/10.1038/464466a">added
+commenting to all their articles</ext-link>. I would like to add some
+thoughts on topics that were not covered because of space constraints
+and different perspective.</p>
+<sec id="what-are-the-standard-identifiers-for-research-output">
+  <title><bold><bold>What are the standard identifiers for research
+  output?</bold></bold></title>
+  <p>Using standard identifiers for research output is an essential
+  first step, and the standard identifier for scientific papers is the
+  DOI. So why is it that PubMed (the most important database for
+  biomedical articles, published by the U.S. National Institutes of
+  Health) still uses their own PMID and doesn't display the DOI in their
+  abstract and summary views? And where is the DOI in abstracts,
+  full-text HTML or PDF of articles published in the New England Journal
+  of Medicine, to take just one popular medical journal as an example?
+  Both PubMed and the NEJM obviously use the DOI, but why do they make
+  it so difficult for others?</p>
+  <p>The unique author identifier
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.orcid.org/">ORCID</ext-link>
+  was mentioned in the article (disclaimer: I am a member of the ORCID
+  technical working group). There are many other initiatives for
+  uniquely identifying researchers, most of them older than
+  <bold><bold>ORCID</bold></bold> which was started in November 2009.
+  But is very important that we can agree on a single author identifier
+  that is supported by researchers, institutions, journals and funding
+  organizations. <bold><bold>ORCID</bold></bold> already has support
+  from a growing list of
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.orcid.org/gallery.php">ORCID
+  members</ext-link> and is our best chance for a widely supported and
+  open unique author identifier. But this list of
+  <bold><bold>ORCID</bold></bold> members is very short on funding
+  organizations (with notable exceptions such as the
+  <bold><bold>Wellcome Trust</bold></bold> and
+  <bold><bold>EMBO</bold></bold>). What is holding them back, and that
+  includes the <bold><bold>National Science Foundation</bold></bold>
+  (where Julia Lane works) and the U.S. <bold><bold>National Institutes
+  of Health (NIH)</bold></bold>?</p>
+  <p>Persistent identifiers are essential to attribute, cite and share
+  primary research data sets. We have a long tradition for this with
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.ncbi.nlm.nih.gov/Genbank/">sequence
+  data</ext-link>, and there is growing demand in other research areas,
+  especially when huge amounts of data are collected (one example is
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.pangaea.de/about/">PANGEA</ext-link>
+  for earth system research).
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.datacite.org/">DataCite</ext-link>
+  is a new initiative that aims to improve the scholarly infrastructure
+  around datasets, and to <italic><italic>increase acceptance of
+  research data as legitimate, citable contributions to the scientific
+  record</italic></italic>.</p>
+  <p>With the focus on research papers, we forget that we do not have
+  standard identifiers for many aspects of scientific activity,
+  including</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>research grants</p>
+    </list-item>
+    <list-item>
+      <p>principal investigator in clinical trials</p>
+    </list-item>
+    <list-item>
+      <p>scientific prizes and awards</p>
+    </list-item>
+    <list-item>
+      <p>invited lectures</p>
+    </list-item>
+    <list-item>
+      <p>curation of scientific databases</p>
+    </list-item>
+    <list-item>
+      <p>mentoring of students</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="how-do-we-measure-scientific-output">
+  <title>How do we measure scientific output?</title>
+  <p>Citations are the traditional way to measure the impact of a
+  scientific paper. Some of the problems with this approach are
+  well-known and were for example highlighted in a 2007 editorial in the
+  <italic><italic>Journal of Cell Biology</italic></italic>
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://dx.doi.org/10.1083/jcb.200711140">Show
+  me the data</ext-link>). We need a metric that is open and not
+  proprietary, and that measures the citations of an individual paper
+  and not the journal as a whole. We should also not forget that the
+  number of citations can't be compared between different fields.</p>
+  <p>A 2009 analysis by the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.mesur.org/">MESUR</ext-link>
+  project indicates that scientific impact of a paper can not be
+  measured by any single indicator
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://dx.doi.org/10.1371/journal.pone.0006022">A
+  Principal Component Analysis of 39 Scientific Impact
+  Measures</ext-link>). Alternatives to citations are usage statistics
+  such as HTML page views and PDF downloads, popularity in social
+  bookmarking sites, coverage in blog posts, and comments to articles.
+  The <italic><italic>PLoS</italic></italic>
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://article-level-metrics.plos.org/">article
+  level metrics</ext-link> introduced in September 2009 combine these
+  different metrics, and make the data openly available.</p>
+  <p>How best to measure the other aspects of scientific output is
+  largely unknown. It is possible to count the number of research grants
+  or the total amount of money awarded, but should we simply count the
+  number of submitted research datasets, invited lectures, science blog
+  posts, etc., or do we need some quality indicator similar to
+  citations?</p>
+</sec>
+<sec id="why-do-we-need-all-this">
+  <title><bold><bold>Why do we need all this?</bold></bold></title>
+  <p>Julia Lane emphasizes that we need science metrics to make the
+  right decisions about funding and academic positions. And I fully
+  agree with her that we need more research by social scientists and
+  economists to better understand what these data mean and how best to
+  use them. There is a lot of anecdotal evidence that suggests that
+  science metrics alone may be poor indicators of future scientific
+  achievements, simply because there are too many confounding factors.
+  Maybe we also need to find a better term, as metric implies that
+  scientific output can be reduced to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://friendfeed.com/jcbradley/18e76233/binfield-article-level-metrics-should-be">one
+  or more numbers</ext-link>.</p>
+  <p>Another important motivation for improving science metrics, and not
+  mentioned in the article, is to reduce the burden on researchers and
+  administrators in evaluating research. The proportion of time spent
+  doing research vs. time spent applying for funding, submitting
+  manuscripts, filling out evaluation forms, doing peer review, etc. has
+  become ridiculous for many active scientists. Initiatives such as the
+  standardized <bold><bold>Research Performance Progress
+  Report</bold></bold> format mentioned in the paper or automated tools
+  to created a publication list or CV can reduce this burden. Funding
+  organizations are also trying to reduce the burden of evaluating
+  research , e.g. by increasing the time of funding from 3 to 5 years,
+  reducing the number of papers that can be listed in grant applications
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://blogs.nature.com/mfenner/2010/03/01/german-research-foundation-says-that-numbers-arent-everything">German
+  Research Foundation says that numbers aren't everything</ext-link>),
+  or funding
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://www.wellcome.ac.uk/Funding/investigator-awards/Implementation/index.htm">investigators
+  and not projects</ext-link>.</p>
+  <p>Science metrics are not only important for evaluating scientific
+  output, they are also great discovery tools, and this may indeed be
+  their more important use. Traditional ways of discovering science
+  (e.g. keyword searches in bibliographic databases) are increasingly
+  superseded by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://blogs.nature.com/mfenner/2010/02/22/there-is-still-so-much-to-learn-in-reference-management">non-traditional
+  approaches</ext-link> that use social networking tools for awareness,
+  evaluations and popularity measurements of research findings.</p>
+</sec>
+<sec id="references">
+  <title>References</title>
+  <p>Lane, J. (2010). Let's make science metrics more scientific
+  <italic>Nature, 464</italic> (7288), 488-489
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101936/http://dx.doi.org/10.1038/464488a">10.1038/464488a</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Web 2.0 for Scientists: Where are the
+Applications?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-05-10">
+<day>10</day>
+<month>5</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://www.cshblogs.org/cshprotocols/2008/02/14/why-web-20-is-failing-in-biology/">success
+or failure</ext-link> of Web 2.0 efforts for scientists depends to a
+large extend on the availability of cool applications that make the
+everyday life of a scientist easier. Many of these applications of
+course already exist, but I would argue that there is a lot of room for
+improvement. And I would also argue that in a lot of cases we just have
+to take the example of the Web 2.0 world and adapt it to the needs of
+scientists – Nature Network itself would be an example of this
+approach.</p>
+<sec id="meetings-and-seminars">
+  <title>Meetings and Seminars</title>
+  <p>Scientific meetings and seminars are one example were we can do
+  better. Web 2.0 is an ideal approach for this, and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://upcoming.yahoo.com/">Upcoming</ext-link>
+  is the classic application. There are of course a number of websites
+  that list meetings and seminars for scientists, but they either focus
+  on the big meetings or list just the seminars of a particular
+  institution. Look at the discussion
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://network.nature.com/forums/berlin/1360">How
+  to find a science event in Berlin</ext-link> in the Nature Network
+  Berlin Forum to see what I mean.</p>
+</sec>
+<sec id="what-can-we-do-to-improve-the-situation">
+  <title>What can we do to improve the situation?</title>
+  <p>We can wait that either one of the big players or a clever startup
+  has a great idea. But one of the attractive features of Web 2.0 is
+  user participation. We need more discussions between scientists and
+  software developers on what is needed and what can be done. These
+  discussions are of course already taking place, but science bloggers
+  can do more to collect interesting ideas and articulate them. We want
+  the integration of reference managers in online writing tools such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://docs.google.com/">Google
+  Docs</ext-link> or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://www.buzzword.com/">Buzzword</ext-link>,
+  but how do we make our voice heard?</p>
+  <p>Secondly, we can write applications ourselves. The barriers of
+  entry have become really low, and one reason are the APIs (application
+  programming interfaces) of both science applications or conventional
+  Web 2.0 apps:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://eutils.ncbi.nlm.nih.gov/entrez/query/static/eutils_help.html">Pubmed</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://www.scopus.com/scsearchapi/">Scopus</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://network.nature.com/blogs/user/ianmulvany/2007/08/14/java-wrapper-for-the-connotea-api-now-available">Connotea</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://code.google.com/apis/maps/">Google
+      Maps</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://code.google.com/apis/documents/overview.html">Google
+      Docs</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://code.google.com/apis/youtube/overview.html">YouTube</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://www.flickr.com/services/api/">Flickr</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://technorati.com/developers/api/">Technorati</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://developers.facebook.com/">Facebook</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://developer.ebay.com/common/api/">eBay</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://www.amazon.com/gp/browse.html?node=3435361">Amazon</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://developer.yahoo.com/">Yahoo</ext-link></p>
+    </list-item>
+  </list>
+  <p>And there were
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611103012/http://www.ghastlyfop.com/blog/2007/10/facebook-code-on-bebo.html">hints</ext-link>
+  of a Nature Network API. With some skills in PHP, Python, Java or
+  Ruby, anybody could create an interesting mashup with these APIs over
+  a weekend. Maybe linking Connotea tags to YouTube videos and Flickr
+  pictures?</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

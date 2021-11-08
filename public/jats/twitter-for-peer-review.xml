@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Twitter for Peer Review</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-03-31">
+<day>31</day>
+<month>3</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>A recent <italic><italic>Nature News</italic></italic> article by
+Geoff Brumfiel
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://www.nature.com/news/2009/090318/full/458274a.html">Science
+journalism: Supplanting the old media?</ext-link>) has stirred up many
+interesting discussions about the relationship of science blogging and
+traditional science journalism. Good starting places to follow these
+discussions (and engage in them) are
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://technorati.com/search/http://www.nature.com/news/2009/090318/full/458274a.html">Technorati</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://blogs.nature.com/stories/858">Nature.com
+Blogs</ext-link> and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://friendfeed.com/e/4f3817ea-f82c-3a94-4e1c-3368926a24ed/Defining-the-Journalism-vs-Blogging-Debate-with-a/">FriendFeed</ext-link>.</p>
+<p>Science blogging extends, but also threatens traditional science
+journalism. At the same time, aggregators and microblogging services
+such as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://www.friendfeed.com/">FriendFeed</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://www.twitter.com/">Twitter</ext-link>,
+but also
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://www.facebook.com/">Facebook</ext-link>
+also are both an enhancementent and a threat to science blogs. Instead
+of writing blog posts or commenting on them, many science bloggers spend
+increasing amounts of time with these services, e.g. in
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://friendfeed.com/rooms/the-life-scientists">The
+Life Scientists</ext-link> room on FriendFeed.</p>
+<p>But microblogging and aggregation services have also emerged as new
+tools for another area of science communication, namely the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://www.nature.com/nature/peerreview/debate/index.html">peer
+review</ext-link> process. The interaction between authors and editors
+or editors and reviewers traditionally happens via email (because peer
+review is usually anonymous, authors don't communicate directly with
+reviewers). Twitter and similar tools fullfill the requirement for
+privacy (in the form of direct messages and private rooms and special
+services for organizations such as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://www.yammer.com/">Yammer</ext-link>).</p>
+<p>What are the advantages of these tools for the peer review process?
+All communications can be stored in one place in the form of a
+discussion thread. FriendFeed and Facebook allow users to mark posts
+they like and this can show agreement between reviewers. Messages can
+also be sent to and from non-traditional devices such as cell phones.
+Many senior researchers are already overworked with peer review, so this
+way they can at least post their reviews from the golf course or their
+yacht. And authors want to learn about their accepted paper as soon as
+possible, and this is not necessarily when they sit in front of their
+computer.</p>
+<p>But most importantly, microblogging enforces brevity. Virginia Walbot
+recently complained in a <italic><italic>Journal of
+Biology</italic></italic> comment
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://dx.doi.org/10.1186/jbiol125">Are
+we training pit bulls to review our manuscripts?</ext-link>) about
+reviewers</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p><italic><italic>dismissing the years of labor and stating that
+    the manuscript can only be reconsidered with substantially more data
+    providing definitive proof of each claim</italic></italic>.</p>
+  </disp-quote>
+</p>
+<p>As Twitter messages (also known as tweets) can only be 140 characters
+long, reviewers are forced to write short reviews, and editors to write
+short notes to the authors. And if the 140 characters aren't enough,
+they can always point to other places with services like
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053130/http://bit.ly/5gfc9">bit.ly</ext-link>.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20150924053130im_/http://farm4.static.flickr.com/3463/3402929290_6e010842b6.jpg" xlink:title="" />
+</fig>
+</body>
+<back>
+</back>
+</article>

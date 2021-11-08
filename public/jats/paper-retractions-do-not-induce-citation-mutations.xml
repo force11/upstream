@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Paper retractions do not induce citation
+mutations</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-09-26">
+<day>26</day>
+<month>9</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Dear Christian Specht,</p>
+<p>Thank you very much for
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525055229/http://www.the-scientist.com/news/display/57698/">your
+detailed response</ext-link> in <italic><italic>The
+Scientist</italic></italic> to
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525055229/http://blogs.plos.org/mfenner/2010/09/20/letter-to-the-scientist/">our
+previous letter</ext-link> regarding citation mutations. You clarified
+several issues that were raised in
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525055229/http://www.the-scientist.com/news/display/57689/">your
+original study</ext-link>, particularly that citation mutation rates
+have dropped significantly in the last 10 years (probably due to the
+more widespread use of reference management software), and that some
+citation mutations (e.g. 680→685 in Laemmli 1970) might be introduced
+not by citing authors, but by the citation database.</p>
+<p>You rightfully point out that citation mutations indicate a much
+bigger problem: <italic><italic>authors often do not read the
+publications cited in their work</italic></italic>. I am not aware of
+any available direct data, but in an ongoing study Richard Grant is
+looking at this question
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525055229/http://blog.the-scientist.com/2010/09/23/mutatis-citandi/">Do
+you read the papers you cite?</ext-link>). The preliminary data that
+Richard kindly made available indicate that more than 85% of authors
+indeed read the papers they cite.</p>
+<p>In another study made aware to us by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525055229/http://twitter.com/noahWG/status/25410352261">Noah
+Gray</ext-link>, Neale et al. (Neale 2009) used an elegant experimental
+design to address the same question. They studied lethal acquired
+mutations – retracted papers that in theory should no longer be cited –
+as an estimate of how diligent authors were reading the papers they
+cite.</p>
+<p>The authors compared the number of citations of 102 retracted papers
+(starting 12 months after the retraction) to a control group of papers
+and found no difference in the average number of citations (26 vs. 27).
+Content analysis of a subset of citing papers indicated that more than
+50% of citations used the retracted paper to support their own findings
+and less than 5% of citing papers mentioned the retraction.</p>
+<p>These findings not only seem to contradict the preliminary findings
+by Richard Grant, but also indicate that journal publishers and citation
+databases may not be properly communicating paper retractions.</p>
+<sec id="references">
+  <title>References</title>
+  <p><bold><bold>Laemmli UK</bold></bold>. Cleavage of Structural
+  Proteins during the Assembly of the Head of Bacteriophage T4.
+  <italic><italic>Nature</italic></italic>. 1970;227:680-685.
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525055229/http://dx.doi.org/10.1038/227680a0">10.1038/227680a0</ext-link></p>
+  <p><bold><bold>Neale AVV, Dailey RK, Abrams J</bold></bold>. Analysis
+  of citations to biomedical articles affected by scientific misconduct.
+  <italic><italic>Science and Engineering Ethics</italic></italic>.
+  2010;16(2):251-261.
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525055229/http://dx.doi.org/10.1007/s11948-009-9151-4">10.1007/s11948-009-9151-4</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

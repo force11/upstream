@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>How do researchers use online journals?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-03-08">
+<day>8</day>
+<month>3</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20120611102310im_/http://www.researchblogging.org/public/citation_icons/rb2_large_gray.png" xlink:title="" />
+</fig>
+<p>Last Monday I was listening to a very interesting presentation by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.ucl.ac.uk/infostudies/ian-rowlands/">Ian
+Rowlands</ext-link>, reader in scholarly communication in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.infostudies.ucl.ac.uk/">Department
+of Information Studies</ext-link> at University College London. He and
+his colleagues are interested in how researchers find and use
+information, and how this has changed with the internet, especially for
+the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.jisc.ac.uk/whatwedo/programmes/resourcediscovery/googlegen.aspx">Google
+Generation</ext-link> (people born after 1993). If you want to be part
+in this research (and have some fun), you can take part in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.bbc.co.uk/labuk/experiments/webbehaviour">BBC
+Web Behaviour Test</ext-link>. The test will help you discover which
+species of web animal you are (I'm a <bold><bold>fox</bold></bold>).</p>
+<fig>
+  <caption><p>Flickr photo by Craig Anderson.</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611102310im_/http://farm1.static.flickr.com/14/17071467_11820b826c_d.jpg" xlink:title="" />
+</fig>
+<p>In another project, funded by the Research Information Network
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.rin.ac.uk/">RIN</ext-link>),
+Ian and his colleagues are studying how researchers are using electronic
+journals. The findings of the first part of the project were presented
+and discussed in a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.rin.ac.uk/news/events/e-journals-revolution-how-use-scholarly-journals-shaping-research">workshop
+last July</ext-link>. The presentations are available as PDF download,
+and as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.rin.ac.uk/resources/rin-publications/podcasts/e-journals-revolution-podcast">podcast</ext-link>
+with interviews of the speakers. The findings were summarized in a paper
+also published last July: <bold><bold>Online use and information seeking
+behaviour: institutional and subject comparisons of UK
+researchers</bold></bold>.</p>
+<p>In the paper, the use of
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.oxfordjournals.org/">Oxford
+Journals</ext-link> by 10 major UK research institutions was analyzed in
+the fields of life sciences, economics and history, using the server
+logs for the full year 2007. Some of the key findings of the study
+include:</p>
+<sec id="one-third-of-users-access-oxford-journals-outside-business-hours">
+  <title>One third of users access Oxford Journals outside business
+  hours</title>
+  <p>9.7% of uses happened on a Saturday/Sunday and 30.1% between 6 PM
+  and 9 AM. This means that about one third of users accessed Oxford
+  Journals outside typical business hours, either working late or from
+  home (the study didn't distinguish between these two). These numbers
+  indicate that remote access (from home, but probably also when
+  traveling) is important for many users. This is obviously not an issue
+  for Open Access journals, but institutions need to provide practical
+  solutions
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://en.wikipedia.org/wiki/Virtual_private_network">VPN</ext-link>,
+  etc.) for subscription journals. From personal experience this remote
+  access is still overly complicated. And these numbers also mean that
+  librarians will not be available for support questions one third of
+  the time.</p>
+</sec>
+<sec id="around-40-of-sessions-originated-from-a-google-search">
+  <title>Around 40% of sessions originated from a Google Search</title>
+  <p>In 2004 Oxford Journals opened up to Google for indexing. I didn't
+  expect this important role that Google seems to play in finding
+  scholarly papers, and I would be very interested in feedback from blog
+  readers. Only 4% of sessions originated from Google Scholar (22% in
+  economics). These results probably explain why Google Scholar hasn't
+  seen that much development since it was launched. The search function
+  at Oxford Journals was rarely used.</p>
+  <p>43% of users of history journals, but only 16% of users of life
+  sciences journals used navigational tools (table of contents, etc.)
+  provided by the journal. This statistic obviously doesn't look at
+  users getting the table of contents via email or RSS, but it again
+  shows that access via search now probably is more common than via
+  browsing.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://blogs.plos.org/mfenner/2010/03/08/evaluating_usage_patterns_of_online_journals/#fn1">1</ext-link></sup></p>
+</sec>
+<sec id="most-users-spend-little-time-on-journal-webpages-but-return-often">
+  <title>Most users spend little time on journal webpages, but return
+  often</title>
+  <p>The average number of articles viewed per session was 1.1, and the
+  average session time was just over 4 minutes. Users rather return
+  often, usually via a search. These numbers indicate that journal
+  webpages are not a place where users spend a lot of time. Unless
+  journals change this (e.g. by more active involvement of users via
+  comments and other social networking features, etc.), they probably
+  can't expect to generate significant revenue from online advertising.
+  The internet has not only dramatically changed the role of
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://blogs.nature.com/mfenner/2010/01/24/scientists-and-librarians-friend-or-foe">libraries</ext-link>,
+  but also for journals, as users are mostly interested in single
+  articles, rather than the journal as a whole.</p>
+</sec>
+<sec id="the-median-age-of-articles-was-48-months-life-sciences-73-months-economics-and-90-months-history-">
+  <title>The median age of articles was 48 months (life sciences), 73
+  months (economics), and 90 months (history)</title>
+  <p>In the life sciences only 25% of the articles were no more than 16
+  months old, but another 25% were over 104 months old. I would have
+  expected that the median age of articles would be much lower in the
+  life sciences (it was two years in a similar study with
+  ScienceDirect<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://blogs.plos.org/mfenner/2010/03/08/evaluating_usage_patterns_of_online_journals/#fn2">2</ext-link>).
+  It seems as if most papers are not accessed when they are published
+  (in the first few months after publication), but rather as the result
+  of a search strategy, e.g. when writing a paper.</p>
+</sec>
+<sec id="life-sciences-users-rarely-read-abstracts-on-publisher-platforms">
+  <title>Life sciences users rarely read abstracts on publisher
+  platforms</title>
+  <p>This should not come as a surprise, as life sciences users
+  typically read abstracts in specialized databases, particularly
+  <bold><bold>PubMed</bold></bold>. But maybe Journal publishers should
+  stop displaying papers in an abstract view, saving users and
+  themselves some effort. <italic><italic>PLoS</italic></italic>
+  journals don't have an abstract view, but the <italic><italic>Biomed
+  Central</italic></italic> journals (which are also Open Access) do.
+  Subscription journals (including
+  <italic><italic>Nature</italic></italic>) typically display the
+  abstract instead of full-text to users without subscription access, so
+  there is also no need for a separate abstract view for them.</p>
+  <p>The number of PDF views was higher than the number of full-text
+  HTML views (178,152 vs. 106,582). This difference was much more
+  pronounced in economics and history journals, probably indicating that
+  here most papers were printed out and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://blogs.nature.com/mfenner/2010/01/10/how-do-you-read-papers-2010-will-be-different">not
+  read on the computer</ext-link>.</p>
+</sec>
+<sec id="references">
+  <title>References</title>
+  <p>Nicholas, D., Clark, D., Rowlands, I., &amp; Jamali, H. (2009).
+  Online use and information seeking behaviour: institutional and
+  subject comparisons of UK researchers <italic>Journal of Information
+  Science, 35</italic> (6), 660-676
+  https://doi.org/<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://dx.doi.org/10.1177/0165551509338341">10.1177/0165551509338341</ext-link></p>
+  <p><sup>1</sup> My July 2008 blog post
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://blogs.nature.com/mfenner/2008/07/19/do-online-journals-narrow-science-and-scholarship">Do
+  online journals narrow science and scholarship?</ext-link> discussed
+  potential consequences.</p>
+  <p><sup>2</sup> CIBER, Evaluating the usage and impact of e-journals
+  in the UK. Working paper 5. Available at
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102310/http://www.ucl.ac.uk/infostudies/research/ciber/">http://www.ucl.ac.uk/infostudies/research/ciber/</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

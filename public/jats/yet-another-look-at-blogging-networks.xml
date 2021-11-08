@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Yet another look at blogging networks</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-07-26">
+<day>26</day>
+<month>7</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>The last few days we have seen a number of blog posts reflecting on
+the pros and cons of science blogging networks. Bora Zivkovic last week
+announced his departure from scienceblogs.com, and in his must-read post
+reflected on the history of science blogging
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://scienceblogs.com/clock/2010/07/scienceblogs_and_me_and_the_ch.php">A
+Farewell to Scienceblogs: the Changing Science Blogging
+Ecosystem</ext-link>). Richard Grant on Saturday wrote down his thoughts
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://blogs.nature.com/rpg/2010/07/24/on-nature-network">On
+Nature Network</ext-link>. Cameron Neylon draws an interesting parallel
+between science networks and scientific journals
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://cameronneylon.net/blog/the-nature-of-science-blog-networks/">The
+Nature of Science Blog Networks</ext-link>). And Katherine Haxton
+compared her experience blogging on Nature Network vs. blogging on her
+own blog
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://www.possibilitiesendless.com/?p=270">Science
+Blogging Networks</ext-link>).</p>
+<p>My thoughts on this: it's complicated. I don't see how blogging
+networks (or any particular network) can be inherently better or worse
+than setting up your own blog. It's an individual decision. Right now I
+like to write as part of a blogging network. But I may change my mind
+and write for a different network, or on an individually hosted blog. I
+would like to add three considerations to the discussion.</p>
+<sec id="consider-institutional-blogs">
+  <title>Consider institutional blogs</title>
+  <p>We shouldn't forget that there is also a third alternative to
+  blogging networks and individually hosted blogs: a blog hosted by your
+  institution. An institutional blog has a different set of advantages
+  and disadvantages and is therefore not the right choice for everybody.
+  But I will soon start an official blog for the cancer center of my
+  medical school (I've gotten the green light from administration and
+  the PR department, the WordPress 3.0 test system is set up, but it
+  probably will be a few weeks before the first post). I have no
+  intentions stopping the Gobbledygook blog – the new blog will have a
+  different focus, and it will be in German.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://network.nature.com/profile/rpg">Richard</ext-link>
+  have written institutional blogs for years, but this will be new for
+  me – and will also be the first official blog at our university.</p>
+</sec>
+<sec id="we-need-a-better-aggregator-for-science-blogs">
+  <title>We need a better aggregator for science blogs</title>
+  <p>Most of us probably have subscribed to a good number of science
+  blogs with an RSS reader. The best way to find interesting new posts
+  is probably through links in blogs we read regularly. In addition, we
+  stumble upon interesting posts via links in blog networks, blog rolls,
+  <italic><italic>Twitter</italic></italic>,
+  <italic><italic>FriendFeed</italic></italic>, or shared items in
+  <italic><italic>Google Reader</italic></italic>.</p>
+  <p>In addition, we also need a good aggregator of science blogs. I
+  have to admit that I have stopped using
+  <italic><italic>Technorati</italic></italic> a while ago.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://blogs.nature.com/">Nature.com
+  Blogs</ext-link> was a good start, and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://www.researchblogging.org/">ResearchBlogging</ext-link>
+  does a good job of covering blog posts about peer-reviewed literature.
+  But we probably can do much better. Whether the best strategy would be
+  to put more resources into one of the existing services (see also
+  Lou's
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://blogs.nature.com/rpg/2010/07/24/on-nature-network#comment-61864">comment</ext-link>
+  from earlier today), or whether to start building something new, I
+  don't know. But there is a lot of potential for building a better
+  discovery service that at the same time will become an interesting
+  archive of what the science blogosphere is talking about.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://blogs.nature.com/mfenner/2009/08/20/streamosphere-interview-with-euan-adie">Streamosphere</ext-link>
+  is already a good step in the right direction.</p>
+  <fig>
+    <caption><p>Flickr Photo by Eva Amsen. Taken during Science Online
+    London 2009 at the Royal Institution.</p></caption>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611102940im_/http://farm4.static.flickr.com/3538/3849275338_d77a382643.jpg" xlink:title="" />
+  </fig>
+</sec>
+<sec id="personal-interactions-are-important">
+  <title>Personal interactions are important</title>
+  <p>It is usually much more rewarding to interact with someone online
+  whom you have also met in person. This is true not only for scientific
+  collaborations, but of course also for social media. This is obviously
+  much easier if you live in places like London, but even Hannover
+  (where I live) has a really nice
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://blogs.nature.com/mfenner/2010/05/11/action-points">Science
+  2.0 community</ext-link>. And this is why science blogging conferences
+  such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://www.scienceonline2010.com/index.php/wiki/">ScienceOnline2010</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611102940/http://www.scienceonlinelondon.org/">Science
+  Online London 2010</ext-link> are so important. Science Online London
+  is only six weeks away (September 3-4 at the British Library), and I'm
+  really excited not only about the program, but also because of all the
+  people I will for the first time or again meet in person.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

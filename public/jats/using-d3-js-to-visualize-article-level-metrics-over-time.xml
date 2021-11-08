@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Using d3.js to visualize Article-Level Metrics over
+time</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-03-26">
+<day>26</day>
+<month>3</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>PLOS Article-Level Metrics (ALM) are a great set of data (available
+via API and as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://article-level-metrics.plos.org/plos-alm-data/">monthly
+data dump</ext-link>) for some nice data visualizations. I have recently
+become a big fan of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://d3js.org/">d3.js</ext-link>
+javascript library, and have now used d3 to look at some ALM data over
+time.</p>
+<p>I like simple visualizations without too many labels or axes, and
+wanted to do a visualization inspired by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR">sparklines</ext-link>
+ever since we discussed this idea in our <italic>altviz</italic>
+breakout group at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://article-level-metrics.plos.org/alm-workshop-2012/hackathon/#altviz">ALM
+workshop hackathon</ext-link> in November 2012 (kudos in particular to
+Juan Alperin, Karthik Ram and Carl Boettiger). In the chart below every
+column represents the numbers for a given month, with alternating colors
+for the years (the article was published November 2009).</p>
+<fig>
+  <caption><p>CiteULike bookmarks, usage stats from PLOS website and
+  blog posts for article <bold>Article-Level Metrics and the Evolution
+  of Scientific Impact</bold> by month, available at
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://dx.doi.org/10.1371/journal.pbio.1000242">http://dx.doi.org/10.1371/journal.pbio.1000242</ext-link>.</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170731170128im_/http://blogs.plos.org/mfenner/files/2013/03/sparklines4-e1364338936408.png" xlink:title="" />
+</fig>
+<p>You can see a pattern that is probably typical for many articles
+independent of the absolute numbers: most pageviews and downloads happen
+in the weeks after publication, as does academic bookmarking and science
+blogging.</p>
+<p>The second example shows a very different pattern. This is not only
+the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://alm.plos.org/sources/counter">most-downloaded</ext-link>
+PLOS article, but  the distribution of downloads over time is very
+different, with the number of monthly downloads actually higher the last
+two years (this article was published in August 2005). We also see a few
+spikes in the usage stats, probably indicating events that triggered
+usage. Academic bookmarking was most active from 2009 to 2011 and not
+right after publication, although that might also have to do with the
+relative popularity of CiteULike over time.</p>
+<fig>
+  <caption><p>CiteULike bookmarks, usage stats from PLOS website and
+  blog posts for article <bold>Why Most Published Research Findings Are
+  False</bold> by month, available at
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://dx.doi.org/10.1371/journal.pmed.0020124">http://dx.doi.org/10.1371/journal.pmed.0020124</ext-link>.</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170731170128im_/http://blogs.plos.org/mfenner/files/2013/03/sparklines5-500x262.png" xlink:title="" />
+</fig>
+<p>Citation data are unfortunately more difficult to get with exact
+publication dates (why is that so difficult?), but we can at least look
+at CrossRef numbers by year for the same article.</p>
+<fig>
+  <caption><p>CiteULike bookmarks, usage stats from PLOS website and
+  blog posts for article <bold>Why Most Published Research Findings Are
+  False</bold> by year, available at
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731170128/http://dx.doi.org/10.1371/journal.pmed.0020124">http://dx.doi.org/10.1371/journal.pmed.0020124</ext-link>.</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170731170128im_/http://blogs.plos.org/mfenner/files/2013/03/sparklines31-e1364340861413.png" xlink:title="" />
+</fig>
+<p>The citation numbers by year are still increasing (the last bar is
+for 2013), indicating that this article is still of general interest 8
+years after publication. This would probably be unusual for a life
+sciences research article, but the article is an essay looking at common
+pitfalls in the statistical analysis of research data.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Scientists and librarians: friend or foe?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-01-24">
+<day>24</day>
+<month>1</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Following the
+<italic><italic>ScienceOnlin</italic>e<italic>2010</italic></italic>
+conference, librarian Dorothea Salo
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://scienceblogs.com/bookoftrogool/2010/01/science_online_2010_scientists.php">wrote
+on her blog</ext-link>:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>This disconnect is the number one threat to science librarianship
+    today – perhaps to all academic librarianship. How can science
+    libraries persist when scientists haven't the least notion that
+    libraries or librarians are relevant to their work?</p>
+  </disp-quote>
+</p>
+<p>These are serious questions, and of course I don't have the answers.
+But I would like to add my thoughts from a researcher perspective. The
+role of libraries in providing teaching material for students
+(textbooks, etc.) is another story that I will not touch today.</p>
+<fig>
+  <caption><p>Flickr image by Radioher</p></caption>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611111844im_/http://farm1.static.flickr.com/34/101350718_fa52fcef35_d.jpg" xlink:title="" />
+</fig>
+<p>I'm old enough to remember the time (maybe 15 years ago) before
+literature searches were possible via the internet and scientific papers
+were available in electronic form. I had to go to the library to use
+Medline or Current Contents in printed form (and later on CD-ROM), or to
+flip through the newest issues of the most interesting journals. I would
+photocopy the papers I would then read at home, and then file away for
+later use.</p>
+<p><italic><italic>PubMed</italic></italic>,
+<italic><italic>Scopus</italic></italic>, <italic><italic>Web of
+Science</italic></italic>, and <italic><italic>Google
+Scholar</italic></italic> now allow me to search the literature from my
+desk at work (or from home). Most researchers (including myself)
+probably don't have the skills for sophisticated searches, but these
+tools
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://network.nature.com/people/U2929A0EA/blog/2008/03/22/i-am-not-yelling-not-out-loud">more
+or less</ext-link> get the job done. Electronic publishing means that I
+can obtain a paper directly from the journal (as long as I access the
+journal from a computer in the university network), and licensing is
+handled (almost) transparently by the library.</p>
+<p>These developments have dramatically reduced the time researchers
+spend at a library. This is good, as this saves them a lot time. But
+interactions between researchers and librarians have also been
+dramatically reduced. Publishers and other companies (e.g.
+<italic><italic>Thomson Reuters</italic></italic>,
+<italic><italic>Mendeley</italic></italic>, <italic><italic>Faculty of
+1000</italic></italic>, to name just a few) have used the opportunities
+to adapt their offerings to the internet (e.g. electronic-only
+journals), and to create new products that weren't possible (or even
+thinkable) before. Although libraries have in many ways adapted to the
+internet as well, they probably haven't seized the opportunity to the
+same degree. The homepage of my university library is a place I visit
+much less often than <italic><italic>PubMed</italic></italic> or the
+pages of my favorite journals. Some ideas of how this could be changed
+are listed below. Most of them are not new, but maybe at least some
+libraries haven't gone all the way to make their pages an attractive
+destination for the researchers of their
+institution.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://blogs.plos.org/mfenner/2010/01/24/scientists_and_librarians_friend_or_foe/#fn1">1</ext-link></sup></p>
+<sec id="provide-and-support-online-reference-manager">
+  <title>Provide and support online reference manager</title>
+  <p>Institutions should support at least one online reference manager,
+  possible options include (in no particular order) Zotero, Mendeley,
+  Endnote Web, Refworks and CiteULike. RefWorks and Endnote Web are
+  commercial products and require a private (Endnote) and/or
+  institutional license. The institution should either pick a free
+  reference manager as their primary choice, or buy an institutional
+  license in order to allow every researcher and student to use these
+  tools without additional
+  cost.<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://blogs.plos.org/mfenner/2010/01/24/scientists_and_librarians_friend_or_foe/#fn2">2</ext-link></p>
+  <p>As we can't expect everybody to use the same reference manager,
+  libraries have to help with several products. The easiest way to do so
+  is via an online forum (see next paragraph), as this is more efficient
+  than one-to-one support and allows experienced users to help out.
+  Online reference managers provide additional features (e.g. they can
+  be used from different computers, allow shared folders for groups of
+  users) and should therefore be preferred over standalone
+  applications.</p>
+</sec>
+<sec id="online-user-training-and-support">
+  <title>Online user training and support</title>
+  <p>User support is obviously one of the central functions of science
+  libraries. This has two aspects: helping with a specific problem (e.g.
+  finding scientific literature), but also training users to do this on
+  their own. The required skills include use of
+  <italic><italic>PubMed</italic></italic> and other databases, and
+  reference managers such as <italic><italic>Endnote</italic></italic>
+  or <italic><italic>Zotero</italic></italic>. Skills in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://en.wikipedia.org/wiki/Evidence-based_medicine">evidence-based
+  medicine</ext-link> are critical to find and appreciate the
+  appropriate medical literature, but in my experience many physicians
+  and medical students would benefit from additional training in this
+  area.</p>
+  <p>Introductory classes, help in person or a phone call are sometimes
+  the best way to do this, but often users require quick help for a
+  specific situation that can best done with online tools. Appropriate
+  tools include email, online forum,
+  <italic><italic>Twitter</italic></italic>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://www.yammer.com/">Yammer</ext-link>
+  (a microblogging tool similar to Twitter but for institutions),
+  <italic><italic>SlideShare</italic></italic>,
+  <italic><italic>FaceBook</italic></italic> (and
+  <italic><italic>StudiVZ</italic></italic> in Germany),
+  <italic><italic>FriendFeed</italic></italic>, and Wikis. Every
+  institution should make a decision about the services they plan to
+  support, with emphasis on tools that are easy to use.</p>
+</sec>
+<sec id="institutional-bibliographies">
+  <title>Institutional bibliographies</title>
+  <p>A regularly updated listing of all publications of an institution
+  is not only a valuable PR service, but is often also required by
+  administrations to evaluate research output. Librarians are often
+  involved in this, but there is probably a lot of untapped potential.
+  As
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://network.nature.com/people/mfenner/blog/2010/01/03/orcid-or-how-to-build-a-unique-identifier-for-scientists-in-10-easy-steps">unique
+  identifiers for researchers</ext-link> become more widespread, there
+  really no longer is a need for researchers to compile publication
+  lists
+  themselves.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://blogs.plos.org/mfenner/2010/01/24/scientists_and_librarians_friend_or_foe/#fn3">3</ext-link></sup></p>
+</sec>
+<sec id="article-deposition-in-institutional-repositories">
+  <title>Article deposition in institutional repositories</title>
+  <p>Most journals allow researchers to post their accepted papers in
+  institutional repositories of their institution. But because this
+  requires technical skills and extra time, many researchers aren't
+  particularly eager to make use of them. Institutional bibliographies
+  can obviously be nicely integrated with institutional repositories,
+  thus reducing redundant work.</p>
+</sec>
+<sec id="help-authors-with-article-submissions">
+  <title>Help authors with article submissions</title>
+  <p>Article processing charges for authors are often handled by their
+  libraries, and sometimes libraries have
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://www.biomedcentral.com/info/libraries/membership">membership
+  deals</ext-link> with publishers that give authors a discount. But
+  researchers often are left alone with the article submission process.
+  Most authors submit at most a handful of papers each year, and they
+  have to deal not only with different article formats between journals
+  (most notably different reference styles), but also different article
+  submission systems (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://network.nature.com/people/mfenner/blog/2009/03/25/editorial-manager-interview-with-richard-wynne">Editorial
+  Manager</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://www.ejpress.com/index.shtml">eJournal
+  Press</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://scholarone.com/products/manuscript/">Manuscript
+  Central</ext-link> or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://benchpress.highwire.org/">BenchPress</ext-link>).
+  The total number of papers submitted by an institution is much larger,
+  and thus at least some recurring problems could be avoided or at least
+  the time required reduced with centralized support from the
+  library.</p>
+</sec>
+<sec id="help-with-web-2-0-tools-for-scientists">
+  <title>Help with Web 2.0 tools for scientists</title>
+  <p>Libraries don't have to reinvent all the Web 2.0 tools for
+  scientists that are already out there, but they are a good place to
+  help interested researchers get started with some of them (e.g.
+  <italic><italic>ResearchGate</italic></italic>, <italic><italic>Nature
+  Network</italic></italic>, or
+  <italic><italic>Academia.edu</italic></italic>). Ideally, these tools
+  could be integrated into the library webpages via an API.</p>
+  <p>fn1. I would like to be proven wrong by great examples of libraries
+  gone Web 2.0.</p>
+  <p>fn2. My university picked
+  <italic><italic>RefWorks</italic></italic> as their primary reference
+  manager.</p>
+  <p>fn3. <italic><italic>Scopus</italic></italic> is already pretty
+  good in this.</p>
+  <p><italic>Three events from last week inspired me to write this: a
+  blog post by (and short Twitter conversation with) Dorothea Salo
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://scienceblogs.com/bookoftrogool/2010/01/science">Science
+  Online 2010: Scientists and
+  librarians</ext-link>online_2010_scientists.php), a meeting with the
+  other organizers of
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://bibcamp.wordpress.com/">BibCamp
+  Hannover</ext-link> (“a BarCamp for librarians and other hackers” in
+  May 2010), and a discussion via email with
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111844/http://network.nature.com/people/obst/profile">Oliver
+  Obst</ext-link> from the Medical Library, University of
+  Münster.</italic></p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20120611111844im_/http://www.linkwithin.com/pixel.png" xlink:title="" />
+  </fig>
+</sec>
+</body>
+<back>
+</back>
+</article>

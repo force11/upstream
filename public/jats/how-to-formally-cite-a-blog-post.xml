@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>How to formally cite a blog post</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-07-21">
+<day>21</day>
+<month>7</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Other blog posts often provide important background material for your
+own posts, and they are typically cited by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-%E2%80%A6-is-epub/">inline
+links</ext-link> in the text. But sometimes we need more formal
+citations, e.g. when citing blog posts in a journal article or when
+providing a bibliography. But how do you properly cite a blog post?</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20170913072431im_/http://farm5.static.flickr.com/4049/4534468843_176c790812.jpg" xlink:title="" />
+</fig>
+<p><italic><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://www.flickr.com/photos/ccacnorthlib/4534468843/">Flickr
+picture</ext-link> by CCAC North Library.</italic></p>
+<p>The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://www.apastyle.org/">APA
+Style</ext-link> – from the Publication Manual of the American
+Psychological Association – suggests the following format:</p>
+<p><bold>Fenner, M.H.</bold> (2011, January 23). Beyond the PDF … is
+ePub [Web log post]. Retrieved from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-%E2%80%A6-is-epub/">http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/</ext-link></p>
+<p>This is a good start, but I think the citation should include the
+name of the blog. The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://www.chicagomanualofstyle.org/tools_citationguide.html">Chicago
+Manual of Style</ext-link> does this:</p>
+<p><bold>Fenner, M.H.,</bold> “Beyond the PDF … is ePub,” Gobbledygook,
+January 23, 2011,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-%E2%80%A6-is-epub/">http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/</ext-link></p>
+<p>The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://www.library.illinois.edu/learn/tutorials/mla.html">MLA
+Style</ext-link> also mentions the Publisher, and the date the blog post
+was accessed (in addition to the publication date):</p>
+<p><bold>Fenner, M.H.</bold> “Beyond the PDF … is ePub”.
+<italic>Gobbledygook</italic>. PLoS Blogs. January 23, 2011. Web. July
+21, 2011.
+ <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-%E2%80%A6-is-epub/">http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/</ext-link></p>
+<p>This is a little bit too much for me. There is an argument to use the
+accession date for web content, but having two dates can be confusing
+and the publication date is more important. I personally prefer a
+citation format that looks very similar to a journal article citation
+(and comes closest to the Chicago Manual of Style):</p>
+<p><bold>Fenner, M.H.</bold> Beyond the PDF … is ePub.
+<italic>Gobbledygook</italic>, January 23, 2011.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-%E2%80%A6-is-epub/">http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/</ext-link></p>
+<p>If we want to include blog posts in a reference list, we also have to
+think about the formatting. In <bold>BibTeX</bold>a blog entry would
+look like this:</p>
+<p>@misc{ author = {Fenner, Martin}, title = {Beyond the PDF … is ePub},
+journal = {Gobbledygook}, type = {Blog}, number = {January 23}, year =
+{2011}, howpublished =
+{\url{http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/}}</p>
+<p><bold>BibTeX</bold> doesn’t have an entry type for blog posts, so we
+have to use @misc and use the type field. @unpublished is an
+alternative, but that is a strange name. We have to put the URL into the
+howpublished field, which is also awkward.</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://www.refman.com/support/risformat_intro.asp">RIS</ext-link>
+is another popular format, and knows about blogs and URLs:</p>
+<p>TY  - BLOG AU  - Fenner, Martin TI  - Beyond the PDF … is ePub JF  -
+Gobbledygook PY  - 2011/01/23 UR  -
+http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/ ER
+ -</p>
+<p><bold>BibTeX</bold> and <bold>RIS</bold> both predate the web. A
+modern reference format should use HTML or XML so that it can be
+embedded directly in the blog post. The recently announced
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://blogs.plos.org/mfenner/2011/06/07/schema-org-for-scholarly-html/">Schema.org</ext-link>
+micro data format is a strong candidate for this
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://scholarlyhtml.org/">Scholarly
+HTML</ext-link>, and it has a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://schema.org/BlogPosting">BlogPosting</ext-link>
+format:</p>
+<p>&lt;div itemscope
+itemtype=&quot;http://schema.org/BlogPosting&quot;&gt; &lt;span
+itemprop=&quot;author&quot; itemscope
+itemtype=&quot;http://schema.org/Person&quot;&gt; &lt;span
+itemprop=&quot;name&quot;&gt;Fenner, Martin&lt;/span&gt; &lt;/span&gt;
+&lt;span itemprop=&quot;name&quot;&gt;Beyond the PDF … is
+ePub&lt;/span&gt; &lt;span
+itemprop=&quot;publisher&quot;&gt;Gobbledygook&lt;/span&gt; &lt;time
+datetime=&quot;2011-01-23&quot;&gt;01/23/11&lt;/time&gt; &lt;a
+href=&quot;http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/&quot;
+itemprop=&quot;url&quot;&gt;http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/&lt;/a&gt;
+&lt;/div&gt;</p>
+<p>There are other ways to describe this blog post with
+<bold>Schema.org</bold>, but the best practices are still evolving. How
+this BlogPosting above looks in a blog obviously depends on the CSS
+styling used, without any styling it looks like this:</p>
+<p>Fenner, Martin
+Beyond the PDF … is ePub
+Gobbledygook
+01/23/11
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170913072431/http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-%E2%80%A6-is-epub/">http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-…-is-epub/</ext-link></p>
+<p>With a little work on the CSS for this blog, the citation could look
+exactly as shown above, but with added semantic information that is
+understood by search engines and other tools. It is clear to me that
+HTML-based standards such as Schema.org are the future for embedding
+citation information in blog posts. We need better tools to make this
+process as painless as possible.</p>
+</body>
+<back>
+</back>
+</article>

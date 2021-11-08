@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>ScienceCard named Finalist in Mendeley/PLoS API Binary
+Battle</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-11-20">
+<day>20</day>
+<month>11</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>I’m very proud to report that
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://sciencecard.org/">ScienceCard</ext-link>
+last week has been
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://dev.mendeley.com/api-binary-battle">named
+finalist</ext-link> in the Mendeley/PLoS API Binary Battle. Not bad for
+a project that started only two months ago in a hackathon following the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://www.scienceonlinelondon.org/">Science
+Online London</ext-link> conference and is done in my spare time. The
+winners of the contest will be named on November 30, but I’m more than
+happy that the project has even gotten this far.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120525033358im_/http://blogs.plos.org/mfenner/files/2011/11/sciencecard.jpg" xlink:title="sciencecard" />
+</fig>
+<p>The idea of ScienceCard is threefold:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>make it as easy as possible to create a profile page with your
+    publications</p>
+  </list-item>
+  <list-item>
+    <p>Automatically collect citations and other metrics for these
+    publications</p>
+  </list-item>
+  <list-item>
+    <p>make it as easy as possible to reuse this information, e.g. in
+    your personal blog or reference manager</p>
+  </list-item>
+</list>
+<p>Registration with ScienceCard is easy. You create an account by
+logging in via Twitter (using the OAuth 2 protocol for the technically
+inclined), and then add your account name from one or more author
+identifier services. I added Google Scholar today, the other options are
+Microsoft Academic Search, AuthorClaim and Mendeley (I’m working on
+Scopus Author ID). If you add an Microsoft Academic Search or
+AuthorClaim identifier, ScienceCard will import all your publications
+from these services. ScienceCard currently only understands publications
+with a DOI, other scholarly items could be added in the future. With
+Mendeley and Google Scholar you only link to these services, I’m still
+having trouble with the Mendeley OAuth 1 authentication and Google
+Scholar doesn’t have an API.</p>
+<p>ScienceCard is importing all the relevant bibliographic information
+using the CrossRef service. And ScienceCard is creating a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://blogs.plos.org/mfenner/2011/10/17/serving-shortdois/">shortDOI</ext-link>
+for all papers. But more interestingly, ScienceCard is calculating
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://article-level-metrics.plos.org/">article-level
+metrics</ext-link> for all publications, and composite numbers for
+authors. For this ScienceCard is using the PLoS Article-Level Metrics
+API code, but I have added more sources, including Mendeley, Microsoft
+Academic Search and altmetric.com (but here only the number of blog
+posts citing a paper). ScienceCard links to most sources so that you can
+see the actual citations there, only CrossRef and altmetric.com don’t
+offer that. A future update will show all citations directly in
+ScienceCard.</p>
+<p>ScienceCard tries to display a nice profile page for each researcher,
+but also makes it easy to reuse the information somewhere else. Each
+author page is available in six different formats, simply add the
+extension after the (Twitter) username, e.g.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://sciencecard.org/mfenner.json">http://sciencecard.org/mfenner.json</ext-link></p>
+<list list-type="bullet">
+  <list-item>
+    <p>HTML – for regular viewing</p>
+  </list-item>
+  <list-item>
+    <p>XML – for reuse by another computer</p>
+  </list-item>
+  <list-item>
+    <p>JSON – for reuse by another computer</p>
+  </list-item>
+  <list-item>
+    <p>CSV – comma-separated values for import into a spreadsheet</p>
+  </list-item>
+  <list-item>
+    <p>RIS – for reuse by a reference manager</p>
+  </list-item>
+  <list-item>
+    <p>BIB – BibTeX, for reuse by a reference manager</p>
+  </list-item>
+</list>
+<p>JSON is the most interesting format, because it makes it very easy to
+connect two different services. If you for example want to use
+ScienceCard data on your personal WordPress blog you can simply download
+my
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://wordpress.org/extend/plugins/contact-info-options/">Contact
+Info Options WordPress</ext-link> plugin, add your ScienceCard username
+in your WordPress settings and do some hacking of the author template.
+The process is unfortunately different for every WordPress theme, but
+you can see an example WordPress profile that uses the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://annotum.wordpress.com/">Annotum</ext-link>
+theme (and publishing platform)
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://blogs.scienceonlinelondon.org/annotum/author/mfenner/">here</ext-link>:</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120525033358im_/http://blogs.plos.org/mfenner/files/2011/11/annotum2.jpg" xlink:title="annotum2" />
+</fig>
+<p>This WordPress author profile is generated on the fly using
+ScienceCard data, and will therefore automatically update.</p>
+<p>The ScienceCard project is still at the beginning, and there are
+enough ideas to move this project forward in interesting ways. I’m
+particularly interested in improving the user interface and display of
+information, in adding datasets and other scholarly content, and in
+integrating with the ORCID unique author identifier service once the
+service launches in spring 2012. If you are interested to learn more
+about ScienceCard, please contact me via email or Twitter, or attend the
+altmetrics session at
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://scienceonline2012.com/">ScienceOnline2012</ext-link>,
+which I will do together with Euan Adie from altmetric.com and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://altmetric.com/interface/plos.html">PLoS
+Impact Explorer</ext-link>, and Jason Priem from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525033358/http://total-impact.org/">Total
+Impact</ext-link> (two other Mendeley/PLoS API Binary Battle
+finalists).</p>
+</body>
+<back>
+</back>
+</article>

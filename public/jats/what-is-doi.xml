@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>What is a DOI?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2014-08-06">
+<day>6</day>
+<month>8</month>
+<year>2014</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This Sunday
+<ext-link ext-link-type="uri" xlink:href="https://twitter.com/ianmulvany">Ian
+Mulvany</ext-link> and I will do a presentation on
+<ext-link ext-link-type="uri" xlink:href="http://wikimania2014.wikimedia.org/wiki/Submissions/Open_Scholarship_Tools_-_a_whirlwind_tour.">Open
+Scholarship Tools</ext-link> at <italic>Wikimania 2014</italic> in
+London. From the abstract:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>This presentation will give a broad overview of tools and
+    standards that are helping with Open Scholarship today.</p>
+  </disp-quote>
+</p>
+<p>One of the four broad topics we have picked are <italic>digital
+object identifiers (DOI)s</italic>. We want to introduce them to people
+new to them, and we want to show some tricks and cool things to people
+who already now them. Along the way we will also try to debunk some
+myths about DOIs.</p>
+<sec id="what-a-doi-looks-like">
+  <title>What a DOI looks like</title>
+  <p>DOIs - or better DOI names - start with a prefix in the format
+  <monospace>10.x</monospace> where x is 4-5 digits. The suffix is
+  determined by the organization registering the DOI, and there is no
+  consistent pattern across organizations. The DOI name is typically
+  expressed as a URL (see below). An example DOI would look like:
+  <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5555/12345678">http://dx.doi.org/10.5555/12345678</ext-link>.
+  Something in the format <bold><bold>10/hvx</bold></bold> or
+  <ext-link ext-link-type="uri" xlink:href="http://doi.org/hvx">http://doi.org/hvx</ext-link>
+  is a
+  <ext-link ext-link-type="uri" xlink:href="http://shortdoi.org/">shortDOI</ext-link>,
+  and <bold><bold>1721.1/26698</bold></bold> or
+  <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/1721.1/26698">http://hdl.handle.net/1721.1/26698</ext-link>
+  is a handle. BTW, all DOIs names are also handles, so
+  <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10/hvx">http://hdl.handle.net/10/hvx</ext-link>
+  for the shortDOI example above will resolve correctly.</p>
+</sec>
+<sec id="dois-are-persistent-identifiers">
+  <title>DOIs are persistent identifiers</title>
+  <p>Links to resources can change, particularly over long periods of
+  time. Persistent identifiers are needed so that readers can still find
+  the content we reference in a scholarly work (or anything else where
+  persistent linking is important) 10 or 50 years later. There are many
+  kinds of persistent identifiers, one of the key concepts - and a major
+  difference to URLs - is to separate the identifier for the resource
+  from its location. Persistent identifiers require technical
+  infrastructure to resolve identifiers (DOIs use the
+  <ext-link ext-link-type="uri" xlink:href="http://www.handle.net/">Handle
+  System</ext-link>) and to allow long-term archiving of resources. DOI
+  registration agencies such as DataCite or CrossRef are required to
+  provide that persistence. Other persistent identifier schemes besides
+  DOIs include
+  <ext-link ext-link-type="uri" xlink:href="http://en.wikipedia.org/wiki/PURL">persistent
+  uniform resource locators (PURLs)</ext-link> and
+  <ext-link ext-link-type="uri" xlink:href="http://en.wikipedia.org/wiki/Archival_Resource_Key">Archival
+  Resource Keys (ARKs)</ext-link>.</p>
+</sec>
+<sec id="dois-have-attached-metadata">
+  <title>DOIs have attached metadata</title>
+  <p>All DOIs have metadata attached to them. The metadata are supplied
+  by the resource provider, e.g. publisher, and exposed in services run
+  by registration agencies, for example metadata search and content
+  negotiation (see below). There is a minimal set of required metadata
+  for every DOI, but beyond that, different registration agencies will
+  use different metadata schemata, and most metadata are optional.
+  Metadata are important to build centralized discovery services, making
+  it easier to describe a resource, e.g. journal article citing another
+  article. Some of the more recent additions to metadata schemata
+  include persistent identifiers for people
+  (<ext-link ext-link-type="uri" xlink:href="http://orcid.org/">ORCID</ext-link>)
+  and funding agencies
+  (<ext-link ext-link-type="uri" xlink:href="http://www.crossref.org/fundref/">FundRef</ext-link>),
+  and license information. The following API call will retrieve all
+  publications registered with CrossRef that use a
+  <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative
+  Commons Attribution license</ext-link> (and where this information has
+  been provided by the publisher):</p>
+  <preformat>http://api.crossref.org/funders/10.13039/100000001/works?filter=license.url:http://creativecommons.org/licenses/by/3.0/deed.en_US</preformat>
+</sec>
+<sec id="dois-support-link-tracking">
+  <title>DOIs support link tracking</title>
+  <p>Links to other resources are an important part of the metadata, and
+  describing all citations between a large number scholarly documents is
+  a task that can only really be accomplished by a central resource. To
+  solve this very problem DOIs were invented and the CrossRef
+  organization started around 15 years ago.</p>
+</sec>
+<sec id="not-every-doi-is-the-same">
+  <title>Not every DOI is the same</title>
+  <p>The DOI system
+  <ext-link ext-link-type="uri" xlink:href="http://www.doi.org/doi_handbook/1_Introduction.html">originated
+  from an initiative by scholarly publishers</ext-link> (first announced
+  at the Frankfurt Book Fair in 1997), with citation linking of journal
+  articles its first application. This citation linking system is
+  managed by
+  <ext-link ext-link-type="uri" xlink:href="http://www.crossref.org/">CrossRef</ext-link>,
+  a non-profit member organization of scholarly publishers, and
+  <ext-link ext-link-type="uri" xlink:href="http://search.crossref.org/help/status">more
+  than half</ext-link> of the about
+  <ext-link ext-link-type="uri" xlink:href="http://www.doi.org/faq.html">100
+  million DOIs</ext-link> that have been assigned to date are managed by
+  them.</p>
+  <p>But many DOIs are assigned by one of the other 8
+  <ext-link ext-link-type="uri" xlink:href="http://www.doi.org/RA_Coverage.html">registration
+  agencies</ext-link>. You probably know
+  <ext-link ext-link-type="uri" xlink:href="http://www.datacite.org/">DataCite</ext-link>,
+  but did you know that the
+  <ext-link ext-link-type="uri" xlink:href="http://publications.europa.eu/index_en.htm">Publications
+  Office of the European Union (OP)</ext-link> and the
+  <ext-link ext-link-type="uri" xlink:href="http://www.eidr.org/">Entertainment
+  Identifier Registry (EIDR)</ext-link> also assign DOIs? The
+  distinction is important, because some of the functionality is a
+  service of the registration agency - metadata search for example is
+  offered by CrossRef
+  (<ext-link ext-link-type="uri" xlink:href="http://search.crossref.org/">http://search.crossref.org</ext-link>)
+  and DataCite
+  (<ext-link ext-link-type="uri" xlink:href="http://search.datacite.org/">http://search.datacite.org</ext-link>),
+  but you can’t search for a DataCite DOI in the CrossRef metadata
+  search. There is an API to find out the registration agency behind a
+  DOI so that you know what services to expect:</p>
+  <preformat>http://api.crossref.org/works/10.6084/m9.figshare.821213/agency
+
+{
+  &quot;status&quot;: &quot;ok&quot;,
+  &quot;message-type&quot;: &quot;work-agency&quot;,
+  &quot;message-version&quot;: &quot;1.0.0&quot;,
+  &quot;message&quot;: {
+    &quot;DOI&quot;: &quot;10.6084/m9.figshare.821213&quot;,
+    &quot;agency&quot;: {
+      &quot;id&quot;: &quot;datacite&quot;,
+      &quot;label&quot;: &quot;DataCite&quot;
+    }
+  }
+}</preformat>
+</sec>
+<sec id="dois-are-urls">
+  <title>DOIs are URLs</title>
+  <p><ext-link ext-link-type="uri" xlink:href="http://www.doi.org/faq.html">DOI
+  names may be expressed as URLs (URIs) through a HTTP proxy
+  server</ext-link> - e.g.
+  <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5555/12345679">http://dx.doi.org/10.5555/12345679</ext-link>,
+  and this is how DOIs are typically resolved. For this reason the
+  <ext-link ext-link-type="uri" xlink:href="http://www.crossref.org/02publishers/doi_display_guidelines.htm">CrossRef
+  DOI Display Guidelines</ext-link> recommend that <italic>CrossRef DOIs
+  should always be displayed as permanent URLs in the online
+  environment</italic>. Because DOIs can be expressed as URLs, they also
+  have their features:</p>
+  <sec id="special-characters">
+    <title>Special characters</title>
+    <p>Because DOIs can be expressed as URLs, DOIs
+    <ext-link ext-link-type="uri" xlink:href="http://www.crossref.org/02publishers/15doi_guidelines.html">should
+    only include characters allowed in URLs</ext-link>, something that
+    wasn’t always true in the past and can cause problems, e.g. when
+    using SICIs
+    (<ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Serial_Item_and_Contribution_Identifier">Serial
+    Item and Contribution Identifier</ext-link>), an extension of the
+    ISSN for journals:</p>
+    <preformat>10.4567/0361-9230(1997)42:&lt;OaEoSR&gt;2.0.TX;2-B</preformat>
+  </sec>
+  <sec id="content-negotiation">
+    <title>Content negotiation</title>
+    <p>The DOI resolver at <italic>doi.org</italic> (or
+    <italic>dx.doi.org</italic>) normally resolves to the resource
+    location, e.g. a landing page at a publisher website. Requests that
+    are not for content type <monospace>text/html</monospace> are
+    redirected to the registration agency metadata service (currently
+    for CrossRef, DataCite and mEDRA DOIs). Using
+    <ext-link ext-link-type="uri" xlink:href="http://www.crosscite.org/cn/">content
+    negotiation</ext-link>, we can ask the metadata service to send us
+    the metadata in a format we specify (e.g. Citeproc JSON, bibtex or
+    even a formatted citation in one of thousands of citation styles)
+    instead of getting redirected to the resource. This is a great way
+    to collect bibliographic information, e.g. to format citations for a
+    manuscript. In theory we could also use content negotiation to get a
+    particular representation of a resource, e.g.
+    <monospace>application/pdf</monospace> for a PDF of a paper or
+    <monospace>text/csv</monospace> for a dataset in CSV format. This is
+    not widely support and I don’t know the details of the
+    implementation in the DOI resolver, but you can try this (content
+    negotation is easier with the command line than with a browser):</p>
+    <preformat>curl -LH &quot;Accept: application/pdf&quot; http://dx.doi.org/10.7717/peerj.500 &gt;peerj.500.pdf</preformat>
+    <p>This will save the PDF of the 500th PeerJ paper published last
+    week.</p>
+  </sec>
+  <sec id="fragment-identifiers">
+    <title>Fragment identifiers</title>
+    <p>As discussed in
+    <ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2014/08/02/fragment-identifiers-and-dois/">my
+    last blog post</ext-link>, we can use frament identifiers to
+    subsections of a document with DOIs, e.g.
+    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0103437#s2">http://dx.doi.org/10.1371/journal.pone.0103437#s2</ext-link>
+    or
+    <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5446/12780#t=00:20,00:27">http://doi.org/10.5446/12780#t=00:20,00:27</ext-link>,
+    just as we can with every other URL. This is a nice way to directly
+    link to a specific document section, e.g. when discussing a paper on
+    Twitter. Fragment identifiers are implemented by the client
+    (typically web browser) and depend on the document type, but for
+    DOIs that resolve to fulltext HTML documents they can add
+    granularity to the DOI without much effort.</p>
+  </sec>
+  <sec id="queries">
+    <title>Queries</title>
+    <p>URLs obviously support queries, but that is a feature I haven’t
+    yet seen with DOIs. Queries would allow interesting features, partly
+    overlapping with what is possible with fragment identifiers and
+    content negotiation, e.g.
+    <monospace>http://dx.doi.org/10.7717/peerj.500?format=pdf</monospace>.
+    II hope to find out more until Sunday.</p>
+  </sec>
+</sec>
+<sec id="outlook">
+  <title>Outlook</title>
+  <p>My biggest wish? Make DOIs more machine-readable. They are
+  primarily intended for human users, enabling them to find the content
+  associated with a DOI. But they sometimes don’t work as well as they
+  could with automated tools, one example are the
+  <ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/10/13/broken-dois/">challenges
+  automatically resolving a DOI</ext-link> that I described in a blog
+  post last year. Thinking about DOIs as URLs - and using them this way
+  - is the right direction.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

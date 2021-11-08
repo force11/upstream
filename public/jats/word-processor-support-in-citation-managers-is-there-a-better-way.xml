@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Word processor support in citation managers: Is there a
+better way?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-03-21">
+<day>21</day>
+<month>3</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Citations of the relevant literature are an essential feature of
+scientific papers. Reference Manager software helps adding these
+citations and creating a bibliography. Are there differences in how
+reference managers work together with your word processor of choice?</p>
+<sec id="support-for-your-favorite-word-processor">
+  <title>Support for your favorite word processor</title>
+  <fig>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20150906104449im_/http://farm4.static.flickr.com/3447/3371450153_62cbe77494.jpg" xlink:title="" />
+  </fig>
+  <p>Support for word processors other than Microsoft Word is spotty.
+  The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://www.mendeley.com/download_client">Mendeley
+  plugin</ext-link> is only a few months old, and the latest Zotero
+  release (1.5b)
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://www.zotero.org/support/word_processor_integration">broke
+  the plugin for Word 2004</ext-link>. I expect the Word for Macintosh
+  support of both these tools to become better over time. Google Docs
+  doesn't have any reference manager integration. This greatly limits
+  its usefulness for writing scientific papers. The RefWorks plugin
+  connects to an online database, so you can't add or edit references
+  without an internet connection.</p>
+  <p>Most word processor plugins add an extra menu that allows to add
+  and edit citations (allowing the user to search the reference manager
+  database), and to add and edit bibliographies (allowing the user to
+  pick a citation style, see below). Most reference managers also allow
+  scanning for reference tags in documents produced by other word
+  processors (e.g. in the .rtf format), but that process requires a few
+  extra steps.</p>
+</sec>
+<sec id="support-for-your-favorite-journal">
+  <title>Support for your favorite journal</title>
+  <p>I think it is very unfortunate that paper authors have to deal with
+  a large number of different citation styles. All that we really need
+  for paper references is the DOI (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://dx.doi.org/10.1038/455708a">doi:10.1038/455708a</ext-link>)
+  to make the reference automatically identifiable and some basic
+  information (authors, title, journal, year, issue) to make the
+  reference readable. But it is beyond my understanding why anybody
+  would care about formatting details such as whether the pulication
+  year appears before or after the journal name. There have been
+  initiatives to standardize the formatting of references (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://www.nlm.nih.gov/citingmedicine/">Citing
+  Medicine</ext-link>), but for now paper authors have to format their
+  bibliographies in the style required by the journal. Citation styles
+  are an important asset for those that write reference manager
+  software. Many people will recall that Thomson Reuters (who makes
+  Endnote)
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://www.nature.com/nature/journal/v455/n7214/full/455708a.html">sued</ext-link>
+  George Mason University (who makes Zotero) last year, because Zotero
+  added a feature that could convert Endnote .ens citation style files
+  into
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://xbiblio.sourceforge.net/csl/">Citation
+  Style Language</ext-link> .csl files. Mendeley is also using .csl for
+  citation styles.</p>
+</sec>
+<sec id="is-there-a-better-way">
+  <title>Is there a better way?</title>
+  <p>Word processor plugins are fragile and usually break when a new
+  software version is released (see for example
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://www.endnote.com/support/en_wpchart_mac.asp">this
+  chart</ext-link> for Endnote and Word for Macintosh). Native word
+  processor support for references allows a much tighter integration
+  into the word processor interface. Lastly, documents produced by
+  different reference managers are not interchangeable, as each plugin
+  uses a slightly different formatting approach. This means you can't
+  write on a paper using Endnote and send it to your coauthor who uses
+  Zotero.</p>
+  <p>The latest versions of Microsoft Word (2007 and 2008 Macintosh)
+  have
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://blogs.msdn.com/joe_friend/archive/2006/07/13/664960.aspx">built-In
+  support for citations and bibliographies</ext-link>, but this feature
+  is severely limited for the requirements of academic papers. Only a
+  handful of citation styles are supported, adding more styles is
+  possible but requires
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://blogs.msdn.com/microsoft_office_word/archive/2007/12/14/bibliography-citations-1011.aspx">some
+  serious skills in XML editing</ext-link>. References are stored in one
+  flat file
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/https://www.uwec.edu/help/Word07/bib-srcfile.htm">Sources.xml</ext-link>)
+  and can't be searched. OpenOffice is also struggling with built-in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://bibliographic.openoffice.org/">bibliographic
+  support</ext-link>.</p>
+  <p>LaTex has long included support for references using
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://www.bibtex.org/About">BibTex</ext-link>
+  and shows how citation support should be done. Tools like
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://jabref.sourceforge.net/">JabRef</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://bibdesk.sourceforge.net/">BibDesk</ext-link>
+  extend this functionality, and most reference managers will
+  import/export bibtex files.</p>
+  <p>Both Microsoft Word and OpenOffice should open up their citation
+  APIs to third-party tools. This would create better citation tools,
+  allows the easier exchange of documents between authors (journal
+  submissions), and would it make easier for smaller tools such as
+  Papers to integrate with word processors (a workaround is described
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://vnoel.wordpress.com/2008/02/14/papers-word-2008-bibliography-heaven/">here</ext-link>).
+  If they wait too long, we will probably see the online word processors
+  such as Google Docs, Zoho Writer start adding an API for citations and
+  bibliographies and all of the sudden become very serious alternatives
+  for writing scientific papers.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://network.nature.com/people/mfenner/blog/2009/02/27/lemon8-xml-interview-with-mj-suhonos">Lemon8-XML</ext-link>
+  already has very good bibliography support.</p>
+  <p><italic><italic>P.S. Bruce D'Arcus has recently come to similar
+  conclusions
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150906104449/http://community.muohio.edu/blogs/darcusb/archives/2009/03/01/the-babel-of-citations">The
+  Babel of Citations</ext-link>).</italic></italic></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

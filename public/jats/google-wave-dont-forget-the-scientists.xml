@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Google Wave – don’t forget the scientists</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-05-28">
+<day>28</day>
+<month>5</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053215/http://wave.google.com/">Google
+Wave</ext-link> is a new tool to communicate online and collaborate and
+was announced today at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053215/http://code.google.com/intl/de-DE/events/io/">Google
+I/O</ext-link> conference. Google Wave is not only a product, but also
+an open protocol that anyone can use to build his own wave server.</p>
+<p>Google Wave is already very interesting by itself, but can also be
+extended further:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>by <italic><italic>robots</italic></italic> that automate common
+    tasks and run on the server, and</p>
+  </list-item>
+  <list-item>
+    <p>by <italic><italic>gadgets</italic></italic> that allow new ways
+    of user interactions and run on the client.</p>
+  </list-item>
+</list>
+<p>This sounds all rather geeky, but why should a scientist care about
+<italic><italic>Google Wave</italic></italic>? Part of the job of every
+scientist is to communicate and collaborate, and email is by far the
+most widely used tool to do that. Email has many shortcomings, some of
+which can be overcome by blogs, wikis, and a constantly growing number
+of other Web 2.0 tools from Twitter to FriendFeed. But Google Wave goes
+one step further. The basic idea of a wave is a document (and this can
+be everything from text to pictures) combined with the discussion about
+that document, and that is a very natural design for many scientific
+communications.</p>
+<p>Google Wave will be publicly available later this year. I hope that
+by that time it will also have the first extensions designed
+specifically for scientists, e.g. for</p>
+<list list-type="bullet">
+  <list-item>
+    <p><italic><italic>references</italic></italic> with
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053215/http://network.nature.com/people/mfenner/blog/2009/05/25/oai-pmh-interview-with-tony-hammond">embedded
+    metadata</ext-link> and discussions about these references</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic><ext-link ext-link-type="uri" xlink:href="http://ff.im/3lpdq">molecular
+    structures</ext-link></italic></italic> and other scientific data
+    types</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>scientific manuscripts</italic></italic> in
+    progress (Google Wave has nice tools for collaborative document
+    editing)</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>lab notebooks</italic></italic> (again because of
+    the wiki-like editing features)</p>
+  </list-item>
+</list>
+<p>Google Wave could turn into serious competition for the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053215/http://friendfeed.com/the-life-scientists">The
+Life Scientists Room</ext-link> at FriendFeed. And it is a great topic
+to discuss further at
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053215/http://en.wikipedia.org/wiki/Science_Foo_Camp">Science
+Foo Camp 2009</ext-link>.</p>
+<p><italic><italic>Update 5/29/09:</italic></italic> You can now
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053215/http://www.youtube.com/watch?v=v_UyVmITiYQ&amp;eurl=http%3A%2F%2Fwave%2Egoogle%2Ecom%2F&amp;feature=player_embedded">watch</ext-link>
+the Google I/O presentation. And Ricardo Vidal also blogged about Google
+Wave from a scientist perspective
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151003053215/http://my.biotechlife.net/2009/05/29/using-the-google-wave-to-surf-the-streams/">Using
+the (Google) Wave to surf the streams</ext-link>).</p>
+</body>
+<back>
+</back>
+</article>

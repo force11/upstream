@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Altmetrics coming of age? Not for
+Wikipedia</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-08-10">
+<day>10</day>
+<month>8</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Ten days ago Information Standards Quarterly (ISQ) published a
+<ext-link ext-link-type="uri" xlink:href="http://www.niso.org/publications/isq/2013/v25no2/">special
+issue on altmetrics</ext-link>. I was the guest editor for the five
+altmetrics articles, and in the
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3789/isqv25no2.2013.01">editorial</ext-link>
+that I titled <bold><bold>Altmetrics have come of age</bold></bold> I
+argued that</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>We no longer need to talk about whether it is possible to
+    reliably collect altmetrics, or whether this is valuable information
+    that can complement citations and usage statistics.</p>
+  </disp-quote>
+</p>
+<p>In June we have seen that the National Information Standards
+Organization
+(<ext-link ext-link-type="uri" xlink:href="http://www.niso.org/home/">NISO</ext-link>)
+was
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3789/isqv25no2.2013.07">awarded
+a grant</ext-link> by the
+<ext-link ext-link-type="uri" xlink:href="http://www.sloan.org/">Sloan
+Foundation</ext-link> to develop standards and recommended best
+practices for altmetrics.</p>
+<p>Unfortunately Wikipedia - which is of course an important source of
+altmetrics information and was also mentioned in the editorial - doesn’t
+think so. When you try to go to the
+<ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/w/index.php?title=Altmetrics&amp;redirect=no">Altmetrics</ext-link>
+page on the English Wikipedia, you get this:</p>
+<fig>
+  <caption><p>Wikipedia doesn’t think Altmetrics need their own
+  page</p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="http://blog.martinfenner.org/images/wikipedia_redirect.png" xlink:title="" />
+</fig>
+<p>In other words, you are redicted to a short section on the
+<ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Impact_factor#Article_level_metrics_and_altmetrics">Impact
+Factor</ext-link> page. I would go and start an altmetrics (and
+article-level metrics) page, but with my professional involvement in
+altmetrics it is difficult to write from a
+<ext-link ext-link-type="uri" xlink:href="http://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view">neutral
+point of view</ext-link>, one of the core Wikipedia policies.</p>
+<p><italic>Update August 13, 2013: We now have a nice
+<ext-link ext-link-type="uri" xlink:href="http://en.wikipedia.org/wiki/Altmetrics">altmetrics</ext-link>
+Wikipedia page thanks to the hard work of
+<ext-link ext-link-type="uri" xlink:href="http://en.wikipedia.org/wiki/User:Egonw">Egon
+Willighagen</ext-link> and others.</italic></p>
+</body>
+<back>
+</back>
+</article>

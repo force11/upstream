@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>What comes after Google Wave?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-08-09">
+<day>9</day>
+<month>8</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Google
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201336/http://googleblog.blogspot.com/2010/08/update-on-google-wave.html">announced
+last week</ext-link> that they will stop further development of Google
+Wave, and essentially shut down the service by the end of the year. Some
+of the more exciting parts of Wave will be reused in other Google
+products or – since many parts of Google Wave have been made available
+under an Open Source license, in products by other companies. But the
+announcement is an admission that the adoption by users and developers
+had not been what Google had hoped for with this very ambitious
+project.</p>
+<p>Google Wave was first announced at Google I/O in May 2009, and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201336/http://blogs.nature.com/mfenner/2009/07/18/using-google-wave-for-a-week-its-still-great">I
+had a Google Wave account</ext-link> since July 2009 thanks to being
+invited to the SciFoo conference (where every attendee got one of those
+then still rare Wave invites). Like
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120524201336/http://cameronneylon.net/blog/the-triumph-of-document-layout-and-the-demise-of-google-wave/">others</ext-link>,
+I saw the tremendous potential to improve on existing tools for
+researchers to collaborate. But after 12 months, Google Wave hasn't
+replaced email as communication tool in at least some of my
+collaborations. Many people have pointed out the reasons for the lack of
+user adoption of Google Wave. I want to focus on something else: Google
+Wave tried to solve a problem that is very relevant to scientists, and
+we still don't have a solution for that problem.</p>
+<p>Email has become the primary tool for many scientists to collaborate
+with colleagues both within the same institution, and between different
+institutions. Despite this popularity, email and the typical workflow
+around it has several significant shortcomings:</p>
+<p><italic><italic>Email is not good in tracking longer conversations
+between more than two people.</italic></italic> Even though email
+messages can be grouped together, it quickly becomes difficult to follow
+the discussion. And it is even more complicated for those joining the
+discussion later.</p>
+<p><italic><italic>Email is not good in sharing
+documents.</italic></italic> Sending large documents repeatedly back and
+forth is not only a waste of network bandwidth and limited email storage
+capacities, but is also not a very productive way to collaboratively
+work on a longer document, as it quickly becomes difficult to merge the
+different document versions together.</p>
+<p><italic><italic>Word processors are not good tools to write
+scientific documents.</italic></italic> Traditional word processors such
+as Microsoft Word or LaTeX care too much about document formatting, and
+still approach a document primarily as something an individual user
+edits on a single computer.</p>
+<p>Maybe user uptake for Google Wave was low because the approach to
+tackle these problems was too radical. Many other, less radical tools
+try to solve the same problems, including mailing lists, wikis, social
+bookmarking sites such as CiteULike, collaborative writing tools such as
+Google Docs, and project management tools such as Basecamp.</p>
+<p>Where do we go from here? Because most of the technology behind
+Google Wave has been made available, we could continue to use and
+develop Google Wave and Wave extensions for scientists. But that is a
+very risky strategy that not many people would follow. We can also wait
+for new tools that help scientists collaborate, and there interesting
+products announced every few months. For the time being I will continue
+trying to convince my colleagues to use some of the existing tools
+instead of email where appropriate, something that is surprisingly
+difficult.</p>
+</body>
+<back>
+</back>
+</article>

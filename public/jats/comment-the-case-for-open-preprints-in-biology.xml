@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Comment: the case for open preprints in
+biology</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-03-30">
+<day>30</day>
+<month>3</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last week Philippe Desjardins-Prouly et al. published the article
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://dx.doi.org/10.6084/M9.FIGSHARE.655710">The
+case for open preprints in biology</ext-link> – naturally as a preprint
+on figshare. The article sees preprint servers as a great opportunity
+for open science, and discusses the status of preprints in the
+biological sciences. In this blog post I want to add some comments to
+the text.</p>
+<sec id="e-biomed">
+  <title>E-BIOMED</title>
+  <p>What is now PubMed Central
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://www.nih.gov/about/director/pubmedcentral/ebiomedarch.htm">started
+  out as E-BIOMED in 1999</ext-link> and initially was envisioned to
+  include a repository for preprints. It is important to look back at
+  what happened then, and why the preprint repository was dropped from
+  what then became PubMed Central. Harold Varmus talks a bit about this
+  in this
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://poynder.blogspot.de/2006/06/interview-with-harold-varmus.html">interview</ext-link>
+  from 2006.</p>
+</sec>
+<sec id="nature-precedings">
+  <title>Nature Precedings</title>
+  <p>The article talks about why biologists have not developed a culture
+  of sharing preprints. It would be good to mention
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://precedings.nature.com/">Nature
+  Precedings</ext-link>, a preprint server for the life sciences started
+  in 2007 that stopped taking new submissions in 2012.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://retractionwatch.wordpress.com/2012/03/30/nature-precedings-to-stop-accepting-submissions-next-week-after-finding-model-unsustainable/">This
+  blog post</ext-link> on RetractionWatch cites the announcement by
+  Nature Publishing Group (which doesn’t explain why the service was
+  shut down), and there are a good number of interesting comments.</p>
+</sec>
+<sec id="ssrn">
+  <title>SSRN</title>
+  <p>Preprints in other disciplines are mentioned in the text, in
+  particular ArXiv, but also RePEc. I would also include
+  <bold>SSRN</bold>
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://www.ssrn.com/">Social
+  Science Research Network</ext-link>), which uses a different model,
+  but is as important for the working paper and preprint culture in the
+  social sciences as ArXiV is in physics/mathematics.</p>
+</sec>
+<sec id="google-scholar-metrics">
+  <title>Google Scholar Metrics</title>
+  <p>In April 2012 Google launched
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://scholar.google.com/citations?view_op=top_venues&amp;hl=en&amp;vq=en">Google
+  Scholar Metrics</ext-link>, listing the top 100 publications
+  (according to their h5-index) in several disciplines. Six out of the
+  top 10 publications in physics/mathematics are ArXiV sections (arXiv
+  Astrophysics (astro-ph) is #2), the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://www.iza.org/en/webcontent/publications/papers">IZA
+  Discussion Papers</ext-link> are #1 in Social Sciences, and the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://www.nber.org/papers.html">NBER
+  Working Papers</ext-link> are #1 in Economics, and arXiv Astrophysics
+  (astro-ph) is #12 on the top 100 list for all disciplines (#1-5 are
+  journals in biology and medicine: <italic>Nature</italic>, <italic>New
+  England Journal of Medicine</italic>, <italic>Science</italic>,
+  <italic>Lancet</italic>, <italic>Cell</italic>). All these metrics are
+  a strong indicator that preprints can be highly cited.</p>
+</sec>
+<sec id="citation-advantage-of-preprints">
+  <title>Citation Advantage of Preprints</title>
+  <p>Anne Gentil-Beccot et al. have written a nice paper (of course
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://arxiv.org/abs/0906.5418">available
+  as preprint</ext-link>) that shows that publication as preprint now
+  only increases the citation rate for the corresponding peer-reviewed
+  article published later, but also leads to much faster citations, with
+  a peak immediately after publication.</p>
+  <fig>
+    <caption><p>Average number of citations per article per month as a
+    function of the time of the citation relative to the time of
+    publication. From
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://arxiv.org/abs/0906.5418">http://arxiv.org/abs/0906.5418</ext-link></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20170731034700im_/http://blogs.plos.org/mfenner/files/2013/03/gentil-beccot.png" xlink:title="" />
+  </fig>
+</sec>
+<sec id="scoap3">
+  <title>SCOAP3</title>
+  <p>The Sponsoring Consortium for Open Access Publications in High
+  Energy Physics
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://scoap3.org/">SCOAP3</ext-link>)
+  is working on turning the majority of peer-reviewed publications in
+  high energy physics into gold open access. It is important to
+  understand that the high energy physics community feels that they need
+  peer-reviewed journal articles in addition to ArXiv.</p>
+</sec>
+<sec id="preprint-culture-in-clinical-medicine">
+  <title>Preprint Culture in Clinical Medicine</title>
+  <p>It is a little known fact that there is a strong preprint culture
+  in clinical medicine. I have written about this topic in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://blogs.plos.org/mfenner/2010/10/16/in-which-i-suggest-a-preprint-archive-for-clinical-trials/">October
+  2010</ext-link>. Clinical trials have to be registered before starting
+  the trial, and information about the trial is publicly available in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://clinicaltrials.gov/">clinicaltrials.gov</ext-link>
+  and other registries. Results are presented in conferences (as poster
+  or oral presentation), at which stage it becomes public information.
+  The peer-reviewed paper – with a few exceptions – follows much later,
+  sometimes even after drug approval by the FDA (in the blog post I used
+  the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://dx.doi.org/10.1016/S0140-6736(10)61389-X">TROPIC</ext-link>
+  trial as example). The problem is of course that information in oral
+  presentations and posters is incomplete and difficult to find. But
+  publication of a clinical trial in a peer-reviewed journal is more
+  about giving credit to the researchers involved (similar to SCOAP3 in
+  high energy physics) than about spreading the knowledge. Peer review
+  is not an appropriate filter for whether or not a new drug or drug
+  combination should be used to treat patients – the approval process by
+  regulatory authorities is much more extensive than any peer review can
+  ever be.</p>
+</sec>
+<sec id="preprint-culture-in-biology">
+  <title>Preprint culture in Biology</title>
+  <p>The paper mentions several reasons why the field of biology has
+  essentially no preprint culture. One argument against preprints is
+  that it would be easier to steal ideas. Although I agree with the
+  authors that preprints are a great way to establish precedence, there
+  is a big difference between research based on years of work using
+  expensive equipment (as is often the case in high energy physics but
+  also some other fields), and research that can be reproduced in a few
+  weeks. In the latter case it is possible that someone else is faster
+  in publishing the peer-reviewed paper. Another difference is the
+  community: “stealing” ideas from someone else is probably more
+  difficult in smaller scientific communities, and some scientific
+  communities are more competitive and less collaborative than
+  others.</p>
+  <p>Another concern about preprints raised in the paper is the
+  Ingelfinger rule, i.e. the uncertainty that a journal would accept a
+  manuscript if already published as a preprint. This concern is
+  fortunately unfounded regarding most publishers, and the paper
+  includes a table listing the preprint policies of important publishers
+  in biology.</p>
+  <p>I would like to add two other reasons why the preprint culture is
+  probably not established in biology. Preprints are competition for the
+  peer-reviewed journal article and scholarly publishers might not be
+  particularly interested in encouraging a preprint culture. A lot has
+  fortunately changed since E-BIOMED in 1999.</p>
+  <p>Finally, whereas some disciplines use preprints and working papers
+  to communicate, in biology the preferred way to communicate research
+  findings before publication of a peer-reviewed paper is the oral
+  presentation. What we may need is a service that makes it easy to
+  upload and share scientific presentations. We for example already have
+  Slideshare, Speaker Deck as generic tools, and SciVee, fishare aimed
+  at scientists. Speaker Deck
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://blogs.plos.org/mfenner/2012/05/29/speaker-deck-for-sharing-presentations/">is
+  currently my favorite tool</ext-link> and is a Github product (Github
+  has been mentioned in the manuscript as an option for hosting
+  preprints). Maybe what is missing is a killer combination of features
+  in a new or existing service – persistent identifiers, uploading of
+  background material (text, data, software, video) in addition to the
+  slides, non-textual search, cooperation with conference organizers,
+  etc. – for presentation sharing to take off as a way to establish a
+  preprint culture in biology.</p>
+  <p><italic>Update 4/4/13: Yesterday PeerJ launched a new preprint
+  service for life sciences research. Read
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://blogs.scientificamerican.com/guest-blog/2013/04/03/who-killed-the-preprint-and-could-it-make-a-return/">this
+  blog post</ext-link> for details, and this
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731034700/http://blog.mendeley.com/open-access/is-the-time-right-for-a-preprint-server-for-life-science/">post</ext-link>
+  on the Mendeley blog.</italic></p>
+</sec>
+<sec id="references">
+  <title>References</title>
+  <p>Desjardins-Proulx, P., White, E. P., Adamson, J., Ram, K., Poisot,
+  T., &amp; Gravel, D. (2013). <italic>The case for open preprints in
+  biology</italic>.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/M9.FIGSHARE.655710">https://doi.org/10.6084/M9.FIGSHARE.655710</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

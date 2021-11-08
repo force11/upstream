@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Is Schema.org about a technical standard or about
+something else?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-06-19">
+<day>19</day>
+<month>6</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>At the beginning of the month Google, Bing and Yahoo
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041721/http://blogs.plos.org/mfenner/2011/06/07/schema-org-for-scholarly-html/">announced</ext-link>
+schema.org, a new initiative for structured markup on the web. Richard
+MacManus responded with a critical piece at ReadWriteWeb
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041721/http://www.readwriteweb.com/archives/is_schemaorg_really_a_google_land_grab.php">Is
+Schema.org really a Google Land Grab?</ext-link>), mainly criticizing
+that the initiative didn’t use RDFa and didn’t seem to have consulted
+with the web standards body W3C. The best discussion about schema.org
+that I found so far (via Eric Hellman’s
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041721/http://go-to-hellman.blogspot.com/2011/06/our-metadata-overlords-and-that.html">post</ext-link>)
+is by Henri Sivonen
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041721/http://hsivonen.iki.fi/schema-org-and-communities/">Schema.org
+and Pre-Existing Communities</ext-link>). He explains why he thinks it
+makes sense that schema.org picked microdata over RDFa or microformats
+as markup standard. And he discusses how the web community has developed
+standards in the past and what characterizes the successful efforts. I
+personally believe that schema.org will bring us closer to the semantic
+web, and the discussion reminds me a little bit of the discussion around
+HTML 5 vs. XHTML 2 (where the pragmatic solution supported by the major
+browser vendors won over the ideal but dogmatic solution discussed for
+many years in standards bodies). Schema.org is will certainly be
+discussed at the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041721/http://scienceonlinelondon.wikidot.com/start">Science
+Online London Conference</ext-link> in September.</p>
+<p>Whether schema.org becomes a success depends in large part on the
+adoption by the community. Schema.org is backed by the three largest
+search engines (Google, Bing, Yahoo), so everybody who wants to be found
+by them will take a close look at the standard. Scholarly content is for
+the most part collected and curated in specialized databases. This makes
+it not only a technical decision whether or not to adopt schema.org for
+markup (we need more and better defined scholarly data types in the
+standard), but also a business decision. If scholarly publishers start
+marking up their journal articles, they will be easier to find via
+Google, Bing, etc. But will this mean that institutions would start
+re-evaluating their subscriptions to commercial services like Scopus or
+Web of Science? And will schema.org help or hinder the very large market
+of discovery tools for scholarly content?</p>
+<p>At this point this is very much a theoretical discussion. We first
+need better scholarly data types in the schema.org standard. The
+Association of Educational Publishers and Creative Commons
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525041721/http://www.aepweb.org/mediacenter/AEP-CC-Schema_6-7-11.htm">has
+announced</ext-link> an initiative to create a metadata framework for
+educational resources based on schema.org. And we hopefully see a
+similar initiative from scholarly publishers. I hope that the group
+behind schema.org is open to this input.</p>
+</body>
+<back>
+</back>
+</article>

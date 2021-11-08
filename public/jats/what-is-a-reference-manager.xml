@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>What is a reference manager?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-05-19">
+<day>19</day>
+<month>5</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Next month I will participate in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://www.open.ac.uk/telstar/event/programmet">Innovations
+in Reference Management</ext-link> event organized by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://twitter.com/ostephens">Owen
+Stevens</ext-link> from the Open University. My own presentation has the
+title <italic><italic>Trends in Reference Management</italic></italic>,
+where I will try to focus on three emerging areas:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Use of mobile devices for reference management (e.g.
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://blogs.nature.com/mfenner/2010/02/08/nature-com-iphone-app-in-pictures">Nature.com
+    iPhone App</ext-link>,
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://mekentosj.com/papers/ipad/">Papers
+    for iPad</ext-link>,
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://info.scopus.com/mobile/">Scopus
+    Alerts for iPhone</ext-link>)</p>
+  </list-item>
+  <list-item>
+    <p>Social networks as discovery tools (using CiteULike, Twitter,
+    FriendFeed, ResearchBlogging.org, etc. for finding relevant
+    references instead of keyword searches in databases)</p>
+  </list-item>
+  <list-item>
+    <p>Integration of unique author identifiers (specifically
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://blogs.nature.com/mfenner/2010/01/03/orcid-or-how-to-build-a-unique-identifier-for-scientists-in-10-easy-steps">ORCID</ext-link>)
+    into reference management tools. This will allow many interesting
+    uses of reference lists (e.g. for automated researcher profiles or
+    evaluation)</p>
+  </list-item>
+</list>
+<p>Reference management has obviously come a long way from the desktop
+applications
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://dx.doi.org/10.1021/ci00010a601">created
+25 years ago</ext-link>. In 2010 it is difficult to give a good
+description of the typical functions of reference managers. My 8 answers
+are below.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman1.jpg" xlink:title="" />
+</fig>
+<p>At their core all reference managers are databases that store
+references. They should allow the user to create or import all required
+reference types, find duplicate records, and connect references by the
+same author or published in the same journal. I don't think any
+reference manager completely supports even this small feature set (most
+of them don't do author disambiguation). And we rarely use reference
+managers in a much broader sense, e.g. for storing important blog posts
+or references to research datasets (as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://bit.ly/do6Ujj">suggested
+by Cameron Neylon</ext-link>).</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman2.jpg" xlink:title="" />
+</fig>
+<p>Reference managers should put references into manuscripts, allowing a
+variety of citation styles. Only a few reference managers allow the user
+to edit citation styles, an important feature if an obscure style is
+required. Surprisingly, the functionality for reference management is
+usually not built into most word processors, but rather provided by the
+reference management software.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman3.jpg" xlink:title="" />
+</fig>
+<p>All reference managers can import references directly from
+bibliographic databases, either by direct database connections, or via
+bookmarklets.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman4.jpg" xlink:title="" />
+</fig>
+<p>Some reference managers (most notably
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://mekentosj.com/papers/">Papers</ext-link>)
+not only manage references, but also organize the full-text PDF files
+associated with them. There are many good reasons to keep the assets
+(such as scientific papers) and their metadata (the references)
+connected, e.g. to allow full-text searches in your reference manager.
+Scientific journals have started to embed reference metadata in
+full-text PDF files
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://blogs.nature.com/wp/nascent/2008/12/xmp_labelling_for_nature.html">XMP
+Labelling for Nature</ext-link>), making it easier to connect reference
+and PDF file.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman5.jpg" xlink:title="" />
+</fig>
+<p>Many reference managers now offer a web-based version. This allows
+using the same reference database with more than one computer and
+sharing of references with others. Some reference managers (e.g.
+CiteULike, RefWorks) only provide a web-based version.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman6.jpg" xlink:title="" />
+</fig>
+<p>Many bibliographic databases (e.g. PubMed or Scopus) now allow user
+accounts with storing of search strategies, interesting references, etc.
+Does that make them reference managers?</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman7.jpg" xlink:title="" />
+</fig>
+<p>The flow of reference information has become much more complicated
+than simply from online database to reference manager to manuscript.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://blogs.nature.com/mfenner/2010/05/03/bibapp-mashups-for-universities">Institutional
+bibliographies</ext-link> are a good example.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611032215im_/http://blogs.plos.org/mfenner/files/2010/11/refman8.jpg" xlink:title="" />
+</fig>
+<p>More and more we find interesting references not via keyword searches
+in databases, but rather through our social networks. This could be via
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611032215/http://blog.citeulike.org/?p=136">CiteULike
+recommendations</ext-link>, blog posts discussing a paper on
+ResearchBlogging.org, or one of your contacts talking about an
+interesting paper on Twitter, FriendFeed or Facebook. Current reference
+managers don't provide good functionality to handle this user
+behavior.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>PLoS One: Interview with Peter Binfield</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-08-15">
+<day>15</day>
+<month>8</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>At
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://network.nature.com/people/mfenner/blog/2009/07/10/i-was-at-scibarcamp-palo-alto">SciBar
+Camp Palo Alto last month</ext-link>, Peter Binfield from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/">PLoS
+ONE</ext-link> gave a very interesting presentation on
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://friendfeed.com/scibarcamp/3577ed2e/peter-binfield-article-level-metric-from-plos">Article-level
+metrics from the PLoS perspective</ext-link>. Particularly interesting
+was his announcement that <italic><italic>PLoS</italic></italic>
+journals will provide usage data (HTML pageviews, PDF and XML downloads)
+for all their articles in September. Usage data, like
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://dx.doi.org/10.1371/journal.pone.0006022">all
+measures of scientific impact</ext-link>, have their problems, but they
+are a welcome addition to citation-based metrics.</p>
+<p>I’ve interviewed Pete to ask him not only about article-level
+metrics, but also about the publishing model of <italic><italic>PLoS
+ONE</italic></italic> and how these two relate to each other.</p>
+<sec id="1-can-you-describe-what-plos-one-is-and-does">
+  <title>1. Can you describe what PLoS ONE is and does?</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/">PLoS
+  ONE</ext-link> is an Open Access, scholarly, peer reviewed journal for
+  all of science. We will be three years old in December 2009, but
+  already we are the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://poeticeconomics.blogspot.com/2009/07/dramatic-growth-of-plos-one-soon-to-be.html">third
+  largest journal (of any type) in the world</ext-link>, publishing
+  approximately 4,600 articles in 2009 alone and almost doubling in
+  volume every year. We are online only (publishing in HTML, XML and
+  PDF) and we publish daily (about 20 articles a day at present). In my
+  view <italic><italic>PLoS ONE</italic></italic> is the most dynamic,
+  innovative and exciting journal in the world, and I am proud to work
+  on it.</p>
+  <p>In many ways <italic><italic>PLoS ONE</italic></italic> operates
+  like any other journal however it diverges in several important
+  respects. The founding principle of <italic><italic>PLoS
+  ONE</italic></italic> was that there are certain aspects of publishing
+  which are best conducted pre-publication and certain aspects which are
+  best conducted post-publication. The advent of online publishing has
+  allowed us to take a step back and re-evaluate these aspects of how we
+  publish research, without the burden of centuries of tradition. In
+  this way, we have been able to experiment with new ways of doing
+  things which may result in dramatic improvements in the entire process
+  of scholarly publication.</p>
+  <p>The most important thing which has come out of this premise is that
+  unlike almost every other journal in the world, we make no judgment
+  call whatsoever on the “impact” or “significance” or “interest level”
+  of any submission. What this means is that if an article appropriately
+  reports on well-conducted science, and if it passes our peer review
+  process (which determines whether it deserves to join the scientific
+  literature) then we will publish it. In this way, no author should
+  ever receive the message that their article is scientifically sound
+  but “not interesting enough” for our journal, or that their article is
+  “only suited to a specialized audience”. As a result, we short circuit
+  the vicious cycle of submit to a “top tier” journal; get reviewed; get
+  rejected; submit to the next journal down the list; repeat until
+  accepted and we are therefore able to place good science into the
+  public domain as promptly as possible, with the minimum of burden on
+  the academic community.</p>
+  <p>The most recent example of the way in which we separate
+  pre-publication activity from post-publication activity is with the
+  development of our
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://everyone.plos.org/tag/article-level-metrics/">Article-Level
+  Metrics program</ext-link>. <italic><italic>Article-level
+  metrics</italic></italic> start from the assumption that the best way
+  to measure the worth of an article is to look at the actual article
+  itself (and not the journal it happens to have been published in).
+  Following from this, it seems obvious that the best way to evaluate
+  any article is to make use of the collective opinion of all experts in
+  the field (and not a small number of peer reviewers, or a small number
+  of people who ultimately go on to cite the article). An evaluation of
+  this type (which requires that people actually read, and then act in a
+  variety of ways, on the article) can only be done after the article is
+  published (and not before, as happens when a journal rejects a paper
+  because it thinks it is not “impactful” enough). Therefore, our
+  development of new tools to facilitate the post-publication evaluation
+  of individual articles is a great example of us separating out what is
+  most appropriately conducted pre-publication vs post-publication.</p>
+  <p>I have gone into some detail on these issues in a recent peer
+  reviewed paper –
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://conferences.aepic.it/index.php/elpub/elpub2009/paper/view/114">PLoS
+  One: background, future development, and article-level
+  metrics</ext-link> and I would also recommend Shirley Wu’s excellent
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://shirleywho.wordpress.com/2009/08/06/the-evolution-of-scientific-impact/">recent
+  blog post on this topic</ext-link>.</p>
+</sec>
+<sec id="2-can-you-describe-what-ambra-topaz-is-and-does">
+  <title>2. Can you describe what Ambra/Topaz is and does?</title>
+  <p>Basically Ambra is our publishing platform, which runs on top of
+  the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://everyone.plos.org/2009/05/13/all-plos-titles-now-on-the-same-publishing-platform/">Topaz</ext-link>
+  infrastructure. For the full technical detail, the best information is
+  found
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://ambraproject.org/">here</ext-link>.</p>
+</sec>
+<sec id="3-can-you-talk-a-little-bit-more-about-the-post-publication-features-of-ambra-topaz">
+  <title>3. Can you talk a little bit more about the post-publication
+  features of Ambra/Topaz?</title>
+  <p>Once an article is published, our platform allows users to leave
+  feedback directly on the article. We were among the first journals to
+  allow this, and we remain somewhat unique in this respect, although
+  the concept is gaining broader acceptance and similar functionality is
+  starting to appear at other publishers sites. Specifically, we allow
+  users to leave a Note inline with a specific selection of text; or
+  they can leave a general Comment on the entire article; or they can
+  Star rate the article (on a 5 point scale in 3 categories). Comments
+  and Notes form discussion threads, and users can then engage in debate
+  on the points raised.</p>
+  <p>Users may not be anonymous, they must follow our guidelines for
+  civilized academic debate, and when leaving feedback they are
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/static/commentGuidelines.action">asked
+  to declare any competing interests</ext-link>. I want to make it clear
+  that the post-publication functionality that we provide is not
+  intended to provide post-publication peer review – it is
+  post-publication discourse and feedback. All
+  <italic><italic>PLoS</italic></italic> titles now share this same
+  functionality.</p>
+</sec>
+<sec id="4-are-other-publishers-besides-plos-using-the-ambra-topaz-platform">
+  <title>4. Are other publishers besides PLoS using the Ambra/Topaz
+  platform?</title>
+  <p>None that we are aware of although the NIH has an internal project.
+  But Topaz is open source, so please contact us if you want to use
+  it!</p>
+</sec>
+<sec id="5-what-article-level-metrics-does-plos-one-provide">
+  <title>5. What article-level metrics does PLoS ONE provide?</title>
+  <p>As of today (August 2009), on every article, in every
+  <italic><italic>PLoS</italic></italic> title we provide:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Number of citations (as measured by
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.scopus.com/">Scopus</ext-link>
+      and
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.pubmedcentral.nih.gov/">PubMedCentral</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p>Number of social bookmarks (as recorded by
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.citeulike.org/">CiteULike</ext-link>
+      and
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.connotea.org/">Connotea</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p>Number of star ratings left by users on our system</p>
+    </list-item>
+    <list-item>
+      <p>Notes, Comments and any replies, as left by users of our
+      system</p>
+    </list-item>
+    <list-item>
+      <p>Number of blog posts written about the article (as counted by
+      the blog aggregators
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.postgenomic.com/">Postgenomic</ext-link>,
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://blogs.nature.com/">Nature
+      Blogs</ext-link> and
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.bloglines.com/">Bloglines</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p>Specific trackbacks to the article from any web page using our
+      trackback protocol</p>
+    </list-item>
+  </list>
+  <p>In September we will be adding additional citation data as measured
+  by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.crossref.org/">CrossRef</ext-link>
+  and, most significantly, the online usage for each article (going back
+  to the original publication date and reported on a monthly basis,
+  broken down by HTML pageviews, PDF downloads, and XML downloads). This
+  development in particular is very exciting – no other publisher has
+  made this data available for such a large corpus of articles.</p>
+  <p>After this, the next data source we will add will be blog coverage
+  as aggregated by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://researchblogging.org/">ResearchBlogging.org</ext-link>,
+  and in subsequent months we will be adding other metrics as and when
+  we can identify high quality sources which meet our criteria.</p>
+  <p><italic><italic>Article-level metrics</italic></italic> are a major
+  development for <italic><italic>PLoS</italic></italic> and we believe
+  that we are unique in the publishing industry with the transparent
+  provision of such a range of <italic><italic>article-level
+  metrics</italic></italic>. No other publisher provides as much (or
+  any, in most cases) article-level data in such a comprehensive and
+  open manner. It is our belief that once we have demonstrated what is
+  possible, as well as the power of these metrics, the academic
+  community will quickly begin to expect, and demand, this level of
+  information from all journals. As a result the very nature of research
+  reporting and evaluation will be improved as a result.</p>
+</sec>
+<sec id="6-how-do-article-level-metrics-fit-in-with-how-plos-one-conducts-peer-review">
+  <title>6. How do article-level metrics fit in with how PLoS ONE
+  conducts peer review</title>
+  <p>We peer review all submissions for their
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/static/review.action">scientific
+  content</ext-link>, but we do NOT peer review them in order to
+  determine whether they are high or low impact (or interest or
+  significance or relevance etc). Therefore, from the reader’s point of
+  view, when you encounter a <italic><italic>PLoS ONE</italic></italic>
+  article you do not necessarily know how impactful, or interesting, or
+  significant, or relevant that article might be (without actually
+  reading it!). In the traditional model, you would have some indication
+  as to the likely importance of an article by a knowledge of the
+  journal in which it was published in (although we argue that this way
+  of determining quality is actually
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plos.org/cms/node/478">one
+  of the worst methods you could use</ext-link>), however in
+  <italic><italic>PLoS ONE</italic></italic> all you know is that the
+  article is scientifically and methodologically sound (which are the
+  only questions that our peer review process asks). Therefore,
+  <italic><italic>article-level metrics</italic></italic> provide the
+  reader with an indication as to the worth of an article once it is
+  published. Until today, people have effectively said: this article was
+  published in journal X, therefore knowing this one fact, I now know
+  that the article is excellent/good/average/poor. I think that any sane
+  person who considered that statement would realize how unscientific it
+  was. With the advent of <italic><italic>article-level
+  metrics</italic></italic>, a reader can now say “this article was
+  published as part of the scientific literature, it is irrelevant which
+  journal it was published in as I have now been given a variety of
+  information about the article itself which will help me decide whether
+  the article is excellent / good / average / poor for my own
+  purposes”.</p>
+  <p>Therefore, <italic><italic>article-level metrics</italic></italic>
+  do not supplant peer review and they also do not represent
+  post-publication peer review. However they do provide the reader with
+  new and valuable ways to do the post-publication evaluation and
+  filtering of journal content.</p>
+</sec>
+<sec id="7-what-are-plos-one-subject-areas-or-portals">
+  <title>7. What are PLoS ONE subject areas or portals?</title>
+  <p>We actually have several ways to ‘parse’ our content by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/static/browse.action">topic</ext-link>:
+  All content is assigned to one or more of our 52 topic areas (for
+  example Pathology or Oncology). These topics are assigned by the
+  authors themselves and an article can appear in more than one topic.
+  Having made that classification, readers can then
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/article/browse.action">browse
+  the topics</ext-link> or subscribe to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/static/rssFeeds.action">an
+  RSS feed per topic</ext-link>.</p>
+  <p>However, we appreciate that this is not a very flexible way to find
+  content that doesn’t easily fall under our existing taxonomy
+  structure. Therefore, we also have the ability to aggregate our
+  articles into
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/article/browseVolume.action">Collections</ext-link>.
+  A Collection is literally just an aggregation tool (post-publication)
+  – articles are still published as part of the normal run of the
+  journal, but can then be assigned to join a Collection where they will
+  also appear as part of a collection of related articles. For example,
+  right now we have a very popular
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pone.c01.i02">Paleontology
+  Collection</ext-link>. As we publish new Paleontology articles they
+  get added to this Collection to form a single location for all
+  relevant articles in the field. This Collection functionality can also
+  be used for the output of a single research effort, and an example of
+  this is our
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.plosone.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pone.c01.i01">Stress-Induced
+  Depression and Comorbidities Collection</ext-link> which effectively
+  replicated a “Special Issue” of a journal, and contained all the
+  articles we published as written by the EUMOOD Research Consortia.
+  Collections can be static, or can build up over time, and articles can
+  appear in multiple Collections – as such they represent a very
+  flexible way to re-present our content.</p>
+  <p>Then we have <italic><italic>PLoS</italic></italic> Hubs, which are
+  under development right now. We see a Hub as a way to aggregate
+  journal articles (along with other types of content) about a given
+  topic into a single location. Once aggregated, we can then provide
+  various community specific tools and services around this content. A
+  Hub should not be thought of as a portal or an overlay journal – the
+  distinguishing feature will be that a Hub will physically contain (and
+  not just link out to) as much content as possible. Clearly, the
+  easiest way to achieve this is by making the content Open Access, and
+  so we also see Hubs as an opportunity to demonstrate the power of an
+  Open Access copyright license. At the moment there is only one Hub
+  (the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://clinicaltrials.ploshubs.org/home.action">PLoS
+  Clinical Trials Hub</ext-link>) but this is a rather old
+  implementation of the concept and only contains
+  <italic><italic>PLoS</italic></italic> content – therefore we are
+  proactively working on a new release which will include more of the
+  functionality described above.</p>
+  <p>Future developments to our platform will involve the ability to tag
+  articles (perhaps by some combination of curated and user generated
+  tags) which will provide yet another way to dynamically aggregate the
+  content.</p>
+</sec>
+<sec id="8-how-has-the-ambra-topaz-platform-handled-the-enormous-growth-of-plos-one">
+  <title>8. How has the Ambra/Topaz platform handled the enormous growth
+  of PLoS ONE?</title>
+  <p>Great! We had a few architecture issues in the past due to the
+  bleeding edge nature of the platform, but all seven of our journals
+  have now migrated to the same platform and no substantial issues have
+  come up since the we migrated our Community Journals (back in early
+  2008).</p>
+</sec>
+<sec id="9-what-are-your-responsibilities-at-plos">
+  <title>9. What are your responsibilities at PLoS?</title>
+  <p>I am the Managing Editor of <italic><italic>PLoS
+  ONE</italic></italic> (one of seven titles at
+  <italic><italic>PLoS</italic></italic>). Although this position is an
+  Editorial one, it is the position which is ultimately responsible for
+  everything associated with the journal. By this I mean that although
+  other departments may not report into me, I am ultimately responsible
+  for the marketing, production, operations, web etc of the journal. If
+  we have a problem with any aspect of the journal, it is me that makes
+  sure it gets solved!</p>
+</sec>
+<sec id="10-what-did-you-do-before-starting-to-work-at-plos">
+  <title>10. What did you do before starting to work at PLoS?</title>
+  <p>Well, I am a physicist from way back – I have a first degree in
+  Physics with Astrophysics and a PhD in Underwater Optical Holography
+  (which I always tell people sounds a lot more interesting than it
+  was!). After my PhD I realized I wasn’t interested in a life in
+  academia and so I moved into Academic Publishing, which allowed me to
+  stay in touch with academia and also to interact with leading
+  researchers conducting the latest research. I started out at Institute
+  of Physics Publishing, in Bristol UK, doing book acquisitions, then I
+  moved to Holland to work for Kluwer Academic Publishers (KAP) to start
+  up a reference work program for them. Via a series of moves I ended up
+  running the KAP Earth, Environmental and Plant Sciences division – a
+  large portfolio of books, reference works and journals in those areas.
+  Around the time that KAP merged with Springer I moved into Business
+  Development for a year or so, which was an interesting period working
+  on Springer’s
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002113207/http://www.springer.com/open+access/open+choice">Open
+  Choice</ext-link> program, online reference works and journal
+  acquisitions among others. Then I left Springer, and also Holland, to
+  move to California (my wife is from San Diego) where I worked for SAGE
+  Publications, just North of LA, for 3 years. There I ran the SAGE US
+  Journals division, which was made up of some 200 or so journals,
+  mostly in the Social Sciences. In that position a large part of the
+  job involved bidding on society titles, to publish them under
+  contract. And then, finally, in March 2008 I moved to San Francisco,
+  to work for <italic><italic>PLoS</italic></italic> and run
+  <italic><italic>PLoS ONE</italic></italic>.</p>
+</sec>
+<sec id="11-do-you-want-to-talk-about-future-plans-for-ambra-topaz">
+  <title>11. Do you want to talk about future plans for
+  Ambra/Topaz?</title>
+  <p>The list of upcoming projects includes:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>More article-level metrics development</p>
+    </list-item>
+    <list-item>
+      <p>RDFa implementation</p>
+    </list-item>
+    <list-item>
+      <p>Automatic article relationships</p>
+    </list-item>
+    <list-item>
+      <p>Semantic enhancement</p>
+    </list-item>
+    <list-item>
+      <p>REST-based API</p>
+    </list-item>
+    <list-item>
+      <p>The ingest and publication of many types of content / data
+      (structured and unstructured)</p>
+    </list-item>
+    <list-item>
+      <p>Tags</p>
+    </list-item>
+    <list-item>
+      <p>Enhanced search and browse functionality</p>
+    </list-item>
+    <list-item>
+      <p>A new process to submit articles directly to PubMed Central and
+      other external repositories</p>
+    </list-item>
+    <list-item>
+      <p>Direct access to our underlying triple store (sparql endpoint,
+      RDFa)</p>
+    </list-item>
+  </list>
+</sec>
+</body>
+<back>
+</back>
+</article>

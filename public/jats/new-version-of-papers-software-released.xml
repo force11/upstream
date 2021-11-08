@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>New version of Papers software released</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-11-06">
+<day>6</day>
+<month>11</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611104710/http://mekentosj.com/papers/">Papers</ext-link>
+is Macintosh-only software to manage the PDF files of all the scientific
+papers you stored on your computer. I previously
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611104710/http://blog.xartrials.com/2007/5/1/papers-itunes-for-your-scientific-papers">wrote</ext-link>
+about version 1.0 that appeared earlier this year.The new Version 1.5 is
+compatible with
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611104710/http://www.apple.com/macosx/">Leopard</ext-link>,
+the latest release of the Macintosh operating system. The biggest
+improvement is support for search engine plugins. With previous
+versions, only PubMed searches were possible, but now you can also
+search Google Scholar, Web of Science and others.</p>
+<p>Papers is a wonderful piece of software that helps to organize the
+clutter of PDF files on your hard drive. My wish for version 2.0:
+integration of RSS feeds from journal table of contents or custom PubMed
+searches.</p>
+<p>For more information, visit the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611104710/http://network.nature.com/group/papers">Papers
+Group</ext-link> on Nature Network.</p>
+</body>
+<back>
+</back>
+</article>

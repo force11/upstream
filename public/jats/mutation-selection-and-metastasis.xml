@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Mutation, selection and metastasis</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-02-14">
+<day>14</day>
+<month>2</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="gif" xlink:href="https://web.archive.org/web/20151003091150im_/http://citizenship.typepad.com/blogfordarwin/DarwinBadge.gif" xlink:title="" />
+</fig>
+<p>Mutation and selection are important concepts in cancer biology. One
+well-known example is hereditary colon cancer. Patients with mutations
+in the DNA mismatch repair genes <italic><italic>MLH1</italic></italic>
+or <italic><italic>MSH2</italic></italic> develop colon cancer because
+of an increased rate of mutations. And tumors in patients with familial
+polyposis coli have a growth advantage because of a mutation in the
+tumor suppressor gene APC. Mutations and selection also help to explain
+the process of metastasis, the formation of secondary tumor foci at
+distant sites in the body. Understanding metastasis is important,
+because it is often this spread of the tumor that makes a previously
+localized cancer an incurable disease.</p>
+<p>In 1977 a landmark paper in <italic><italic>Science</italic></italic>
+by Isaiah Fidler and Margaret Kripke (Fidler 1977) described a mouse
+model of lung metastasis using the syngeneic B16 mouse melanoma cell
+line. This melanoma cell line originated spontaneously in a C57BL/6
+mouse in 1954 and is known to metastasize to the lung. They produced
+several clones of the B16 cells, each clone originating from a single
+cell and therefore genetically identical. Cells from these clones were
+then injected into the tail vein of C57BL/6 mice. The number of lung
+metastases in these mice varied dramatically between clones and was also
+different from the parental cell line. Fidler and Kripke concluded that
+a subpopulation of highly metastatic cells preexists in the parent
+population and is selected during the metastatic process.</p>
+<p>In 1994 I started to work on a research project that tried to
+identify molecules responsible for the selection process in this B16
+lung metastasis model. This was before microarrays and the sequencing of
+the mouse genome, and we used a technique called differential display to
+identify differentially expressed genes in two variant B16 cell lines
+that created low and high numbers of lung metastases. We identified a
+novel gene that turned out to be a transcriptional regulator (Shioda
+1996) but probably is not that critical for the metastatic process.</p>
+<p>In 2009 we have learned a lot more about the metastatic process, but
+we still know much more about genes involved in tumor cell
+proliferation, apoptosis, etc. than the genes critical for the
+metastatic process. And we still have not come up with a clever way to
+specifically treat that malignant subpopulation of tumor cells that will
+later produce metastatic disease.</p>
+<sec id="references">
+  <title>References</title>
+  <p>Fidler, I., &amp; Kripke, M. (1977). Metastasis results from
+  preexisting variant cells within a malignant tumor. Science,
+  197(4306), 893–895.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.887927">https://doi.org/10.1126/science.887927</ext-link></p>
+  <p>Shioda, T., Fenner, M. H., &amp; Isselbacher, K. J. (1996). msg1, a
+  novel melanocyte-specific gene, encodes a nuclear protein and is
+  associated with pigmentation. Proceedings of the National Academy of
+  Sciences, 93(22), 12298–12303.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.93.22.12298">https://doi.org/10.1073/pnas.93.22.12298</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

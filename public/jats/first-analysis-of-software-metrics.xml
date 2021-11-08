@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>First analysis of software metrics</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2015-02-28">
+<day>28</day>
+<month>2</month>
+<year>2015</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last week
+<ext-link ext-link-type="uri" xlink:href="https://martinfenner.ghost.io/2015/02/19/metrics-for-scientific-software/">I
+wrote about</ext-link>
+<ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io/">software.lagotto.io</ext-link>,
+an instance of the
+<ext-link ext-link-type="uri" xlink:href="https://github.com/articlemetrics/lagotto">lagotto</ext-link>
+open source software collecting metrics for the about 1,400 software
+repositories included in
+<ext-link ext-link-type="uri" xlink:href="http://sciencetoolbox.org/">Sciencetoolbox</ext-link>.
+In this post I want to report the first results analyzing the data.</p>
+<p>If you want to follow along, please go to
+<ext-link ext-link-type="uri" xlink:href="https://github.com/mfenner/software-analysis">https://github.com/mfenner/software-analysis</ext-link>,
+this repository holds all the data, as well as the R code used for
+analysis. A special thanks goes to
+<ext-link ext-link-type="uri" xlink:href="http://scottchamberlain.info/">Scott
+Chamberlain</ext-link> who greatly helped me by tweaking the
+<ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/alm">alm</ext-link>
+R package to support URLs instead of DOIs as identifiers.</p>
+<p>The first step in the analysis is to get an overview of the external
+sources citing or discussing the software package:</p>
+<fig>
+  <caption><p>Number of software repositories (out of 1,404) with at
+  least one event. Data from
+  <ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io">software.lagotto.io</ext-link></p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://martinfenner.ghost.io/content/images/2021/01/software.lagotto.io_2.png" xlink:title="" />
+</fig>
+<p>This is basically the same figure as in the
+<ext-link ext-link-type="uri" xlink:href="https://martinfenner.ghost.io/2015/02/19/metrics-for-scientific-software/">previous
+post</ext-link>, but with two differences: I have added a
+<ext-link ext-link-type="uri" xlink:href="http://www.nature.com/opensearch/">Nature.com
+OpenSearch</ext-link> data source, and I have found an additional 64
+repositories cited in scholarly articles via an Europe PMC fulltext
+Search that also includes the reference lists (thanks to
+<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/about/people/johanna-mcentyre">Jo
+McEntyre</ext-link>).</p>
+<p>I am not sure why we are not picking up any Wikipedia citations, and
+have to take a closer look. The ORCID source also needs tweaking, and
+there are some issues with the
+<ext-link ext-link-type="uri" xlink:href="http://wordpress.com/">Wordpress.com</ext-link>
+data that I have to look into as well. Citations in the scholarly
+literature are obviously the most interesting data, and we have three
+Github repos with more than 25 citations, including
+<ext-link ext-link-type="uri" xlink:href="https://github.com/najoshi/sickle">https://github.com/najoshi/sickle</ext-link>
+with 54 citations. As most repositories in our sample are cited only
+once if at all, a correlation with Github stars and forks is not useful.
+Sickle is popular on Github (52 stars and 32 forks), but it is not clear
+that this activity is correlated to citations (e.g. because there are
+more citations than stars).</p>
+<p>The vast majority of software repos in this analysis are hosted by
+Github, so we have the numbers of stars and forks for those. It is
+interesting, although probably not very surprising, that the number of
+Github stargazers and forks is highly correlated:</p>
+<fig>
+  <caption><p>Correlation between Github stargazers and forks, log-log
+  scale. Data from
+  <ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io">software.lagotto.io</ext-link></p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://martinfenner.ghost.io/content/images/2021/01/github_likes_readers-1.png" xlink:title="" />
+</fig>
+<p>We can find Facebook activity (likes, comments or shares) for one
+third of the repositories. There is a reasonably good correlation
+between Facebook activity and number of Github forks:</p>
+<fig>
+  <caption><p>Correlation between combined Facebook activity and Github
+  forks, log-log scale. Data from
+  <ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io">software.lagotto.io</ext-link></p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://martinfenner.ghost.io/content/images/2021/01/facebook_github_readers-1.png" xlink:title="" />
+</fig>
+<p>One interesting analysis would be to look at the repositories that
+have been forked much more often relative to their Facebook activity,
+e.g.
+<ext-link ext-link-type="uri" xlink:href="https://github.com/cloudera/impala">Impala</ext-link>
+with 1,207 Github stars and 458 forks, but only 5 Facebook shares. One
+limitation of the analysis is that we are not tracking Facebook (or
+other social media) activity for all forks of a repo.</p>
+<p>We found Reddit discussions mentioning one of the repositories in 7%
+of cases. Once we have a larger sample size it would be interesting to
+correlate this activity with Github stars and forks, similar to what we
+did for Facebook. By far the most popular repository from our sample on
+Reddit is
+<ext-link ext-link-type="uri" xlink:href="https://github.com/Bitcoin/Bitcoin">Bitcoin</ext-link>,
+followed by
+<ext-link ext-link-type="uri" xlink:href="https://github.com/jquery/jquery">JQuery</ext-link>.
+Twitter activity is notoriously difficult to collect since Twitter
+doesn’t keep tweets very long, hence probably the low numbers compared
+to Facebook and Reddit.</p>
+<p>Feel free to play with the data and scripts provided at
+<ext-link ext-link-type="uri" xlink:href="https://github.com/mfenner/software-analysis">https://github.com/mfenner/software-analysis</ext-link>,
+my next step is probably to include a much larger number of software
+repositories.</p>
+<p>It has not escaped our notice that the kind of analysis described
+above could be applied to any software repository, not just scientific
+software.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Tired of Impact Factors? Try the SJR
+indicator</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-01-07">
+<day>7</day>
+<month>1</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Picking the right journal is one of the most important decisions when
+you start to work on a paper. You probably have a gut feeling of the
+journals that are best suited for your paper in progress. To make this
+decision more objective, you can rely on the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://scientific.thomson.com/free/essays/journalcitationreports/impactfactor/">Impact
+Factor</ext-link> of a journal. The Impact Factor is roughly the average
+number of citations per paper in a given journal and is published by
+ <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://scientific.thomson.com/index.html">Thomson
+Scientic</ext-link>. Higher Impact Factors mean more prestigious
+journals. This information is also frequently used for job or grant
+applications.</p>
+<p>Impact factors have been around for more than 40 years and they
+generally been very helpful. But there are two big problems:</p>
+<sec id="impact-factors-are-published-by-one-privately-owned-company">
+  <title>Impact Factors are published by one privately owned
+  company</title>
+  <p>Given the importance of Impact Factors for many aspects of
+  scientific publishing, it would be preferable if there were
+  alternatives. And Impact Factors are not freely available, but must be
+  purchased from Thomson Scientific.</p>
+</sec>
+<sec id="impact-factors-might-not-be-the-best-tool-to-measure-scientific-quality">
+  <title>Impact Factors might not be the best tool to measure scientific
+  quality</title>
+  <p>Impact factors have several shortcomings. Because they are a
+  convenient way to judge the scientific output of a person,
+  organization, journal or country, they are often overused. They should
+  for example not be used to compare journals in different fields, e.g.
+  cell biology and particle physics. Measures like the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://network.nature.com/blogs/user/mfenner/2007/08/17/do-you-know-your-hirsch-number">Hirsch
+  Number</ext-link> might be a better tool to measure the scientific
+  output of an individual scientist. And sometimes the judgement of your
+  peers in the field is more important than simple numbers.</p>
+  <p>The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.scimagojr.com/">SCImago
+  Journal Rank</ext-link> indicator tries to overcome these two
+  shortcomings. The index was created by the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.scimago.es/">SCImage
+  Research Group</ext-link>, located at several Spanish universities.
+  The index uses information from the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.scopus.com/">Scopus</ext-link>
+  abstract and citation database of research literature owned by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.elsevier.com/">Elsevier</ext-link>.</p>
+  <p>In contrast to the Impact Factor, the SJR indicator measures not
+  simply the number of citations per paper. Citations from a journal
+  with a higher SJR indicator lead to a higher SJR indicator for the
+  cited journal (more details
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.scimagojr.com/SCImagoJournalRank.pdf">here</ext-link>).
+  This approach is similar to PageRank (described in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://infolab.stanford.edu/~backrub/google.html">this</ext-link>
+  paper), the algorithm for web searches by Sergey Brin and Lawrence
+  Page that made
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.google.com/">Google</ext-link>
+  what it is today.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.eigenfactor.org/">Eigenfactor</ext-link>
+  is another scientific ranking tool that uses a PageRank algorithm.</p>
+  <p>Most of the time, journals with high Impact Factors have high SJR
+  indicators. Nature and Science are still head to head. We will find
+  unexpected results and discrepancies between the two over time. In my
+  field of oncology, both the Journal of the NCI and Cancer Research are
+  ranked higher than the Journal of Clinical Oncology.</p>
+  <p>You can read more about the SJR indicator in this
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170910200523/http://www.nature.com/news/2008/080102/full/451006a.html">Nature
+  News article</ext-link>.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

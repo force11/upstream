@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>How to close the digital divide among
+scientists</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-06-14">
+<day>14</day>
+<month>6</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>The term <italic><italic>digital divide</italic></italic> usually
+describes <italic><italic>the troubling gap between those who use
+computers and the Internet and those who do not</italic></italic>
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://en.wikipedia.org/wiki/Digital_divide">Wikipedia</ext-link>).
+Many if not most scientists are experienced users of computers and the
+internet, and use email or public databases such as
+<italic><italic>PubMed</italic></italic> on a daily basis. But few
+scientists regularly use Web 2.0 tools, which would include both general
+tools such as <italic><italic>Twitter</italic></italic>,
+<italic><italic>FriendFeed</italic></italic> or
+<italic><italic>Facebook</italic></italic>, as well as tools
+specifically targeted at scientists (and this would of course include
+<italic><italic>Nature Network</italic></italic>).</p>
+<p>Regular readers of this blog know that I am fascinated by technology,
+especially if this technology makes it easier to publish scientific
+papers. And like others I sometimes get carried away
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://network.nature.com/people/mfenner/blog/2009/05/28/google-wave-dont-forget-the-scientists">Google
+Wave</ext-link> is a good recent example). Even among those scientists
+open to blogs, wikis, etc., not everybody wants to follow every
+technology trend. This could simply be because that would take too much
+time, but most people probably just don't care that much about
+technology.</p>
+<p>So what can we do about this digital divide among scientists? Science
+is often very specialized, and sometimes only a few people participate
+in a discussion about a particular topic.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://radar.oreilly.com/">Tim
+O'Reilly</ext-link> has coined the term <italic><italic>alpha
+geek</italic></italic> for people that are the first to use new
+technologies, and there certainly is a place for <italic><italic>science
+alpha geeks</italic></italic>. But Science Online is about science
+communication, and communication tools that are used by only a handful
+of people usually don't fulfill their purpose.</p>
+<p>One easy solution would be to simply wait 10-20 years until most
+senior scientists are
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://en.wikipedia.org/wiki/Digital_native">digital
+natives</ext-link> (those that have grown up with digital technology
+such as computers, the Internet or mobile phones), but that seems to be
+an awfully long time for something this important.</p>
+<p>We could build better tools. Good tools simply work and don't need a
+lot of explanations. For me
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://mekentosj.com/papers/">Papers</ext-link>
+is such a tool, but strictly speaking not really Web 2.0, because it has
+no collaboration features. <italic><italic>Google Wave</italic></italic>
+could be another example, but only the next few months will tell. What
+makes a good Web 2.0 tool for scientists? Most importantly, that the
+tool solves an important everyday problem. Equally important, that there
+aren't high hurdles in using this tool in terms of cost and learning
+curve. Another hurdle: some Web 2.0 tools only start to become useful
+once they have signed up a large enough number of users.</p>
+<p>But we also need to do more to communicate the usefulness of online
+tools for scientists. The original definition of the digital divide has
+a negative meaning and everybody probably agrees that we should at least
+try to overcome this divide. Although there certainly is also a digital
+divide among scientists, the general perception is probably not that
+those scientists that are not Web 2.0-savvy are at a disadvantage. We
+should have a much closer look at the tools that are currently
+available, define the scenarios where they can be useful, and focus on
+that. We talk too much about the details, technical or otherwise. One
+example: most scientists probably want to have an idea of when an online
+reference manager can be helpful rather than the tools they currently
+use, rather than discuss the subtle differences between the very similar
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://www.citeulike.org/">CiteULike</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://www.connotea.org/">Connotea</ext-link>,
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://www.2collab.com/">2collab</ext-link>.
+Part of the problem is that people want to make money with their Web 2.0
+tools for scientists, but forget that collaboration is more important
+than competition when the market still has to grow and is currently
+probably too small for viable business opportunities.</p>
+<p>This makes closing the digital divide among scientists very much a
+science education exercise, and I think that science librarians should
+play a central role in this. Not surprisingly, a seminar last week by
+our local science librarian in our department and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://scienceblogs.com/confessions/2009/06/cool_conferences_mental_overlo.php">a
+blog post</ext-link> by science librarian John Dupuis (and the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://friendfeed.com/johndupuis/8c6723b0/cool-conferences-mental-overload">FriendFeed</ext-link>
+discussion around his blog post) were the inspiration for this post
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://friendfeed.com/coturnix/562bc610/wow-sunday-afternoon-and-i-don-t-even-know-on-what">another
+FriendFeed discussion</ext-link> started by Bora Zivkovic made be write
+the post today instead of going to bed early).</p>
+<p><italic><italic>Update 06/15/09:</italic></italic>
+One good strategy to overcome the digital divide among scientists would
+be a <italic><italic>Science 2.0 Cookbook</italic></italic>. Similar in
+format to the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151001173737/http://oreilly.com/store/series/cookbooks.csp">O'Reilly
+Cookbook series</ext-link> for programming problems, the Science 2.0
+cookbook would use the format problem/solution/discussion to provide a
+solution for problems like <italic><italic>How do I share references
+with my coworkers in the lab?</italic></italic> This could be started as
+a Wiki project.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20151001173737im_/http://www.linkwithin.com/pixel.png" xlink:title="" />
+</fig>
+</body>
+<back>
+</back>
+</article>

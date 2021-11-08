@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Persistent Identifiers and URLs</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2015-06-03">
+<day>3</day>
+<month>6</month>
+<year>2015</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Just like the rest of the internet, much of our scholarly
+infrastructure is built around the Hypertext Transfer Protocol (HTTP),
+increasingly HTTPS for security, and soon
+<ext-link ext-link-type="uri" xlink:href="https://http2.github.io/">HTTP/2</ext-link>
+for better performance. In this infrastructure Universal Resource
+Locators (URLs) are essential to locate resources (sic) such as
+scholarly articles, datasets, researchers, organizations, or grants.
+Read
+<ext-link ext-link-type="uri" xlink:href="http://site.thomsonreuters.com/site/data-identifiers/">this</ext-link>
+recent Thomson Reuters report for a good recent perspective on this
+topic. While this works for the most part, there are some issues with
+URLs - not specific to scholarly content, but particularly import
+here:</p>
+<list list-type="order">
+  <list-item>
+    <p>multiple URLs can point to the same resource</p>
+  </list-item>
+  <list-item>
+    <p>URLs can be long and look ugly</p>
+  </list-item>
+  <list-item>
+    <p>URLs can change or break, making it hard or impossible to locate
+    the resource</p>
+  </list-item>
+  <list-item>
+    <p>we are used to central indexes (or databases) describing these
+    resources, allowing us to do sophisticated queries not possible in a
+    generic web search, e.g. find all publications by author John Doe,
+    published since 2012.</p>
+  </list-item>
+</list>
+<p>No. 1 is a problem relevant to all URLs, e.g. web searches or
+liking/commenting a particular web page. Originally suggested by Google,
+<ext-link ext-link-type="uri" xlink:href="https://support.google.com/webmasters/answer/139066?hl=en">Canonical
+URLs</ext-link> are essential for services such as Facebook or
+<ext-link ext-link-type="uri" xlink:href="https://hypothes.is/blog/cross-format-annotation/">Hypothes.is</ext-link>.
+They have been formalized in
+<ext-link ext-link-type="uri" xlink:href="http://tools.ietf.org/html/rfc6596">rfc6596</ext-link>
+and are commonly used.</p>
+<p>No. 2 can be a problem, in particular if we are not careful in
+designing appropriate URLs for landing pages (see next paragraph), but
+rather use something long and unreadable that also includes query
+parameters, etc. If we have no control over how the URL looks like, we
+can use URL shortener services such as
+<ext-link ext-link-type="uri" xlink:href="https://bitly.com/">bit.ly</ext-link>,
+which of course have become a common sight on the web.
+<ext-link ext-link-type="uri" xlink:href="http://shortdoi.org/">ShortDOIs</ext-link>
+are an URL shortener for DOIs, but they don’t seem to have gained much
+traction.</p>
+<p>No. 3 is a particularly important issue, commonly referred to as
+<bold><bold>link rot</bold></bold> and described extensively for the
+scholarly literature, e.g. by (Klein et al., 2014). There are several
+technical solutions to this problem, a common approach is to use a
+landing page for the resource that will never change (and follows the
+recommendations by Tim Berners-Lee for
+<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/Provider/Style/URI.html">Cool
+URIs</ext-link>, and then use redirection to point to the current
+location of the resource. This is easily for changes of the URL path
+using web server
+<ext-link ext-link-type="uri" xlink:href="http://httpd.apache.org/docs/2.4/rewrite/remapping.html">redirect
+rules</ext-link>. It gets more complicated if the server name also
+changes, in particular if it is the server holding the landing page.
+Thinking this through you realize that the only way this can be done on
+a larger scale is via one or more centralized services that not only
+provide the technical infrastructure for a central redirection (or
+resolver) service, but also come with a social contract of rules that
+everyone submitting URLs to the service has to follow - a major
+difference to URL shorteners, which don’t solve the link rot
+problem.</p>
+<p>The above is of course a description of the DOI service provided by
+CrossRef, DataCite, and others, as well as similar persistent identifier
+services. Unfortunately some persistent identifier services don’t do the
+above: they create and use persistent identifiers, but there is no
+central resolver service that maps these identifiers back to URLs. This
+breaks the integration with the bigger scholarly infrastructure based on
+URLs. One common example are nucleotide sequences such as U65091
+(Shioda, Fenner, &amp; Isselbacher, 1997), there is no single
+corresponding URL because the sequence can be found in all three main
+nucleotide databases:
+<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/U65091">http://www.ncbi.nlm.nih.gov/nuccore/U65091</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ena/data/view/U65091">http://www.ebi.ac.uk/ena/data/view/U65091</ext-link>,
+and
+<ext-link ext-link-type="uri" xlink:href="http://getentry.ddbj.nig.ac.jp/getentry/na/U65091">http://getentry.ddbj.nig.ac.jp/getentry/na/U65091</ext-link>.
+It would help to have a central resolver, e.g.
+<ext-link ext-link-type="uri" xlink:href="http://nucleotide.org/U65091">http://nucleotide.org/U65091</ext-link>
+that then redirects to one of the three databases based on geographical
+location or user preference.</p>
+<p>There are also problems with DOIs. They use the
+<ext-link ext-link-type="uri" xlink:href="http://www.handle.net/">Handle</ext-link>
+system to resolve the identifier to a location, and this system was
+built in the 1990s as infrastructure
+<ext-link ext-link-type="uri" xlink:href="http://www.handle.net/faq.html">independent
+of</ext-link> URLs or DNS (Domain Name Service), at a time when it
+wasn’t clear yet that URLs and associated standards would become
+ubiquitous. I don’t have numbers, but practically all DOIs are of course
+now resolved to URLs using the
+<ext-link ext-link-type="uri" xlink:href="http://www.doi.org/factsheets/DOIProxy.html">DOI
+proxy server</ext-link> at
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/">http://doi.org</ext-link>
+(preferred) or
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/">http://dx.doi.org</ext-link>.
+One main consequence of this is that DOIs are frequently not written as
+URLs - e.g. doi:10.5555/12345678 instead of
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5555/12345678">http://doi.org/10.5555/12345678</ext-link>
+- again breaking the integration with the bigger scholarly
+infrastructure. The CrossRef
+<ext-link ext-link-type="uri" xlink:href="http://www.crossref.org/02publishers/doi_display_guidelines.html">DOI
+display guidelines</ext-link> clearly state that DOIs should be written
+as URLs in <italic>the online environment</italic>, which basically is
+whenever DOIs are used, as PDFs and even Word documents know how to
+handle URLs. Unfortunately this guideline is still frequently ignored.
+The above is of course also true for other persistent identifiers using
+the Handle system, e.g.
+<ext-link ext-link-type="uri" xlink:href="http://www.pidconsortium.eu/">EPIC</ext-link>.</p>
+<p>The other problem with the DOI system is that it doesn’t address
+issue No. 4, i.e. provide a central metadata index for the resources
+that use the system. This job is left to the DOI registration agencies
+such as CrossRef and DataCite, who have implemented a central metadata
+store (e.g.
+<ext-link ext-link-type="uri" xlink:href="http://search.crossref.org/">CrossRef</ext-link>,
+<ext-link ext-link-type="uri" xlink:href="http://search.datacite.org/">DataCite</ext-link>)
+in different ways (e.g. using different metadata schemata), or not at
+all. This means that we have to look in several places to find all DOis
+associated with author John Doe, published since 2012. Obviously we are
+used to looking up information in multiple places, but not being able to
+look up the metadata for a DOI without some extra work (finding out the
+registration agency for the DOI and then going to the respective
+metadata store) is a problem. One way around these problems is to use
+the
+<ext-link ext-link-type="uri" xlink:href="http://www.crosscite.org/cn/">DOI
+Content Negotiation Service</ext-link>.</p>
+<p>Another problem with the DOI system is more a social than a technical
+issue. Neither CrossRef nor DataCite seem to enfource that DOIs should
+alsways resolve to URLs when using a computer program. DOI resolution
+for humans works fine, but computers, e.g. command line tools such as
+cURL, can run into issues such as requiring cookies, javascript or user
+input, or permission problems getting to the journal landing page (see
+<ext-link ext-link-type="uri" xlink:href="https://martinfenner.ghost.io/2013/10/13/broken-dois">this
+earlier blog post</ext-link> for some numbers). People seem to forget
+that a DOI that is not actionable is not really useful, and that
+scholarly infrastructure is not only used by people, but of course also
+by automated tools.</p>
+<p>The persistent identifiers used in our scholarly infrastructure would
+benefit from a clearer focus on the problems they should solve, startin
+with No. 1-4 above. One problem is that we probably focus too much on
+the persistence problem, implied also by the term <bold><bold>persistent
+identifier</bold></bold> or <bold><bold>PID</bold></bold>. What we have
+neglected is the resolvable problem, i.e. making as easy as possible to
+get from the persistent identifier to the resource and/or its metadata.
+Based on the
+<ext-link ext-link-type="uri" xlink:href="http://www.knowledge-exchange.info/Default.aspx?ID=462">Den
+Haag Manifesto</ext-link> and suggested by Todd Vision, we therefore
+proposed the term <bold><bold>trusted identifier</bold></bold> with the
+following characteristics in the conceptual model of interoperability
+for the
+<ext-link ext-link-type="uri" xlink:href="http://odin-project.eu/">ODIN
+Project</ext-link> (ODIN Project, Fenner, Thorisson, Ruiz, &amp; Brase,
+2013):</p>
+<list list-type="bullet">
+  <list-item>
+    <p>are unique on a global scale, allowing large numbers of unique
+    identifiers</p>
+  </list-item>
+  <list-item>
+    <p>resolve as HTTP URI’s with support for content negotiation, and
+    these HTTP URI’s should be persistent.</p>
+  </list-item>
+  <list-item>
+    <p>come with metadata that describe their most relevant properties,
+    including a minimum set of common metadata elements. A search of
+    metadata elements across all trusted identifiers of that service
+    should be possible.</p>
+  </list-item>
+  <list-item>
+    <p>are interoperable with other identifiers through metadata
+    elements that describe their relationship.</p>
+  </list-item>
+  <list-item>
+    <p>are issued and managed by an organization that focuses on that
+    goal as its primary mission, has a sustainable business model and a
+    critical mass of member organizations that have agreed to common
+    procedures and policies, has a governing body, and is committed to
+    using open technologies.</p>
+  </list-item>
+</list>
+<p>While not directly relevant for resolving persistent identifiers as
+URLs, the last point is really important for any persistent identifier
+infrastructure, described in detail recently by (Bilder, Lin, &amp;
+Neylon, 2015).</p>
+<p>If I would design a persistent identifier service today (as if we
+would need yet another persistent identifier service), I would build the
+system around an URL shortening service that I control. The URLs could
+look very similar to what we have with DOIs now, e.g.
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5555/12345678">http://doi.org/10.5555/12345678</ext-link>,
+but it would be clear that persistent identifiers are URLs, not
+something separate. Plus we could take adavantage of all the lessons
+learned - and possibly even reuse open source code - with URL
+shorteners, which are much more widely used than scholarly persistent
+identifiers.</p>
+<p><italic>Update 6/4/15: added link to Thomson Reuters
+<ext-link ext-link-type="uri" xlink:href="http://site.thomsonreuters.com/site/data-identifiers/">report</ext-link>
+on identifiers and open data.</italic></p>
+<sec id="references">
+  <title>References</title>
+  <p>Bilder, G., Lin, J., &amp; Neylon, C. (2015). Principles for open
+  scholarly infrastructures-v1.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.1314859">https://doi.org/10.6084/m9.figshare.1314859</ext-link></p>
+  <p>Klein, M., Van de Sompel, H., Sanderson, R., Shankar, H.,
+  Balakireva, L., Zhou, K., &amp; Tobin, R. (2014). Scholarly context
+  not found: one in five articles suffers from reference rot.
+  <italic>PLoS ONE</italic>, <italic>9</italic>(12), e115253.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0115253">https://doi.org/10.1371/journal.pone.0115253</ext-link></p>
+  <p>ODIN Project, Fenner, M., Thorisson, G., Ruiz, S., &amp; Brase, J.
+  (2013). D4.1 conceptual model of interoperability.
+  <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.824314">https://doi.org/10.6084/m9.figshare.824314</ext-link></p>
+  <p>Shioda, T., Fenner, M. H., &amp; Isselbacher, K. J. (1997). Mus
+  musculus melanocyte-specific gene 1 (msg1) mRNA, complete cds. ENA.
+  Retrieved from
+  <ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ena/data/view/U65091">http://www.ebi.ac.uk/ena/data/view/U65091</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

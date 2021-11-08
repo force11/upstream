@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Metrics for scientific software</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2015-02-19">
+<day>19</day>
+<month>2</month>
+<year>2015</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>One of the challenges of collecting metrics for scholarly outputs is
+persistent identifiers. For journal articles the Digital Object
+Identifier (DOI) has become the de-facto standard, other popular
+identifiers are the pmid from PubMed, the identifiers used by Scopus and
+Web of Science, and the arxiv ID for ArXiV preprints.</p>
+<p>For other research outputs the picture is less clear. DOIs are also
+used for datasets, but so are many other identifiers, in particular in
+the life sciences.</p>
+<p>To collect metrics for research outputs, the requirements are
+slightly different. We need identifiers understood by the services
+collecting the metrics, not by the data repository or other service that
+is holding the research output (the only exception is usage stats, which
+are generated locally). For many services, in particular social media
+such as Facebook, Twitter or Reddit, the primary identifier for a
+resource is a URL. This means that we should have one or more URLs for
+every research output where we want to track the metrics - typically the
+publisher or data repository landing page. Since URLs can be messy,
+Google, Facebook and others have come up with the concept of a
+<ext-link ext-link-type="uri" xlink:href="http://googlewebmastercentral.blogspot.de/2009/02/specify-your-canonical.html">canonical
+URL</ext-link>, and some care should go into constructing proper
+canonical URLs (see
+<ext-link ext-link-type="uri" xlink:href="http://blog.martinfenner.org/2013/10/13/broken-dois/">this
+blog post</ext-link> for examples of what can go wrong).</p>
+<p>The
+<ext-link ext-link-type="uri" xlink:href="http://www.knowledge-exchange.info/Default.aspx?ID=462">Den
+Haag Manifesto</ext-link> is the result of a <bold><bold>Knowledge
+Exchange</bold></bold> workshop held in June 2011 and tries to bring
+Persistent Identifiers and Linked Open Data together. The first
+principle is very much in line with what I said above:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>Make sure PIDs can be referred to as HTTP URI’s, including
+    support for content negotiation.</p>
+  </disp-quote>
+</p>
+<p>Or, to put this differently: URLs are good enough to start collecting
+metrics for scholarly outputs. Scientific software is a good example
+where persistent identifiers are not commonly used (despite efforts such
+as
+<ext-link ext-link-type="uri" xlink:href="https://guides.github.com/activities/citable-code/">this
+one</ext-link>), but we can still collect many meaningful metrics using
+the repository URL (and the open source software
+<ext-link ext-link-type="uri" xlink:href="https://github.com/articlemetrics/lagotto">lagotto</ext-link>):</p>
+<fig>
+  <caption><p>Number of software repositories (out of 1,404) with at
+  least one event. Data from
+  <ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io/">software.lagotto.io</ext-link></p></caption>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="http://blog.martinfenner.org/images/software.lagotto.io.png" xlink:title="" />
+</fig>
+<p>The last three rows are citations in the scholarly literature found
+via fulltext search of BioMed Central, Europe PMC and PLOS. URLs (in
+contrast to persistent identifiers represented as strings and/or
+numbers) are easy to find, the main limitation is not so much using a
+URL rather than a DOI, but that scientific software typically is
+mentioned in the text without appearing in the reference list. This
+makes it hard to impossible to find articles mentioning the software
+that are not open access, which unfortunately is still the majority of
+them.</p>
+<p>We are of course also tracking the discussion of the software in
+social media, and are collecting the number of stars and forks in Github
+and Bitbucket. Overall there is quite a lot of activity, here are some
+examples:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io/works/url/https://github.com/najoshi/sickle">Windowed
+    Adaptive Trimming for fastq files using quality</ext-link></p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://github.com/lh3/wgsim">Reads
+    simulator</ext-link></p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io/works/url/https://github.com/lh3/seqtk">Toolkit
+    for processing sequences in FASTA/Q formats</ext-link></p>
+  </list-item>
+</list>
+<p>All three software repos have been cited in the scholarly literature
+at least ten times. What is missing is infrastructure that tracks the
+citations of scientific software, so that we can give proper scientific
+credit to the authors of the software, and can discover other research
+projects using the same tools.
+<ext-link ext-link-type="uri" xlink:href="http://software.lagotto.io/">software.lagotto.io</ext-link>
+uses a list of software repos collected by Jure Triglav for
+<ext-link ext-link-type="uri" xlink:href="http://sciencetoolbox.org/">ScienceToolbox</ext-link>,
+and a scientific software index is indeed one of the important missing
+pieces.</p>
+</body>
+<back>
+</back>
+</article>

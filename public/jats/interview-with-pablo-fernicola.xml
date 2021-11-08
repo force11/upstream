@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Interview with Pablo Fernicola</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-11-07">
+<day>7</day>
+<month>11</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>The Article Authoring Tag Set of the National Library of Medicine
+(NLM DTD for short) <italic><italic>creates a standardized format for
+new journal articles that can be used by authors to submit publications
+to journals and to archives such as PubMed Central.</italic></italic>[1]
+The Microsoft Word Article Authoring Add-in that was released earlier
+this year reads and writes this format.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://network.nature.com/people/pablofe/profile">Pablo
+Fernicola</ext-link> from Microsoft first explains the Add-in in a video
+and then answers a few questions.</p>
+<sec id="1-can-you-describe-what-the-microsoft-word-article-authoring-add-in-is-and-does">
+  <title>1. Can you describe what the Microsoft Word Article Authoring
+  Add-in is and does?</title>
+  <p>There is an already ongoing transition to digital workflows for
+  journals, as well as a nascent transition to digital distribution and
+  consumption. Generating content that is best suited for digital
+  distribution, as well as for archival, search, and semantic analysis
+  in the future, is going to be essential. As a community, today we are
+  not taking full advantage of the potential that the tools and formats
+  currently in use present to us, and trying to bolt these capabilities
+  to existing print centric processes is costly, inefficient, and does
+  not allow for exercising the benefits afforded by the digital medium.
+  Authoring for print delivery still dominates many of the processes,
+  and constrains the final outcome, even if print distribution is
+  discontinued.</p>
+  <p>It is important to realize that the content we generate today is
+  what we will be accessing, and relying on as reference material, in
+  the future. It is imperative that we generate content that is best
+  suited for the way it will be consumed. Also, it would be ideal if
+  this transition could be done in a non intrusive and low cost approach
+  as possible.</p>
+  <p>The Article Authoring Add-in for Word
+  2007<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://blogs.plos.org/mfenner/2008/11/07/interview_with_pablo_fernicola/#fn2">2</ext-link></sup>
+  is a free download, which provides new capabilities to the Word
+  application, focused on Scholarly Publishing. The overall goal for the
+  Authoring Add-in project is to help improve the scholarly publishing
+  process for workflows that rely on Microsoft Word or Word generated
+  content, covering the authoring experience, editorial workflow, and
+  archiving of STM articles, with an eye towards generating content that
+  is best suited for preservation, digital consumption, and search. A
+  core capability provided by the add-in is the ability to open and save
+  files in the NLM XML format.</p>
+</sec>
+<sec id="2-how-is-the-authoring-add-in-different-from-commercial-tools-such-asextyles-from-inera">
+  <title>2. How is the Authoring Add-in different from commercial tools
+  such as
+  eXtyles from Inera?</title>
+  <p>The add-in differs in at least the following ways:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>It is targeted at both authors and editorial staff
+      audiences</p>
+    </list-item>
+    <list-item>
+      <p>It focuses on enhancing the experience within Word, both for
+      authors and editorial staff, and not just for content but also for
+      metadata</p>
+    </list-item>
+    <list-item>
+      <p>Enables providing a consistent experience for authors, in
+      relation to templates and the entering of metadata, across
+      journals</p>
+    </list-item>
+    <list-item>
+      <p>Enables two way interaction with the NLM formats (article and
+      book formats), saving and opening NLM files within Word</p>
+    </list-item>
+    <list-item>
+      <p>Provides a platform for software vendors to build on top of</p>
+    </list-item>
+    <list-item>
+      <p>Builds on the transition to XML as the underlying native format
+      in Word 2007</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="3-what-advantages-do-you-see-for-authors-that-submit-their-manuscripts-in-the-nlm-journal-publishing-xml-format">
+  <title>3. What advantages do you see for authors that submit their
+  manuscripts in the NLM Journal Publishing XML format?</title>
+  <p>The add-in doesn't force authors to submit their articles in the
+  NLM format, but makes the conversion to that format a lot easier as
+  part of the workflow. The add-in provides a way for authors to enter
+  information in their articles so that this content (semantics and
+  metadata) is preserved through the publishing workflow, in a way that
+  is ready to save as a valid NLM document, while still using the Word
+  user interface. I would expect that the more common scenario will be
+  that of journals providing templates and authors submitting docx
+  files, augmented with NLM data through the add-in, and that the
+  journals or repository staff will be the ones doing the conversion to
+  the NLM format.</p>
+</sec>
+<sec id="4-how-do-you-think-the-author-submission-process-will-change-in-relation-to-formats">
+  <title>4. How do you think the author submission process will change
+  in relation to formats?</title>
+  <p>Many journals already use the NLM format as part of their
+  publishing workflow, as well as for their archival format. Some
+  publishers are moving to the format now. And, certainly for NIH funded
+  research, all articles eventually end up in the NLM format as part of
+  the submission to PubMed Central. But I don't know of any journals
+  that take in the NLM format directly from authors.</p>
+  <p>We have tried to take a very end user centric approach in the
+  project. We would like for authors not to have to be aware of the
+  underlying format. We don't want authors to think of XML, for example,
+  as formats should be something that happens in the background, which
+  the authoring tools handle for the authors, and just make the authors'
+  work easier, and their content more easily searchable and
+  relevant.</p>
+  <p>In our work with the journals, publishers, and repositories we
+  focus a lot on interoperability based on formats and protocols
+  commonly used in the community, not only in the form of the NLM format
+  itself, but also by incorporating technologies such as
+  SWORD<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://blogs.plos.org/mfenner/2008/11/07/interview_with_pablo_fernicola/#fn4">4</ext-link></sup>
+  and
+  OAI-ORE<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://blogs.plos.org/mfenner/2008/11/07/interview_with_pablo_fernicola/#fn5">5</ext-link></sup>.</p>
+</sec>
+<sec id="5-what-is-your-job-at-microsoft-what-did-you-do-before-working-on-the-authoring-add-in">
+  <title>5. What is your job at Microsoft? What did you do before
+  working on the Authoring Add-in?</title>
+  <p>I have always been involved in software development, working and
+  managing both small and large teams. Currently I am a group manager at
+  Microsoft, in charge of running this overall project, which also
+  includes an online service focused on the peer review process. I drive
+  the development, the technology direction and architecture, and
+  community engagement as it relates to scholarly
+  publishing<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://blogs.plos.org/mfenner/2008/11/07/interview_with_pablo_fernicola/#fn6">6</ext-link></sup>.
+  Before starting this effort, I worked for many years on developer
+  platform technologies related to text, reading, graphics, and
+  multimedia, both at Microsoft and at Apple, as well as being the
+  Program Manager in charge of the web developer platform in Internet
+  Explorer for a couple of versions of the browser.</p>
+</sec>
+<sec id="6-do-you-plan-to-also-release-an-add-in-for-microsoft-word-2008-for-macintosh">
+  <title>6. Do you plan to also release an Add-in for Microsoft Word
+  2008 for Macintosh?</title>
+  <p>We are investigating how we can best bring the authoring focused
+  features to Word 2008 users. On Windows, Word 2007 is now in many ways
+  a developer platform in its own right, there are even software
+  development kits for it, and Word 2007 provides a lot of extensibility
+  and programmability to developers. The equivalent developer support is
+  not provided in Word 2008, with the Macintosh offering's strength
+  being on providing a great end user experience to its end user
+  audience.</p>
+</sec>
+<sec id="7-do-you-want-to-talk-about-future-plans-for-the-authoring-add-in">
+  <title>7. Do you want to talk about future plans for the Authoring
+  Add-in?</title>
+  <p>We got a lot of feedback on our version 1 of the add-in, which we
+  made available this past July, from folks involved in the back-end of
+  the publishing workflow, such as folks at journals, publishers, and
+  repositories, as well as from companies that provide the software
+  tools and services in support of this work (of note is the integration
+  work we did with Design Science for their MathType
+  package<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://blogs.plos.org/mfenner/2008/11/07/interview_with_pablo_fernicola/#fn7">7</ext-link>).</p>
+  <p>Development work on version 2 is currently underway and we expect
+  to make available a Technology Preview soon, with the final release of
+  version 2 in 2009. In version 1 we focused quite a bit on the
+  architecture and getting the basic infrastructure in place to provide
+  support for the NLM format. In version 2 there is a greater focus on
+  the author experience, as well as on continuing to improve the support
+  for the format.</p>
+  <p>Some of the driving questions that we would like to address
+  are:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>in which ways can we make the submission/upload process easier
+      for authors</p>
+    </list-item>
+    <list-item>
+      <p>Can we make the author and article metadata more reliable and
+      consistent, thereby reducing the roundtrips between authors and
+      the journals, as well as reducing the cost for cleaning up the
+      data?</p>
+    </list-item>
+  </list>
+  <p>And overall, the philosophy is to simplify, simplify, simplify.
+  Especially for authors, help them get the content into the article,
+  and keep the technology in the background. For the staff at journals
+  and repositories, provide them with access to all the richness of the
+  NLM format, and the flexibility that they will need to build their own
+  solutions.</p>
+  <p>fn1.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://dtd.nlm.nih.gov/articleauthoring/">Article
+  Authoring Tag Set</ext-link></p>
+  <p>fn2.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://www.microsoft.com/downloads/details.aspx?familyid=09c55527-0759-4d6d-ae02-51e90131997e&amp;displaylang=en">Article
+  Authoring Add-in for Microsoft Office Word 2007</ext-link></p>
+  <p>fn3.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://www.inera.com/extylesinfo.shtml">eXtyles
+  Product Information</ext-link></p>
+  <p>fn4.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://www.jisc.ac.uk/whatwedo/programmes/reppres/tools/sword">SWORD</ext-link></p>
+  <p>fn5.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://www.openarchives.org/ore/">Open
+  Archives Initiative Object Reuse and Exchange</ext-link></p>
+  <p>fn6.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://blogs.msdn.com/exscientia/">ex
+  Scientia</ext-link></p>
+  <p>fn7.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053041/http://www.dessci.com/en/products/mathtype/">MathType</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

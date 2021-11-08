@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>How do you read papers? 2010 will be
+different</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-01-10">
+<day>10</day>
+<month>1</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>In November 2008 I wrote a blog post called
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://network.nature.com/people/mfenner/blog/2008/11/02/how-do-you-read-papers">How
+do you read papers?</ext-link> The blog post was actually about
+different strategies to <italic><italic>find</italic></italic>
+interesting papers, e.g. browsing journal tables of content (TOC),
+different search strategies, filtering by papers others read, or
+filtering by experts (e.g. <italic><italic>Faculty of
+1000</italic></italic>). A paper by
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://network.nature.com/people/duncan/profile">Duncan
+Hull</ext-link> et al. published around that time in
+<italic><italic>PLoS Computational Biology</italic></italic>
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://dx.doi.org/10.1371/journal.pcbi.1000204">Defrosting
+the Digital Library: Bibliographic Tools for the Next Generation
+Web</ext-link>) also talked about finding strategies and the best tools
+for this.</p>
+<p>In this blog post I want to talk about the actual reading of
+scientific papers that you found with one of the strategies mentioned
+above. There are some interesting recent developments, and I think we
+will see some significant changes in how we read papers in 2010.</p>
+<sec id="printed-journal">
+  <title>Printed journal</title>
+  <p>Holding the printed journal in your hands is probably still the
+  most satisfying reading experience because of professional typesetting
+  and color reproduction. But unless you have a personal journal
+  subscription, it is not convenient as you would have to go to the
+  library to read the paper. Plus, many journals no longer produce a
+  printed version, or the library has only an electronic
+  subscription.</p>
+</sec>
+<sec id="photocopy">
+  <title>Photocopy</title>
+  <p>This used to be the most common way to read papers 20 years ago.
+  But the quality of photocopies is usually worse than a printout of an
+  electronic version, and photocopies are far more inconvenient to
+  obtain. Reading photocopied papers will only be necessary for the
+  small number of journals that produce no electronic version, or for
+  older
+  papers.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://blogs.plos.org/mfenner/2010/01/10/how_do_you_read_papers_2010_will_be_different/#fn1">1</ext-link></sup></p>
+</sec>
+<sec id="pdf-printout">
+  <title>PDF printout</title>
+  <p>This is the way most people read scientific papers today, unless
+  they just want to look up small parts of it. Quality color printers
+  have become affordable, and the reading experience is similar to the
+  printed journal with the added convenience of electronic distribution.
+  Most people use PDF printouts for reading, and later discard the paper
+  copy, sometimes even the same day. This is not only more expensive
+  than reading on an electronic device, but also not very friendly to
+  the
+  environment.<sup><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://blogs.plos.org/mfenner/2010/01/10/how_do_you_read_papers_2010_will_be_different/#fn2">2</ext-link></sup></p>
+</sec>
+<sec id="reading-pdfs-on-a-computer">
+  <title>Reading PDFs on a computer</title>
+  <p>This approach appears to be very common for reading just parts of a
+  paper, e.g. to look up experimental details, a figure or reference.
+  Most people now store papers as PDF (hopefully with an intelligent
+  program such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://mekentosj.com/papers/">Papers</ext-link>)
+  and not the PDF printouts. Looking at the PDF on the screen is
+  therefore often the first step, and then the decision is made whether
+  or not to print out the paper to read it in more detail. Reading PDFs
+  on screen is possible, but not really convenient for longer texts.
+  Screen sizes are often too small for the PDF format (A4 or US letter).
+  Many people don't like the eye strain from looking at a screen for
+  longer periods of time, although this is probably more relevant for
+  reading books rather than reading a scientific paper.</p>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://getutopia.com/documents/overview">Utopia</ext-link>
+  is a PDF viewer launched in December by the University of Manchester
+  that enhances PDF files of the <italic><italic>Semantic Biochemical
+  Journal</italic></italic> with interactive content and live linking to
+  web resources.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://duncan.hull.name/2009/12/11/utopia/">Read
+  more about Utopia</ext-link> at <italic><italic>Duncan
+  Hull</italic></italic>'s blog.</p>
+</sec>
+<sec id="reading-on-a-mobile-device">
+  <title>Reading on a mobile device</title>
+  <p>Many mobile devices such as the iPhone can open PDFs and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://mekentosj.com/papers/iphone/">Papers
+  for iPhone</ext-link> makes this process convenient. But PDFs in an A4
+  or US letter format are almost impossible to read on a small
+  screen.</p>
+  <p>The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://river-valley.tv/epub-is-the-only-format-we-need/">ePub
+  format</ext-link> is more suitable for smaller screens found on mobile
+  devices. ePub is usually used for e-Books, but the Open Access
+  publisher Hindawi
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://www.hindawi.com/epub.html">since
+  2008 provides papers also in that format</ext-link>. Although ePub is
+  more suitable than PDF for mobile devices, it doesn't solve the
+  problem that figures and tables are simply difficult to show on a
+  small screen. Mobile devices are probably great for reading journal
+  table of contents or the abstract of a paper (and an RSS reader such
+  as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://www.newsgator.com/individuals/netnewswireiphone/default.aspx">NetNewsWire
+  for iPhone</ext-link> is perfect for this), but not fulltext
+  papers.</p>
+</sec>
+<sec id="reading-on-an-e-reader">
+  <title>Reading on an e-Reader</title>
+  <p>The screen of an e-Reader uses
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://river-valley.tv/electronic-paper-technology/">electronic
+  ink</ext-link> which not only means a much longer battery life, but
+  also a very pleasing reading experience, including reading in direct
+  sunlight. Electronic ink is black &amp; white, which is not a problem
+  for fiction books, but limits the use for scholarly papers (and
+  scientific textbooks). Ideally an e-Reader should have a 10″ screen,
+  similar in size to A4 or US letter paper.</p>
+  <p>The
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://www.techcrunch.com/2009/05/07/how-big-can-the-kindle-get/">Kindle
+  DX</ext-link> from Amazon was announced in May 2009 and is currently
+  the most popular e-Reader. The Kindle uses its own file format, but a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&amp;nodeId=200324680">recent
+  software update</ext-link> now allows the Kindle to open PDF files.
+  Some journals (e.g. the <italic><italic>New England Journal of
+  Medicine</italic></italic>) offer Kindle subscriptions, but that
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://patrickmd.net/blog/2009/05/22/cancelled-kindle-subscription-to-nejm/">doesn't
+  include early release articles</ext-link> and no subscriber access to
+  the journal website. A
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://www.nytimes.com/2010/01/09/technology/personaltech/09reader.html">number
+  of similar devices</ext-link> were demonstrated this week at the
+  Consumer Electronics Show in Las Vegas. The Kindle is primarily an
+  e-Book reader, and <italic><italic>David Crotty</italic></italic> over
+  on the Scholarly Kitchen blog
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://scholarlykitchen.sspnet.org/2010/01/06/doing-the-kindle-math-does-amazons-opacity-conceal-a-shameful-truth">is
+  skeptical</ext-link> about dedicated e-readers, because he thinks that
+  market is just too small.</p>
+</sec>
+<sec id="apple-islate">
+  <title>Apple iSlate</title>
+  <p>Unless you have been on a remote island for the last three months,
+  you will know that Apple will announce a
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://daringfireball.net/2009/12/the_tablet">tablet
+  computer</ext-link> later this month. There is wide speculation about
+  the technical details, but it looks like this will be a very
+  interesting device for reading scholarly papers. In contrast to
+  e-Readers it will not use electronic ink. This means a shorter battery
+  life, but allows color documents and many other more traditional
+  computer uses. Based on the iPod and iPhone experience, many people
+  think that the iSlate will change the way we use tablet computers. One
+  of them is <italic><italic>Kent Anderson</italic></italic>
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://scholarlykitchen.sspnet.org/2009/10/02/game-over-man-has-the-disruption-of-publishing-already-occurred/">Game
+  Over, Man – Has the Disruption of Publishing Already
+  Occurred?</ext-link>).</p>
+  <p>Sports Illustrated did a very nice
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://sportsillustrated.cnn.com/2009/magazine/12/02/tablet/index.html">demo
+  of a fictional tablet computer</ext-link> in December, and it is
+  obvious that many of these concepts can also be applied to scholarly
+  publishing.</p>
+</sec>
+<sec id="reading-web-pages">
+  <title>Reading Web Pages</title>
+  <p>Most examples mentioned above try to reproduce the experience of
+  reading something printed on paper on an electronic device. An
+  alternative approach would move beyond the traditional format of a
+  paper and rather takes advantage of the electronic medium. And it
+  looks like the web technologies HTML5 and Flash are best suited for
+  this. Cell Press was
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://network.nature.com/people/mfenner/blog/2009/07/26/how-does-the-article-of-the-future-look-like">experimenting
+  with this approach</ext-link> in 2009, and officially launched their
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://beta.cell.com/index.php/2010/01/cell-launches-article-of-the-future-format/">Article
+  of the Future</ext-link> with the first 2010 issue of Cell (all papers
+  will be available without subscription for 60 days, you can provide
+  feedback
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://beta.cell.com/index.php/feedback-cell-press-new-article-format/">here</ext-link>).
+  The basic idea of the Article of the Future is to break away from the
+  concept of reading a paper from beginning to end, and to make
+  navigation between the different parts of a paper much easier.</p>
+  <p>Whereas the <italic><italic>Article of the Future</italic></italic>
+  tries to make navigation with a paper easier, the
+  <italic><italic>PLoS</italic></italic>
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://network.nature.com/people/mfenner/blog/2009/08/15/plos-one-interview-with-peter-binfield">article-level
+  metrics</ext-link> help with navigating to related content: citations,
+  blog posts, reader comments, etc. The
+  <italic><italic>Notes</italic></italic> feature lets registered users
+  highlight text for specific comments – very much what you would do on
+  a printed paper (but with the added benefit that everybody can see
+  this note).</p>
+  <p>I'm most excited about projects that enhance the scientific paper
+  instead of recreating an exact electronic version of the traditional
+  paper. And HTML is a more promising format than PDF for these
+  approaches. <italic><italic>Michael Clarke</italic></italic> (with
+  whom I had the pleasure to do a session at SciFoo 2009) reminded us
+  that <italic><italic>Tim Berners-Lee</italic></italic> invented the
+  WWW in 1991 to facilitate scientific communication (with HTML and
+  navigation both within and between documents as central concepts), but
+  papers and journals have changed surprisingly little in the last 18
+  years
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://scholarlykitchen.sspnet.org/2010/01/04/why-hasnt-scientific-publishing-been-disrupted-already/">Why
+  Hasn't Scientific Publishing Been Disrupted Already?</ext-link>).</p>
+  <p>fn1. Many journals are scanning their older papers and make them
+  available in electronic form, e.g.
+  <italic><italic>Nature</italic></italic>. The first issue of
+  <italic><italic>Nature</italic></italic> from 1869 can be seen
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611111551/http://www.nature.com/nature/about/first/index.html">here</ext-link>.</p>
+  <p>fn2. We all know that computers haven't brought us the paperless
+  office, but that we all use more paper than 10 years ago.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

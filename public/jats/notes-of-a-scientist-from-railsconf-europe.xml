@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Notes of a scientist from RailsConf
+Europe</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-09-30">
+<day>30</day>
+<month>9</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Earlier this month I attended
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101007/http://www.railsconfeurope.com/">RailsConf
+Europe</ext-link> in Berlin. RailsConf is a conference about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101007/http://www.rubyonrails.org/">Ruby
+on Rails</ext-link>, a programming framework to produce websites. I'm a
+part-time Ruby on Rails programmer and had a very interesting
+conference.
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101007/http://chneukirchen.org/blog/archive/2007/09/a-railsconf-europe-07-diary.html">Others</ext-link>
+have already written about RailsConf, so I want to focus on how it was
+like from a scientist's perspective.</p>
+<p>The topic was of course very different from say a meeting about RNA
+interference, but many things were surprisingly similar. But I found a
+few differences very interesting, and I believe a scientific meeting
+could learn from them.</p>
+<p>Many of the talks were about ongoing work that hasn't been finished
+yet. Ruby on Rails is Open Source software, so there is less worry about
+intellectual property and people talked freely about their ideas and
+problems. This is in contrast to the typical meeting in my field
+(oncology), where only the most established researchers are not afraid
+to present data that have not yet been published or at least submitted.
+This of course brings us back to the Open Science discussion both on
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101007/http://network.nature.com/boston/news/blog/U66E7CD1A/2007/08/09/scifoo-ponderings-how-to-break-the-mold-in-science">Nature
+Network</ext-link> and elsewhere.</p>
+<p>Partly because of this openness, but also because it was a technology
+meeting, the conference is much more accessible for those that couldn't
+make it to Berlin. Not only are the slides of most presentations
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101007/http://www.railsconfeurope.com/pub/w/61/presentations.html">available
+for download</ext-link>, but there are also numerous blog posts. We'll
+soon also see podcasts and videocasts (the keynote lecture is already
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101007/http://www.rubyinside.com/dhhs-keynote-at-railsconf-europe-2007-611.html">available</ext-link>).
+I'm a big podcast fan and I would
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611101007/http://blog.xartrials.com/2007/6/6/asco_2007_meeting">love
+to see more of this</ext-link> from the conferences in my field.</p>
+</body>
+<back>
+</back>
+</article>

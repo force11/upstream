@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Unmeasurable Science</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-09-04">
+<day>4</day>
+<month>9</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>On Wednesday PLoS BLOGs launched with a splash. We (both PLoS BLOGs
+as a whole and me individually) got a lot of positive feedback and words
+of encouragement – so we are off to a good start. As both our community
+manager Brian Mossop and myself are currently in London for the Science
+Online London Conference, we could celebrate the launch in person. With
+a good pint of British ale Thursday evening.</p>
+<p>Today I want to talk about something that is sticking in my head
+since a conversation a few weeks ago with some friends (all esteemed
+professors in biology or medicine) over another beer. And this has of
+course been discussed before, both on this blog and elsewhere. Doing
+science is not only about doing exciting research, and communicating the
+results to your peers and the public. Measuring scientific output – of
+funded research projects, a particular researcher, or an institution –
+seems to be equally important. I would argue that in recent years this
+has even become the most important aspect of doing science. The
+successful researcher of today is not necessarily a brilliant mind,
+skillful experimenter or successful communicator, but a good manager of
+science. Grants need to be written, collaborations and networks built
+and maintained, and papers published.</p>
+<p>This is all good and well in the sense that researchers should be
+held accountable for how they are using their funding, often from public
+sources. And we want to fund the right projects, i.e. those that have
+the highest likelihood of achieving something new and exciting. But
+there are two very big problems with this:</p>
+<sec id="we-don-t-really-know-how-to-evaluate-science-particularly-in-numbers-that-can-be-used-to-compare-research-projects-">
+  <title>We don’t really know how to evaluate science, particularly in
+  numbers that can be used to compare research projects.</title>
+  <p>This problem is aggravated by the fact that funding (and hiring)
+  decisions are predictions based on past performance. Excellent science
+  by definition is new and groundbreaking, and predicting scientific
+  progress is really hard to do. The past performance of a researcher,
+  the research environment he is working in (colleagues, scientific
+  equipment, etc.), and of course the project outline written down in
+  the proposal are all very helpful. But can we really  predict the next
+  Nature or Cell paper before a project has even started? And the
+  evaluation of scientific output is also extremely difficult. Do you
+  just look at published papers? And if so, how do you evaluate the
+  scientific impact of those papers? Through peer review? By the number
+  of times they were cited? Citation counts have several problems, one
+  of them is the fact that they take a few years to accumulate. The
+  journal a paper is published in? How good an indicator of the impact
+  of the individual paper is that? Should you rather look at download
+  counts or other article-level metrics? We need to think much more
+  about these important issues, as our funding (and hiring) decisions
+  depend on it. I am very happy that I was invited to a workshop by the
+  National Science Foundation this November that will talk about some of
+  these issues. Unique digital author identifiers will play an
+  increasing role in our efforts to tackle the technical aspects of this
+  problem, and I will say something about the ORCID initiative.</p>
+</sec>
+<sec id="the-evaluation-of-science-is-taking-up-more-and-more-of-our-time-that-is-then-missing-time-for-doing-research-">
+  <title>The evaluation of science is taking up more and more of our
+  time that is then missing time for doing research.</title>
+  <p>Before the first experiment is even started, a project has taken
+  months or sometimes even years of grant writing and grant reviewing.
+  The regulatory requirements are also increasing, and in the case of
+  clinical research involving patients (something I do) can be
+  overwhelming. After a research project is finished, paper writing and
+  reviewing (and writing a report for the funding agency) again takes
+  many months. In the end it might have taken us two years to do the
+  experiments, but five years from beginning to end of the project.</p>
+  <p>If we want researchers to do more research – and less grant
+  writing, manuscript writing and peer reviewing (because all this
+  output has to be evaluated by someone), we have to ask funding
+  organizations and institutions to do something about this. There are
+  many possible solutions, and some of them have already been
+  realized:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Grants can be given for longer periods of time, e.g. 5 years
+      instead of 3 years</p>
+    </list-item>
+    <list-item>
+      <p>The review of grants could just look at the researcher, and
+      doesn’t try to predict scientific discoveries based on the
+      proposed work</p>
+    </list-item>
+    <list-item>
+      <p>Smaller grants, e.g. less than $50.000 don’t need to have a
+      concluding report, a link to a paper published with the results
+      should be enough. Similarly we might need fewer progress reports
+      in larger grants.</p>
+    </list-item>
+    <list-item>
+      <p>Many aspects of grant and paper writing could be made less
+      time-consuming by standardization and automation.</p>
+    </list-item>
+  </list>
+  <p>There is a lot of potential in the last point, and the workflow is
+  broken at many points. Why do researchers have to list their
+  publications in their CV, this information is publicly available? Why
+  does every funding organization want a slightly different format for
+  their grant proposals, can’t we standardize this? Why don’t we have
+  better paper writing tools? Microsoft Word doesn’t really now about
+  the different required sections for a manuscript and is far from
+  perfect for collaborative writing.</p>
+  <p>But I have to stop writing now, the second day of the Science
+  Online London Conference is about to begin. I’m wearing my new PLoS
+  BLOGs T-shirt and look forward to another great conference day. I will
+  write about the conference in a separate post in the next fews, but
+  for now let’s just say this conference is even better than in
+  2009.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>How does the article of the future look
+like?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-07-26">
+<day>26</day>
+<month>7</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Last year <italic><italic>Elsevier</italic></italic> started the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://article20.elsevier.com/contest/home.html">Article
+2.0 Contest</ext-link> and asked for the best ideas on how research
+articles should be presented on the web. The winners were
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://news.prnewswire.com/ViewContent.aspx?ACCT=109&amp;STORY=%2Fwww%2Fstory%2F03-31-2009%2F0004997400&amp;EDATE">announced
+March 31</ext-link>:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><italic><italic>Inigo Surguy</italic></italic> from
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://surguy.net/bricks/elsevier/00012998/0036/0001/05000486/about.html">67
+    Bricks</ext-link> won <italic><italic>first prize</italic></italic>.
+    His application used enhanced content navigation and allowed adding
+    semantic data to the article as well as commenting on specific parts
+    of the article.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Jacek Ambroziak</italic></italic> from
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://ambrosoft.com/cmsmadesimple/index.php?page=elsevier-application">Ambrosoft</ext-link>
+    won <italic><italic>second prize</italic></italic> for an
+    application that uses server-side and client-side technology to read
+    journal articles on the
+    <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://www.android.com/">Android</ext-link>
+    mobile platform.</p>
+  </list-item>
+  <list-item>
+    <p><italic><italic>Stuart Chalk</italic></italic> from the
+    University of North Florida won <italic><italic>third
+    prize</italic></italic>. The link to his application is broken, but
+    his idea was that research articles are non-linear and he provided
+    customized interfaces on how the article is presented.</p>
+  </list-item>
+</list>
+<p>This week Cell Press and Elsevier
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://www.elsevier.com/wps/find/authored_newsitem.cws_home/companynews05_01279">announced</ext-link>
+the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://beta.cell.com/">Article
+of the Future</ext-link> project, again a project on how scientific
+articles should be presented online. It is not clear of how the material
+submitted in the Article 2.0 contest was used to create the Article of
+the Future prototypes. Some key features of the prototypes are:</p>
+<list list-type="bullet">
+  <list-item>
+    <p>Tabbed browsing of article sections</p>
+  </list-item>
+  <list-item>
+    <p>hierarchical presentation of text and figures</p>
+  </list-item>
+  <list-item>
+    <p>graphical abstract and research highlights</p>
+  </list-item>
+  <list-item>
+    <p>integrated audio and video</p>
+  </list-item>
+  <list-item>
+    <p>real-time reference analyses</p>
+  </list-item>
+</list>
+<p>Two sample articles are provided by Cell Press
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://beta.cell.com/erickson/">here</ext-link>
+and
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://beta.cell.com/hochstim/">here</ext-link>).
+They are a good starting point to discuss what works and what doesn't.
+And I don't want to get into the discussion of whether naming this
+project <italic><italic>Article of the Future</italic></italic> is a
+little bit overambitious for the small changes that were proposed in the
+prototypes. Here are my thoughts on some of the features that might be
+useful in displaying research articles online (a lot of them have
+already been implemented by one journal or another):</p>
+<sec id="navigation">
+  <title>Navigation</title>
+  <p>Navigation to a specific section (e.g. discussion) is an obvious
+  feature that many journals have implemented. This navigation should
+  also work as links from the outside, and should also allow direct
+  linking to a figure or table.</p>
+</sec>
+<sec id="abstract">
+  <title>Abstract</title>
+  <p>The traditional abstract can be extended for the online version of
+  a manuscript. This could be an easier to read summary of the article
+  or an audio or video abstract. Abstracts are important teasers to read
+  the fulltext paper, and the current format might not be appropriate
+  for everyone.</p>
+</sec>
+<sec id="integration-of-figures-and-tables">
+  <title>Integration of figures and tables</title>
+  <p>Most journals don't fully integrate figures and tables in their
+  online papers, but rather put them on a separate page and link to
+  them. This is similar to the PDF version of a paper, where figures
+  often have to be placed away from the text section discussing them.
+  The online version of a paper should allow viewing the figures and
+  tables in parallel to reading the next, preferably by using a two
+  column layout. Supplementary information should be integrated in a
+  similar manner.</p>
+</sec>
+<sec id="references">
+  <title>References</title>
+  <p>Going back and forth between the citation in the text and the
+  reference at the end of the article is one of the annoyances of the
+  traditional paper format. Online papers should make this easier, e.g.
+  by displaying the full reference when hovering over the citation. A
+  separate column for the references could also work, but three columns
+  (text, figures, and references) might confuse the typical reader. The
+  reference section should include links to the referenced paper,
+  preferably using the DOI. Additional information about these
+  references (e.g. links to PubMed, links to the full text, number of
+  citations) could also be provided. A “return to text” is a nice touch
+  at <italic><italic>Biomed Central</italic></italic>.</p>
+</sec>
+<sec id="related-content">
+  <title>Related content</title>
+  <p>Other papers citing the article should be listed and linked to.
+  Showing related articles would be helpful, but I have yet to see a
+  working implementation of that feature (maybe with the help of
+  services such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://www.citulike.org/">CiteULike</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://www.mendeley.com/">Mendeley</ext-link>?).
+  A good starting point would be to include other articles by the same
+  authors and articles that are cited by the paper. Links to blog posts
+  and other online content (e.g. on
+  <italic><italic>Twitter</italic></italic> or
+  <italic><italic>FriendFeed</italic></italic>) talking about the
+  article would be very helpful, but that is difficult to do. Linking to
+  the places that bookmark the article (e.g. on
+  <italic><italic>CiteULike</italic></italic>,
+  <italic><italic>Connotea</italic></italic>,
+  <italic><italic>2collab</italic></italic>) is a good starting point to
+  find other users with related interests. Therefore it is also helpful
+  to make it easy to share the article using these services (as they all
+  use bookmarklets for that, this is more about providing good import
+  filters).</p>
+</sec>
+<sec id="article-publication-history">
+  <title>Article Publication History</title>
+  <p>The publication history of the article (submission and acceptance
+  dates, as well as reviewer comments, etc.) provides interesting
+  addition information about a paper, and is for example provided by
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://www.biomedcentral.com/1472-6963/9/127/prepub">BioMed
+  Central journals</ext-link>.</p>
+</sec>
+<sec id="comments-and-usage-statistics">
+  <title>Comments and usage statistics</title>
+  <p>Comments should be possible not only at the end of the article, but
+  also within specific sections (such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://www.plosone.org/static/commentGuidelines.action">notes</ext-link>
+  in PLoS journals). And comments should be implemented using an API,
+  allowing viewing and adding comments from within other services. Usage
+  statistics are another way to look at the popularity of a paper, and
+  should soon be available for the
+  <italic><italic>PLoS</italic></italic> journals.</p>
+</sec>
+<sec id="semantic-markup">
+  <title>Semantic markup</title>
+  <p>This is an area where I would expect the biggest changes to the
+  current format – papers currently have little or no support for this
+  and that is a shame.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://imageweb.zoo.ox.ac.uk/pub/2008/plospaper/latest/">Here</ext-link>
+  is an example of a semantically enhanced PLoS Neglected Tropical
+  Diseases article. Another example is semantic markup used by
+  <italic><italic>Nature Chemistry</italic></italic>, as discussed in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://chem-bla-ics.blogspot.com/2009/03/nature-chemistry-improves-publishing.html">this
+  blog post</ext-link> by Egon Willighagen.</p>
+  <p>Kent Anderson over at the <italic><italic>scholarly kitchen
+  blog</italic></italic>
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://scholarlykitchen.sspnet.org/2009/07/21/the-article-of-the-future-lipstick-on-a-pig/">The
+  Article of the Future – Just Lipstick Again?</ext-link>) and Marshall
+  Kirkpatrick at <italic><italic>ReadWriteWeb</italic></italic>
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://www.readwriteweb.com/archives/elseviers_prototype_is_this_the_scientific_article.php">Elsevier's
+  Prototype: Is This The Scientific Article of the Future?</ext-link>)
+  also wrote about this. And this was discussed on
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://friendfeed.com/science-online/cbbe2531/news-releases-elsevier-announces-article-of">FriendFeed</ext-link>
+  and in the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20151002145328/http://network.nature.com/groups/goodpaper/forum/topics/5099">Good
+  Paper Journal Club</ext-link>.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Interview with Alexander Griekspoor</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-10-03">
+<day>3</day>
+<month>10</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Good software solves a problem. When one journal after another
+switched to PDF as electronic document format, and journals started to
+appear only in electronic form, storing papers as printouts in folders
+became impractical. But the PDF files will soon start to clutter the
+hard drive, despite efforts to organize them by topic, year or author.
+At least for Macintosh users,
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://mekentosj.com/papers/">Papers</ext-link>
+is one practical and elegant solution to this problem. I talked with
+Papers author
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://network.nature.com/people/mekentosj/profile">Alexander
+Griekspoor</ext-link> not only about Papers, but also about his career
+switch from cell biologist to software developer.</p>
+<sec id="1-can-you-describe-what-papers-is-and-does">
+  <title>1. Can you describe what Papers is and does?</title>
+  <p>The tag-line we coined for Papers is “your personal library of
+  science”, a play-of-words on the well-known PLoS acronym. And this
+  program for the Mac provides exactly that, it helps you manage and
+  organize your personal scientific literature library. It provides a
+  complete workflow for finding new articles using built-in search
+  engines, browsing the publisher’s website using the built-in Safari
+  web browser, downloading, archiving and renaming the PDF files, and
+  organizing and indexing these articles. Finally, it allows you to
+  easily read the papers and share them with colleagues.</p>
+</sec>
+<sec id="2-how-is-papers-different-from-other-macintosh-bibliography-tools">
+  <title>2. How is Papers different from other Macintosh bibliography
+  tools?</title>
+  <p>Papers distinguishes itself from other bibliography tools in that
+  it is not a typical reference manager to begin with. The Mac has had
+  several good reference management applications for a long time
+  already, but when I created Papers I wanted to make a different
+  application, one that didn’t exist yet and one there was clearly a
+  need for, one to manage all those PDF files that people were
+  downloading. In the years before, the publishing industry had
+  introduced PDFs as a replacement for sending articles by regular mail
+  and it was a great success in that it made access to the literature
+  much easier.</p>
+  <p>Still, their support of the researcher ended the moment you pressed
+  the download button. Your web browser would save some cryptically
+  named PDF file on your hard disk, which soon quickly filled up with
+  dozens of these files. So whereas PDFs were introduced to save us from
+  the messy file cabinets with hundreds of paper copies of your
+  articles, we were now facing the digital equivalent of that on our
+  desktop.</p>
+  <p>That was when it struck me that Apple had already solved this issue
+  for MP3 files a few years earlier, iTunes had allowed us to stop
+  bothering about managing MP3s and instead allowed us to focus on the
+  songs. Papers was designed to do exactly the same when it comes to
+  managing PDFs and instead lets us focus on the articles. Obviously,
+  now the have seen how things can be different you notice that most
+  reference managers on the Mac have started to play catch up, and are
+  introducing PDF management features as well. Still, for us this has
+  always been the key element and is just the start of many exciting
+  things to come.</p>
+</sec>
+<sec id="3-what-recommendations-do-you-give-windows-and-linux-users">
+  <title>3. What recommendations do you give Windows and Linux
+  users?</title>
+  <p>The most obvious answer is to buy a Mac of course 😉 But more
+  seriously, at the moment I’m not aware of a program on Windows or
+  Linux that offers the same feature set and user experience that Papers
+  offers. But like the other reference management tools on the Mac
+  there’s a similar trend of adopting
+  these kind of features in bibliography tools on Linux and Windows as
+  well.</p>
+</sec>
+<sec id="4-what-did-you-do-before-working-on-papers">
+  <title>4. What did you do before working on Papers?</title>
+  <p>Perhaps surprisingly I’m a cell biologist of training and not a
+  computer scientists or IT person. I studied medical biology at the
+  Free University in Amsterdam and ended up doing my PhD at the
+  Netherlands Cancer Institute in Amsterdam as well, where I studied the
+  immune system using
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://dx.doi.org/10.1016/j.mib.2005.04.007">live-cell
+  fluorescence microscopy</ext-link>.</p>
+</sec>
+<sec id="5-how-did-you-get-involved-in-writing-macintosh-software">
+  <title>5. How did you get involved in writing Macintosh
+  software?</title>
+  <p>It all started out as a hobby driven by a long-time interest for
+  both design and technology. I was introduced to the Mac when my dad
+  brought home one of these “portable” classic Macs when I was about 14
+  years old, and almost immediately I started experimenting with
+  Photoshop et al. During university I earned some money in my spare
+  time by designing and building websites, but it wasn’t until about the
+  time I started by PhD that Apple introduced Mac OS X and with it came
+  the free set of developer tools that finally made it easy enough for
+  someone without the classical IT background to start building his/her
+  own Mac applications. Together with my best friend and fellow PhD
+  student Tom Groothuis we started building a number of tools for
+  molecular biologists
+  (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://mekentosj.com/enzymex/">EnzymeX</ext-link>),
+  which we distributed for free under our “mek en tosj” monicker. It
+  didn’t take long before the hobby started to get out of hand as the
+  popularity of our programs started to soar.</p>
+</sec>
+<sec id="6-you-talked-about-your-postdoc-choice-in-a-2007-nature-jobs-article-what-made-you-decide-to-move-from-postdoc-to-company-founder">
+  <title>6. You talked about your postdoc choice in a 2007
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://dx.doi.org/10.1038/nj7130-948b">Nature
+  Jobs article</ext-link>. What made you decide to move from postdoc to
+  company founder?</title>
+  <p>When the time came to pick a postdoc I knew one thing for sure, the
+  programming was something I was so passionate about that it should be
+  part of the postdoc rather than a spare time project. That’s why I
+  picked the text mining group at the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://www.ebi.ac.uk/">European
+  Bioinformatics Institute</ext-link> in Cambridge UK, also driven by an
+  interest in the changes that were/are ongoing in the scientific
+  publishing industry. I applied for a two year EU Marie Curie
+  fellowship which I was fortunate to get, however it would take a few
+  months between the end of my PhD and all the bureaucracy before I
+  could get started in Cambridge. This was when I decided to build
+  Papers. I got the idea for this “iTunes for PDF files” already two
+  years earlier, but never had the time to do it. I did tell everybody I
+  knew about it, but no one had done it and now finally I had some spare
+  time on my hands.</p>
+  <p>The first beta of the program was released right at the time I
+  started my postdoc and it was a success right from the start. In fact
+  it was so successful and offered so many opportunities that it was
+  soon difficult to focus on my actual postdoc and after a year I
+  realized that this was the thing I was really passionate about and was
+  what I wanted to concentrate fully on. That was when I decided to quit
+  my job and become the company founder of Mekentosj Inc. 😉</p>
+</sec>
+<sec id="7-do-you-want-to-talk-about-future-plans-for-papers">
+  <title>7. Do you want to talk about future plans for Papers?</title>
+  <p>It’s still to early to talk in many details but like I said, for us
+  the current version of Papers has always been the foundation on which
+  we can build many exciting things we envision. We’re working hard on
+  the next major release of Papers which will definitely be a big step
+  up. And obviously the introduction of the iPhone is something that
+  also brings very exciting possibilities, so many things to look
+  forward to!</p>
+  <p><italic><italic>Alex, thanks a lot for this interview. For more
+  information, you can read an
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://www.macresearch.org/interview_with_alexander_griekspoor_from_mekentosj">interview</ext-link>
+  from two years ago, or visit the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150924053037/http://network.nature.com/groups/papers/forum/topics">Mekentosj
+  Papers Nature Network Forum</ext-link>. And please tell me how you
+  manage all these PDF files and how you use these references when
+  writing a paper yourself.</italic></italic></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

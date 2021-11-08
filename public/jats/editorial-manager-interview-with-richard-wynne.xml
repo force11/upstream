@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Editorial Manager: Interview with Richard
+Wynne</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-03-25">
+<day>25</day>
+<month>3</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Practically all scientific journals now use web-based systems for
+paper submissions and peer review. This saves the authors a lot of time
+compared to paper submissions by postal mail (until 15 years ago) or
+email (until 5 years ago). Unfortunately the submission process is still
+far from perfect and requires authors to spend many hours formatting
+manuscripts, references and images instead of focusing on the scientific
+content.</p>
+<p>The tools (word processors, reference managers, graphics programs,
+etc.) that most authors use to write manuscripts have become more
+sophisticated every year, but often don't help much with creating
+structured documents. Structure is the most important feature of a
+scientific manuscript (title, authors, abstract, materials and methods,
+references, etc.), and this is much more relevant than the layout
+(fonts, page margins, etc.).</p>
+<p>There are two different approaches to create structured manuscripts.
+Authors could use tools such as the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://network.nature.com/people/mfenner/blog/2008/11/07/interview-with-pablo-fernicola">Microsoft
+Word Article Authoring Add-in</ext-link> or
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://network.nature.com/people/mfenner/blog/2009/02/27/lemon8-xml-interview-with-mj-suhonos">Lemon8-XML</ext-link>
+and submit structured manuscripts in the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.inera.com/nlmresources.shtml">NLM
+DTD</ext-link> XML format. Or journal submission systems could improve
+the process of creating structured manuscripts from standard word
+processor files (e.g. Microsoft Word). To better understand the second
+option, I asked Richard Wynne from
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.editorialmanager.com/homepage/about.html">Aries</ext-link>
+a few questions about
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.editorialmanager.com/homepage/home.htm">Editorial
+Manager</ext-link>.</p>
+<sec id="1-can-you-describe-what-editorial-manager-is-and-does">
+  <title><italic><italic>1. Can you describe what Editorial Manager is
+  and does?</italic></italic></title>
+  <p>Editorial Manager is like plumbing for scholarly publishing. It
+  manages the flow of scholarly manuscripts from submission to
+  acceptance. Like good plumbing it should be invisible, reliable and
+  afford some luxury.</p>
+  <p>While most of us could theoretically do our own plumbing, we
+  usually discover that it's better to pay a professional. It's the same
+  with online peer review systems. Most scholarly societies, publishers
+  and university presses could develop and host their own workflow
+  systems; but have discovered that it's less messy and less expensive
+  to use a commercial solution such as Editorial Manager.</p>
+  <p>More than 3,100 journals from 150 publishers have adopted Editorial
+  Manager. In the interest of fairness, I should mention other available
+  solutions:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://pkp.sfu.ca/?q=ojs">Open
+      Journal Systems</ext-link>,</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://scholarone.com/products/manuscript/">Manuscript
+      Central</ext-link>,</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.ejpress.com/index.shtml">eJournal
+      Press</ext-link>,</p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://benchpress.highwire.org/">BenchPress</ext-link>.</p>
+    </list-item>
+  </list>
+  <p>Thanks to a healthy competitive environment, online peer review is
+  one of the most innovative areas of scholarly publishing.</p>
+</sec>
+<sec id="2-in-what-document-formats-can-manuscripts-be-submitted-to-editorial-manager-can-manuscripts-be-submitted-from-online-word-processors-such-as-google-docs">
+  <title>2. In what document formats can manuscripts be submitted to
+  Editorial Manager? Can manuscripts be submitted from online word
+  processors such as Google Docs?</title>
+  <p>There are virtually no technical limitations on the types of files
+  that can be loaded into Editorial Manager. However:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Only some file types (such as Office, LaTeX, and image formats
+      etc.) can be automatically converted to PDF format. Other types of
+      file (e.g. Video or audio files) can be uploaded and are
+      accessible during workflow from links in the generated PDF, and
+      from the manuscript file inventory for authorized editors.</p>
+    </list-item>
+    <list-item>
+      <p>Superimposed on this technical handling is journal policy.
+      Acceptable submission items (e.g. manuscript, data set etc.) are
+      configured by the journal according to their idiosyncratic
+      workflow preferences. So while one journal using Editorial Manager
+      may permit the upload of supplemental data, another may choose not
+      to make this option available.</p>
+    </list-item>
+  </list>
+  <p>We have not interfaced with Google Docs at an API level, but this
+  would become a priority if large numbers of authors found it a
+  productive authoring tool for scholarly manuscripts. In the interim
+  Google Docs provides many supported download file format options such
+  as RTF.</p>
+</sec>
+<sec id="3-why-do-most-publishers-prefer-not-to-have-manuscripts-submitted-as-pdf-file-s-">
+  <title>3. Why do most publishers prefer not to have manuscripts
+  submitted as PDF file(s)?</title>
+  <p>Editorial Manager does support upload of manuscripts in PDF format.
+  However many publishers discourage this practice for good reasons:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Some journals ask reviewers to directly edit the manuscript in
+      word processing format – obviously not possible if the author
+      uploads a PDF.</p>
+    </list-item>
+    <list-item>
+      <p>If the manuscript is accepted, the publisher will need access
+      to original source files to undertake copy editing, image
+      formatting, composition etc. Obtaining source files up-front
+      allows the publisher to accelerate the workflow and eliminates the
+      time-consuming and cumbersome step of obtaining source files from
+      the author after acceptance. Publishers that do accept PDF
+      submissions must ensure that subsequently submitted source files
+      match the revised manuscript that was accepted by the editors as
+      an error prone and unnecessary step.</p>
+    </list-item>
+  </list>
+  <p>It's unfortunate that publishers don't take the time to explain
+  their reasoning regarding PDF submissions. This contributes to the
+  scholar street wisdom that publishers are out of touch.</p>
+</sec>
+<sec id="4-can-manuscripts-be-transferred-from-preprint-servers-such-as-arxiv-or-nature-preceedings">
+  <title>4. Can manuscripts be transferred from preprint servers such as
+  arXiv or Nature Preceedings?</title>
+  <p>Yes, manuscripts can be directly transferred from the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://arxiv.org/">arXiv</ext-link>
+  server by entering the appropriate arXiv number during the submission
+  process. Editorial Manager then automatically collects the source
+  files from the arXiv server. The feature is journal configurable.
+  We have not yet implemented a similar feature for
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://precedings.nature.com/">Nature
+  Precedings</ext-link>.</p>
+</sec>
+<sec id="5-how-does-editorial-manager-support-the-nlm-dtd-format-can-manuscripts-be-submitted-in-that-format">
+  <title>5. How does Editorial Manager support the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.inera.com/nlmresources.shtml">NLM
+  DTD</ext-link> format? Can manuscripts be submitted in that
+  format?</title>
+  <p>Editorial Manager does process files with structured DTDs, but
+  that's not really the point of your question. Here's the issue:
+  reliably structured manuscripts theoretically present workflow
+  benefits:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>During submission, manuscript metadata could be automatically
+      harvested from the file, thereby avoiding author re-keying of
+      title, abstract, etc.</p>
+    </list-item>
+    <list-item>
+      <p>Journal styling and composition could be applied automatically,
+      thereby avoiding manual steps currently required to structure
+      unformatted manuscripts – a massive cost and time saving.</p>
+    </list-item>
+  </list>
+  <p>Today these benefits remain largely theoretical because they depend
+  entirely on authors uploading standardized, structured manuscripts.
+  The question is: who should have ultimate responsibility for
+  manuscript structure quality? In my opinion not authors – their
+  primary focus should be manuscript content not manuscript format. Part
+  of the publisher's role is to take care of manuscript structuring.
+  Trying to offload this responsibility to authors is not a good use of
+  their time.</p>
+  <p>Eventually authoring tools could solve the problem by enabling
+  transparent insertion of structure during manuscript authoring, but
+  initiatives in this area are still immature in terms of technical
+  feasibility, operational convenience and economic sustainability.
+  Until this changes, weâ€™re focused on adding server-side tools to
+  Editorial Manager that donâ€™t place any extra technical or financial
+  burden on the author.</p>
+</sec>
+<sec id="6-does-editorial-manager-help-with-the-formatting-of-bibliographies-e-g-by-checking-the-references-against-online-databases-or-the-formatting-of-references-in-the-journal-style">
+  <title>6. Does Editorial Manager help with the formatting of
+  bibliographies, e.g. by checking the references against online
+  databases or the formatting of references in the journal
+  style?</title>
+  <p>Yes, Editorial Manager provides this facility, but format styles
+  are determined by the individual journals/publishers that use the
+  system.</p>
+  <p>Journals can select an Editorial Manager option that automatically
+  links author submitted bibliographies to PubMed and/or CrossRef. The
+  system can also format the author's bibliography to journal style.
+  This means that we broadly accept whatever style the author has used.
+  We power the service with
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.inera.com/extylesinfo.shtml">eXtyles</ext-link>.
+  The output of the process is clean XML of the bibliography.</p>
+  <p>This is an excellent example of how Editorial Manager improves
+  workflow without displacing work back to the author. Alternative
+  approaches are burdensome to the author because they require her to
+  pre-format the bibliography or mandate the purchase/use of reference
+  management tools and plug-ins.</p>
+</sec>
+<sec id="7-what-is-the-preferred-format-for-graphics-can-editorial-manager-help-with-conversions-into-a-different-format-e-g-tiff-to-pdf-">
+  <title>7. What is the preferred format for graphics? Can Editorial
+  Manager help with conversions into a different format (e.g. TIFF to
+  PDF)?</title>
+  <p>Editorial Manager has no preferred graphic format. The preference
+  is determined by the journal/publisher using the system.</p>
+  <p>Preferences are the result of the publisher's production and
+  content delivery objectives. For example, a journal that re-draws
+  graphics may not care about format. A journal that produces high
+  quality print may reject RGB images, but RGB images would typically be
+  acceptable for an online-only journal.</p>
+  <p>Editorial Manager does include an automatic image checking option.
+  Journals that configure this feature can provide feedback to authors
+  concerning the acceptability of submitted images. Just to be clear,
+  this tool provides feedback and education, it does not prevent
+  submission.</p>
+</sec>
+<sec id="8-does-editorial-manager-support-the-sword-simple-web-service-offering-repository-deposit-protocol">
+  <title>8. Does Editorial Manager support the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.elearning.ac.uk/features/sword">SWORD</ext-link>
+  (Simple Web-service Offering Repository Deposit) protocol?</title>
+  <p>Back in 2002 Aries proposed an XML-based standard and anticipated
+  that the “Submission and Manuscript eXchange Format” (SMXF) would
+  provide a system-neutral standard for the exchange of manuscript
+  metadata and content . The broad adoption of such a standard would
+  provide key benefits (see 2002
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.editorialmanager.com/homepage/press-releases/200211.pdf">Press
+  Release</ext-link>). Despite our best efforts, there was little
+  interest at the time, and as a consequence Editorial Manager supports
+  dozens of XML input/output formats. So, from our point of view, the
+  emergence of a standardized manuscript transfer format is a great boon
+  and I've no doubt that SWORD deposit will soon be an Editorial Manager
+  feature.</p>
+</sec>
+<sec id="9-how-can-authors-give-feedback-e-g-to-report-problems-or-request-features">
+  <title>9. How can authors give feedback, e.g. to report problems or
+  request features?</title>
+  <p>Most user feedback comes indirectly via publishers so that they can
+  filter editorial and policy questions. However, we are also happy to
+  hear suggestions directly from users. They can reach us at
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/mailto:marketing%40edmgr.com">marketing@edmgr.com</ext-link>.
+  Users are also invited to talk to their journals/publishers about
+  participating in User Group meetings (London and Boston) or the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.editorialmanager.com/homepage/emdiscussion.html">Listserv</ext-link>
+  discussions.</p>
+</sec>
+<sec id="10-what-are-your-responsibilities-within-the-editorial-manager-team">
+  <title>10. What are your responsibilities within the Editorial Manager
+  team?</title>
+  <p>A distinguishing characteristic of Editorial Manager is that it is
+  genuinely the result of a broad-based team effort. I joined Aries
+  approximately 10 years ago and have been privileged to participate in
+  the growth of Editorial Manger from idea to sustainable solution
+  processing more than 1,000,000 submissions per year. Along the way I
+  have forged key relationships, and led the product management, sales
+  and marketing team.</p>
+</sec>
+<sec id="11-what-did-you-do-before-starting-to-work-in-the-editorial-manager-team">
+  <title>11. What did you do before starting to work in the Editorial
+  Manager team?</title>
+  <p>After graduating from the University of Edinburgh, I started my
+  career in software but jumped at the opportunity to start a multimedia
+  company for
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://www.ovid.com/site/products/tools/silverplatter/access_tools.jsp">SilverPlatter</ext-link>
+  in the early 90's. Working with scientists we published interactive
+  video, audio, graphics and text on CD-ROM. In those days few
+  scientists owned CD-ROM drives so I'd carry one around with me. At one
+  point I remember a professor at Cornell excitedly showing me something
+  called
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150908031524/http://de.wikipedia.org/wiki/NCSA_Mosaic">Mosaic</ext-link>
+  and thinking: that's just hypertext. Since then I have been a lot more
+  inquisitive about innovations that originate in academia!</p>
+</sec>
+<sec id="12-do-you-want-to-talk-about-future-plans-for-editorial-manager">
+  <title>12. Do you want to talk about future plans for Editorial
+  Manager?</title>
+  <p>There are many opportunities to innovate and improve the experience
+  for authors, reviewers and editors; and we work on a rich list of
+  suggestions and enhancements. We do not announce innovation details
+  until they are close to being deployed, but there are a couple of
+  great releases coming this year.</p>
+  <p>Recently we received the following comment form an editor:
+  Editorial Manger has the “feel” of actually responding to the user. I
+  think that a number of subtleties account for this impression,
+  including the language used, the flow of the algorithm, and the
+  customized real time feedback to the user. Our ambition is to achieve
+  and surpass this level of satisfaction for all users.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

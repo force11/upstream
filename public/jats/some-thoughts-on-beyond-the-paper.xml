@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Some Thoughts on Beyond the Paper</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2013-03-20">
+<day>20</day>
+<month>3</month>
+<year>2013</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Today the journal <italic>Nature</italic> has released a special on
+the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731155331/http://www.nature.com/news/specials/scipublishing/index.html">Future
+of Publishing</ext-link>. It includes a lot of interesting reading, but
+I want to focus on the comment
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731155331/http://dx.doi.org/10.1038/495437a">Beyond
+the Paper</ext-link> by Jason Priem. In the comment Jason describes his
+vision of the future of scholarly communication, a future where many of
+today’s roles for articles and journals will be replaced by the
+<italic>decoupled journal</italic> and online tools taking the lead in
+dissemination and filtering of scholarly content.</p>
+<p>Jason makes a strong case for this vision, and takes his time to also
+discuss the concerns and challenges. He doesn’t have the space to
+discuss in more detail how we get to that future, and in particular what
+the role of researchers, publishers, libraries and funders be in that
+transition.</p>
+<p>Jason’s vision will probably be overwhelming for many researchers,
+and might not directly address what is probably the biggest issue for
+most researchers: funding for grants and jobs is limited, and the
+processes we use to select for good science and good scientists are
+inefficient and often arbitrary. Most students entering graduate school
+will not be able to have a career in academia, and most academics will
+say that they spend far too much time with evaluations – of their own
+work and the work of others. It is unclear to me how we can get from the
+current system – where one misstep such as denied grant or submission to
+the wrong journal can mean the end of a career – to the system that
+Jason envisions. The current climate doesn’t really foster
+experimentation by researchers and I am interested to understand how
+researchers can take part in this process of change.</p>
+<p>The vision of the decoupled journal is very threatening for some of
+the stakeholders of the current scholarly communication ecosystem, in
+particular publishers and libraries. Every journal publisher and library
+knows that it has to reinvent itself to survive the digital
+transformation, but a vision that is build around a new ecosystem of
+service providers needs to be clear how publishers and libraries can be
+part of the transformation process.</p>
+<p>Lastly, I disagree with the notion that <italic>today’s publication
+silos will be replaced by a set of decentralized, interoperable services
+that are built on a core infrastructure of open data and evolving
+standards — like the Web itself.</italic> I would argue that both
+scholarly communication and the web in general have a tendency for
+centralization, and that scientific infrastructure needs to be
+interoperable first and decentralized second. Without a focus on
+interoperability the future of scholarly communication will not be open
+and in the hands of many, but will be a race to become one of the
+dominant players in this new ecosystem, and we might end up with not
+1000s of libraries and publishers but just a handful of technology
+companies holding the keys to our scientific infrastructure.</p>
+<sec id="references">
+  <title>References</title>
+  <p>Priem, J. (2013). Scholarship: Beyond the paper <italic>Nature,
+  495</italic> (7442), 437-440 DOI:
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20170731155331/http://dx.doi.org/10.1038/495437a">10.1038/495437a</ext-link></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

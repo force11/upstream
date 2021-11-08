@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Thoughts on the PubMed Redesign</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2009-10-11">
+<day>11</day>
+<month>10</month>
+<year>2009</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>It was
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://network.nature.com/people/U2929A0EA/profile">Anna
+Kushnir</ext-link> who started it all. Frustrated with the limitations
+of PubMed when finishing her PhD thesis, she wrote a blog post in March
+2008
+(<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://network.nature.com/people/U2929A0EA/blog/2008/03/22/i-am-not-yelling-not-out-loud">I
+Am Not Yelling. Not Out Loud.</ext-link>) about her experience. The blog
+post created quite a stir in the blogosphere, especially among
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://mbanks.typepad.com/my_weblog/2008/04/the-anna-kushni.html">science
+librarians</ext-link>. At the heart of the controversy was Anna's
+complaint that PubMed is too complicated to use, and that some science
+librarians felt PubMed simply is complicated and that users such as Anna
+should take better advantage of the resources available to better use
+PubMed. David Lipman, director of the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.ncbi.nlm.nih.gov/">NCBI</ext-link>
+and responsible for PubMed, said:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p>Although the current engine works well for some users and some
+    queries, I understand Anna's frustration and we are in the midst of
+    a number of changes that will make PubMed work better for her and
+    many other users.</p>
+  </disp-quote>
+</p>
+<p>In May 2009 a PubMed redesign
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.nlm.nih.gov/pubs/techbull/mj09/ppt/sunrise_gillikin/sunrise_2009_gillikin.html">was
+shown</ext-link> at the 2009 Annual Meeting of the Medical Library
+Association (MLA) in Honolulu, and the presentation explains a lot of
+the ideas behind the redesign. On September 30 the redesigned PubMed
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.nlm.nih.gov/pubs/techbull/so09/so09_pm_redesign.html">was
+unveiled to the public</ext-link>, and as early as next week it will
+become the default PubMed web interface.</p>
+<fig>
+  <graphic mimetype="image" mime-subtype="" xlink:href="https://web.archive.org/web/20120611025631im_/http://www.ncbi.nlm.nih.gov/portal/portalrc.fcgi/35308/img/35053" xlink:title="" />
+</fig>
+<p>Several science bloggers have already written about the PubMed
+redesign, including a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://laikaspoetnik.wordpress.com/2009/10/01/pubmed&amp;Acirc;&amp;reg;-redesign-is-here-to-try/">very
+detailed blog post</ext-link> by Jacqueline Limpens.</p>
+<sec id="what-is-pubmed">
+  <title>What is PubMed?</title>
+  <p>MEDLINE is a database of more than 19 million citations for
+  biomedical articles, hosted by the U.S. National Library of Medicine.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.pubmed.gov/">PubMed</ext-link>
+  is the freely available Web interface to that database. Not only is
+  the content of PubMed available from other databases (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.scopus.com/">Scopus</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://thomsonreuters.com/products_services/science/science_products/scholarly_research_analysis/research_discovery/web_of_science">Web
+  of Science</ext-link>), but PubMed can be searched not only via the
+  Web interface, but also from within other applications, e.g. a
+  reference manager such as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.endnote.com/">Endnote</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://mekentosj.com/papers">Papers</ext-link>.
+  And PubMed doesn't cover all scientific journals, many disciplines
+  (e.g. physics, social sciences) aren't included at all. In other
+  words, the Pubmed web interface is not the only way to find biomedical
+  articles, and in fact will not find literature not related to the life
+  sciences. But the PubMed web interface is probably by far the most
+  popular way to search for biomedical literature.</p>
+</sec>
+<sec id="what-is-the-target-audience">
+  <title>What is the target audience?</title>
+  <p>The PubMed website is intended for at least 5 different
+  audiences:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>science librarian</p>
+    </list-item>
+    <list-item>
+      <p>researcher in the life sciences</p>
+    </list-item>
+    <list-item>
+      <p>clinician</p>
+    </list-item>
+    <list-item>
+      <p>patient or patient relative</p>
+    </list-item>
+    <list-item>
+      <p>teacher, high school student, journalist and anybody else
+      interested in life sciences research</p>
+    </list-item>
+  </list>
+  <p>Before PubMed
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.nlm.nih.gov/archive//20050113/news/press_releases/free_medline.html">was
+  announced in June 1997 by the U.S. vice president Al Gore</ext-link>
+  as free web-based access to the MEDLINE database, most users were
+  librarians, plus of a small group of academics with paid access
+  (remember
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.annals.org/cgi/content/abstract/105/2/321">Grateful
+  Med</ext-link> ?). Now we have a number of target audiences with
+  different experience in literature search strategies and different
+  intentions:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>librarian vs. academic vs. the general public</p>
+    </list-item>
+    <list-item>
+      <p>basic life sciences research vs. clinical research</p>
+    </list-item>
+  </list>
+  <p>As PubMed is the most popular but not the only interface to the
+  MEDLINE database, the primary target audience will not be a librarian,
+  but someone with less experience in searching the biomedical
+  literature (and less time). I would lump academics together with the
+  general public here, and think that the typical PubMed search should
+  be as simple as the typical Google search. Everything much more
+  complicated than a simple input box should be moved to an
+  <italic><italic>advanced search options</italic></italic> page, or
+  should be done via a different interface to the MEDLINE database.</p>
+  <p>Searching for clinical literature is very different from searching
+  for basic science research. Here a search is often done to help in the
+  decision making for a particular patient, and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://en.wikipedia.org/wiki/Evidence-based_medicine">evidence-based
+  medicine</ext-link> is used to find the most relevant scientific
+  literature (with meta-analyses and randomized controlled trials
+  providing the best evidence).</p>
+  <p>Searching for basic science literature has very different goals. It
+  is either finding the needle in the haystack, e.g. you want to find
+  all the published literature on the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://dx.doi.org/10.1126/science.1176325">C3PO</ext-link>
+  gene, or you want to find a review article as an overview over a
+  particular field. But basic science review articles don't have the
+  rigourous tools available to evaluate clinical research mentioned
+  above, and here review articles only differ in the personal
+  perspective of the reviewers and completeness and actuality of the
+  primary literature that was covered. Searching for basic science
+  literature should also be tightly integrated with the other databases
+  at the NCBI. This is done via the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.ncbi.nlm.nih.gov/sites/gquery">Entrez
+  Search Page</ext-link>, so that a search for
+  <italic><italic>C3PO</italic></italic> also links to the organisms it
+  was described in, e.g. this one:</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611025631im_/http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Tribolium.castaneum.jpg/91px-Tribolium.castaneum.jpg" xlink:title="" />
+  </fig>
+  <p>I don't think that a search interface to MEDLINE can be good at
+  both the clinical and basic science literature. The current PubMed is
+  much closer to the latter, so I think that the primary target audience
+  for PubMed is the <italic><italic>academic or general public interest
+  in basic life sciences research</italic></italic>. A good search
+  interface for the clinical literature would be something very
+  different and has to include both databases of evidence-based
+  evaluations (particularly from the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.cochrane.org/">Cochrane
+  Collaboration</ext-link>) and from ongoing and completed clinical
+  trials (particularly
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://clinicaltrials.gov/">Clinicaltrials.gov</ext-link>,
+  just like PubMed also hosted at the NIH).</p>
+</sec>
+<sec id="where-is-web-2-0">
+  <title>Where is Web 2.0?</title>
+  <p>A PubMed redesign in 2009 can't be complete without looking at what
+  Web 2.0 has to offer. This means that users should be offered a
+  personal PubMed account that links to their libraries for fulltext
+  articles, stores common searches, creates RSS outputs, allows sharing
+  of search results with other users, publishes a link to an interesting
+  article on Twitter, and possibly other enhancements (e.g. a public
+  profile page of all your PubMed articles, but that wouldn't work
+  without
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://themindwobbles.wordpress.com/2009/08/22/breakout-3-author-identity-creating-a-new-kind-of-reputation-online/">author
+  identifiers</ext-link>). This also means a clean design, use of
+  Javascript/AJAX for the user interface, a version for mobile users
+  (particularly iPhone), and frequent small updates instead of a big
+  desgin change every 2-3 years.</p>
+</sec>
+<sec id="and-how-is-the-redesigned-pubmed">
+  <title>And how is the redesigned PubMed?</title>
+  <p>After this rather long introduction, what do I like about the
+  PubMed Redesign?</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611025631im_/http://gallery.me.com/mfenner/100079/pubmed/web.jpg" xlink:title="" />
+  </fig>
+</sec>
+<sec id="like">
+  <title>Like</title>
+  <list list-type="bullet">
+    <list-item>
+      <p>Clean, uncluttered design</p>
+    </list-item>
+    <list-item>
+      <p>Saving a search as RSS is faster and more obvious. I hope that
+      this will make many more people use RSS than email alerts for
+      their regular searches
+      (<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://network.nature.com/people/mfenner/blog/2009/06/21/recipe-receiving-journal-table-of-contents-automatically">why
+      I like RSS</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p>Auto suggest: some of the most popular PubMed searches will be
+      displayed based on the terms entered</p>
+    </list-item>
+    <list-item>
+      <p>Some use of Javascript/AJAX</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="dislike">
+  <title>Dislike</title>
+  <list list-type="bullet">
+    <list-item>
+      <p>The
+      <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://www.doi.org/">DOI</ext-link>
+      (the best unique identifier for a paper and the easiest way to
+      link to the full-text article) is still not displayed in the
+      standard abstract view (you find the DOI in the Medline and XML
+      views)</p>
+    </list-item>
+    <list-item>
+      <p>Small design flaw: no easy way to go back from advanced search
+      to basic search</p>
+    </list-item>
+    <list-item>
+      <p>Layout is now different from MyNCBI and the other NCBI
+      databases (maybe this is work in progress)</p>
+    </list-item>
+    <list-item>
+      <p>(As far as I know) no version for mobile users</p>
+    </list-item>
+    <list-item>
+      <p>No send to CiteULike/Connotea/Twitter/FriendFeed, etc. buttons
+      (popular with many journals)</p>
+    </list-item>
+  </list>
+  <p>The redesign will make it easier for inexperienced users to do
+  quick searches (as mentioned above, probably the target audience).
+  Experienced librarians might like the redesign less, as advanced
+  searches have not become easier. But overall the changes are minor. My
+  biggest complaint is the lack of DOI integration. A wasted
+  opportunity. And – as mentioned above – I think we need a different
+  MEDLINE interface for searching the clinical medicine literature.</p>
+  <p>How do you like the redesign? Jacqueline Limpens is
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611025631/http://laikaspoetnik.wordpress.com/2009/10/01/pubmed&amp;Acirc;&amp;reg;-redesign-is-here-to-try/">doing
+  a poll on her blog</ext-link>.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

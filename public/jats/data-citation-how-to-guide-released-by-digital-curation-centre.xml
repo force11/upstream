@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Data citation how-to guide released by Digital Curation
+Centre</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2011-10-19">
+<day>19</day>
+<month>10</month>
+<year>2011</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>Earlier this week <bold><bold>Alex Ball</bold></bold> and
+<bold><bold>Monica Duke</bold></bold> from the Digital Curation Centre
+released the how-to guide
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040549/http://www.dcc.ac.uk/resources/how-guides/cite-datasets">Cite
+Datasets and Link to Publications</ext-link>. The guide is highly
+recommended reading for everyone interested in data citation. The guide
+was released under a
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120525040549/http://creativecommons.org/licenses/by/2.5/scotland/">Creative
+Commons Attribution license</ext-link>, allowing me to post the summary
+for researchers below:</p>
+<sec id="summary-for-researchers">
+  <title>Summary for researchers</title>
+  <p><italic>If you have generated/collected data to be used as evidence
+  in an academic publication, you should deposit them with a suitable
+  data archive or repository as soon as you are able. If they do not
+  provide you with a persistent identifier or URL for your data,
+  encourage them to do so.</italic></p>
+  <p><italic><italic>When citing a dataset in a paper, use the citation
+  style required by the editor/publisher. If no form is suggested for
+  datasets, take a standard data citation style (e.g. DataCite’s) and
+  adapt it to match the style for textual
+  publications.</italic></italic></p>
+  <p><italic><italic>Give dataset identifiers in the form of a URL
+  wherever possible, unless otherwise directed.</italic></italic></p>
+  <p><italic><italic>Include data citations alongside those for textual
+  publications. Some reference management packages now include support
+  for datasets, which should make this easier.</italic></italic></p>
+  <p><italic><italic>Cite datasets at the finest-grained level available
+  that meets your need. If that is not fine enough, provide details of
+  the subset of data you are using at the point in the text where you
+  make the citation.</italic></italic></p>
+  <p><italic><italic>If a dataset exists in several versions, be sure to
+  cite the exact version you used.</italic></italic></p>
+  <p><italic><italic>When you publish a paper that cites a dataset,
+  notify the repository that holds the dataset, so it can add a link
+  from that dataset to your paper.</italic></italic></p>
+</sec>
+</body>
+<back>
+</back>
+</article>

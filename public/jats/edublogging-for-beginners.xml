@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Edublogging for beginners</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2008-08-24">
+<day>24</day>
+<month>8</month>
+<year>2008</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>This blog entry is primarily intended for science educators that are
+interested in starting a blog for their teaching activities. Some of
+them will not be familiar with blogging and other web 2.0 tools. Not the
+typical audience of this blog, but I would greatly appreciate feedback,
+as I'm in the process of writing an article about this topic (in
+German).</p>
+<sec id="what-is-blogging-and-all-this-web-2-0-stuff">
+  <title>What is blogging and all this web 2.0 stuff?</title>
+  <p>A good starting point is
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://plcmclearning.blogspot.com/">Learning
+  2.0</ext-link>, a self-learning program originally intended to teach
+  librarians about blogs, wikis,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.flickr.com/">Flickr</ext-link>,
+  RSS,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.technorati.com/">Technorati</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.youtube.com/">YouTube</ext-link>
+  and other
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://en.wikipedia.org/wiki/Web_2.0">Web
+  2.0</ext-link> tools.</p>
+</sec>
+<sec id="why-should-i-start-a-blog">
+  <title>Why should I start a blog?</title>
+  <p>Because a blog could help with teaching students. A blog can serve
+  as a simple noticeboard for lecture topics, homework assignments, etc.
+  It is also a great place to post additional material. But more
+  importantly, students can comment, ask questions or make suggestions.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://ncwcbio101.wordpress.com/">This
+  class</ext-link> by Bora Zivkovic is one example. Oliver Obst
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.slideshare.net/obsto/science-blogs-and-online-forums-as-teaching-tools-the-library-view-presentation/">pointed
+  out</ext-link> that blogs (and other online tools) can save time (and
+  money) compared to one-by-one interactions in person or via email. The
+  motivation for students is nicely explained in
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://meredith.wolfwater.com/wordpress/2008/08/17/teaching-online-with-drupal/">this
+  blog post</ext-link> by Meredith Farkas: blogging or posting comments
+  on blogs is a great way for students to reflect what they have learned
+  and to discuss it with fellow students. Tony Griffith recently talked
+  about
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.sciencebridge.net/uploads/akt-ver-attatchments/Griffiths_icg_08.pdf">why
+  do students find genetics so difficult to learn?</ext-link>. He
+  emphasized that students typically are not taught the
+  <italic><italic>research mode</italic></italic>, where thinking and
+  problem-solving are more important than learning facts.</p>
+</sec>
+<sec id="where-do-i-host-the-blog">
+  <title>Where do I host the blog?</title>
+  <p>Most teaching blogs will be hosted at a university server. The
+  university IT department will probably offer a blogging platform such
+  as
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://movabletype.org/">MovableType</ext-link>
+  or
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://wordpress.org/">WordPress</ext-link>.
+  If the university IT department doesn't offer such a service, blogs
+  can also be hosted somewhere else.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.edublogs.org/">Edublogs</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.21classes.com/">21classes</ext-link>
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://www.classblogmeister.com/">Class
+  Blogmeister</ext-link> not only offer blog hosting, but offer
+  additional features such as a central portal for all blogs, class
+  blogs, access restricted to students, control of student entries.</p>
+</sec>
+<sec id="where-can-i-find-other-people-interested-in-edublogging">
+  <title>Where can I find other people interested in
+  edublogging?</title>
+  <p>Many science bloggers are also involved in edublogging, and you
+  find interesting discussions about edublogging both here in Nature
+  Network or in many other science blogs (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://search.technorati.com/edublog">here</ext-link>).
+  The Edublogs magazine (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20150928190257/http://magazine.edublogs.org/2008/01/28/who-are-the-top-edubloggers/">this
+  post</ext-link> on popular edubloggers) is another good starting
+  point.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

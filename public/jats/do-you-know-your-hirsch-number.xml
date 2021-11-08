@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Do you know your Hirsch number?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2007-08-17">
+<day>17</day>
+<month>8</month>
+<year>2007</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>The
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121333/http://en.wikipedia.org/wiki/Hirsch_number">Hirsch
+number</ext-link> tries to quantify the (scientific) productivity of a
+scientist. The Hirsch number was first described by the physicist J.E.
+Hirsch in a 2005 PNAS paper:
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121333/http://www.pnas.org/cgi/content/abstract/102/46/16569">An
+index to quantify an individual’s scientific research output</ext-link>.
+Hirsch says:</p>
+<p specific-use="wrapper">
+  <disp-quote>
+    <p><italic>I propose the index h, defined as the number of papers
+    with citation number h, as a useful index to characterize the
+    scientific output of a researcher.</italic></p>
+  </disp-quote>
+</p>
+<p>Thus, in contrast to the widely used
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121333/http://en.wikipedia.org/wiki/Impact_factor">impact
+factor</ext-link>, the Hirsch number measures the productivity of an
+individual scientist and not the journal he publishes in. The Hirsch
+number tries to factor in both the number of papers and the number of
+citations of these papers.</p>
+<p>Your personal Hirsch number should be equal or greater the number of
+years you have already spent in science. Again in contrast to the impact
+factor, you can calculate your Hirsch number with freely available
+tools. You can look up your papers in
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121333/http://scholar.google.com/">Google
+Scholar</ext-link> and write down the citations for each paper. Or, use
+online tools such as
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120610121333/http://www-ihm.lri.fr/~roussel/moulinette/h/h.cgi">scHolar
+index</ext-link> to do the work for you.</p>
+<p>Using a simple number to measure the productivity of scientist is a
+dangerous undertaking. But if numbers are needed (e.g. grant or job
+applications), the Hirsch number is a good tool. Widespread use of the
+Hirsch number could have broad implications, as authors would more
+carefully consider which journals would give them the highest number of
+citations.</p>
+</body>
+<back>
+</back>
+</article>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Figshare: Interview with Mark Hahnel</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2012-02-16">
+<day>16</day>
+<month>2</month>
+<year>2012</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<fig>
+  <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161023171633im_/http://blogs.plos.org/mfenner/files/2012/02/me1.png" xlink:title="me" />
+</fig>
+<p>fig<bold>share</bold> <italic>allows researchers to publish all of
+their research outputs in seconds in an easily citable, sharable and
+discoverable manner</italic>. The service was started by Mark Hahnel
+last year while still a PhD student. Mark joined
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://www.digital-science.com/">Digital
+Science</ext-link> to work on fig<bold>share</bold> in September and
+last month relaunched a much improved version of the service. I asked
+Mark a few questions about fig<bold>share</bold> below. I also uploaded
+two datasetst to fig<bold>share</bold> and made them publicly
+available:</p>
+<list list-type="bullet">
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://hdl.handle.net/10779/1c48a305c08c717fea3f6fe1687b3eff">CrowdoMeter
+    Tweets</ext-link> – all 467 tweets used in the CrowdoMeter
+    project</p>
+  </list-item>
+  <list-item>
+    <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://hdl.handle.net/10779/01c28ce592291e7e294ed328208a5869">CrowdoMeter
+    Classifications</ext-link> – all 953 classifications from the
+    CrowdoMeter project.</p>
+  </list-item>
+</list>
+<sec id="1-what-is-figshare">
+  <title>1. What is figshare?</title>
+  <p><ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://figshare.com/">figshare</ext-link>
+  is a repository where users can make all of their research outputs
+  available in a citable, sharable and discoverable manner. figshare
+  allows users to upload any file format so that figures, datasets and
+  media can be disseminated in a way that the current scholarly
+  publishing model does not allow.</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161023171633im_/http://blogs.plos.org/mfenner/files/2012/02/screenshot.png" xlink:title="screenshot" />
+  </fig>
+</sec>
+<sec id="2-what-is-the-right-content-for-figshare-and-what-should-rather-go-somewhere-else">
+  <title>2. What is the right content for figshare? And what should
+  rather go somewhere else?</title>
+  <p>Every experiment that is completed without error in the methods is
+  valuable. Researchers investigate things because the question is
+  interesting and supposedly unanswered. This means that other
+  researchers will at some point ask that same question. Just because
+  the hypothesis didn’t turn out to be true, doesn’t mean that this data
+  should be thrown away.</p>
+  <p>With fig<bold>share</bold>, you can share your negative results or
+  results that you were not planning to publish. You can make raw data
+  available or supplementary material that journals cannot handle linked
+  to from the published article. You can even make your papers and
+  posters available and citable. People have uploaded whole chapters of
+  their PhD thesis to share with the world and make sure that all of
+  their hard work is not wasted.</p>
+  <p>Currently we are not focusing on handling massive datasets, whilst
+  this is an aim for the future. These edgecases seem to be better
+  handled by journals set up specifically for publishing these huge
+  files, such as the excellent GigaScience.</p>
+</sec>
+<sec id="3-you-relaunched-figshare-in-january-what-has-changed-to-the-previous-version">
+  <title>3. You relaunched figshare in January. What has changed to the
+  previous version?</title>
+  <p>The old site was a proof of concept based on Mediawiki software.
+  The new site has been completely built from scratch so that it is
+  rapidly extendable in terms of features and scale. This means that we
+  can adapt quickly and easily to the needs of researchers. As well as
+  being much more intuitive, the biggest new feature for
+  fig<bold>share</bold> is the private space.</p>
+  <p>Whilst we would like everyone to make all of their research objects
+  available, we appreciate that some researchers would like to keep
+  research private for many reasons. Because of this we set about giving
+  users their own private repository to store their research objects.
+  These objects can be uploaded in seconds and all objects are initially
+  held in the private space, from where they can be made publicly
+  available when the user decides. All research is easily tagged and
+  categorisable, so that researchers can filter through their many files
+  to find the one they were looking for in no time at all.</p>
+</sec>
+<sec id="4-how-important-is-the-user-interface-for-figshare-what-particular-features-do-you-like-the-most">
+  <title>4. How important is the user interface for figshare? What
+  particular features do you like the most?</title>
+  <p>The user interface is essential, researchers are busy enough as it
+  it. They haven’t got the time to attend training course on how to use
+  a repository. If this was the case with facebook, no one would use
+  facebook. For this reason fig<bold>share</bold> is stupidly simple and
+  allows users to get their research onto the site in seconds, even the
+  PIs. At this point they can choose to make it publicly available and
+  immediately citable, sharable and discoverable, or keep it private –
+  securely hosted, taggable and accessible when they need it, from
+  anywhere in the world.</p>
+  <p>This is something we are constantly aiming to improve and we not
+  only welcome feedback, we are actively seeking the thoughts of
+  researchers on how we can make this a seemless part of their research
+  process.</p>
+</sec>
+<sec id="5-do-you-have-plans-for-a-desktop-version-of-figshare-e-g-to-watch-folders-for-new-figshare-content">
+  <title>5. Do you have plans for a desktop version of figshare, e.g. to
+  watch folders for new figshare content?</title>
+  <p>We do! By creating a desktop uploader, the process becomes even
+  more intuitive for researchers, allowing them to make backups of their
+  research in the cloud with no effort expenditure. Research data
+  management is something I personally was terrible at. My research was
+  organised into folders based on the month and the year I did that
+  work. I lost days trying to find files that ‘I know I worked on
+  sometime last summer’. Hopefully a desktop uploader will add to the
+  current simple management system so that researchers like me have no
+  excuse when it comes to losing (often expensive) results files.</p>
+</sec>
+<sec id="6-how-is-figshare-different-from-data-repositories">
+  <title>6. How is figshare different from data repositories?</title>
+  <p>fig<bold>share</bold> is not limited as many repositories are. It
+  caters for all research domains, no matter where your research is
+  carried out. Institutional repositories are often limited to members
+  of said institution. Also, the majority of institutional repositories
+  are built specifically for papers. The Dryad repository has been doing
+  some great work making the datasets behind published articles
+  available under CC0. fig<bold>share</bold> is not limited by the
+  normal constraints of publishing, data generated in the lab can be
+  shared and made available to the world as a citable object the same
+  day.</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="https://web.archive.org/web/20161023171633im_/http://blogs.plos.org/mfenner/files/2012/02/usermetrics.png" xlink:title="usermetrics" />
+  </fig>
+  <p>fig<bold>share</bold> also gives the researchers the credit for
+  their research. By adding metrics to the public uploads, and putting
+  the cumulative metrics of a researcher’s uploads on their profile,
+  users can see the true impact and reach of the hard work they put
+  in.</p>
+</sec>
+<sec id="7-you-currently-use-handles-for-figshare-content-what-are-your-thoughts-on-persistent-identifiers-are-the-plans-to-use-dois">
+  <title>7. You currently use handles for figshare content. What are
+  your thoughts on persistent identifiers? Are the plans to use
+  DOIs?</title>
+  <p>Persistent identifiers are essential for the long term availability
+  of research outputs. One of the reasons I set up figshare was because
+  I wanted to cite a video in my thesis. Research data on
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://figshare.com/blog/A%20YouTube%20%20for%20Scientists/11">YouTube</ext-link>
+  is not easily citable, by adding persitent identifiers and an
+  organised citation structure, videos as well as any other file format
+  can be easily cited. All citations can be exported to
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://mendeley.com/">Mendeley</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://www.endnote.com/">Endnote</ext-link>
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://www.refman.com/">RefMan</ext-link>with
+  one click. We use handles at the moment, but have noticed that
+  researchers tend to be more familiar with DOI’s and so will be making
+  the move over to them shortly. We’re currently working with
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://datacite.org/">DataCite</ext-link>
+  through the British Library to get this set up.</p>
+</sec>
+<sec id="8-how-does-figshare-guarantee-long-term-preservation-of-uploaded-data">
+  <title>8. How does figshare guarantee long-term preservation of
+  uploaded data?</title>
+  <p>The long term persistence of this research data is essential. The
+  research is backed up locally as soon as it is uploaded. We are
+  currently in talks with
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20161023171633/http://www.portico.org/">Portico</ext-link>
+  to back up all data and further guarantee this long term
+  persistence.</p>
+</sec>
+<sec id="9-what-are-your-responsibilities-at-figshare-what-did-you-do-before-figshare">
+  <title>9. What are your responsibilities at figshare? What did you do
+  before Figshare?</title>
+  <p>I’m basically responsible for making the platform as useful for
+  researchers as possible. I also love going to talk at Universities and
+  conferences to researchers directly, to hear their thoughts/opinions.
+  As a former life science researcher (I finished my PhD in stem cell
+  biology at Imperial College London in September), I understand that
+  what makes sense in a rational world does not make sense in the
+  scientific world. You just have to look at the established model of
+  scientific research dissemination to understand that.
+  fig<bold>share</bold> is useful whether you want to make all of your
+  research outputs available or none. Science would just be a lot more
+  efficient and dynamic if they did.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>

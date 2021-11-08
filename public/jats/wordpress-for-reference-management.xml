@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>WordPress for Reference Management</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>Martin Fenner</string-name>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub" iso-8601-date="2010-12-28">
+<day>28</day>
+<month>12</month>
+<year>2010</year>
+</pub-date>
+</article-meta>
+</front>
+<body>
+<p>One of the more complicated aspects of scientific writing is
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://blogs.plos.org/mfenner/tag/reference-management/">reference
+management</ext-link> – an important limitation of online collaborative
+tools such as <italic><italic>Google Docs</italic></italic>. I have
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://blogs.plos.org/mfenner/2010/12/05/blogging-beyond-the-pdf/">argued
+before</ext-link> that WordPress has the potential to become a great
+scientific writing tool. Wordpress can’t do reference management out of
+the box, and the
+<ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://wordpress.org/extend/plugins/search.php?q=bibtex">available
+plugins</ext-link> are somewhat limited. But WordPress is a good
+platform to add reference management functions: it is not only extremely
+popular (meaning a lot of people have expertise and many tools are
+available), but also already knows a lot about links, and has a
+wonderful plugin architecture.</p>
+<sec id="reference-database">
+  <title>Reference database</title>
+  <p>The first question with reference management in WordPress is where
+  to store the references. Should they not be stored at all and be
+  directly imported from the source (journal website or bibliographic
+  database such as PubMed)? This is what most of us are currently doing
+  when writing blog posts, but this approach has obvious limitations on
+  more ambitious writing projects. Or should references be inserted from
+  an online reference manager such as CiteULike, Mendeley, Refworks or
+  Endnote Web? This is how we use these reference managers with
+  Microsoft Word and similar word processors.</p>
+  <p>Instead I prefer a third approach: store the references in the
+  built-in Links Manager in WordPress. References are nothing more than
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://blogs.plos.org/mfenner/2010/12/11/citations-are-links-so-where-is-the-problem/">specialized
+  links</ext-link> after all. We loose functionality compared to
+  reference manager databases, but we get some very interesting features
+  for free, including
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://wordpress.org/extend/plugins/broken-link-checker/">automatic
+  checking of broken links</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://wordpress.org/extend/plugins/blogrollsync/">automatic
+  link synchronization</ext-link> with other WordPress installations,
+  and all the other cool things for links that people have come up with.
+  And this makes it much easier for authors to collaborate if they use
+  different reference managers, as all required references are stored in
+  a common database.</p>
+</sec>
+<sec id="bibtex-importer">
+  <title>BibTeX Importer</title>
+  <p>There is currently no good solution to important references into
+  the Links Manager, so I wrote a WordPress plugin to do just that. It
+  took me two days, which says less about my skills, but more about the
+  WordPress plugin architecture. Like all plugins hosted at
+  WordPress.org, my
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://wordpress.org/extend/plugins/bibtex-importer/">BibTeX
+  Importer</ext-link> plugin can be installed directly from within your
+  WordPress installation in less than 5 minutes.</p>
+  <p>The plugin takes any BibTeX file (BibTeX is one of the more common
+  file formats for references, all good reference managers can export
+  into that format) and imports it into the WordPress Links Manager. The
+  plugin can also import a BibTex file via URL (e.g.
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://www.citeulike.org/bibtex/user/mfenner">http://www.citeulike.org/bibtex/user/mfenner</ext-link>).</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611082245im_/http://blogs.plos.org/mfenner/files/2010/12/screenshot-2-500x198.jpg" xlink:title="BibTeX Importer" />
+  </fig>
+  <p>The plugin creates WordPress links where the link name is in the
+  format <bold><bold>first author – year – title</bold></bold>. The
+  original BibTeX entry is stored in the link notes. The plugin does
+  some extra work, e.g. checks for duplicates before importing and picks
+  the DOI if several URLs are available for the link. The plugin also
+  checks the BibTex entry type (article, PhD thesis, book chapter, etc.)
+  and automatically assigns a link category with that name. The next
+  step would be a solution that automatically synchronizes your
+  WordPress Links Manager with a reference manager.</p>
+</sec>
+<sec id="inserting-references">
+  <title>Inserting references</title>
+  <p>Once the references are in the Links Manager, we can use them in
+  the articles we write. Unfortunately WordPress doesn’t provide an easy
+  way to do that. I personally like the WordPress TinyMCE editor, so I
+  made some changes to the wonderful
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://wordpress.org/extend/plugins/link-to-post/">Link
+  to Post</ext-link> plugin. The plugin provides a searchable interface
+  to link to the posts, pages, categories and tags of your own WordPress
+  blog. It took me half a day to add a link section, so now I can search
+  for links and insert them into a post in a way not that different from
+  how we use reference managers with Microsoft Word. The plugin also
+  searches for co-authors, journal names and words in abstracts, as all
+  this information is stored in the Link notes as BibTeX entry. I will
+  make the updated Link to Post plugin available for download (I have
+  contacted the plugin author), for the time being please contact me if
+  you are interested.</p>
+  <fig>
+    <graphic mimetype="image" mime-subtype="jpeg" xlink:href="https://web.archive.org/web/20120611082245im_/http://blogs.plos.org/mfenner/files/2010/12/link2post-500x377.jpg" xlink:title="Link to Post" />
+  </fig>
+</sec>
+<sec id="providing-a-bibliography">
+  <title>Providing a bibliography</title>
+  <p>This is the last feature that I need for reference management with
+  WordPress, and that should also be feasible to do. Ideally the
+  bibliography should be created automatically from the links in the
+  text, using the BibTeX info stored in the links database. In fact,
+  this is something that a publisher could also do after manuscript
+  submission, as the required information is all there. The bibliography
+  should use the
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://blogs.plos.org/mfenner/2010/09/24/citation-style-language-an-interview-with-rintze-zelle-and-ian-mulvany/">Citation
+  Style Language,</ext-link> and
+  <ext-link ext-link-type="uri" xlink:href="https://web.archive.org/web/20120611082245/http://ocoins.info/">COinS</ext-link>
+  (a standard for publishing machine-readable reference information in
+  HTML), and should check for duplicate references, broken links,
+  etc.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>
