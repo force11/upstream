@@ -52,6 +52,18 @@ export default function Navbar({ tags, tag }) {
                     </div>
                   </div>
                 </div> */}
+              <nav
+                className="py-6 space-x-6 font-semibold lg:block"
+                aria-label="Global"
+              >
+                <a
+                  key="About"
+                  href="/pages/about"
+                  className="text-blue-400 border-b-0 hover:border-b hover:border-blue-400"
+                >
+                  'About'
+                </a>
+              </nav>
               <div className="relative z-10 flex items-center lg:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

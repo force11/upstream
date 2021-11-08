@@ -42,6 +42,28 @@ export async function getSinglePost(postSlug) {
     });
 }
 
+export async function getAllPages() {
+  return api.pages
+    .browse({
+      limit: "all",
+      include: "authors",
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+export async function getSinglePage(pageSlug) {
+  return api.pages
+    .read({
+      slug: pageSlug,
+      include: "authors",
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
 export async function getAllTags() {
   return api.tags
     .browse({
