@@ -16,11 +16,163 @@ export default function Footer() {
       </h2>
       <div className="container py-8 flex flex-auto items-center justify-between font-sans">
         <div className="mt-8 w-full grid grid-cols-4 gap-8 xl:mt-0">
+          <div className="mt-2 mx-6 ml-10 md:mt-0">
+            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
+              About Force11
+            </h3>
+            <ul className="mt-1 list-none">
+              <li>
+                <Link href="https://www.force11.org/about" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Overview
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.force11.org/about/manifesto" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Manifesto
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.force11.org/about/mission-and-guiding-principles"
+                  passHref
+                >
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Guiding Principles
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.force11.org/about/endorsement-policy"
+                  passHref
+                >
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Endorsement Policy
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.force11.org/about/support" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Sustainability Plan
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
           <div className="mt-2 mx-6 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              Force11
+              About Upstream
+            </h3>
+            <ul className="mt-1 list-none">
+              <li>
+                <Link href="/pages/about" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Overview
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages/author-guidelines" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Author Guidelines
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/team" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Upstream Team
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/open-source" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Open Source Software
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-2 mx-6 md:mt-0">
+            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
+              Community
+            </h3>
+            <ul className="mt-1 list-none">
+              <li>
+                <Link href="https://www.force11.org/community-news" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    News
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.force11.org/community/members-directory"
+                  passHref
+                >
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Members Directory
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.force11.org/groups" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Groups (active)
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-2 mx-6 md:mt-0">
+            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
+              Contact Us
             </h3>
             <p className="text-sm text-gray-500 mt-2">
+              Force11
+              <br />
               Davis, CA 95618
               <br />
               United States
@@ -37,7 +189,6 @@ export default function Footer() {
                       <FontAwesomeIcon icon={faEnvelope} />
                     </a>
                   </Link>
-
                   <Link href="https://twitter.com/force11rescomm" passHref>
                     <a
                       href="dummy"
@@ -68,33 +219,6 @@ export default function Footer() {
                     </a>
                   </Link>
                 </div>
-              </li>
-            </ul>
-          </div>
-          <div className="mt-2 md:mt-0">
-            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              About
-            </h3>
-            <ul className="mt-1 list-none">
-              <li>
-                <Link href="/team" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                  >
-                    Upstream Team
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/open-source" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                  >
-                    Open Source Software
-                  </a>
-                </Link>
               </li>
             </ul>
           </div>
