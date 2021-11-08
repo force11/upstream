@@ -173,7 +173,6 @@ const Post = (props) => {
               Creative Commons Attribution 4.0 License.
             </a>
           </div>
-          <DiscourseForum post={props.post} />
         </div>
       </div>
       <RecommendedPosts posts={props.recommendedPosts} />
