@@ -24,7 +24,7 @@ import {
 } from "../../lib/posts";
 import Byline from "../../components/Byline";
 import { sanitizeDescription, uuid2base32 } from "../../lib/helpers";
-import DiscourseForum from "../../lib/discourse-forum.js";
+// import DiscourseForum from "../../lib/discourse-forum.js";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await getAllPosts();
@@ -57,7 +57,9 @@ export async function getStaticProps(context) {
 const Post = (props) => {
   if (!props.post) return <div>Not found</div>;
 
-  const pid = process.env.NEXT_PUBLIC_PREFIX + "/" + uuid2base32(props.post.id);
+  const pid = process.env.NEXT_PUBLIC_PREFIX
+    ? process.env.NEXT_PUBLIC_PREFIX + "/" + uuid2base32(props.post.id)
+    : null;
   const description = sanitizeDescription(props.post.html);
 
   return (
@@ -65,7 +67,12 @@ const Post = (props) => {
       <Head>
         <title>{props.post.title}</title>
 
-        <meta name="DC.identifier" content={pid} />
+        {pid && (
+          <>
+            <meta name="DC.identifier" content={pid} />
+            <meta name="citation_doi" content={pid} />
+          </>
+        )}
         <meta
           name="DC.rights"
           content="https://creativecommons.org/licenses/by/4.0/legalcode"
@@ -152,7 +159,9 @@ const Post = (props) => {
             published={parseISO(props.post.published_at)}
             readingTime={props.post.reading_time}
             readabilityScore={readabilityScore(props.post.html)}
-            doi={"https://doi.org/" + pid}
+            doi={
+              process.env.NEXT_PUBLIC_PREFIX ? "https://doi.org/" + pid : null
+            }
           />
           <div className="text-lg">{ReactHtmlParser(props.post.html)}</div>
           <div

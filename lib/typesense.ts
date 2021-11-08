@@ -62,7 +62,9 @@ export async function refreshIndex() {
       schemaOrg: {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "@id": "https://upstream.force11.org/" + id,
+        "@id": process.env.NEXT_PUBLIC_PREFIX
+          ? "https://doi.org/" + process.env.NEXT_PUBLIC_PREFIX + id
+          : "https://upstream.force11.org/" + id,
         url: "https://upstream.force11.org/posts/" + post.slug,
         name: post.title,
         headline: post.title,
@@ -154,7 +156,7 @@ export async function updateSchema() {
       },
       {
         name: "readabilityScore",
-        type: "int32",
+        type: "float",
         facet: true,
       },
       {
