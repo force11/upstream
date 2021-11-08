@@ -63,6 +63,13 @@ export default function Navbar({ tags, tag }) {
                 >
                   'About'
                 </a>
+                <a
+                  key="Author Guidelines"
+                  href="/pages/author-guidelines"
+                  className="text-blue-400 border-b-0 hover:border-b hover:border-blue-400"
+                >
+                  'Author Guidelines'
+                </a>
               </nav>
               <div className="relative z-10 flex items-center lg:hidden">
                 {/* Mobile menu button */}
