@@ -114,7 +114,11 @@ const Page = (props) => {
           <div className="flex flex-row pt-2 pb-4">
             <div className="">
               <div className="font-bold font-sans uppercase text-sm">
-                Upstream Team
+                <Link href={"/team"} passHref>
+                  <span className="border-b-0 hover:border-b hover:border-blue-400 cursor-pointer">
+                    Upstream Team
+                  </span>
+                </Link>
               </div>
               <div className="font-sans text-sm text-gray-600">
                 Last updated{" "}
@@ -136,7 +140,12 @@ const Page = (props) => {
               <FontAwesomeIcon icon={faCreativeCommonsBy} />
             </span>
             Copyright © {parseISO(props.page.published_at).getFullYear()}{" "}
-            Upstream Team. Distributed under the terms of the{" "}
+            <Link href={"/team"} passHref>
+              <span className="border-b-0 hover:border-b hover:border-blue-400 cursor-pointer">
+                Upstream Team
+              </span>
+            </Link>
+            . Distributed under the terms of the{" "}
             <a
               className="border-b-0"
               href="https://creativecommons.org/licenses/by/4.0/legalcode"
