@@ -39,7 +39,7 @@ export default function OpenSource() {
 
           <div className="relative">
             <dt>
-              <Link href="https://github.com/TryGhost/Ghost" passHref>
+              <Link href="https://github.com/discourse/discourse" passHref>
                 <a
                   href="dummy"
                   className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
