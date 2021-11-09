@@ -136,7 +136,7 @@ const Post = (props) => {
       <div className="container mx-4 md:mx-auto px-6 py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
           {props.post.tags && (
-            <p className="text-sm font-medium uppercase font-sans mb-0 text-blue-400">
+            <p className="text-sm font-medium uppercase font-sans mb-0 text-force-blue">
               {props.post.tags.map((tag, index) => (
                 <>
                   <Link
@@ -144,7 +144,7 @@ const Post = (props) => {
                     href={`/categories/${tag.slug}`}
                     passHref
                   >
-                    <span className="border-b-0 hover:border-b hover:border-blue-400 cursor-pointer">
+                    <span className="border-b-0 hover:border-b hover:border-force-blue cursor-pointer">
                       {tag.name}
                     </span>
                   </Link>
@@ -153,7 +153,7 @@ const Post = (props) => {
               ))}
             </p>
           )}
-          <h1 className="mt-0 mb-2 text-blue-400">{props.post.title}</h1>
+          <h1 className="mt-0 mb-2 text-force-blue">{props.post.title}</h1>
           <Byline
             authors={props.post.authors}
             published={parseISO(props.post.published_at)}

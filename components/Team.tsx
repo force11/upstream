@@ -28,7 +28,7 @@ export default function Team() {
       <div className="container flex mx-auto py-12 px-16 max-w-7xl sm:px-6 lg:px-16">
         <div className="space-y-12 lg:grid lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-extrabold text-blue-400">
+            <h2 className="text-3xl font-extrabold text-force-blue">
               Upstream Team
             </h2>
             <p className="text-xl text-gray-500">
@@ -53,7 +53,7 @@ export default function Team() {
                       <div className="space-y-4">
                         <div className="text-lg leading-6 font-medium space-y-1">
                           <h3>{person.name}</h3>
-                          <p className="text-blue-400 font-sans">
+                          <p className="text-force-blue font-sans">
                             {person.role}
                           </p>
                         </div>

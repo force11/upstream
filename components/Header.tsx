@@ -22,7 +22,7 @@ export default function Navbar({ tags, tag }) {
               <div className="relative z-10 px-2 flex lg:px-0">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/" passHref>
-                    <a href="dummy" className="text-blue-400 border-b-0 flex">
+                    <a href="dummy" className="text-force-blue border-b-0 flex">
                       <Image
                         className="block lg:hidden h-8 w-auto"
                         src={logo}
@@ -66,14 +66,14 @@ export default function Navbar({ tags, tag }) {
                 <a
                   key="About"
                   href="/pages/about"
-                  className="text-blue-400 border-b-0 hover:border-b hover:border-blue-400"
+                  className="text-force-blue border-b-0 hover:border-b hover:border-force-blue"
                 >
                   'About'
                 </a>
                 <a
                   key="Author Guidelines"
                   href="/pages/author-guidelines"
-                  className="text-blue-400 border-b-0 hover:border-b hover:border-blue-400"
+                  className="text-force-blue border-b-0 hover:border-b hover:border-force-blue"
                 >
                   'Author Guidelines'
                 </a>

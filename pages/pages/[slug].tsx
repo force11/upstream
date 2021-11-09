@@ -110,12 +110,12 @@ const Page = (props) => {
       <Header tags={[]} tag={{}} />
       <div className="container mx-4 md:mx-auto px-6 py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
-          <h1 className="mt-0 mb-2 text-blue-400">{props.page.title}</h1>
+          <h1 className="mt-0 mb-2 text-force-blue">{props.page.title}</h1>
           <div className="flex flex-row pt-2 pb-4">
             <div className="">
               <div className="font-bold font-sans uppercase text-sm">
                 <Link href={"/team"} passHref>
-                  <span className="border-b-0 hover:border-b hover:border-blue-400 cursor-pointer">
+                  <span className="border-b-0 hover:border-b hover:border-force-blue cursor-pointer">
                     Upstream Team
                   </span>
                 </Link>
@@ -141,7 +141,7 @@ const Page = (props) => {
             </span>
             Copyright © {parseISO(props.page.published_at).getFullYear()}{" "}
             <Link href={"/team"} passHref>
-              <span className="border-b-0 hover:border-b hover:border-blue-400 cursor-pointer">
+              <span className="border-b-0 hover:border-b hover:border-force-blue cursor-pointer">
                 Upstream Team
               </span>
             </Link>

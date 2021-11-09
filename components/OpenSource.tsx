@@ -6,7 +6,7 @@ export default function OpenSource() {
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold text-blue-400">
+          <h2 className="text-3xl font-extrabold text-force-blue">
             Upstream software
           </h2>
           <p className="mt-4 text-lg text-gray-500">
@@ -20,7 +20,7 @@ export default function OpenSource() {
               <Link href="https://github.com/TryGhost/Ghost" passHref>
                 <a
                   href="dummy"
-                  className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -42,7 +42,7 @@ export default function OpenSource() {
               <Link href="https://github.com/discourse/discourse" passHref>
                 <a
                   href="dummy"
-                  className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -64,7 +64,7 @@ export default function OpenSource() {
               <Link href="https://github.com/vercel/next.js/" passHref>
                 <a
                   href="dummy"
-                  className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -86,7 +86,7 @@ export default function OpenSource() {
               <Link href="https://github.com/jgm/pandoc" passHref>
                 <a
                   href="dummy"
-                  className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -111,7 +111,7 @@ export default function OpenSource() {
               >
                 <a
                   href="dummy"
-                  className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -133,7 +133,7 @@ export default function OpenSource() {
               <Link href="https://github.com/typesense/typesense" passHref>
                 <a
                   href="dummy"
-                  className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -155,7 +155,7 @@ export default function OpenSource() {
               <Link href="https://github.com/plausible/hosting" passHref>
                 <a
                   href="dummy"
-                  className="ml-9 text-xl leading-6 font-bold font-sans text-blue-400 border-b-0"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
