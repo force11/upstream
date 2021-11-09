@@ -173,7 +173,7 @@ export default function OpenSource() {
           </div>
         </dl>
         <div className="max-w-7xl ml-8 mt-4 text-lg text-gray-500">
-          The upstream source code is available at{" "}
+          The upstream source code is openly available at{" "}
           <Link href="https://github.com/force11/upstream" passHref>
             <a
               href="dummy"
@@ -183,8 +183,8 @@ export default function OpenSource() {
             >
               https://github.com/force11/upstream
             </a>
-          </Link>
-          .
+          </Link>{" "}
+          under an MIT license.
         </div>
       </div>
     </div>
