@@ -7,7 +7,7 @@ export default function OpenSource() {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-blue-400">
-            Open source software
+            Upstream software
           </h2>
           <p className="mt-4 text-lg text-gray-500">
             Upstream is built with open source software, including the following

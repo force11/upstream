@@ -37,6 +37,8 @@ export default function Tag({ posts, tag, pagination }) {
     next: data.page < pages ? data.page + 1 : null,
   };
 
+  console.log(posts[0]);
+
   return (
     <>
       <div className="relative bg-gray-50 pt-8 pb-8 px-4 sm:px-6 lg:pt-16 lg:pb-16 lg:px-8">

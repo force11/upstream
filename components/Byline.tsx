@@ -33,9 +33,8 @@ const Byline: React.FunctionComponent<Props> = ({
             month: "long",
             day: "numeric",
           })}{" "}
-          {readingTime && "&bull; " + { readingTime } + " min read"}
-          {readabilityScore &&
-            "&bull; readability score " + readabilityScore.toFixed(1)}
+          &bull; {readingTime} min read &bull; readability score{" "}
+          {readabilityScore.toFixed(1)}
           {doi && (
             <>
               {" "}

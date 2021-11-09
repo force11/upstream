@@ -48,18 +48,12 @@ const Page = (props) => {
     ? process.env.NEXT_PUBLIC_PREFIX + "/" + uuid2base32(props.page.id)
     : null;
   const description = sanitizeDescription(props.page.html);
-
+  console.log(props.page.updated_at);
   return (
     <>
       <Head>
         <title>{props.page.title}</title>
 
-        {pid && (
-          <>
-            <meta name="DC.identifier" content={pid} />
-            <meta name="citation_doi" content={pid} />
-          </>
-        )}
         <meta
           name="DC.rights"
           content="https://creativecommons.org/licenses/by/4.0/legalcode"
@@ -117,13 +111,21 @@ const Page = (props) => {
       <div className="container mx-4 md:mx-auto px-6 py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
           <h1 className="mt-0 mb-2 text-blue-400">{props.page.title}</h1>
-          <Byline
-            authors={props.page.authors}
-            published={parseISO(props.page.published_at)}
-            readingTime={null}
-            readabilityScore={null}
-            doi={null}
-          />
+          <div className="flex flex-row pt-2 pb-4">
+            <div className="">
+              <div className="font-bold font-sans uppercase text-sm">
+                Upstream Team
+              </div>
+              <div className="font-sans text-sm text-gray-600">
+                Last updated{" "}
+                {parseISO(props.page.updated_at).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </div>
+            </div>
+          </div>
           <div className="text-lg">{ReactHtmlParser(props.page.html)}</div>
           <div
             className="text-base leading-snug text-gray-600 py-1 font-sans"
@@ -134,8 +136,7 @@ const Page = (props) => {
               <FontAwesomeIcon icon={faCreativeCommonsBy} />
             </span>
             Copyright © {parseISO(props.page.published_at).getFullYear()}{" "}
-            {props.page.authors.map((author) => author.name).join(", ")}.
-            Distributed under the terms of the{" "}
+            Upstream Team. Distributed under the terms of the{" "}
             <a
               className="border-b-0"
               href="https://creativecommons.org/licenses/by/4.0/legalcode"

@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="mt-8 w-full grid grid-cols-4 gap-8 xl:mt-0">
           <div className="mt-2 mx-6 ml-10 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              About Force11
+              Force11
             </h3>
             <ul className="mt-1 list-none">
               <li>
@@ -26,6 +26,8 @@ export default function Footer() {
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Overview
                   </a>
@@ -36,6 +38,8 @@ export default function Footer() {
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Manifesto
                   </a>
@@ -49,6 +53,8 @@ export default function Footer() {
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Guiding Principles
                   </a>
@@ -62,6 +68,8 @@ export default function Footer() {
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Endorsement Policy
                   </a>
@@ -72,6 +80,8 @@ export default function Footer() {
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Sustainability Plan
                   </a>
@@ -81,7 +91,7 @@ export default function Footer() {
           </div>
           <div className="mt-2 mx-6 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              About Upstream
+              Upstream
             </h3>
             <ul className="mt-1 list-none">
               <li>
@@ -90,7 +100,7 @@ export default function Footer() {
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    Overview
+                    About
                   </a>
                 </Link>
               </li>
@@ -120,7 +130,7 @@ export default function Footer() {
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    Open Source Software
+                    Software
                   </a>
                 </Link>
               </li>
@@ -136,6 +146,8 @@ export default function Footer() {
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     News
                   </a>
@@ -149,6 +161,8 @@ export default function Footer() {
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Members Directory
                   </a>
