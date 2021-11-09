@@ -172,6 +172,20 @@ export default function OpenSource() {
             </dd>
           </div>
         </dl>
+        <div className="max-w-7xl ml-8 mt-4 text-lg text-gray-500">
+          The upstream source code is available at{" "}
+          <Link href="https://github.com/force11/upstream" passHref>
+            <a
+              href="dummy"
+              className="text-force-blue border-b-0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/force11/upstream
+            </a>
+          </Link>
+          .
+        </div>
       </div>
     </div>
   );
