@@ -59,7 +59,7 @@ const IndexPage = ({ posts, tags }) => {
           {...jsonLdScriptProps<Blog>({
             "@context": "https://schema.org",
             "@type": "Blog",
-            url: "https://upstream.force11.org/",
+            url: "https://upstream.front-matter.io/",
             name: "Upstream",
             issn: process.env.NEXT_PUBLIC_ISSN,
             publisher: { "@type": "Organization", name: "Force11" },
