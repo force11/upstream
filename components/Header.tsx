@@ -37,7 +37,7 @@ export default function Navbar({ tags, tag }) {
                   </Link>
                 </div>
               </div>
-              <div className="relative z-0 flex-1 px-2 flex items-center justify-center sm:absolute sm:inset-0">
+              {/*<div className="relative z-0 flex-1 px-2 flex items-center justify-center sm:absolute sm:inset-0">
                 <div className="w-full sm:max-w-xs">
                   <label htmlFor="search" className="sr-only">
                     Search
@@ -58,25 +58,29 @@ export default function Navbar({ tags, tag }) {
                     />
                   </div>
                 </div>
-              </div>
+              </div> */}
               <nav
                 className="py-6 space-x-6 font-semibold lg:block"
                 aria-label="Global"
               >
-                <a
-                  key="About"
-                  href="/pages/about"
-                  className="text-force-blue border-b-0 hover:border-b hover:border-force-blue"
-                >
-                  'About'
-                </a>
-                <a
-                  key="Author Guidelines"
-                  href="/pages/author-guidelines"
-                  className="text-force-blue border-b-0 hover:border-b hover:border-force-blue"
-                >
-                  'Author Guidelines'
-                </a>
+                <Link href="/pages/about" passHref>
+                  <a
+                    key="About"
+                    href="dummy"
+                    className="text-force-blue border-b-0"
+                  >
+                    About
+                  </a>
+                </Link>
+                <Link href="/pages/author-guidelines" passHref>
+                  <a
+                    key="Author Guidelines"
+                    href="dummy"
+                    className="text-force-blue border-b-0"
+                  >
+                    Author Guidelines
+                  </a>
+                </Link>
               </nav>
               <div className="relative z-10 flex items-center lg:hidden">
                 {/* Mobile menu button */}
