@@ -5,8 +5,8 @@ import { Disclosure } from "@headlessui/react";
 // import { SearchIcon } from '@heroicons/react/solid'
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
-// import Image from "next/image";
-// import logo from "../public/img/logo.svg";
+import Image from "next/image";
+import logo from "../public/img/force11.png";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -23,7 +23,14 @@ export default function Navbar({ tags, tag }) {
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/" passHref>
                     <a href="dummy" className="text-blue-400 border-b-0 flex">
-                      <span className="text-lg font-semibold font-sans pl-1 pt-1">
+                      <Image
+                        className="block lg:hidden h-8 w-auto"
+                        src={logo}
+                        alt="Upstream"
+                        height={63}
+                        width={78}
+                      />
+                      <span className="text-2xl font-semibold font-sans pl-1 pt-4">
                         Upstream
                       </span>
                     </a>
