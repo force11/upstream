@@ -79,7 +79,7 @@ export default function Team() {
                     <div className="aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2">
                       {person.imageUrl && (
                         <img
-                          className="object-cover shadow-lg rounded-lg"
+                          className="object-cover shadow-lg rounded-lg filter grayscale"
                           src={person.imageUrl}
                           alt=""
                         />
