@@ -48,7 +48,7 @@ const people = [
     role: "Technical Support",
     emailUrl: "mailto:martin@front-matter.io",
     orcidUrl: "https://orcid.org/0000-0003-1419-2405",
-    imageUrl: "/img/mfenner.png",
+    imageUrl: "/img/mfenner.jpeg",
     bio: "Martin in August 2021 launched the startup Front Matter, providing technical services for the scholarly community. Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He led the organizing committee for the Force2017 conference in Berlin. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology.",
     twitterUrl: "https://twitter.com/mfenner",
     githubUrl: "https://github.com/mfenner",
@@ -79,9 +79,9 @@ export default function Team() {
                     <div className="aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2">
                       {person.imageUrl && (
                         <img
-                          className="object-cover shadow-lg rounded-lg filter grayscale"
+                          className="object-cover shadow-lg rounded-lg"
                           src={person.imageUrl}
-                          alt=""
+                          alt={"image " + person.name}
                         />
                       )}
                     </div>
