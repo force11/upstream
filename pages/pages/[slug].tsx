@@ -116,7 +116,7 @@ const Page = (props) => {
               <div className="font-bold font-sans uppercase text-sm">
                 <Link href={"/team"} passHref>
                   <span className="border-b-0 hover:border-b hover:border-force-blue cursor-pointer">
-                    Upstream Team
+                    Team Upstream
                   </span>
                 </Link>
               </div>
@@ -142,7 +142,7 @@ const Page = (props) => {
             Copyright © {parseISO(props.page.published_at).getFullYear()}{" "}
             <Link href={"/team"} passHref>
               <span className="border-b-0 hover:border-b hover:border-force-blue cursor-pointer">
-                Upstream Team
+                Team Upstream
               </span>
             </Link>
             . Distributed under the terms of the{" "}

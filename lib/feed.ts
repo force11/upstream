@@ -16,7 +16,7 @@ export async function generateAtomFeed() {
       atom: "https://upstream.force11.org/feed.xml",
     },
     author: {
-      name: "The Upstream Team",
+      name: "Team Upstream",
       email: "upstream@force11.org",
     },
   });
