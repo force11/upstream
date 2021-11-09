@@ -1,9 +1,9 @@
-import React from 'react'
-import { fromUnixTime } from 'date-fns'
-import Byline from './Byline'
+import React from "react";
+import { fromUnixTime } from "date-fns";
+import Byline from "./Byline";
 
 export default function RecommendedPosts({ posts }) {
-  if (!posts) return null
+  if (!posts) return null;
 
   return (
     <>
@@ -41,10 +41,10 @@ export default function RecommendedPosts({ posts }) {
                   <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div className="flex-1">
                       <a
-                        href={'/posts/' + post.slug}
+                        href={"/posts/" + post.slug}
                         className="block mt-2 border-b-0"
                       >
-                        <p className="text-xl font-semibold font-sans text-gray-900">
+                        <p className="text-xl font-semibold font-sans text-force-blue">
                           {post.title}
                         </p>
                         <p className="mt-3 text-base text-gray-500">
@@ -69,5 +69,5 @@ export default function RecommendedPosts({ posts }) {
         </div>
       </div>
     </>
-  )
+  );
 }
