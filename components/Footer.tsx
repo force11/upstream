@@ -14,7 +14,7 @@ export default function Footer() {
       <h2 id="footerHeading" className="sr-only">
         Footer
       </h2>
-      <div className="container py-8 flex flex-auto items-center justify-between font-sans">
+      <div className="max-w-7xl mx-auto py-8 flex flex-auto items-center justify-between font-sans">
         <div className="mt-8 w-full grid grid-cols-4 gap-8 xl:mt-0">
           <div className="mt-2 mx-6 ml-10 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">

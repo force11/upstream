@@ -14,7 +14,7 @@ const people = [
     role: "Technical Support",
     emailUrl: "mailto:martin@front-matter.io",
     imageUrl: "/img/mfenner.png",
-    bio: "Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He was founding member of the Open Researcher and Contributor Identifier (ORCID) board from 2010 to 2012. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology.",
+    bio: "Martin in August 2021 launched the startup Front Matter, providing technical services for the scholarly community. Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He led the organizing committee for the Force2017 conference in Berlin. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology.",
     twitterUrl: "https://twitter.com/mfenner",
     githubUrl: "https://github.com/mfenner",
     linkedinUrl: "https://www.linkedin.com/in/mfenner",
@@ -33,7 +33,8 @@ export default function Team() {
             </h2>
             <p className="text-xl text-gray-500">
               The Upstream Team manages the Upstream blog for the Force11
-              community. Please contact us for inquiries or general questions.
+              community. Please contact us for inquiries, feedback or general
+              questions.
             </p>
           </div>
           <div className="lg:col-span-2">
@@ -96,7 +97,7 @@ export default function Team() {
                           <li>
                             <a
                               href={person.linkedinUrl}
-                              className="text-gray-400 hover:text-gray-500"
+                              className="text-gray-400 hover:text-gray-500 border-b-0"
                             >
                               <span className="sr-only">LinkedIn</span>
                               <FontAwesomeIcon icon={faLinkedin} />
