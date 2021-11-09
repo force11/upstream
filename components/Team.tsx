@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -78,10 +79,11 @@ export default function Team() {
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2">
                       {person.imageUrl && (
-                        <img
+                        <Image
                           className="object-cover shadow-lg rounded-lg"
                           src={person.imageUrl}
                           alt={"image " + person.name}
+                          layout="fill"
                         />
                       )}
                     </div>
