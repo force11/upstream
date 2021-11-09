@@ -15,7 +15,7 @@ const people = [
     role: "Coordination",
     emailUrl: "mailto:John.Chodacki@ucop.edu",
     orcidUrl: "https://orcid.org/0000-0002-7378-2408",
-    imageUrl: null,
+    imageUrl: "/img/chodacki_photo.jpg",
     bio: "John Chodacki is Director of the University of California Curation Center (UC3) at California Digital Library (CDL). As UC3 Director, John works across the UC campuses and the broader community to ensure that CDL’s digital curation services meet the emerging needs of the scholarly community – including digital preservation, persistent identifiers, data management, and data publishing. Prior to CDL, John oversaw product development activities at O’Reilly Media, VIZ Media, Zinio, Creative Edge, Safari Books Online, and PLOS. He currently serves on the board and/or steering committees of DataCite, FORCE11, ROR (Research Organization Registry), COUNTER, Collaborative Knowledge (Coko) Foundation, Metadata 20/20, The Carpentries, and OpenCitations.",
     twitterUrl: null,
     githubUrl: null,
