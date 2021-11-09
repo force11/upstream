@@ -91,6 +91,50 @@ export default function Footer() {
           </div>
           <div className="mt-2 mx-auto md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
+              Community
+            </h3>
+            <ul className="mt-1 list-none">
+              <li>
+                <Link href="https://www.force11.org/community-news" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    News
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.force11.org/community/members-directory"
+                  passHref
+                >
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Members Directory
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.force11.org/groups" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Groups (active)
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-2 mx-auto md:mt-0">
+            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
               Upstream
             </h3>
             <ul className="mt-1 list-none">
@@ -131,50 +175,6 @@ export default function Footer() {
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
                     Software
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="mt-2 mx-auto md:mt-0">
-            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              Community
-            </h3>
-            <ul className="mt-1 list-none">
-              <li>
-                <Link href="https://www.force11.org/community-news" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    News
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://www.force11.org/community/members-directory"
-                  passHref
-                >
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Members Directory
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="https://www.force11.org/groups" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                  >
-                    Groups (active)
                   </a>
                 </Link>
               </li>
