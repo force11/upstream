@@ -39,7 +39,7 @@ const IndexPage = ({ posts, tags }) => {
     name: "Upstream",
     description: "The Future of Research Communications",
     feature_image: "/img/hero.jpg",
-    accent_color: true,
+    accent_color: false,
     featured: true,
   };
 

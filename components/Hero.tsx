@@ -18,12 +18,6 @@ export default function Hero({ tag }) {
             alt=""
             layout="fill"
           />
-          // <div
-          //   className="absolute bg-cover inset-0"
-          //   style={{
-          //     backgroundImage: `url(${tag.feature_image})`
-          //   }}
-          // ></div>
         )}
 
         <div className="relative px-4 mt-48 pt-32 pb-8 sm:px-6 sm:py-24 lg:px-8 xl:pt-60 xl:pb-16 justify-center">
