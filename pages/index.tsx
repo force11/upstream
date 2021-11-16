@@ -37,7 +37,7 @@ export async function getStaticProps() {
 const IndexPage = ({ posts, tags }) => {
   const tag = {
     name: "Welcome to Upstream",
-    description: "The Place for Community Discussion on the Future of Open Research Communications",
+    description: "For Community Discussion on the Future of Open Research Communications",
     feature_image: "/img/hero.jpg",
     accent_color: false,
     featured: true,
