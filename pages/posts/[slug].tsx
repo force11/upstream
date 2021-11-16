@@ -184,7 +184,7 @@ const Post = (props) => {
           </div>
         </div>
       </div>
-      {props.recommendedPosts && (
+      {props.recommendedPosts.length > 0 && (
         <RecommendedPosts posts={props.recommendedPosts} />
       )}
       <Footer />
