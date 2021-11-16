@@ -178,6 +178,18 @@ export default function Footer() {
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href="https://plausible.io/upstream.force11.org" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Usage Stats
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="mt-2 mx-auto md:mt-0">
