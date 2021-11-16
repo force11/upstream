@@ -27,7 +27,7 @@ const people = [
     role: "Communications Support",
     emailUrl: "mailto:ghendricks@crossref.org",
     orcidUrl: "https://orcid.org/0000-0002-0353-2702",
-    imageUrl: null,
+    imageUrl: "/img/ghendricks.jpg",
     bio: "Since 2015, Ginny has been developing a community team at Crossref encompassing community engagement & comms, member experience, technical support, and metadata strategy. Before joining Crossref, she ran 'Ardent' for a decade, where she consulted within scholarly communications awareness and growth strategies, branding and launching online products, and building digital communities. She previously led Elsevier's launch of Scopus from 2003-2005, where she established content selection criteria, editorial advisory boards, citation analysis tools, and outreach programs. Most recently, she founded the Metadata 20/20 collaboration to advocate for richer, connected, reusable, and open metadata for the benefit of society, and she helps guide initiatives such as ROR. She's lived and worked in many parts of the world, has managed globally dispersed creative, technical, and commercial teams, and co-hosts the Scholarly Social networking events in London, UK.",
     twitterUrl: "https://twitter.com/ginnyldn",
     githubUrl: null,
