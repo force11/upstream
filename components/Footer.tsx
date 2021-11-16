@@ -215,7 +215,7 @@ export default function Footer() {
                       <FontAwesomeIcon icon={faEnvelope} />
                     </a>
                   </Link>
-                  <Link href="https://twitter.com/force11rescomm" passHref>
+                  <Link href="https://twitter.com/UpstreamBlog" passHref>
                     <a
                       href="dummy"
                       className="text-gray-500 hover:text-gray-400 border-b-0"
