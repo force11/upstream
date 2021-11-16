@@ -24,7 +24,7 @@ const people = [
   },
   {
     name: "Ginny Hendricks",
-    role: "Community & comms Support",
+    role: "Community & Comms Support",
     emailUrl: "mailto:ghendricks@crossref.org",
     orcidUrl: "https://orcid.org/0000-0002-0353-2702",
     imageUrl: "/img/ghendricks.jpg",
