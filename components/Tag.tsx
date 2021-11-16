@@ -82,7 +82,7 @@ export default function Tag({ posts, tag, pagination }) {
                     </div>
                     <div className="mt-0 flex items-center">
                       <Byline
-                        authors={[post.author]}
+                        authors={post.author}
                         published={fromUnixTime(post.published)}
                         doi={null}
                         readingTime={post.readingTime}
@@ -129,7 +129,7 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={[post.author]}
+                          authors={post.author}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -177,7 +177,7 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={[post.author]}
+                          authors={post.author}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -225,7 +225,7 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={[post.author]}
+                          authors={post.author}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -273,7 +273,7 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={[post.author]}
+                          authors={post.author}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -321,7 +321,7 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={[post.author]}
+                          authors={post.author}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -369,7 +369,7 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={[post.author]}
+                          authors={post.author}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}

@@ -1,9 +1,9 @@
 # *
 User-agent: *
-Disallow: /
+Allow: /
 
 # Host
-Host: https://upstream.force11.org
+Host: https://blog.front-matter.io
 
 # Sitemaps
-Sitemap: https://upstream.force11.org/sitemap.xml
+Sitemap: https://blog.front-matter.io/sitemap.xml
