@@ -184,7 +184,9 @@ const Post = (props) => {
           </div>
         </div>
       </div>
-      <RecommendedPosts posts={props.recommendedPosts} />
+      {props.recommendedPosts && (
+        <RecommendedPosts posts={props.recommendedPosts} />
+      )}
       <Footer />
     </>
   );
