@@ -81,6 +81,15 @@ export default function Navbar({ tags, tag }) {
                     Author Guidelines
                   </a>
                 </Link>
+                <Link href="/pages/upstream-community" passHref>
+                  <a
+                    key="Upstream Community"
+                    href="dummy"
+                    className="text-force-blue border-b-0"
+                  >
+                    Upstream Community
+                  </a>
+                </Link>
               </nav>
               <div className="relative z-10 flex items-center lg:hidden">
                 {/* Mobile menu button */}
