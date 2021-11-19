@@ -152,13 +152,6 @@ const Page = (props) => {
             >
               Creative Commons Attribution 4.0 License.
             </a>
-            This post follows the{" "}
-            <a
-              className="border-b-0 hover:border-b hover:border-force-blue"
-              href="https://www.force11.org/code-conduct"
-            >
-              Force11 Code of Conduct.
-            </a>
           </div>
         </div>
       </div>
