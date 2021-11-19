@@ -184,9 +184,9 @@ const Post = (props) => {
             This post follows the{" "}
             <a
               className="border-b-0 hover:border-b hover:border-force-blue"
-              href="https://www.force11.org/code-conduct"
+              href="/pages/code-of-conduct"
             >
-              Force11 Code of Conduct.
+              Upstream Code of Conduct.
             </a>
           </div>
           <DiscourseForum post={props.post} />

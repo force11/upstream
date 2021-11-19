@@ -90,6 +90,15 @@ export default function Navbar({ tags, tag }) {
                     Upstream Community
                   </a>
                 </Link>
+                <Link href="/pages/code-of-conduct" passHref>
+                  <a
+                    key="Code of Conduct"
+                    href="dummy"
+                    className="text-force-blue border-b-0"
+                  >
+                    Code of Conduct
+                  </a>
+                </Link>
               </nav>
               <div className="relative z-10 flex items-center lg:hidden">
                 {/* Mobile menu button */}
