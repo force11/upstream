@@ -98,6 +98,9 @@ const Post = (props) => {
 
         <meta name="og:title" content={props.post.title} />
         <meta name="og:description" content={description} />
+        {props.post.feature_image && (
+          <meta name="og:image" content={props.post.feature_image} />
+        )}
         <script
           type="application/ld+json"
           {...jsonLdScriptProps<BlogPosting>({
