@@ -173,7 +173,7 @@ const Post = (props) => {
             >
               Creative Commons Attribution 4.0 License.
             </a>{" "}
-            This post adheres to the{" "}
+            The authors adhere to the{" "}
             <a
               className="border-b-0 hover:border-b hover:border-force-blue"
               href="/pages/code-of-conduct"
