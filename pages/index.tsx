@@ -56,6 +56,10 @@ const IndexPage = ({ posts, tags }) => {
       <Head>
         <meta name="og:title" content="Upstream" />
         <meta
+          name="og:description"
+          content="Upstream is a new space for open enthusiasts to discuss open approaches to scholarly communication. Supported by FORCE11—though not a channel for its organizational news—this will be a global and inclusive blog and discussion space, bringing together diverse perspectives from all corners of scholarly communications from institutions to libraries to researchers to publishers to funders and policy-makers."
+        />
+        <meta
           name="og:image"
           content="https://upstream.force11.org/img/hero.jpg"
         />
