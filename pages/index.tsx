@@ -55,7 +55,10 @@ const IndexPage = ({ posts, tags }) => {
     <>
       <Head>
         <meta name="og:title" content="Upstream" />
-        <meta name="og:image" content="/img/hero.jpg" />
+        <meta
+          name="og:image"
+          content="https://upstream.force11.org/img/hero.jpg"
+        />
         <script
           type="application/ld+json"
           {...jsonLdScriptProps<Blog>({
