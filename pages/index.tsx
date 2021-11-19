@@ -54,6 +54,8 @@ const IndexPage = ({ posts, tags }) => {
   return (
     <>
       <Head>
+        <meta name="og:title" content="Upstream" />
+        <meta name="og:image" content="/img/hero.jpg" />
         <script
           type="application/ld+json"
           {...jsonLdScriptProps<Blog>({
