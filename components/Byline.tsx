@@ -33,13 +33,23 @@ const Byline: React.FunctionComponent<Props> = ({
             month: "long",
             day: "numeric",
           })}{" "}
-          &bull; {readingTime} min read &bull; readability score{" "}
-          {readabilityScore.toFixed(1)}
+          &bull; {readingTime} min read &bull;{" "}
+          <a
+            className="border-b-0 hover:border-b hover:border-force-blue"
+            href="https://blog.front-matter.io/posts/on-readability"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            readability score {readabilityScore.toFixed(1)}
+          </a>
           {doi && (
             <>
               {" "}
               &bull; <br />
-              <a className="border-b-0" href={doi}>
+              <a
+                className="border-b-0 hover:border-b hover:border-force-blue"
+                href={doi}
+              >
                 {doi}
               </a>
             </>

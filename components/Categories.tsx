@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 export default function Categories({ tags }) {
   return (
@@ -32,7 +32,7 @@ export default function Categories({ tags }) {
                       <Link href={`/categories/${tag.slug}`}>
                         <a
                           href="dummy"
-                          className="border-b-0 hover:border-b hover:border-green-600"
+                          className="border-b-0 hover:border-b hover:border-force-blue"
                         >
                           <h3>{tag.name}</h3>
                           <p className="font-light text-medium mt-1">
@@ -49,5 +49,5 @@ export default function Categories({ tags }) {
         </div>
       </div>
     </div>
-  )
+  );
 }

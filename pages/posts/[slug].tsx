@@ -136,7 +136,7 @@ const Post = (props) => {
       <div className="container mx-4 md:mx-auto px-6 py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
           {props.post.tags && (
-            <p className="text-sm font-medium uppercase font-sans mb-0">
+            <p className="text-sm uppercase font-sans font-bold mb-0">
               {props.post.tags.map((tag, index) => (
                 <>
                   {tag.name}
