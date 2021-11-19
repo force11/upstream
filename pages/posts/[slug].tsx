@@ -180,8 +180,8 @@ const Post = (props) => {
               href="https://creativecommons.org/licenses/by/4.0/legalcode"
             >
               Creative Commons Attribution 4.0 License.
-            </a>
-            This post follows the{" "}
+            </a>{" "}
+            This post adheres to the{" "}
             <a
               className="border-b-0 hover:border-b hover:border-force-blue"
               href="/pages/code-of-conduct"

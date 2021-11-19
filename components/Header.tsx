@@ -112,30 +112,7 @@ export default function Navbar({ tags, tag }) {
                 </Disclosure.Button>
               </div>
             </div>
-            {tags && tags.length > 0 && (
-              <nav
-                className="hidden py-2 space-x-6 lg:block"
-                aria-label="Global"
-              >
-                {tags.map((item) => (
-                  <a
-                    key={item.name}
-                    href={"/categories/" + item.slug}
-                    className={classNames(
-                      item.slug == tag.slug
-                        ? "text-gray-600 font-semibold"
-                        : "text-blue-400 border-b-0 hover:border-b hover:border-blue-400",
-                      "text-base font-medium border-b-0"
-                    )}
-                    aria-current={item.current ? "page" : undefined}
-                  >
-                    {item.name}
-                  </a>
-                ))}
-              </nav>
-            )}
           </div>
-
           <Disclosure.Panel as="nav" className="lg:hidden" aria-label="Global">
             {tags && (
               <div className="pt-2 pb-3 px-2 space-y-1">
