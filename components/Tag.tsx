@@ -80,7 +80,12 @@ export default function Tag({ posts, tag, pagination }) {
                     </div>
                     <div className="mt-0 flex items-center">
                       <Byline
-                        authors={post.authors}
+                        authors={post.authors.map((author, idx) => ({
+                          name: author,
+                          slug: post.author_ids[idx],
+                          website: null,
+                          profile_image: null,
+                        }))}
                         published={fromUnixTime(post.published)}
                         doi={null}
                         readingTime={post.readingTime}
@@ -127,7 +132,12 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.authors}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -175,7 +185,12 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.authors}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -223,7 +238,12 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.authors}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -271,7 +291,12 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.authors}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -319,7 +344,12 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.authors}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}
@@ -367,7 +397,12 @@ export default function Tag({ posts, tag, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.authors}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={null}
                           readingTime={post.readingTime}

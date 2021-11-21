@@ -1,6 +1,17 @@
 import React from "react";
 import { useState } from "react";
 import { fromUnixTime } from "date-fns";
+import Link from "next/link";
+import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faTwitter,
+  faLinkedin,
+  faOrcid,
+} from "@fortawesome/free-brands-svg-icons";
+
 import useSWR from "swr";
 import fetch from "unfetch";
 import Byline from "./Byline";
@@ -35,9 +46,32 @@ export default function Author({ posts, author, pagination }) {
     prev: data.page > 1 ? data.page - 1 : null,
     next: data.page < pages ? data.page + 1 : null,
   };
-
+  console.log(author);
   return (
     <>
+      <div className="bg-white">
+        <div className="container flex mx-auto py-12 px-16 max-w-7xl sm:px-6 lg:px-16">
+          <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+            <div className="aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2">
+              {author.profile_image && (
+                <Image
+                  className="object-cover shadow-lg rounded-lg"
+                  src={author.profile_image}
+                  alt={"image " + author.name}
+                  layout="fill"
+                />
+              )}
+            </div>
+            <div className="sm:col-span-2">
+              <div className="space-y-4">
+                <div className="text-lg leading-6 font-medium space-y-1">
+                  <h3>{author.name}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="relative bg-gray-50 pt-8 pb-8 px-4 sm:px-6 lg:pt-16 lg:pb-16 lg:px-8">
         <div className="container mx-auto flex flex-auto items-center justify-between">
           <div className="absolute inset-0">
@@ -79,7 +113,12 @@ export default function Author({ posts, author, pagination }) {
                     </div>
                     <div className="mt-0 flex items-center">
                       <Byline
-                        authors={Object.assign(post.author_ids, post.authors)}
+                        authors={post.authors.map((author, idx) => ({
+                          name: author,
+                          slug: post.author_ids[idx],
+                          website: null,
+                          profile_image: null,
+                        }))}
                         published={fromUnixTime(post.published)}
                         doi={null}
                         readingTime={post.readingTime}

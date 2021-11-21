@@ -22,11 +22,12 @@ const Byline: React.FunctionComponent<Props> = ({
   readingTime,
   readabilityScore,
 }) => {
+  console.log(authors);
   return (
     <div className="flex flex-row pt-2 pb-4">
       <div className="">
         <div className="font-bold font-sans uppercase text-sm">
-          {authors.map((author) => (
+          {authors.map((author, idx) => (
             <>
               <a
                 className="border-b-0 hover:border-b hover:border-force-blue"
@@ -34,7 +35,7 @@ const Byline: React.FunctionComponent<Props> = ({
               >
                 {author.name}
               </a>
-              {", "}
+              {idx + 1 < authors.length ? ", " : ""}
             </>
           ))}
         </div>

@@ -72,6 +72,15 @@ export default function Navbar({ tags, tag, author }) {
                     About
                   </a>
                 </Link>
+                <Link href="/authors" passHref>
+                  <a
+                    key="Authors"
+                    href="dummy"
+                    className="text-force-blue border-b-0"
+                  >
+                    Authors
+                  </a>
+                </Link>
                 <Link href="/pages/author-guidelines" passHref>
                   <a
                     key="Author Guidelines"

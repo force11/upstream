@@ -7,6 +7,7 @@ import {
 } from "../../lib/posts";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Author from "../../components/Author";
 import { GetStaticPaths } from "next";
 import { GetStaticProps } from "next";
 
@@ -40,9 +41,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
 };
 
 const AuthorPage = ({ posts, authors, author, pagination }) => {
+  console.log(posts);
   return (
     <>
       <Header tags={[]} tag={{}} author={author} />
+      <Author author={author} posts={posts} pagination={pagination} />
       <Footer />
     </>
   );

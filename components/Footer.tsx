@@ -139,26 +139,6 @@ export default function Footer() {
             </h3>
             <ul className="mt-1 list-none">
               <li>
-                <Link href="/pages/about" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                  >
-                    About
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/pages/author-guidelines" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                  >
-                    Author Guidelines
-                  </a>
-                </Link>
-              </li>
-              <li>
                 <Link href="/team" passHref>
                   <a
                     href="dummy"
