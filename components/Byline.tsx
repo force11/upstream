@@ -22,7 +22,6 @@ const Byline: React.FunctionComponent<Props> = ({
   readingTime,
   readabilityScore,
 }) => {
-  console.log(authors);
   return (
     <div className="flex flex-row pt-2 pb-4">
       <div className="">

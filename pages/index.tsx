@@ -77,7 +77,7 @@ const IndexPage = ({ posts, tags }) => {
           })}
         />
       </Head>
-      <Header tags={tags} tag={tag} author={{}} />
+      <Header tags={tags} tag={tag} />
       <Hero tag={tag} />
       <Tag posts={posts} tag={tag} pagination={pagination} />
       <Footer />

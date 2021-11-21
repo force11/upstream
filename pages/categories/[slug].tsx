@@ -43,7 +43,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 const CategoryPage = ({ posts, tags, tag, pagination }) => {
   return (
     <>
-      <Header tags={tags} tag={tag} author={{}} />
+      <Header tags={tags} tag={tag} />
       <Hero tag={tag} />
       <Tag posts={posts} tag={tag} pagination={pagination} />
       <Footer />

@@ -46,39 +46,65 @@ export default function Author({ posts, author, pagination }) {
     prev: data.page > 1 ? data.page - 1 : null,
     next: data.page < pages ? data.page + 1 : null,
   };
-  console.log(author);
+
   return (
     <>
-      <div className="bg-white">
-        <div className="container flex mx-auto py-12 px-16 max-w-7xl sm:px-6 lg:px-16">
-          <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+      <div className="bg-gray-100">
+        <div className="container flex mx-auto py-8 px-20 max-w-7xl sm:px-6 lg:px-20">
+          <div className="space-y-4 sm:space-y-0">
             <div className="aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2">
               {author.profile_image && (
                 <Image
-                  className="object-cover shadow-lg rounded-lg"
+                  className="mx-auto h-40 w-40 inline-block rounded-full xl:w-56 xl:h-56"
                   src={author.profile_image}
                   alt={"image " + author.name}
                   layout="fill"
                 />
               )}
             </div>
-            <div className="sm:col-span-2">
-              <div className="space-y-4">
-                <div className="text-lg leading-6 font-medium space-y-1">
-                  <h3>{author.name}</h3>
-                </div>
-              </div>
+
+            <div className="text-xl pt-2 leading-6 font-medium font-sans space-y-1">
+              <div>{author.name}</div>
             </div>
+
+            <ul className="flex space-x-5 mt-1 list-none">
+              {author.website && (
+                <li>
+                  <Link href={author.website} passHref>
+                    <a
+                      href="dummy"
+                      className="text-gray-500 hover:text-gray-400 border-b-0"
+                    >
+                      <span className="sr-only">ORCID</span>
+                      <FontAwesomeIcon icon={faOrcid} />
+                    </a>
+                  </Link>
+                </li>
+              )}
+              {author.twitter && (
+                <li>
+                  <Link href={"https://twitter.com/" + author.twitter} passHref>
+                    <a
+                      href="dummy"
+                      className="text-gray-500 hover:text-gray-400 border-b-0"
+                    >
+                      <span className="sr-only">Twitter</span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </a>
+                  </Link>
+                </li>
+              )}
+            </ul>
           </div>
         </div>
       </div>
-      <div className="relative bg-gray-50 pt-8 pb-8 px-4 sm:px-6 lg:pt-16 lg:pb-16 lg:px-8">
+      <div className="relative bg-gray-50 pt-8 pb-8 px-4 sm:px-6 lg:pt-4 lg:pb-8 lg:px-8">
         <div className="container mx-auto flex flex-auto items-center justify-between">
           <div className="absolute inset-0">
             <div className="bg-white h-1/3 sm:h-2/3"></div>
           </div>
           <div className="relative max-w-7xl mx-auto">
-            <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 lg:max-w-none">
+            <div className="max-w-lg mx-auto grid gap-5 grid-cols-1 lg:max-w-none">
               {posts.slice(0, 1).map((post) => (
                 <div
                   className="grid gap-5 lg:grid-cols-2 rounded-lg shadow-lg overflow-hidden"

@@ -41,10 +41,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
 };
 
 const AuthorPage = ({ posts, authors, author, pagination }) => {
-  console.log(posts);
   return (
     <>
-      <Header tags={[]} tag={{}} author={author} />
+      <Header tags={[]} tag={{}} />
       <Author author={author} posts={posts} pagination={pagination} />
       <Footer />
     </>
