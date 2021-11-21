@@ -12,7 +12,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar({ tags, tag }) {
+export default function Navbar({ tags, tag, author }) {
   return (
     <Disclosure as="header" className="bg-white shadow">
       {({ open }) => (

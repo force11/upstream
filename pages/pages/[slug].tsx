@@ -48,7 +48,7 @@ const Page = (props) => {
     ? process.env.NEXT_PUBLIC_PREFIX + "/" + uuid2base32(props.page.id)
     : null;
   const description = sanitizeDescription(props.page.html);
-  console.log(props.page.updated_at);
+
   return (
     <>
       <Head>
@@ -107,7 +107,7 @@ const Page = (props) => {
           })}
         />
       </Head>
-      <Header tags={[]} tag={{}} />
+      <Header tags={[]} tag={{}} author={{}} />
       <div className="container mx-4 md:mx-auto px-6 py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
           <h1 className="mt-0 mb-2 text-force-blue">{props.page.title}</h1>

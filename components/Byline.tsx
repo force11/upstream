@@ -9,6 +9,7 @@ type Props = {
 };
 
 interface Author {
+  slug: string;
   website: string;
   name: string;
   profile_image: string;
@@ -25,7 +26,17 @@ const Byline: React.FunctionComponent<Props> = ({
     <div className="flex flex-row pt-2 pb-4">
       <div className="">
         <div className="font-bold font-sans uppercase text-sm">
-          {authors.map((author) => author.name).join(", ")}
+          {authors.map((author) => (
+            <>
+              <a
+                className="border-b-0 hover:border-b hover:border-force-blue"
+                href={"/authors/" + author.slug}
+              >
+                {author.name}
+              </a>
+              {", "}
+            </>
+          ))}
         </div>
         <div className="font-sans text-sm text-gray-600">
           {published.toLocaleDateString("en-US", {

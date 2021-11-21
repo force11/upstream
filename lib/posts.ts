@@ -87,6 +87,29 @@ export async function getSingleTag(tagSlug) {
     });
 }
 
+export async function getAllAuthors() {
+  return api.authors
+    .browse({
+      limit: "all",
+      include: "count.posts",
+      order: "name asc",
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
+export async function getSingleAuthor(authorSlug) {
+  return api.authors
+    .read({
+      slug: authorSlug,
+      include: "count.posts",
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+}
+
 // Typesense integrations
 
 const client = new Client({
@@ -163,6 +186,40 @@ export async function getIndexedPostsByTag(
     .search({
       q: "*",
       filter_by: tag,
+      per_page: perPage ? perPage : 15,
+      page: page > 0 ? page : 1,
+    })
+    .then((posts) => {
+      const pages = Math.ceil(posts.found / (perPage ? perPage : 15));
+
+      return {
+        posts: posts.hits.map((hit) => hit.document),
+        meta: {
+          page: posts.page,
+          pages: pages,
+          total: posts.found,
+          prev: posts.page > 1 ? posts.page - 1 : null,
+          next: posts.page < pages ? posts.page + 1 : null,
+        },
+      };
+    })
+    .catch((err) => {
+      console.error(err);
+      return err;
+    });
+}
+
+export async function getIndexedPostsByAuthor(
+  author: string,
+  page?: number,
+  perPage?: number
+) {
+  return client
+    .collections("upstream")
+    .documents()
+    .search({
+      q: "*",
+      filter_by: author,
       per_page: perPage ? perPage : 15,
       page: page > 0 ? page : 1,
     })
