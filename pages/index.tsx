@@ -15,7 +15,7 @@ import { Blog } from "schema-dts";
 export async function getStaticProps() {
   const tags = await getAllTags();
   const posts = await getIndexedPosts("*");
-  console.log(posts);
+
   if (!posts.posts || !tags) {
     return {
       props: { notFound: true },
