@@ -1,6 +1,6 @@
 {
   "redirects": [{
-    "source": "posts/welcome-to-upstream-the-new-space-for-scholarly-community-discussion-on-all-things-open",
+    "source": "/posts/welcome-to-upstream-the-new-space-for-scholarly-community-discussion-on-all-things-open",
     "destination": "/posts/welcome-to-upstream"
   }]
 }
