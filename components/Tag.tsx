@@ -15,9 +15,7 @@ export default function Tag({ posts, tag, pagination }) {
   const [pageIndex, setPageIndex] = useState(1);
 
   // The API URL includes the page index, which is a React state.
-  // featured posts on the homepage are handled differently
-  const filter = tag.featured ? "featured:true" : "tags:" + tag.slug;
-  const query = `https://${process.env.NEXT_PUBLIC_TYPESENSE_HOST_0}/collections/upstream/documents/search/?q=*&filter_by=${filter}&sort_by=published:desc&per_page=15&page=${pageIndex}&x-typesense-api-key=${process.env.NEXT_PUBLIC_TYPESENSE_API_KEY}`;
+  const query = `https://${process.env.NEXT_PUBLIC_TYPESENSE_HOST_0}/collections/upstream/documents/search/?q=*&sort_by=published:desc&per_page=15&page=${pageIndex}&x-typesense-api-key=${process.env.NEXT_PUBLIC_TYPESENSE_API_KEY}`;
   const { data } = useSWR(query, fetcher);
 
   // ... handle loading and error states
@@ -39,7 +37,7 @@ export default function Tag({ posts, tag, pagination }) {
 
   return (
     <>
-      <div className="relative bg-gray-50 pt-8 pb-8 px-4 sm:px-6 lg:pt-16 lg:pb-16 lg:px-8">
+      <div className="relative bg-gray-50 pt-0 pb-8 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto flex flex-auto items-center justify-between">
           <div className="absolute inset-0">
             <div className="bg-white h-1/3 sm:h-2/3"></div>

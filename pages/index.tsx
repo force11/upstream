@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { jsonLdScriptProps } from "react-schemaorg";
-import { getAllTags, getIndexedPostsByTag } from "../lib/posts";
+import { getAllTags, getIndexedPosts } from "../lib/posts";
 import { generateAtomFeed } from "../lib/feed";
 // import { generateEpub, generatePdf, generateJats } from '../lib/pandoc'
 import { refreshIndex } from "../lib/typesense";
@@ -14,8 +14,8 @@ import { Blog } from "schema-dts";
 
 export async function getStaticProps() {
   const tags = await getAllTags();
-  const posts = await getIndexedPostsByTag("featured:true");
-
+  const posts = await getIndexedPosts("*");
+  console.log(posts);
   if (!posts.posts || !tags) {
     return {
       props: { notFound: true },
