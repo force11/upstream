@@ -7,7 +7,7 @@ export default function Hero({ tag }) {
       <div className="shadow-xl sm:rounded-2xl sm:overflow-hidden">
         {tag && tag.feature_image && (
           <Image
-            className="absolute bg-cover inset-0"
+            className="absolute object-cover bg-cover inset-0"
             src={
               tag.feature_image
                 ? tag.feature_image

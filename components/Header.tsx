@@ -2,7 +2,7 @@ import React, { createElement, Fragment, useEffect, useRef } from "react";
 import { render } from "react-dom";
 import { autocomplete } from "@algolia/autocomplete-js";
 import { Disclosure } from "@headlessui/react";
-import { SearchIcon } from "@heroicons/react/solid";
+// import { SearchIcon } from "@heroicons/react/solid";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 import Image from "next/image";
@@ -24,7 +24,7 @@ export default function Navbar({ tags, tag }) {
                   <Link href="/" passHref>
                     <a href="dummy" className="text-force-blue border-b-0 flex">
                       <Image
-                        className="block lg:hidden h-8 w-auto"
+                        className="block h-8 w-auto"
                         src={logo}
                         alt="Upstream"
                         height={63}
