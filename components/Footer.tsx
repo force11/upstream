@@ -154,7 +154,7 @@ export default function Footer() {
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    Software
+                    Open Source Software
                   </a>
                 </Link>
               </li>

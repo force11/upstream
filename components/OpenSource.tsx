@@ -7,7 +7,7 @@ export default function OpenSource() {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-force-blue">
-            Upstream software
+            Upstream uses open source software
           </h2>
           <p className="mt-4 text-lg text-gray-500">
             Upstream is built with open source software, including the following
@@ -171,6 +171,28 @@ export default function OpenSource() {
               </p>
             </dd>
           </div>
+
+          <div className="relative">
+            <dt>
+              <Link href="https://github.com/tailwindlabs/tailwindcss" passHref>
+                <a
+                  href="dummy"
+                  className="ml-9 text-xl leading-6 font-bold font-sans text-force-blue border-b-0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tailwind CSS
+                </a>
+              </Link>
+            </dt>
+            <dd className="mt-0 ml-9 text-base text-gray-500">
+              A utility-first CSS framework for rapidly building custom user
+              interfaces.
+              <p className="mt-2 text-sm font-sans">
+                Original author Adam Wathan
+              </p>
+            </dd>
+          </div>
         </dl>
         <div className="max-w-7xl ml-8 mt-4 text-lg text-gray-500">
           The upstream source code is openly available at{" "}
@@ -184,7 +206,7 @@ export default function OpenSource() {
               https://github.com/force11/upstream
             </a>
           </Link>{" "}
-          under an MIT license.
+          under a MIT license.
         </div>
       </div>
     </div>
