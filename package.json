@@ -2,7 +2,7 @@
   "name": "upstream",
   "homepage": "https://upstream.force11.org",
   "version": "1.0.1",
-  "description": "Upstream is the frontend for the Force11 blog.",
+  "description": "Upstream is the frontend for the FORCE11 blog.",
   "repository": "https://github.com/force11/upstream",
   "license": "MIT",
   "dependencies": {

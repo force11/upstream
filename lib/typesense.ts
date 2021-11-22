@@ -79,7 +79,7 @@ export async function refreshIndex() {
           name: "Upstream",
           issn: process.env.NEXT_PUBLIC_ISSN,
         },
-        publisher: { "@type": "Organization", name: "Force11" },
+        publisher: { "@type": "Organization", name: "FORCE11" },
         keywords: post.tags
           ? post.tags.map((tag) => tag.name).join(", ")
           : null,

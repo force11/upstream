@@ -6,12 +6,12 @@ const fs = require("fs");
 export async function generateAtomFeed() {
   const feed = new Feed({
     title: "Upstream",
-    description: "Upstream is the blog for the Force11 organization.",
+    description: "Upstream is the blog for the FORCE11 organization.",
     id: "https://upstream.force11.org/",
     link: "https://upstream.force11.org/",
     language: "en",
     copyright:
-      "Copyright © 2021 Force11. Distributed under the terms of the Creative Commons Attribution 4.0 License.",
+      "Copyright © 2021 FORCE11. Distributed under the terms of the Creative Commons Attribution 4.0 License.",
     feedLinks: {
       atom: "https://upstream.force11.org/feed.xml",
     },

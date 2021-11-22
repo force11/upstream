@@ -68,7 +68,7 @@ const Page = (props) => {
             "en-US"
           )}
         />
-        <meta name="citation_journal_title" content="Force11" />
+        <meta name="citation_journal_title" content="FORCE11" />
         <meta name="citation_language" content="en" />
 
         <meta name="og:title" content={props.page.title} />
@@ -93,9 +93,9 @@ const Page = (props) => {
             },
             isPartOf: {
               "@type": "Blog",
-              name: "Force11",
+              name: "FORCE11",
             },
-            publisher: { "@type": "Organization", name: "Force11" },
+            publisher: { "@type": "Organization", name: "FORCE11" },
             keywords: props.page.tags
               ? props.page.tags.map((tag) => tag.slug).join(", ")
               : null,

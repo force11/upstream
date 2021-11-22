@@ -68,7 +68,7 @@ export default function Team() {
               Team Upstream
             </h2>
             <p className="text-xl text-gray-500">
-              Team Upstream manages the Upstream blog for the Force11 community.
+              Team Upstream manages the Upstream blog for the FORCE11 community.
               Please contact us for inquiries, feedback or general questions.
             </p>
           </div>

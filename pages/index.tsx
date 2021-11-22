@@ -71,7 +71,7 @@ const IndexPage = ({ posts, tags }) => {
             url: "https://upstream.force11.org/",
             name: "Upstream",
             issn: process.env.NEXT_PUBLIC_ISSN,
-            publisher: { "@type": "Organization", name: "Force11" },
+            publisher: { "@type": "Organization", name: "FORCE11" },
             inLanguage: "en",
             license: "https://creativecommons.org/licenses/by/4.0/legalcode",
           })}

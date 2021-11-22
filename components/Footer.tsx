@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="mt-8 w-full grid grid-cols-4 gap-8 xl:mt-0">
           <div className="mt-2 mx-auto md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              Force11
+              FORCE11
             </h3>
             <ul className="mt-1 list-none">
               <li>
@@ -177,7 +177,7 @@ export default function Footer() {
               Contact Us
             </h3>
             <p className="text-sm text-gray-500 mt-2">
-              Force11
+              FORCE11
               <br />
               Davis, CA 95618
               <br />
