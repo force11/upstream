@@ -109,7 +109,7 @@ export default function Navbar({ tags, tag }) {
                   </a>
                 </Link>
               </nav>
-              <div className="relative z-10 flex pt-3 lg:hidden">
+              <div className="relative z-10 flex py-3 lg:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="rounded-md p-2 inline-flex text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-force-blue">
                   <span className="sr-only">Open menu</span>
