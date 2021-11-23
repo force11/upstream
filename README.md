@@ -1,6 +1,6 @@
 # Bloggable
 
-A Next.js application that powers the FORCE11 Upstream blog, with a Ghost.org-powered backend editor, a Typesense full-text index, and comments via Discourse.
+A Next.js application that powers the FORCE11 Upstream blog, with a Ghost.org-powered backend editor, a Typesense full-text index.
 
 ## License
 
