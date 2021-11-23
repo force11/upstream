@@ -136,7 +136,7 @@ const Post = (props) => {
         />
       </Head>
       <Header tags={props.tags} tag={{}} />
-      <div className="container mx-6 md:mx-auto py-8 flex flex-wrap justify-center">
+      <div className="md:container mx-6 md:mx-auto py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
           {props.post.tags && (
             <p className="text-sm uppercase font-sans font-bold mb-0">
