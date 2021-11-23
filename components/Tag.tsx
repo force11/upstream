@@ -62,7 +62,7 @@ export default function Tag({ posts, tag, pagination }) {
                       alt=""
                     />
                   </div>
-                  <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                  <div className="flex-1 bg-white py-2 px-6 flex flex-col justify-between">
                     <div className="flex-1 ">
                       <a
                         href={"/posts/" + post.slug}
@@ -114,7 +114,7 @@ export default function Tag({ posts, tag, pagination }) {
                         alt=""
                       />
                     </div>
-                    <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                    <div className="flex-1 bg-white py-2 px-6 flex flex-col justify-between">
                       <div className="flex-1">
                         <a
                           href={"/posts/" + post.slug}
@@ -167,7 +167,7 @@ export default function Tag({ posts, tag, pagination }) {
                         alt=""
                       />
                     </div>
-                    <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                    <div className="flex-1 bg-white py-2 px-6 flex flex-col justify-between">
                       <div className="flex-1">
                         <a
                           href={"/posts/" + post.slug}
@@ -220,7 +220,7 @@ export default function Tag({ posts, tag, pagination }) {
                         alt=""
                       />
                     </div>
-                    <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                    <div className="flex-1 bg-white py-2 px-6 flex flex-col justify-between">
                       <div className="flex-1">
                         <a
                           href={"/posts/" + post.slug}
@@ -273,7 +273,7 @@ export default function Tag({ posts, tag, pagination }) {
                         alt=""
                       />
                     </div>
-                    <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                    <div className="flex-1 bg-white py-2 px-6 flex flex-col justify-between">
                       <div className="flex-1">
                         <a
                           href={"/posts/" + post.slug}
@@ -326,7 +326,7 @@ export default function Tag({ posts, tag, pagination }) {
                         alt=""
                       />
                     </div>
-                    <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                    <div className="flex-1 bg-white py-2 px-6 flex flex-col justify-between">
                       <div className="flex-1">
                         <a
                           href={"/posts/" + post.slug}
@@ -379,7 +379,7 @@ export default function Tag({ posts, tag, pagination }) {
                         alt=""
                       />
                     </div>
-                    <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                    <div className="flex-1 bg-white py-2 px-6 flex flex-col justify-between">
                       <div className="flex-1">
                         <a
                           href={"/posts/" + post.slug}
