@@ -61,7 +61,7 @@ const people = [
 export default function Team() {
   return (
     <div className="bg-white">
-      <div className="container flex mx-auto py-12 px-16 max-w-7xl sm:px-6 lg:px-16">
+      <div className="container flex mx-auto py-2 md:py-12 px-8 md:px-16 max-w-7xl sm:px-6 lg:px-16">
         <div className="space-y-12 lg:grid lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
             <h2 className="text-3xl font-extrabold text-force-blue">

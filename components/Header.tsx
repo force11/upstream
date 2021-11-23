@@ -60,14 +60,14 @@ export default function Navbar({ tags, tag }) {
                 </div>
               </div> */}
               <nav
-                className="py-6 space-x-6 font-semibold lg:block"
+                className="py-6 pl-14 lg:pl-0 space-x-2 lg:space-x-6 font-semibold lg:block"
                 aria-label="Global"
               >
                 <Link href="/pages/about" passHref>
                   <a
                     key="About"
                     href="dummy"
-                    className="text-force-blue border-b-0"
+                    className="text-force-blue border-b-0 invisible md:visible"
                   >
                     About
                   </a>
@@ -76,7 +76,7 @@ export default function Navbar({ tags, tag }) {
                   <a
                     key="Authors"
                     href="dummy"
-                    className="text-force-blue border-b-0"
+                    className="text-force-blue border-b-0 invisible md:visible"
                   >
                     Authors
                   </a>
@@ -85,7 +85,7 @@ export default function Navbar({ tags, tag }) {
                   <a
                     key="Author Guidelines"
                     href="dummy"
-                    className="text-force-blue border-b-0"
+                    className="text-force-blue border-b-0 invisible md:visible"
                   >
                     Author Guidelines
                   </a>
@@ -94,7 +94,7 @@ export default function Navbar({ tags, tag }) {
                   <a
                     key="Upstream Community"
                     href="dummy"
-                    className="text-force-blue border-b-0"
+                    className="text-force-blue border-b-0 invisible lg:visible"
                   >
                     Upstream Community
                   </a>
@@ -103,7 +103,7 @@ export default function Navbar({ tags, tag }) {
                   <a
                     key="Code of Conduct"
                     href="dummy"
-                    className="text-force-blue border-b-0"
+                    className="text-force-blue border-b-0 invisible lg:visible"
                   >
                     Code of Conduct
                   </a>
@@ -123,25 +123,65 @@ export default function Navbar({ tags, tag }) {
             </div>
           </div>
           <Disclosure.Panel as="nav" className="lg:hidden" aria-label="Global">
-            {tags && (
-              <div className="pt-2 pb-3 px-2 space-y-1">
-                {tags.map((item) => (
-                  <a
-                    key={item.name}
-                    href={"/categories/" + item.slug}
-                    className={classNames(
-                      item.slug == tag.slug
-                        ? "text-gray-600 font-semibold"
-                        : "text-blue-400 hover:text-green-500",
-                      "block py-2 px-3 text-base font-medium border-b-0"
-                    )}
-                    aria-current={item.current ? "page" : undefined}
-                  >
-                    {item.name}
-                  </a>
-                ))}
-              </div>
-            )}
+            <div className="pt-2 pb-3 px-6 space-y-1">
+              <ul className="mt-1 list-none">
+                <li>
+                  <Link href="/pages/about" passHref>
+                    <a
+                      key="About"
+                      href="dummy"
+                      className="text-force-blue border-b-0 md:hidden"
+                    >
+                      About
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/authors" passHref>
+                    <a
+                      key="Authors"
+                      href="dummy"
+                      className="text-force-blue border-b-0 md:hidden"
+                    >
+                      Authors
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pages/author-guidelines" passHref>
+                    <a
+                      key="Author Guidelines"
+                      href="dummy"
+                      className="text-force-blue border-b-0 md:hidden"
+                    >
+                      Author Guidelines
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pages/upstream-community" passHref>
+                    <a
+                      key="Upstream Community"
+                      href="dummy"
+                      className="text-force-blue border-b-0 lg:hidden"
+                    >
+                      Upstream Community
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pages/code-of-conduct" passHref>
+                    <a
+                      key="Code of Conduct"
+                      href="dummy"
+                      className="text-force-blue border-b-0 lg:hidden"
+                    >
+                      Code of Conduct
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </Disclosure.Panel>
         </>
       )}
