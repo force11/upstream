@@ -43,7 +43,7 @@ export default function Tag({ posts, tag, pagination }) {
             <div className="bg-white h-1/3 sm:h-2/3"></div>
           </div>
           <div className="relative max-w-7xl mx-auto">
-            <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 lg:max-w-none">
+            <div className="mt-4 md:mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 lg:max-w-none">
               {posts.slice(0, 1).map((post) => (
                 <div
                   className="grid gap-5 lg:grid-cols-2 rounded-lg shadow-lg overflow-hidden"
@@ -51,7 +51,7 @@ export default function Tag({ posts, tag, pagination }) {
                 >
                   <div className="flex-shrink-0 bg-white py-6 px-6">
                     <img
-                      className="h-96 w-full object-contain object-left"
+                      className="w-full object-contain object-left"
                       src={
                         post.featureImage
                           ? post.featureImage
@@ -62,7 +62,7 @@ export default function Tag({ posts, tag, pagination }) {
                       alt=""
                     />
                   </div>
-                  <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                  <div className="flex-1 bg-white md:p-6 flex flex-col justify-between">
                     <div className="flex-1 ">
                       <a
                         href={"/posts/" + post.slug}

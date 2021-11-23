@@ -20,7 +20,7 @@ export default function Hero({ tag }) {
           />
         )}
 
-        <div className="relative px-4 mt-48 pt-32 pb-8 sm:px-6 sm:py-24 lg:px-8 xl:pt-60 xl:pb-16 justify-center">
+        <div className="relative px-4 md:mt-48 pt-32 pb-8 sm:px-6 sm:py-24 lg:px-8 xl:pt-60 xl:pb-16 justify-center">
           <h1 className="text-center text-4xl font-extrabold tracking-tight">
             <span
               className={

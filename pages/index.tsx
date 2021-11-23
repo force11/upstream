@@ -39,7 +39,7 @@ const IndexPage = ({ posts, tags }) => {
     name: "This is Upstream",
     description: "The community blog for all things open research",
     feature_image: "/img/hero.jpg",
-    accent_color: false,
+    accent_color: true,
     featured: true,
   };
 
