@@ -151,6 +151,13 @@ const Page = (props) => {
               href="https://creativecommons.org/licenses/by/4.0/legalcode"
             >
               Creative Commons Attribution 4.0 License.
+            </a>{" "}
+            Team Upstream adheres to the{" "}
+            <a
+              className="border-b-0 hover:border-b hover:border-force-blue"
+              href="/pages/code-of-conduct"
+            >
+              Upstream Code of Conduct.
             </a>
           </div>
         </div>
