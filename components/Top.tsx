@@ -10,8 +10,7 @@ export default function Top({ tag }) {
           src={tag.feature_image}
           alt="teaser image"
           objectFit="cover"
-          width={2042}
-          height={560}
+          layout="fill"
         />
         <div
           className="absolute inset-0 bg-force-blue mix-blend-multiply"
