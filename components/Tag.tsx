@@ -37,7 +37,7 @@ export default function Tag({ posts, tag, pagination }) {
 
   return (
     <>
-      <div className="relative bg-gray-50 pt-0 pb-8 px-4 sm:px-6 lg:px-8">
+      <div className="relative bg-gray-50 pt-0 pb-8 px-4 sm:px-6 lg:px-8 min-h-screen">
         <div className="container mx-auto flex flex-auto items-center justify-between">
           <div className="absolute inset-0">
             <div className="bg-white h-1/3 sm:h-2/3"></div>

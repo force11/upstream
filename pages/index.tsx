@@ -8,7 +8,7 @@ import { refreshIndex } from "../lib/typesense";
 // import { updateSchema } from "../lib/typesense";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Hero from "../components/Hero";
+import Top from "../components/Top";
 import Tag from "../components/Tag";
 import { Blog } from "schema-dts";
 
@@ -38,9 +38,7 @@ const IndexPage = ({ posts, tags }) => {
   const tag = {
     name: "This is Upstream",
     description: "The community blog for all things open research",
-    feature_image: "/img/hero.jpg",
-    accent_color: true,
-    featured: true,
+    feature_image: "/img/top.jpg",
   };
 
   const pagination = {
@@ -78,7 +76,7 @@ const IndexPage = ({ posts, tags }) => {
         />
       </Head>
       <Header tags={tags} tag={tag} />
-      <Hero tag={tag} />
+      <Top tag={tag} />
       <Tag posts={posts} tag={tag} pagination={pagination} />
       <Footer />
     </>
