@@ -10,7 +10,25 @@ import {
 
 export default function Footer() {
   const footerLinks = [
-    { name: "FORCE11" },
+    {
+      name: "FORCE11",
+      links: [
+        { name: "Overview", href: "https://www.force11.org/about" },
+        { name: "Manifesto", href: "https://www.force11.org/about/manifest" },
+        {
+          name: "Guiding Principles",
+          href: "https://www.force11.org/about/mission-and-guiding-principles",
+        },
+        {
+          name: "Endorsement Policy",
+          href: "https://www.force11.org/about/endorsement-policy",
+        },
+        {
+          name: "sustainability Plan",
+          href: "https://www.force11.org/about/support",
+        },
+      ],
+    },
     { name: "Community" },
     { name: "Upstream" },
     { name: "Contact Us" },
@@ -29,68 +47,62 @@ export default function Footer() {
             </h3>
             <ul className="mt-1 list-none">
               <li>
-                <Link href="https://www.force11.org/about" passHref>
+                <Link href={footerLinks[0]["links"][0]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Overview
+                    {footerLinks[0]["links"][0]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="https://www.force11.org/about/manifesto" passHref>
+                <Link href={footerLinks[0]["links"][1]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Manifesto
+                    {footerLinks[0]["links"][1]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://www.force11.org/about/mission-and-guiding-principles"
-                  passHref
-                >
+                <Link href={footerLinks[0]["links"][2]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Guiding Principles
+                    {footerLinks[0]["links"][2]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://www.force11.org/about/endorsement-policy"
-                  passHref
-                >
+                <Link href={footerLinks[0]["links"][3]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Endorsement Policy
+                    {footerLinks[0]["links"][3]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="https://www.force11.org/about/support" passHref>
+                <Link href={footerLinks[0]["links"][4]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Sustainability Plan
+                    {footerLinks[0]["links"][4]["name"]}
                   </a>
                 </Link>
               </li>
