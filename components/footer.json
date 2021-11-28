@@ -1,0 +1,61 @@
+[
+  {
+    name: "FORCE11",
+    links: [
+      {
+        name: "Overview",
+        href: "https://www.force11.org/about",
+      },
+      {
+        name: "Manifesto",
+        href: "https://www.force11.org/about/manifesto",
+      },
+      {
+        name: "Guiding Principles",
+        href: "https://www.force11.org/about/mission-and-guiding-principles",
+      },
+      {
+        name: "Endorsement Policy",
+        href: "https://www.force11.org/about/endorsement-policy",
+      },
+      {
+        name: "Sustainability Plan",
+        href: "https://www.force11.org/about/support",
+      },
+    ],
+  },
+  {
+    name: "Community",
+    links: [
+      {
+        name: "News",
+        href: "https://www.force11.org/community-news",
+      },
+      {
+        name: "Members Directory",
+        href: "https://www.force11.org/community/members-directory",
+      },
+      {
+        name: "Groups (active)",
+        href: "https://www.force11.org/groups",
+      },
+    ],
+  },
+  {
+    name: "Upstream",
+    links: [
+      {
+        name: "Team Upstream",
+        href: "/team",
+      },
+      {
+        name: "Open Source Software",
+        href: "/open-source",
+      },
+      {
+        name: "Usage Stats",
+        href: "https://plausible.io/upstream.force11.org",
+      },
+    ],
+  },
+];

@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "john",
+    "name": "John Chodacki",
+    "role": "Coordination",
+    "emailUrl": "mailto:John.Chodacki@ucop.edu",
+    "orcidUrl": "https://orcid.org/0000-0002-7378-2408",
+    "imageUrl": "/img/chodacki_photo.jpg",
+    "bio": "John Chodacki is Director of the University of California Curation \nCenter (UC3) at California Digital Library (CDL). As UC3 Director, \nJohn works across the UC campuses and the broader community to ensure \nthat CDL’s digital curation services meet the emerging needs of the \nscholarly community – including digital preservation, persistent \nidentifiers, data management, and data publishing. Prior to CDL, \nJohn oversaw product development activities at O’Reilly Media, \nVIZ Media, Zinio, Creative Edge, Safari Books Online, and PLOS. \nHe currently serves on the board and/or steering committees of\nDataCite, FORCE11, ROR (Research Organization Registry), COUNTER, \nCollaborative Knowledge (Coko) Foundation, Metadata 20/20, \nThe Carpentries, and OpenCitations.\n",
+    "twitterUrl": "https://twitter.com/Chodacki",
+    "linkedinUrl": "http://www.linkedin.com/in/johnchodacki/"
+  },
+  {
+    "slug": "ginny",
+    "name": "Ginny Hendricks",
+    "role": "Community & Comms Support",
+    "emailUrl": "mailto:ghendricks@crossref.org",
+    "orcidUrl": "https://orcid.org/0000-0002-0353-2702",
+    "imageUrl": "/img/ghendricks.jpg",
+    "bio": "Ginny has spent the last six years developing a team at Crossref \nencompassing community engagement & comms, member experience, \ntechnical support, and metadata strategy. Before joining Crossref, \nshe consulted within scholarly communications awareness and growth \nstrategies, branding and launching online products, and building \ndigital communities. She previously led Elsevier's launch of Scopus \nfrom 2003-2005, where she established content selection criteria, \neditorial advisory boards, citation analysis tools, and outreach \nprograms. Most recently, she founded the Metadata 20/20 collaboration \nto advocate for richer, connected, reusable, and open metadata for \nthe benefit of society, and she loves helping to guide initiatives \nsuch as ROR.\n",
+    "twitterUrl": "https://twitter.com/GinnyLDN"
+  },
+  {
+    "slug": "christine",
+    "name": "Christine Ferguson",
+    "role": "Editorial Support",
+    "emailUrl": "mailto:ferguson.cav@gmail.com",
+    "orcidUrl": "https://orcid.org/0000-0002-9317-6819",
+    "imageUrl": "/img/cferguson.jpeg",
+    "bio": "Trained lab biologist turned editor, Open Access journals and scholarly \ncommunications professional. Christine is a consultant and works with a \nrange of organizations promoting open research. She previously served \nas joint chief editor of the open access journal, PLOS Biology, and \nwas involved in open data management at the European Molecular Biology \nLaboratory. Christine holds a PhD from the University of Cape Town in \ncell biology.\n",
+    "twitterUrl": "https://twitter.com/ChrisVFerg",
+    "linkedinUrl": "https://www.linkedin.com/in/christine-ferguson-344b364/"
+  },
+  {
+    "slug": "mfenner",
+    "name": "Martin Fenner",
+    "role": "Technical Support",
+    "emailUrl": "mailto:martin@front-matter.io",
+    "orcidUrl": "https://orcid.org/0000-0003-1419-2405",
+    "imageUrl": "/img/mfenner.jpeg",
+    "bio": "Martin in August 2021 launched the startup Front Matter, providing \ntechnical services for the scholarly community. Martin was Technical \nDirector of the DOI registration agency DataCite from August 2015 to \nJuly 2021, and technical lead for the article-level metrics project at \nOpen Access publisher PLOS from May 2012 until July 2015. He led the \norganizing committee for the Force2017 conference in Berlin. Martin \nhas studied Medicine at the Free University Berlin and is \nboard-certified in internal medicine and oncology.\n",
+    "twitterUrl": "https://twitter.com/mfenner",
+    "githubUrl": "https://github.com/mfenner",
+    "linkedinUrl": "https://www.linkedin.com/in/mfenner"
+  }
+]

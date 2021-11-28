@@ -1,0 +1,27 @@
+[
+  {
+    "name": "About",
+    "href": "/pages/about",
+    "className": "md:visible"
+  },
+  {
+    "name": "Authors",
+    "href": "/authors",
+    "className": "md:visible"
+  },
+  {
+    "name": "Author Guidelines",
+    "href": "/pages/author-guidelines",
+    "className": "md:visible"
+  },
+  {
+    "name": "Upstream Community",
+    "href": "/pages/upstream-community",
+    "className": "lg:visible"
+  },
+  {
+    "name": "Code of Conduct",
+    "href": "/pages/code-of-conduct",
+    "className": "lg:visible"
+  }
+]

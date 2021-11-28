@@ -6,8 +6,10 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../public/img/force11.png";
-import headerLinks from "../header.yml";
+import Logo from "../public/img/force11.png";
+
+// ToDo import yaml
+import HeaderLinks from "../header.json";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -26,7 +28,7 @@ export default function Navbar({ tags, tag }) {
                     <a href="dummy" className="text-force-blue border-b-0 flex">
                       <Image
                         className="block h-8 w-auto"
-                        src={logo}
+                        src={Logo}
                         alt="Upstream"
                         height={63}
                         width={78}
@@ -67,14 +69,15 @@ export default function Navbar({ tags, tag }) {
                 className="py-6 pl-0 md:pl-14 lg:pl-0 space-x-2 lg:space-x-6 font-semibold block"
                 aria-label="Global"
               >
-                {headerLinks.map((headerLink) => (
+                {HeaderLinks.map((headerLink) => (
                   <>
                     <Link href={headerLink.href} passHref>
                       <a
                         key={headerLink.name}
                         href="dummy"
                         className={
-                          "text-force-blue border-b-0 " + headerLink.className
+                          "text-force-blue border-b-0 invisible " +
+                          headerLink.className
                         }
                       >
                         {headerLink.name}

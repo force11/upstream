@@ -3,7 +3,9 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRss, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import footerLinks from "../footer.yml";
+
+// ToDo turn into yaml
+import FooterLinks from "../footer.json";
 
 export default function Footer() {
   return (
@@ -15,66 +17,66 @@ export default function Footer() {
         <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-8 xl:mt-0">
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              {footerLinks[0]["name"]}
+              {FooterLinks[0]["name"]}
             </h3>
             <ul className="mt-1 list-none">
               <li>
-                <Link href={footerLinks[0]["links"][0]["href"]} passHref>
+                <Link href={FooterLinks[0]["links"][0]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[0]["links"][0]["name"]}
+                    {FooterLinks[0]["links"][0]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[0]["links"][1]["href"]} passHref>
+                <Link href={FooterLinks[0]["links"][1]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[0]["links"][1]["name"]}
+                    {FooterLinks[0]["links"][1]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[0]["links"][2]["href"]} passHref>
+                <Link href={FooterLinks[0]["links"][2]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[0]["links"][2]["name"]}
+                    {FooterLinks[0]["links"][2]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[0]["links"][3]["href"]} passHref>
+                <Link href={FooterLinks[0]["links"][3]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[0]["links"][3]["name"]}
+                    {FooterLinks[0]["links"][3]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[0]["links"][4]["href"]} passHref>
+                <Link href={FooterLinks[0]["links"][4]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[0]["links"][4]["name"]}
+                    {FooterLinks[0]["links"][4]["name"]}
                   </a>
                 </Link>
               </li>
@@ -82,40 +84,40 @@ export default function Footer() {
           </div>
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              {footerLinks[1]["name"]}
+              {FooterLinks[1]["name"]}
             </h3>
             <ul className="mt-1 list-none">
               <li>
-                <Link href={footerLinks[1]["links"][0]["href"]} passHref>
+                <Link href={FooterLinks[1]["links"][0]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[1]["links"][0]["name"]}
+                    {FooterLinks[1]["links"][0]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[1]["links"][1]["href"]} passHref>
+                <Link href={FooterLinks[1]["links"][1]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[1]["links"][1]["name"]}
+                    {FooterLinks[1]["links"][1]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[1]["links"][2]["href"]} passHref>
+                <Link href={FooterLinks[1]["links"][2]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    {footerLinks[1]["links"][2]["name"]}
+                    {FooterLinks[1]["links"][2]["name"]}
                   </a>
                 </Link>
               </li>
@@ -126,38 +128,38 @@ export default function Footer() {
               data-cy="upstream-column"
               className="text-base font-semibold text-gray-400 tracking-wider uppercase"
             >
-              {footerLinks[2]["name"]}
+              {FooterLinks[2]["name"]}
             </h3>
             <ul className="mt-1 list-none">
               <li>
-                <Link href={footerLinks[2]["links"][0]["href"]} passHref>
+                <Link href={FooterLinks[2]["links"][0]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    {footerLinks[2]["links"][0]["name"]}
+                    {FooterLinks[2]["links"][0]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[2]["links"][1]["href"]} passHref>
+                <Link href={FooterLinks[2]["links"][1]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    {footerLinks[2]["links"][1]["name"]}
+                    {FooterLinks[2]["links"][1]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={footerLinks[2]["links"][2]["href"]} passHref>
+                <Link href={FooterLinks[2]["links"][2]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {footerLinks[2]["links"][2]["name"]}
+                    {FooterLinks[2]["links"][2]["name"]}
                   </a>
                 </Link>
               </li>

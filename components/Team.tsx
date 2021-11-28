@@ -9,7 +9,9 @@ import {
   faLinkedin,
   faOrcid,
 } from "@fortawesome/free-brands-svg-icons";
-import team from "../team.yml";
+
+// ToDo turn into JSON
+import TeamLinks from "../team.json";
 
 export default function Team() {
   return (
@@ -27,7 +29,7 @@ export default function Team() {
           </div>
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
-              {team.map((person) => (
+              {TeamLinks.map((person) => (
                 <li key={person.name} className="sm:py-8 list-none">
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2">
