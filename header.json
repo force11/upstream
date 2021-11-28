@@ -1,5 +1,4 @@
-[
-  {
+[{
     "name": "About",
     "href": "/pages/about",
     "className": "md:visible"
