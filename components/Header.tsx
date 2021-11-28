@@ -7,6 +7,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/img/force11.png";
+import headerLinks from "../header.yml";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -66,51 +67,21 @@ export default function Navbar({ tags, tag }) {
                 className="py-6 pl-0 md:pl-14 lg:pl-0 space-x-2 lg:space-x-6 font-semibold block"
                 aria-label="Global"
               >
-                <Link href="/pages/about" passHref>
-                  <a
-                    key="About"
-                    href="dummy"
-                    className="text-force-blue border-b-0 invisible md:visible"
-                  >
-                    About
-                  </a>
-                </Link>
-                <Link href="/authors" passHref>
-                  <a
-                    key="Authors"
-                    href="dummy"
-                    className="text-force-blue border-b-0 invisible md:visible"
-                  >
-                    Authors
-                  </a>
-                </Link>
-                <Link href="/pages/author-guidelines" passHref>
-                  <a
-                    key="Author Guidelines"
-                    href="dummy"
-                    className="text-force-blue border-b-0 invisible md:visible"
-                  >
-                    Author Guidelines
-                  </a>
-                </Link>
-                <Link href="/pages/upstream-community" passHref>
-                  <a
-                    key="Upstream Community"
-                    href="dummy"
-                    className="text-force-blue border-b-0 invisible lg:visible"
-                  >
-                    Upstream Community
-                  </a>
-                </Link>
-                <Link href="/pages/code-of-conduct" passHref>
-                  <a
-                    key="Code of Conduct"
-                    href="dummy"
-                    className="text-force-blue border-b-0 invisible lg:visible"
-                  >
-                    Code of Conduct
-                  </a>
-                </Link>
+                {headerLinks.map((headerLink) => (
+                  <>
+                    <Link href={headerLink.href} passHref>
+                      <a
+                        key={headerLink.name}
+                        href="dummy"
+                        className={
+                          "text-force-blue border-b-0 " + headerLink.className
+                        }
+                      >
+                        {headerLink.name}
+                      </a>
+                    </Link>
+                  </>
+                ))}
               </nav>
               <div className="relative right-8 md:right-0 z-10 flex py-3 lg:hidden">
                 {/* Mobile menu button */}
