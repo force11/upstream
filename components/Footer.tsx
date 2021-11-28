@@ -134,7 +134,10 @@ export default function Footer() {
             </ul>
           </div>
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
-            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
+            <h3
+              data-cy="upstream-column"
+              className="text-base font-semibold text-gray-400 tracking-wider uppercase"
+            >
               Upstream
             </h3>
             <ul className="mt-1 list-none">

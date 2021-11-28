@@ -1,11 +1,9 @@
 /// <reference types="cypress" />
 
 describe("Footer", () => {
-  it("copyright", () => {
+  it("upstream", () => {
     cy.visit("/");
-    cy.get("[data-cy=copyright]", { timeout: 30000 }).contains(
-      "Copyright © 2021 Martin Fenner."
-    );
+    cy.get("[data-cy=upstream-column]").contains("Upstream");
   });
 });
 

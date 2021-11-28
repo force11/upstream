@@ -28,7 +28,7 @@
     "@zeit/next-css": "1.0.1",
     "autocomplete.js": "^0.38.0",
     "cors": "^2.8.5",
-    "cypress": "^8.4.1",
+    "cypress": "9.1.0",
     "date-fns": "^2.22.1",
     "feed": "^4.2.2",
     "lodash": "^4.17.21",

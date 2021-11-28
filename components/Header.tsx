@@ -30,7 +30,10 @@ export default function Navbar({ tags, tag }) {
                         height={63}
                         width={78}
                       />
-                      <span className="text-2xl font-semibold font-sans pl-1 pt-4">
+                      <span
+                        data-cy="sitename"
+                        className="text-2xl font-semibold font-sans pl-1 pt-4"
+                      >
                         Upstream
                       </span>
                     </a>
@@ -109,14 +112,22 @@ export default function Navbar({ tags, tag }) {
                   </a>
                 </Link>
               </nav>
-              <div className="relative right-5 md:right-0 z-10 flex py-3 lg:hidden">
+              <div className="relative right-8 md:right-0 z-10 flex py-3 lg:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="rounded-md p-2 inline-flex text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-force-blue">
                   <span className="sr-only">Open menu</span>
                   {open ? (
-                    <XIcon className="block h-6 w-6" aria-hidden="true" />
+                    <XIcon
+                      data-cy="x-icon"
+                      className="block h-6 w-6"
+                      aria-hidden="true"
+                    />
                   ) : (
-                    <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                    <MenuIcon
+                      data-cy="menu-icon"
+                      className="block h-6 w-6"
+                      aria-hidden="true"
+                    />
                   )}
                 </Disclosure.Button>
               </div>
