@@ -25,7 +25,12 @@ jobs:
           group: 'Tests'
         env:
           NODE_ENV: test
-          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
+          NEXT_PUBLIC_GHOST_API_KEY: ${{ secrets.NEXT_PUBLIC_GHOST_API_KEY }}
+          NEXT_PUBLIC_TYPESENSE_API_KEY: ${{ secrets.NEXT_PUBLIC_TYPESENSE_API_KEY }}
+          NEXT_PUBLIC_TYPESENSE_HOST_0: ${{ secrets.NEXT_PUBLIC_TYPESENSE_HOST_0 }}
+          NEXT_PUBLIC_TYPESENSE_HOST_1: ${{ secrets.NEXT_PUBLIC_TYPESENSE_HOST_1 }}
+          NEXT_PUBLIC_TYPESENSE_HOST_2: ${{ secrets.NEXT_PUBLIC_TYPESENSE_HOST_2 }}
+          NEXT_PUBLIC_TYPESENSE_HOST_3: ${{ secrets.NEXT_PUBLIC_TYPESENSE_HOST_3 }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   release:

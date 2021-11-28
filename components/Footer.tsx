@@ -9,6 +9,13 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
+  const footerLinks = [
+    { name: "FORCE11" },
+    { name: "Community" },
+    { name: "Upstream" },
+    { name: "Contact Us" },
+  ];
+
   return (
     <footer className="bg-gray-200" aria-labelledby="footerHeading">
       <h2 id="footerHeading" className="sr-only">
@@ -18,7 +25,7 @@ export default function Footer() {
         <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-8 xl:mt-0">
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              FORCE11
+              {footerLinks[0]["name"]}
             </h3>
             <ul className="mt-1 list-none">
               <li>
@@ -91,7 +98,7 @@ export default function Footer() {
           </div>
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              Community
+              {footerLinks[1]["name"]}
             </h3>
             <ul className="mt-1 list-none">
               <li>
@@ -138,7 +145,7 @@ export default function Footer() {
               data-cy="upstream-column"
               className="text-base font-semibold text-gray-400 tracking-wider uppercase"
             >
-              Upstream
+              {footerLinks[2]["name"]}
             </h3>
             <ul className="mt-1 list-none">
               <li>
@@ -177,7 +184,7 @@ export default function Footer() {
           </div>
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              Contact Us
+              {footerLinks[3]["name"]}
             </h3>
             <p className="text-sm text-gray-500 mt-2">
               FORCE11
