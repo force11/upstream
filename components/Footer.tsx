@@ -2,38 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRss, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub,
-  faTwitter,
-  faDiscourse,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import footerLinks from "../footer.yml";
 
 export default function Footer() {
-  const footerLinks = [
-    {
-      name: "FORCE11",
-      links: [
-        { name: "Overview", href: "https://www.force11.org/about" },
-        { name: "Manifesto", href: "https://www.force11.org/about/manifest" },
-        {
-          name: "Guiding Principles",
-          href: "https://www.force11.org/about/mission-and-guiding-principles",
-        },
-        {
-          name: "Endorsement Policy",
-          href: "https://www.force11.org/about/endorsement-policy",
-        },
-        {
-          name: "sustainability Plan",
-          href: "https://www.force11.org/about/support",
-        },
-      ],
-    },
-    { name: "Community" },
-    { name: "Upstream" },
-    { name: "Contact Us" },
-  ];
-
   return (
     <footer className="bg-gray-200" aria-labelledby="footerHeading">
       <h2 id="footerHeading" className="sr-only">
@@ -114,39 +86,36 @@ export default function Footer() {
             </h3>
             <ul className="mt-1 list-none">
               <li>
-                <Link href="https://www.force11.org/community-news" passHref>
+                <Link href={footerLinks[1]["links"][0]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    News
+                    {footerLinks[1]["links"][0]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://www.force11.org/community/members-directory"
-                  passHref
-                >
+                <Link href={footerLinks[1]["links"][1]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Members Directory
+                    {footerLinks[1]["links"][1]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="https://www.force11.org/groups" passHref>
+                <Link href={footerLinks[1]["links"][2]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    Groups (active)
+                    {footerLinks[1]["links"][2]["name"]}
                   </a>
                 </Link>
               </li>
@@ -161,34 +130,34 @@ export default function Footer() {
             </h3>
             <ul className="mt-1 list-none">
               <li>
-                <Link href="/team" passHref>
+                <Link href={footerLinks[2]["links"][0]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    Team Upstream
+                    {footerLinks[2]["links"][0]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/open-source" passHref>
+                <Link href={footerLinks[2]["links"][1]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    Open Source Software
+                    {footerLinks[2]["links"][1]["name"]}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="https://plausible.io/upstream.force11.org" passHref>
+                <Link href={footerLinks[2]["links"][2]["href"]} passHref>
                   <a
                     href="dummy"
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Usage Stats
+                    {footerLinks[2]["links"][2]["name"]}
                   </a>
                 </Link>
               </li>
@@ -196,7 +165,7 @@ export default function Footer() {
           </div>
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
             <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
-              {footerLinks[3]["name"]}
+              Contact Us
             </h3>
             <p className="text-sm text-gray-500 mt-2">
               FORCE11
