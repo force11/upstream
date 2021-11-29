@@ -1,6 +1,6 @@
 import React, { createElement, Fragment, useEffect, useRef } from "react";
-import { render } from "react-dom";
-import { autocomplete } from "@algolia/autocomplete-js";
+// import { render } from "react-dom";
+// import { autocomplete } from "@algolia/autocomplete-js";
 import { Disclosure } from "@headlessui/react";
 // import { SearchIcon } from "@heroicons/react/solid";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
@@ -13,35 +13,40 @@ const HeaderLinks = [
   {
     name: "About",
     href: "/pages/about",
-    className: "hidden md:inline",
+    closedClass: "hidden md:inline",
+    openClass: "md:hidden",
   },
   {
     name: "Authors",
     href: "/authors",
-    className: "hidden md:inline",
+    closedClass: "hidden md:inline",
+    openClass: "md:hidden",
   },
   {
     name: "Author Guidelines",
     href: "/pages/author-guidelines",
-    className: "hidden md:inline",
+    closedClass: "hidden md:inline",
+    openClass: "md:hidden",
   },
   {
     name: "Upstream Community",
     href: "/pages/upstream-community",
-    className: "hidden lg:inline",
+    closedClass: "hidden lg:inline",
+    openClass: "lg:hidden",
   },
   {
     name: "Code of Conduct",
     href: "/pages/code-of-conduct",
-    className: "hidden lg:inline",
+    closedClass: "hidden lg:inline",
+    openClass: "lg:hidden",
   },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
-export default function Navbar({ tags, tag }) {
+export default function Navbar() {
   return (
     <Disclosure as="header" className="bg-white shadow">
       {({ open }) => (
@@ -102,7 +107,7 @@ export default function Navbar({ tags, tag }) {
                         key={headerLink.name}
                         href="dummy"
                         className={
-                          "text-force-blue border-b-0 " + headerLink.className
+                          "text-force-blue border-b-0 " + headerLink.closedClass
                         }
                       >
                         {headerLink.name}
@@ -134,61 +139,21 @@ export default function Navbar({ tags, tag }) {
           <Disclosure.Panel as="nav" className="lg:hidden" aria-label="Global">
             <div className="px-6 space-y-1">
               <ul className="mt-1 list-none">
-                <li>
-                  <Link href="/pages/about" passHref>
-                    <a
-                      key="About"
-                      href="dummy"
-                      className="text-force-blue border-b-0 md:hidden"
-                    >
-                      About
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/authors" passHref>
-                    <a
-                      key="Authors"
-                      href="dummy"
-                      className="text-force-blue border-b-0 md:hidden"
-                    >
-                      Authors
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/pages/author-guidelines" passHref>
-                    <a
-                      key="Author Guidelines"
-                      href="dummy"
-                      className="text-force-blue border-b-0 md:hidden"
-                    >
-                      Author Guidelines
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/pages/upstream-community" passHref>
-                    <a
-                      key="Upstream Community"
-                      href="dummy"
-                      className="text-force-blue border-b-0 lg:hidden"
-                    >
-                      Upstream Community
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/pages/code-of-conduct" passHref>
-                    <a
-                      key="Code of Conduct"
-                      href="dummy"
-                      className="text-force-blue border-b-0 lg:hidden"
-                    >
-                      Code of Conduct
-                    </a>
-                  </Link>
-                </li>
+                {HeaderLinks.map((headerLink) => (
+                  <li>
+                    <Link href={headerLink.href} passHref>
+                      <a
+                        key={headerLink.name}
+                        href="dummy"
+                        className={
+                          "text-force-blue border-b-0 " + headerLink.openClass
+                        }
+                      >
+                        {headerLink.name}
+                      </a>
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </Disclosure.Panel>
@@ -198,26 +163,26 @@ export default function Navbar({ tags, tag }) {
   );
 }
 
-export function Autocomplete(props) {
-  const containerRef = useRef(null);
+// export function Autocomplete(props) {
+//   const containerRef = useRef(null);
 
-  useEffect(() => {
-    if (!containerRef.current) {
-      return undefined;
-    }
-    const search = autocomplete({
-      container: containerRef.current,
-      renderer: { createElement, Fragment },
-      render({ children }, root) {
-        render(children, root);
-      },
-      ...props,
-    });
+//   useEffect(() => {
+//     if (!containerRef.current) {
+//       return undefined;
+//     }
+//     const search = autocomplete({
+//       container: containerRef.current,
+//       renderer: { createElement, Fragment },
+//       render({ children }, root) {
+//         render(children, root);
+//       },
+//       ...props,
+//     });
 
-    return () => {
-      search.destroy();
-    };
-  }, [props]);
+//     return () => {
+//       search.destroy();
+//     };
+//   }, [props]);
 
-  return <div ref={containerRef} />;
-}
+//   return <div ref={containerRef} />;
+// }
