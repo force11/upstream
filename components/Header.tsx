@@ -46,7 +46,8 @@ const HeaderLinks = [
 //   return classes.filter(Boolean).join(" ");
 // }
 
-export default function Navbar() {
+export default function Navbar({ tags, tag }) {
+  // ignore tags here
   return (
     <Disclosure as="header" className="bg-white shadow">
       {({ open }) => (
