@@ -9,7 +9,33 @@ import Image from "next/image";
 import Logo from "../public/img/force11.png";
 
 // To Do import yaml
-import HeaderLinks from "../header.json";
+const HeaderLinks = [
+  {
+    name: "About",
+    href: "/pages/about",
+    className: "hidden md:inline",
+  },
+  {
+    name: "Authors",
+    href: "/authors",
+    className: "hidden md:inline",
+  },
+  {
+    name: "Author Guidelines",
+    href: "/pages/author-guidelines",
+    className: "hidden md:inline",
+  },
+  {
+    name: "Upstream Community",
+    href: "/pages/upstream-community",
+    className: "hidden lg:inline",
+  },
+  {
+    name: "Code of Conduct",
+    href: "/pages/code-of-conduct",
+    className: "hidden lg:inline",
+  },
+];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
