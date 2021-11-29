@@ -8,7 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/img/force11.png";
 
-// ToDo import yaml
+// To Do import yaml
 import HeaderLinks from "../header.json";
 
 function classNames(...classes) {
@@ -76,8 +76,7 @@ export default function Navbar({ tags, tag }) {
                         key={headerLink.name}
                         href="dummy"
                         className={
-                          "text-force-blue border-b-0 invisible " +
-                          headerLink.className
+                          "text-force-blue border-b-0 " + headerLink.className
                         }
                       >
                         {headerLink.name}
