@@ -92,7 +92,7 @@ export default function Navbar({ tags, tag }) {
                 </div>
               </div> */}
               <nav
-                className="py-6 pl-0 space-x-2 lg:space-x-6 font-semibold block"
+                className="py-5 pl-0 space-x-2 lg:space-x-6 font-semibold block"
                 aria-label="Global"
               >
                 {HeaderLinks.map((headerLink) => (
