@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
+// import Link from "next/link";
 import ReactHtmlParser from "react-html-parser";
 import { parseISO } from "date-fns";
 import { BlogPosting } from "schema-dts";

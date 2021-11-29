@@ -66,7 +66,7 @@ export default function Navbar({ tags, tag }) {
                 </div>
               </div> */}
               <nav
-                className="py-6 pl-0 md:pl-14 lg:pl-0 space-x-2 lg:space-x-6 font-semibold block"
+                className="py-6 pl-0 space-x-2 lg:space-x-6 font-semibold block"
                 aria-label="Global"
               >
                 {HeaderLinks.map((headerLink) => (
@@ -85,8 +85,7 @@ export default function Navbar({ tags, tag }) {
                   </>
                 ))}
               </nav>
-              <div className="relative right-8 md:right-0 z-10 flex py-3 lg:hidden">
-                {/* Mobile menu button */}
+              <div className="relative right-0 z-10 flex py-3 lg:hidden">
                 <Disclosure.Button className="rounded-md p-2 inline-flex text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-force-blue">
                   <span className="sr-only">Open menu</span>
                   {open ? (
