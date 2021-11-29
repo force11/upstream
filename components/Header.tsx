@@ -49,19 +49,19 @@ export default function Navbar({ tags, tag }) {
           <div className="max-w-7xl mx-auto px-4 lg:px-8 lg:divide-y lg:divide-gray-200">
             <div className="relative h-16 flex justify-between">
               <div className="relative z-10 px-2 flex lg:px-0">
-                <div className="flex-shrink-0 flex">
+                <div className="flex-shrink-0 flex pt-2">
                   <Link href="/" passHref>
                     <a href="dummy" className="text-force-blue border-b-0 flex">
                       <Image
                         className="block h-8 w-auto"
                         src={Logo}
                         alt="Upstream"
-                        height={63}
-                        width={78}
+                        height={60}
+                        width={60}
                       />
                       <span
                         data-cy="sitename"
-                        className="text-2xl font-semibold font-sans pl-1 pt-4"
+                        className="text-2xl font-semibold font-sans pl-2 pt-2"
                       >
                         Upstream
                       </span>
@@ -132,7 +132,7 @@ export default function Navbar({ tags, tag }) {
             </div>
           </div>
           <Disclosure.Panel as="nav" className="lg:hidden" aria-label="Global">
-            <div className="pt-2 pb-3 px-6 space-y-1">
+            <div className="px-6 space-y-1">
               <ul className="mt-1 list-none">
                 <li>
                   <Link href="/pages/about" passHref>
