@@ -1,4 +1,4 @@
-import React, { createElement, Fragment, useEffect, useRef } from "react";
+import React from "react";
 // import { render } from "react-dom";
 // import { autocomplete } from "@algolia/autocomplete-js";
 import { Disclosure } from "@headlessui/react";
@@ -46,8 +46,7 @@ const HeaderLinks = [
 //   return classes.filter(Boolean).join(" ");
 // }
 
-export default function Navbar({ tags, tag }) {
-  // ignore tags here
+export default function Navbar() {
   return (
     <Disclosure as="header" className="bg-white shadow">
       {({ open }) => (
@@ -141,7 +140,7 @@ export default function Navbar({ tags, tag }) {
             <div className="px-6 space-y-1">
               <ul className="mt-1 list-none">
                 {HeaderLinks.map((headerLink) => (
-                  <li>
+                  <li key={headerLink.name}>
                     <Link href={headerLink.href} passHref>
                       <a
                         key={headerLink.name}

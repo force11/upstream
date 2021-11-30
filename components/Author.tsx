@@ -4,13 +4,7 @@ import { fromUnixTime } from "date-fns";
 import Link from "next/link";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub,
-  faTwitter,
-  faLinkedin,
-  faOrcid,
-} from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faOrcid } from "@fortawesome/free-brands-svg-icons";
 
 import useSWR from "swr";
 import fetch from "unfetch";

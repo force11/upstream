@@ -1,10 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import { jsonLdScriptProps } from "react-schemaorg";
 import { getAllAuthors } from "../lib/posts";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Hero from "../components/Hero";
 import Authors from "../components/Authors";
 
 export async function getStaticProps() {
@@ -43,7 +41,7 @@ const AuthorsPage = ({ authors }) => {
           content="https://upstream.force11.org/img/hero.jpg"
         />
       </Head>
-      <Header tags={[]} tag={{}} />
+      <Header />
       <Authors authors={authors} pagination={pagination} />
       <Footer />
     </>

@@ -34,7 +34,7 @@ export async function getStaticProps() {
   };
 }
 
-const IndexPage = ({ posts, tags }) => {
+const IndexPage = ({ posts }) => {
   const tag = {
     name: "This is Upstream",
     description: "The community blog for all things open research",
@@ -75,7 +75,7 @@ const IndexPage = ({ posts, tags }) => {
           })}
         />
       </Head>
-      <Header tags={tags} tag={tag} />
+      <Header />
       <Top tag={tag} />
       <Tag posts={posts} tag={tag} pagination={pagination} />
       <Footer />

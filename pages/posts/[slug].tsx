@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-// import Link from "next/link";
+import Link from "next/link";
 import ReactHtmlParser from "react-html-parser";
 import { parseISO } from "date-fns";
 import { BlogPosting } from "schema-dts";
@@ -135,7 +135,7 @@ const Post = (props) => {
           })}
         />
       </Head>
-      <Header tags={props.tags} tag={{}} />
+      <Header />
       <div className="md:container mx-6 md:mx-auto py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
           {props.post.tags && (
@@ -177,12 +177,14 @@ const Post = (props) => {
               Creative Commons Attribution 4.0 License.
             </a>{" "}
             The authors adhere to the{" "}
-            <a
-              className="border-b-0 hover:border-b hover:border-force-blue"
-              href="/pages/code-of-conduct"
-            >
-              Upstream Code of Conduct.
-            </a>
+            <Link href={"/pages/code-of-conduct"} passHref>
+              <a
+                className="border-b-0 hover:border-b hover:border-force-blue"
+                href="dummy"
+              >
+                Upstream Code of Conduct.
+              </a>
+            </Link>
           </div>
           <DiscourseForum post={props.post} />
         </div>

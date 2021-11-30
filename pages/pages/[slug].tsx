@@ -7,7 +7,6 @@ import { BlogPosting } from "schema-dts";
 import { jsonLdScriptProps } from "react-schemaorg";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { readabilityScore } from "../../lib/helpers";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCreativeCommons,
@@ -16,7 +15,6 @@ import {
 
 import { GetStaticPaths } from "next";
 import { getSinglePage, getAllPages } from "../../lib/posts";
-import Byline from "../../components/Byline";
 import { sanitizeDescription, uuid2base32 } from "../../lib/helpers";
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -107,7 +105,7 @@ const Page = (props) => {
           })}
         />
       </Head>
-      <Header tags={[]} tag={{}} />
+      <Header />
       <div className="md:container mx-6 md:mx-auto py-8 flex flex-wrap justify-center min-h-screen">
         <div className="w-full md:w-8/12 ">
           <h1 className="mt-0 mb-2 text-force-blue">{props.page.title}</h1>
@@ -153,12 +151,14 @@ const Page = (props) => {
               Creative Commons Attribution 4.0 License.
             </a>{" "}
             Team Upstream adheres to the{" "}
-            <a
-              className="border-b-0 hover:border-b hover:border-force-blue"
-              href="/pages/code-of-conduct"
-            >
-              Upstream Code of Conduct.
-            </a>
+            <Link href={"/pages/code-of-conduct"} passHref>
+              <a
+                className="border-b-0 hover:border-b hover:border-force-blue"
+                href="dummy"
+              >
+                Upstream Code of Conduct.
+              </a>
+            </Link>
           </div>
         </div>
       </div>

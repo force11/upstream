@@ -7,7 +7,7 @@ import Byline from "./Byline";
 
 const fetcher = (url) => fetch(url).then((r) => r.json());
 
-export default function Tag({ posts, tag, pagination }) {
+export default function Tag({ posts, pagination }) {
   if (!posts) {
     return null;
   }

@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const OpenSourcePage = () => {
   return (
     <>
-      <Header tags={[]} tag={{}} />
+      <Header />
       <OpenSource />
       <Footer />
     </>

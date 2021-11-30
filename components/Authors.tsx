@@ -1,16 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub,
-  faTwitter,
-  faLinkedin,
-  faOrcid,
-} from "@fortawesome/free-brands-svg-icons";
 
-export default function Authors({ authors, pagination }) {
+export default function Authors({ authors }) {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-2 md:py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-8">
@@ -21,16 +12,17 @@ export default function Authors({ authors, pagination }) {
             </h2>
             <p className="text-xl text-gray-500">
               Read the{" "}
-              <a
-                className="text-force-blue border-b-0"
-                href="/pages/author-guidelines"
-              >
-                Author Guidelines
-              </a>{" "}
+              <Link href={"/pages/author-guidelines"} passHref>
+                <a className="text-force-blue border-b-0" href="dummy">
+                  Author Guidelines
+                </a>
+              </Link>{" "}
               and reach out to{" "}
-              <a className="text-force-blue border-b-0" href="/team">
-                Team Upstream
-              </a>{" "}
+              <Link href={"/team"} passHref>
+                <a className="text-force-blue border-b-0" href="dummy">
+                  Team Upstream
+                </a>
+              </Link>{" "}
               if you are interested in becoming an author.
             </p>
           </div>

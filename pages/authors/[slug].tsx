@@ -3,7 +3,6 @@ import {
   getIndexedPostsByAuthor,
   getAllAuthors,
   getSingleAuthor,
-  getAllPosts,
 } from "../../lib/posts";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -40,10 +39,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-const AuthorPage = ({ posts, authors, author, pagination }) => {
+const AuthorPage = ({ posts, author, pagination }) => {
   return (
     <>
-      <Header tags={[]} tag={{}} />
+      <Header />
       <Author author={author} posts={posts} pagination={pagination} />
       <Footer />
     </>

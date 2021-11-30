@@ -40,10 +40,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-const CategoryPage = ({ posts, tags, tag, pagination }) => {
+const CategoryPage = ({ posts, tag, pagination }) => {
   return (
     <>
-      <Header tags={tags} tag={tag} />
+      <Header />
       <Hero tag={tag} />
       <Tag posts={posts} tag={tag} pagination={pagination} />
       <Footer />

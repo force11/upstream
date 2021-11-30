@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const SupportPage = () => {
   return (
     <>
-      <Header tags={[]} tag={{}} />
+      <Header />
       <Support />
       <Footer />
     </>
