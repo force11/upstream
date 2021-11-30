@@ -77,7 +77,7 @@ const IndexPage = ({ posts }) => {
       </Head>
       <Header />
       <Top tag={tag} />
-      <Tag posts={posts} tag={tag} pagination={pagination} />
+      <Tag posts={posts} pagination={pagination} />
       <Footer />
     </>
   );

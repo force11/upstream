@@ -45,7 +45,7 @@ const CategoryPage = ({ posts, tag, pagination }) => {
     <>
       <Header />
       <Hero tag={tag} />
-      <Tag posts={posts} tag={tag} pagination={pagination} />
+      <Tag posts={posts} pagination={pagination} />
       <Footer />
     </>
   );

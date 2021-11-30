@@ -20,14 +20,6 @@ export async function getStaticProps() {
 }
 
 const AuthorsPage = ({ authors }) => {
-  const pagination = {
-    page: 1,
-    pages: 1,
-    total: authors ? authors.length : 0,
-    prev: null,
-    next: null,
-  };
-
   return (
     <>
       <Head>
@@ -42,7 +34,7 @@ const AuthorsPage = ({ authors }) => {
         />
       </Head>
       <Header />
-      <Authors authors={authors} pagination={pagination} />
+      <Authors authors={authors} />
       <Footer />
     </>
   );
