@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { addMember } from "../lib/posts";
 
 export default function Newsletter() {
@@ -16,10 +17,10 @@ export default function Newsletter() {
       <div className="max-w-7xl mx-auto py-4 px-4 md:px-10 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Sign up for Upstream
+            Subscribe to Upstream
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
-            Sign up for Upstream to receive all blog posts and occasional
+            Subscribe to Upstream to receive all blog posts and occasional
             announcements from Team Upstream via email, and to be able to
             comment on blog posts.
           </p>
@@ -43,18 +44,22 @@ export default function Newsletter() {
                 type="submit"
                 className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-force-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-force-blue"
               >
-                Notify me
+                Subscribe
               </button>
             </div>
           </form>
           <p className="mt-3 text-sm text-gray-500">
             We care about the protection of your data. Read our{" "}
-            <a
-              href="https://www.force11.org/privacy-statement"
-              className="font-medium underline"
-            >
-              Privacy Policy.
-            </a>
+            <Link href="https://www.force11.org/privacy-statement" passHref>
+              <a
+                href="dummy"
+                className="font-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Privacy Policy.
+              </a>
+            </Link>
           </p>
         </div>
       </div>

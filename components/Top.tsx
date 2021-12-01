@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Top({ tag }) {
   return (
-    <div className="relative h-full w-auto md:w-full bg-force-blue">
+    <div className="relative h-full w-auto md:w-full">
       <div className="absolute inset-0 overflow-auto">
         <Image
           className=""
