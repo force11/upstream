@@ -118,8 +118,15 @@ export async function getSingleAuthor(authorSlug) {
 }
 
 // subscribe new member. name is optional
-export async function addMember(email, name) {
-  return admin.members.add({ email, name });
+export async function addMember(member) {
+  return admin.members
+    .add(member, {
+      send_email: true,
+      email_type: "subscribe",
+    })
+    .catch((err) => {
+      return err;
+    });
 }
 
 // Typesense integrations

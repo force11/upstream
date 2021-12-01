@@ -1,29 +1,32 @@
 import React from "react";
 import Link from "next/link";
-// import { addMember } from "../lib/posts";
+import { useState } from "react";
+import { addMember } from "../lib/posts";
 
 export default function Newsletter() {
+  let result = null;
+  const [message, setMessage] = useState(null);
+
   const subscribeMember = async (event) => {
     event.preventDefault();
+    const member = { email: event.target["email-address"].value };
+    result = await addMember(member);
 
-    const res = await fetch("/api/subscribe", {
-      body: JSON.stringify({
-        email: event.target["email-address"].value,
-        name: null,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-      method: "POST",
-    });
-
-    const result = await res.json();
-    console.log(result);
-    // call Ghost admin api
-    //const res = addMember(event.target["email-address"].value, null);
-    // console.log(res);
+    // if there is an error
+    if (result.context) {
+      setMessage(result.context);
+    } else {
+      setMessage(
+        "Please check your email inbox and confirm your Upstream subscription."
+      );
+    }
     event.target.reset();
   };
+
+  let colorName = "red-300";
+  if (message && message.startsWith("Please check your email")) {
+    colorName = "force-blue";
+  }
 
   return (
     <div className="bg-white">
@@ -34,9 +37,16 @@ export default function Newsletter() {
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
             Subscribe to Upstream to receive all blog posts and occasional
-            announcements from Team Upstream via email, and to comment on blog
-            posts.
+            announcements from Team Upstream via email.
           </p>
+          {message && (
+            <div
+              className={`bg-${colorName} border border-${colorName} text-white font-sans px-3 py-2 rounded-md relative`}
+              role="alert"
+            >
+              <span className="block sm:inline">{message}</span>
+            </div>
+          )}
         </div>
         <div className="mt-8 lg:mt-0 lg:ml-8">
           <form onSubmit={subscribeMember} className="sm:flex">
@@ -55,7 +65,7 @@ export default function Newsletter() {
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-force-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-force-blue"
+                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-force-blue focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-force-blue"
               >
                 Subscribe
               </button>
