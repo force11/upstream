@@ -47,6 +47,15 @@ export default function Newsletter() {
               </button>
             </div>
           </form>
+          <p className="mt-3 text-sm text-gray-500">
+            We care about the protection of your data. Read our{" "}
+            <a
+              href="https://www.force11.org/privacy-statement"
+              className="font-medium underline"
+            >
+              Privacy Policy.
+            </a>
+          </p>
         </div>
       </div>
     </div>
