@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { addMember } from "../lib/posts";
+// import { addMember } from "../lib/posts";
 
 export default function Newsletter() {
   const subscribeMember = async (event) => {
