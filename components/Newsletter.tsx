@@ -3,12 +3,25 @@ import Link from "next/link";
 import { addMember } from "../lib/posts";
 
 export default function Newsletter() {
-  const subscribeMember = (event) => {
+  const subscribeMember = async (event) => {
     event.preventDefault();
 
+    const res = await fetch("/api/subscribe", {
+      body: JSON.stringify({
+        email: event.target["email-address"].value,
+        name: null,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+    });
+
+    const result = await res.json();
+    console.log(result);
     // call Ghost admin api
-    const res = addMember(event.target["email-address"].value, null);
-    console.log(res);
+    //const res = addMember(event.target["email-address"].value, null);
+    // console.log(res);
     event.target.reset();
   };
 
