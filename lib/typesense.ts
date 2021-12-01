@@ -32,6 +32,8 @@ export async function refreshIndex() {
     connectionTimeoutSeconds: 10,
   });
 
+  const typesenseCollection = process.env.NEXT_PUBLIC_TYPESENSE_COLLECTION;
+
   const posts = await getAllPosts();
   const documents = [];
 
@@ -98,7 +100,7 @@ export async function refreshIndex() {
 
     // empty index
     await client
-      .collections("upstream")
+      .collections(typesenseCollection)
       .documents()
       .delete({ filter_by: "visibility:true" })
       .catch((err) => {
@@ -107,7 +109,7 @@ export async function refreshIndex() {
 
     // insert new documents
     await client
-      .collections("upstream")
+      .collections(typesenseCollection)
       .documents()
       .upsert(cleanedDocument)
       .catch((err) => {
@@ -118,8 +120,10 @@ export async function refreshIndex() {
 }
 
 export async function updateSchema() {
+  const typesenseCollection = process.env.NEXT_PUBLIC_TYPESENSE_COLLECTION;
+
   const schema = {
-    name: "upstream",
+    name: typesenseCollection,
     fields: [
       {
         name: "id",

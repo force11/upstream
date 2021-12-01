@@ -102,9 +102,8 @@ export default function Navbar() {
               >
                 {HeaderLinks.map((headerLink) => (
                   <>
-                    <Link href={headerLink.href} passHref>
+                    <Link href={headerLink.href} key={headerLink.name} passHref>
                       <a
-                        key={headerLink.name}
                         href="dummy"
                         className={
                           "text-force-blue border-b-0 " + headerLink.closedClass

@@ -1,11 +1,18 @@
 import GhostContentAPI from "@tryghost/content-api";
+import GhostAdminAPI from "@tryghost/admin-api";
 import { Client } from "typesense";
 
 // Create API instance with site credentials
 const api = new GhostContentAPI({
-  url: "https://writing.front-matter.io",
+  url: process.env.NEXT_PUBLIC_GHOST_API_URL,
   key: process.env.NEXT_PUBLIC_GHOST_API_KEY,
   version: "v4",
+});
+
+const admin = new GhostAdminAPI({
+  url: process.env.NEXT_PUBLIC_GHOST_API_URL,
+  key: process.env.NEXT_PUBLIC_GHOST_ADMIN_API_KEY,
+  version: "v3",
 });
 
 export async function getAllPosts() {
@@ -110,6 +117,11 @@ export async function getSingleAuthor(authorSlug) {
     });
 }
 
+// subscribe new member. name is optional
+export async function addMember(email, name) {
+  return admin.members.add({ email, name });
+}
+
 // Typesense integrations
 
 const client = new Client({
@@ -141,13 +153,15 @@ const client = new Client({
   retryIntervalSeconds: 3,
 });
 
+const typesenseCollection = process.env.NEXT_PUBLIC_TYPESENSE_COLLECTION;
+
 export async function getIndexedPosts(
   query: string,
   page?: number,
   perPage?: number
 ) {
   return client
-    .collections("upstream")
+    .collections(typesenseCollection)
     .documents()
     .search({
       q: query,
@@ -181,7 +195,7 @@ export async function getIndexedPostsByTag(
   perPage?: number
 ) {
   return client
-    .collections("upstream")
+    .collections(typesenseCollection)
     .documents()
     .search({
       q: "*",
@@ -215,7 +229,7 @@ export async function getIndexedPostsByAuthor(
   perPage?: number
 ) {
   return client
-    .collections("upstream")
+    .collections(typesenseCollection)
     .documents()
     .search({
       q: "*",
@@ -245,7 +259,7 @@ export async function getIndexedPostsByAuthor(
 
 export async function getSimilarIndexedPosts(query: string, recordId: string) {
   return client
-    .collections("upstream")
+    .collections(typesenseCollection)
     .documents()
     .search({
       q: query,

@@ -24,6 +24,7 @@
     "@tailwindcss/aspect-ratio": "0.3.0",
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.1",
+    "@tryghost/admin-api": "^1.4.4",
     "@tryghost/content-api": "^1.5.7",
     "@zeit/next-css": "1.0.1",
     "autocomplete.js": "^0.38.0",
@@ -100,5 +101,10 @@
     "pandoc-url2cite": "^0.6.7",
     "postcss": "^8.3.4",
     "tailwindcss": "^2.1.4"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
