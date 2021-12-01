@@ -21,8 +21,8 @@ export default function Newsletter() {
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
             Subscribe to Upstream to receive all blog posts and occasional
-            announcements from Team Upstream via email, and to be able to
-            comment on blog posts.
+            announcements from Team Upstream via email, and to comment on blog
+            posts.
           </p>
         </div>
         <div className="mt-8 lg:mt-0 lg:ml-8">
