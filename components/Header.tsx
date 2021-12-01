@@ -28,18 +28,6 @@ const HeaderLinks = [
     closedClass: "hidden md:inline",
     openClass: "md:hidden",
   },
-  {
-    name: "Upstream Community",
-    href: "/pages/upstream-community",
-    closedClass: "hidden lg:inline",
-    openClass: "lg:hidden",
-  },
-  {
-    name: "Code of Conduct",
-    href: "/pages/code-of-conduct",
-    closedClass: "hidden lg:inline",
-    openClass: "lg:hidden",
-  },
 ];
 
 // function classNames(...classes) {
@@ -115,7 +103,7 @@ export default function Navbar() {
                   </>
                 ))}
               </nav>
-              <div className="relative right-0 z-10 flex py-3 lg:hidden">
+              <div className="relative right-0 z-10 flex py-3 md:hidden">
                 <Disclosure.Button className="rounded-md p-2 inline-flex text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-force-blue">
                   <span className="sr-only">Open menu</span>
                   {open ? (

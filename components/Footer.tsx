@@ -80,6 +80,18 @@ export default function Footer() {
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href={FooterLinks[0]["links"][5]["href"]} passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {FooterLinks[0]["links"][5]["name"]}
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="mx-4 md:mx-auto mt-2 md:mt-0">
@@ -160,6 +172,28 @@ export default function Footer() {
                     rel="noopener noreferrer"
                   >
                     {FooterLinks[2]["links"][2]["name"]}
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href={FooterLinks[2]["links"][3]["href"]} passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    {FooterLinks[2]["links"][3]["name"]}
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href={FooterLinks[2]["links"][4]["href"]} passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {FooterLinks[2]["links"][4]["name"]}
                   </a>
                 </Link>
               </li>

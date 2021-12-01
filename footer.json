@@ -45,11 +45,19 @@
   {
     "name": "Upstream",
     "links": [{
+        "name": "Upstream Community",
+        "href": "/pages/upstream-community"
+      },
+      {
+        "name": "Upstream Code of Conduct",
+        "href": "/pages/code-of-conduct"
+      },
+      {
         "name": "Team Upstream",
         "href": "/team"
       },
       {
-        "name": "Open Source Software",
+        "name": "Upstream Software",
         "href": "/open-source"
       },
       {
