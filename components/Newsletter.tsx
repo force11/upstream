@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Newsletter() {
   const [message, setMessage] = useState(null);
@@ -26,17 +25,20 @@ export default function Newsletter() {
       dataMessage =
         "Please check your email inbox and confirm your Upstream subscription.";
     } else if (data && data.error) {
-      dataMessage = data.error.toString();
+      dataMessage = data.error;
     }
     console.log(dataMessage);
     setMessage(dataMessage);
+
     event.target.reset();
   };
 
   let colorName = "red-300";
-  if (message && message.startsWith("Please check your email")) {
-    colorName = "force-blue";
-  }
+  useEffect(() => {
+    if (message && message.startsWith("Please check your email")) {
+      colorName = "force-blue";
+    }
+  });
 
   return (
     <div className="bg-white">
