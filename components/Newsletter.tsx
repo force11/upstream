@@ -9,6 +9,7 @@ export default function Newsletter() {
   const subscribeMember = async (event) => {
     event.preventDefault();
     const member = { email: event.target["email-address"].value };
+
     response = await fetch("/api/subscribe", {
       method: "POST",
       headers: {
@@ -18,15 +19,14 @@ export default function Newsletter() {
     });
 
     // if there is an error
-    if (!response.ok) {
-      const json = await response.json();
-      console.log(json);
-      console.log(json.error);
-      setMessage(json.error);
-    } else {
+    if (await response.ok) {
       setMessage(
         "Please check your email inbox and confirm your Upstream subscription."
       );
+    } else {
+      const json = await response.json();
+      console.log(json);
+      setMessage(json.error);
     }
     event.target.reset();
   };
