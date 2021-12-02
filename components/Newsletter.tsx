@@ -18,14 +18,15 @@ export default function Newsletter() {
       body: JSON.stringify(member),
     });
 
+    const json = await response.json();
+    console.log(json);
+
     // if there is an error
-    if (await response.ok) {
+    if (response.ok) {
       setMessage(
         "Please check your email inbox and confirm your Upstream subscription."
       );
     } else {
-      const json = await response.json();
-      console.log(json);
       setMessage(json.error);
     }
     event.target.reset();
