@@ -21,12 +21,12 @@ export default function Newsletter() {
     console.log(data);
 
     // different message if there is an error
-    if (data.error) {
-      setMessage(data.error);
-    } else {
+    if (data && data.email) {
       setMessage(
         "Please check your email inbox and confirm your Upstream subscription."
       );
+    } else {
+      setMessage(data.error);
     }
     event.target.reset();
   };

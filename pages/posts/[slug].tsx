@@ -186,7 +186,6 @@ const Post = (props) => {
               </a>
             </Link>
           </div>
-          <DiscourseForum post={props.post} />
         </div>
       </div>
       {props.recommendedPosts.length > 0 && (
