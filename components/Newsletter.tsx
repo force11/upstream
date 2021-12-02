@@ -21,13 +21,13 @@ export default function Newsletter() {
     const json = await response.json();
     console.log(json);
 
-    // if there is an error
-    if (response.ok) {
+    // different message if there is an error
+    if (json.error) {
+      setMessage(json.error);
+    } else {
       setMessage(
         "Please check your email inbox and confirm your Upstream subscription."
       );
-    } else {
-      setMessage(json.error);
     }
     event.target.reset();
   };
