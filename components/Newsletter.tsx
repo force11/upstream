@@ -11,7 +11,7 @@ export default function Newsletter() {
     event.preventDefault();
     const member = { email: event.target["email-address"].value };
     result = await addMember(member);
-
+    console.log(result);
     // if there is an error
     if (result.context) {
       setMessage(result.context);
