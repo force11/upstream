@@ -26,7 +26,7 @@ export default function Newsletter() {
       dataMessage =
         "Please check your email inbox and confirm your Upstream subscription.";
     } else if (data && data.error) {
-      dataMessage = data.error;
+      dataMessage = data.error.toString();
     }
     console.log(dataMessage);
     setMessage(dataMessage);
