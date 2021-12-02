@@ -7,9 +7,6 @@ export default function Newsletter() {
   const subscribeMember = async (event) => {
     event.preventDefault();
 
-    // make sure useState is triggered by changing state
-    setMessage(null);
-
     const member = { email: event.target["email-address"].value };
 
     const response = await fetch("/api/subscribe", {
@@ -31,9 +28,9 @@ export default function Newsletter() {
     } else if (data && data.error) {
       dataMessage = data.error;
     }
-    console.log(dataMessage);
-    setMessage(dataMessage);
 
+    setMessage(dataMessage);
+    console.log(message);
     event.target.reset();
   };
 
