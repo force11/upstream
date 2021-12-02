@@ -26,6 +26,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "@tryghost/admin-api": "^1.4.4",
     "@tryghost/content-api": "^1.5.7",
+    "@tryghost/members-api": "^2.8.3",
     "@zeit/next-css": "1.0.1",
     "autocomplete.js": "^0.38.0",
     "cors": "^2.8.5",
