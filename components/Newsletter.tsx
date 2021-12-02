@@ -21,6 +21,7 @@ export default function Newsletter() {
     if (!response.ok) {
       const json = await response.json();
       console.log(json);
+      console.log(json.error);
       setMessage(json.error);
     } else {
       setMessage(
