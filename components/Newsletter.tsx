@@ -27,6 +27,7 @@ export default function Newsletter() {
       );
     } else {
       setMessage(data.error);
+      console.log("M: " + message);
     }
     event.target.reset();
   };
