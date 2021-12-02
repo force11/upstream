@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Newsletter() {
@@ -6,6 +6,10 @@ export default function Newsletter() {
 
   const subscribeMember = async (event) => {
     event.preventDefault();
+
+    // make sure useState is triggered by changing state
+    setMessage(null);
+
     const member = { email: event.target["email-address"].value };
 
     const response = await fetch("/api/subscribe", {
@@ -18,7 +22,7 @@ export default function Newsletter() {
 
     const data = await response.json();
     console.log(data);
-    let dataMessage = null;
+    let dataMessage = "";
 
     // different message if there is an error
     if (data && data.email) {
@@ -34,11 +38,9 @@ export default function Newsletter() {
   };
 
   let colorName = "red-300";
-  useEffect(() => {
-    if (message && message.startsWith("Please check your email")) {
-      colorName = "force-blue";
-    }
-  });
+  if (message && message.startsWith("Please check your email")) {
+    colorName = "force-blue";
+  }
 
   return (
     <div className="bg-white">
