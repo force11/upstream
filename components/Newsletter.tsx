@@ -3,26 +3,26 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Newsletter() {
-  let response = null;
   const [message, setMessage] = useState(null);
 
   const subscribeMember = async (event) => {
     event.preventDefault();
     const member = { email: event.target["email-address"].value };
 
-    fetch("/api/subscribe", {
+    const response = await fetch("/api/subscribe", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(member),
-    }).then((data) => (response = data.json()));
+    });
 
-    console.log(response);
+    const data = await response.json();
+    console.log(data);
 
     // different message if there is an error
-    if (response.error) {
-      setMessage(response.error);
+    if (data.error) {
+      setMessage(data.error);
     } else {
       setMessage(
         "Please check your email inbox and confirm your Upstream subscription."
