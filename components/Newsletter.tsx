@@ -1,20 +1,26 @@
 import React from "react";
 import Link from "next/link";
 import { useState } from "react";
-import { addMember } from "../lib/posts";
 
 export default function Newsletter() {
-  let result = null;
+  let response = null;
   const [message, setMessage] = useState(null);
 
   const subscribeMember = async (event) => {
     event.preventDefault();
     const member = { email: event.target["email-address"].value };
-    result = await addMember(member);
-    console.log(result);
+    response = await fetch("/api/subscribe", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(member),
+    });
+
     // if there is an error
-    if (result.context) {
-      setMessage(result.context);
+    if (!response.ok) {
+      const json = await response.json();
+      setMessage(json.error);
     } else {
       setMessage(
         "Please check your email inbox and confirm your Upstream subscription."
@@ -41,7 +47,7 @@ export default function Newsletter() {
           </p>
           {message && (
             <div
-              className={`bg-${colorName} border border-${colorName} text-white font-sans px-3 py-2 rounded-md relative`}
+              className={`bg-${colorName} text-white font-sans px-3 py-2 rounded-md relative`}
               role="alert"
             >
               <span className="block sm:inline">{message}</span>
