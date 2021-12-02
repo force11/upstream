@@ -10,20 +10,19 @@ export default function Newsletter() {
     event.preventDefault();
     const member = { email: event.target["email-address"].value };
 
-    response = await fetch("/api/subscribe", {
+    fetch("/api/subscribe", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(member),
-    });
+    }).then((data) => (response = data.json()));
 
-    const json = await response.json();
-    console.log(json);
+    console.log(response);
 
     // different message if there is an error
-    if (json.error) {
-      setMessage(json.error);
+    if (response.error) {
+      setMessage(response.error);
     } else {
       setMessage(
         "Please check your email inbox and confirm your Upstream subscription."
