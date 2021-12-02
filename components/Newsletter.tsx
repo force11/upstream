@@ -4,10 +4,10 @@ import { useState } from "react";
 
 export default function Newsletter() {
   const [message, setMessage] = useState(null);
+  // const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
   const subscribeMember = async (event) => {
     event.preventDefault();
-    // const delay = (ms) => new Promise((res) => setTimeout(res, ms));
     const member = { email: event.target["email-address"].value };
 
     const response = await fetch("/api/subscribe", {
@@ -19,7 +19,6 @@ export default function Newsletter() {
     });
 
     const data = await response.json();
-    // await delay(5000);
     console.log(data);
 
     // different message if there is an error
@@ -28,16 +27,16 @@ export default function Newsletter() {
         "Please check your email inbox and confirm your Upstream subscription."
       );
     } else {
-      if (typeof data.error === "string") {
-        console.log("data.error is a string");
-      }
+      console.log(typeof data.error);
       setMessage(data.error);
       console.log(data.error);
       console.log("M: " + message);
     }
+
     event.target.reset();
   };
 
+  // await delay(5000);
   let colorName = "red-300";
   if (message && message.startsWith("Please check your email")) {
     colorName = "force-blue";
