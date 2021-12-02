@@ -4,7 +4,6 @@ import { useState } from "react";
 
 export default function Newsletter() {
   const [message, setMessage] = useState(null);
-  // const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
   const subscribeMember = async (event) => {
     event.preventDefault();
@@ -20,23 +19,20 @@ export default function Newsletter() {
 
     const data = await response.json();
     console.log(data);
+    let dataMessage = null;
 
     // different message if there is an error
     if (data && data.email) {
-      setMessage(
-        "Please check your email inbox and confirm your Upstream subscription."
-      );
-    } else {
-      console.log(typeof data.error);
-      setMessage(data.error);
-      console.log(data.error);
-      console.log("M: " + message);
+      dataMessage =
+        "Please check your email inbox and confirm your Upstream subscription.";
+    } else if (data && data.error) {
+      dataMessage = data.error;
     }
-
+    console.log(dataMessage);
+    setMessage(dataMessage);
     event.target.reset();
   };
 
-  // await delay(5000);
   let colorName = "red-300";
   if (message && message.startsWith("Please check your email")) {
     colorName = "force-blue";
