@@ -21,7 +21,11 @@ const nextConfig = {
   reactStrictMode: true,
   staticPageGenerationTimeout: 600,
   images: {
-    domains: ["assets.front-matter.io", "images.unsplash.com"],
+    domains: [
+      "assets.front-matter.io",
+      "assets.force11.org",
+      "images.unsplash.com",
+    ],
   },
 };
 
