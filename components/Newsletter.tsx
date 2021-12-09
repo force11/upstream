@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function Newsletter() {
@@ -18,7 +18,6 @@ export default function Newsletter() {
     });
 
     const data = await response.json();
-    console.log(data);
     let dataMessage = "";
 
     // different message if there is an error
@@ -30,7 +29,6 @@ export default function Newsletter() {
     }
 
     setMessage(dataMessage);
-    console.log(message);
     event.target.reset();
   };
 
@@ -38,6 +36,10 @@ export default function Newsletter() {
   if (message && message.startsWith("Please check your email")) {
     colorName = "force-blue";
   }
+
+  useEffect(() => {
+    console.log(colorName);
+  });
 
   return (
     <div className="bg-white">
