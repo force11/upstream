@@ -27,6 +27,15 @@ const nextConfig = {
       "images.unsplash.com",
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/members",
+        destination: "/api/members",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 // const SentryWebpackPluginOptions = {

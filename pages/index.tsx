@@ -50,8 +50,6 @@ const IndexPage = ({ posts }) => {
     next: null,
   };
 
-  console.log(process.env.GIT_BRANCH);
-
   return (
     <>
       <Head>
