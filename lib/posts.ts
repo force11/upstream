@@ -122,7 +122,7 @@ export async function addMember(member) {
   return admin.members
     .add(member, {
       send_email: true,
-      email_type: "subscribe",
+      email_type: "signup",
     })
     .catch((err) => {
       return err;
