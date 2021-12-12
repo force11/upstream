@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
   // if there is an error
   if (response.context) {
-    res.status(200).send({ error: response.context });
+    res.status(400).send({ error: response.context });
   } else {
     res.status(200).json(response);
   }

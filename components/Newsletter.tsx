@@ -1,49 +1,43 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 
 export default function Newsletter() {
-  const [message, setMessage] = useState(null);
+  const [message, setMessage] = useState("");
+  const [email, setEmail] = useState("");
 
-  const subscribeMember = async (event) => {
-    event.preventDefault();
-
-    const member = { email: event.target["email-address"].value };
-
+  // pass email as parameter to trigger useEffect hook
+  async function fetchData(emailAddress) {
     const response = await fetch("/api/subscribe", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(member),
+      body: JSON.stringify({ email: emailAddress }),
     });
-
-    const data = await response.json();
-    let dataMessage = "";
-
-    // different message if there is an error
-    if (data && data.email) {
-      dataMessage =
+    let data = "";
+    if (response.ok) {
+      data =
         "Please check your email inbox and confirm your Upstream subscription.";
-    } else if (data && data.error) {
-      dataMessage = data.error;
+    } else {
+      // show error message from API
+      data = await response.json().then((data) => data.error);
     }
-
-    setMessage(dataMessage);
-    event.target.reset();
-  };
-
-  let colorName = "red-300";
-  if (message && message.startsWith("Please check your email")) {
-    colorName = "force-blue";
+    setMessage(data);
   }
 
   useEffect(() => {
-    console.log(colorName);
-  });
+    fetchData(email);
+  }, [email]);
+
+  const subscribeMember = (event) => {
+    event.preventDefault();
+    setEmail(event.target["email-address"].value);
+    event.target.reset();
+    fetchData(email);
+  };
 
   return (
     <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-4 px-4 md:px-12 lg:flex lg:items-center">
+      <div className="max-w-7xl mx-auto py-4 px-4 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Subscribe to Upstream
@@ -54,7 +48,11 @@ export default function Newsletter() {
           </p>
           {message && (
             <div
-              className={`bg-${colorName} text-white font-sans px-3 py-2 rounded-md relative`}
+              className={
+                message.startsWith("Please check your email")
+                  ? "bg-force-blue font-sans text-white px-3 py-2 rounded-md relative"
+                  : "bg-red-600 font-sans text-white px-3 py-2 rounded-md relative"
+              }
               role="alert"
             >
               <span className="block sm:inline">{message}</span>
@@ -72,31 +70,18 @@ export default function Newsletter() {
               type="email"
               autoComplete="email"
               required
-              className="w-full px-3 py-2 border font-sans border-gray-300 shadow-sm placeholder-gray-400 focus:ring-1 focus:ring-force-blue focus:border-force-blue sm:max-w-xs rounded-md"
+              className="w-full px-3 py-2 border font-sans border-gray-300 shadow-sm placeholder-gray-400 focus:ring-1 focus:ring-green-600 focus:border-green-600 sm:max-w-xs rounded-md"
               placeholder="Enter your email"
             />
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-force-blue focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-force-blue"
+                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-green-600 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-green-600"
               >
                 Subscribe
               </button>
             </div>
           </form>
-          <p className="mt-3 text-sm text-gray-500">
-            We care about the protection of your data. Read our{" "}
-            <Link href="https://www.force11.org/privacy-statement" passHref>
-              <a
-                href="dummy"
-                className="font-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Privacy Policy.
-              </a>
-            </Link>
-          </p>
         </div>
       </div>
     </div>
