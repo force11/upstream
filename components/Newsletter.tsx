@@ -18,8 +18,11 @@ export default function Newsletter() {
       data =
         "Please check your email inbox and confirm your Upstream subscription.";
     } else {
-      // show error message from API
+      // show error message from API, ignore error triggered on initial render
       data = await response.json().then((data) => data.error);
+      if (data.startsWith("Validation failed for email.")) {
+        data = "";
+      }
     }
     setMessage(data);
   }
