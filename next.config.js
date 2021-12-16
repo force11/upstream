@@ -9,6 +9,8 @@
  * @type {import('next').NextConfig}
  */
 
+const currentGitBranchName = require("current-git-branch");
+
 const nextConfig = {
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push({
@@ -17,6 +19,9 @@ const nextConfig = {
       use: "js-yaml-loader",
     });
     return config;
+  },
+  env: {
+    GIT_BRANCH: currentGitBranchName(),
   },
   reactStrictMode: true,
   staticPageGenerationTimeout: 600,
