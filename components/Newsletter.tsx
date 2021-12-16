@@ -15,8 +15,7 @@ export default function Newsletter() {
     });
     let data = "";
     if (response.ok) {
-      data =
-        "Please check your email inbox and confirm your Upstream subscription.";
+      data = `Please check your email inbox and confirm your Upstream subscription for ${emailAddress}.`;
     } else {
       // show error message from API, ignore error triggered on initial render
       data = await response.json().then((data) => data.error);
