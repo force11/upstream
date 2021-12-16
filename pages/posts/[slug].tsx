@@ -24,7 +24,7 @@ import {
 } from "../../lib/posts";
 import Byline from "../../components/Byline";
 import { sanitizeDescription, uuid2base32 } from "../../lib/helpers";
-// import DiscourseForum from "../../lib/discourse-forum.js";
+import DiscourseForum from "../../lib/discourse-forum.js";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await getAllPosts();
@@ -186,6 +186,7 @@ const Post = (props) => {
               </a>
             </Link>
           </div>
+          <DiscourseForum post={props.post} />
         </div>
       </div>
       {props.recommendedPosts.length > 0 && (
