@@ -111,14 +111,14 @@ const Post = (props) => {
             name: props.post.title,
             headline: props.post.title,
             description: description,
-            author: {
+            author: props.post.authors.map((author) => ({
               "@type": "Person",
-              "@id": props.post.primary_author.website,
-              name: props.post.primary_author.name,
-              image: props.post.primary_author.profile_image
-                ? "https:" + props.post.primary_author.profile_image
+              "@id": author.website,
+              name: author.name,
+              image: author.profile_image
+                ? "https:" + author.profile_image
                 : null,
-            },
+            })),
             isPartOf: {
               "@type": "Blog",
               name: "FORCE11",
