@@ -36,7 +36,7 @@ jobs:
       - name: Generate XML
         run: |
           mkdir -p upload
-          bundle exec briard https://blog.front-matter.io/posts/${{ github.event.inputs.slug }} -t crossref > upload/${{ github.event.inputs.slug }}
+          bundle exec briard https://upstream.force11.org/posts/${{ github.event.inputs.slug }} -t crossref > upload/${{ github.event.inputs.slug }}
         env:
           CROSSREF_DEPOSITOR_NAME: ${{ secrets.CROSSREF_DEPOSITOR_NAME }}
           CROSSREF_DEPOSITOR_EMAIL: ${{ secrets.CROSSREF_DEPOSITOR_EMAIL }}
