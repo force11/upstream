@@ -13,7 +13,7 @@ GEM
     benchmark_methods (0.7)
     bibtex-ruby (6.0.0)
       latex-decode (~> 0.0)
-    briard (2.2.4)
+    briard (2.2.6)
       activesupport (>= 4.2.5)
       benchmark_methods (~> 0.7)
       bibtex-ruby (>= 5.1.0)
@@ -168,9 +168,10 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-darwin-21
 
 DEPENDENCIES
-  briard (~> 2.0)
+  briard (~> 2.2.6)
 
 BUNDLED WITH
-   2.2.30
+   2.3.0
