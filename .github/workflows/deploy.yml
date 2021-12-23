@@ -1,0 +1,53 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - 'staging'
+jobs:
+  # test:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       containers: [1, 2, 3]
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v2
+
+  #     - name: Cypress run
+  #       uses: cypress-io/github-action@v2
+  #       with:
+  #         start: yarn dev
+  #         wait-on: 'http://localhost:3000'
+  #         quiet: true
+  #         record: true
+  #         parallel: true
+  #         group: 'Tests'
+  #       env:
+  #         NODE_ENV: test
+  #         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Extract variables
+        shell: bash
+        run: |
+          echo "::set-output name=BRANCH::$(echo ${GITHUB_REF#refs/heads/} | sed 's/\//_/g')"
+          echo "::set-output name=GIT_SHA::$(git rev-parse HEAD)"
+          echo "::set-output name=GIT_SHA_SHORT::$(git rev-parse --short HEAD)"
+        id: extract_variables
+
+      - name: Vercel deploy
+        uses: amondnet/vercel-action@v20.0.0
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-project-id: ${{ secrets.PROJECT_ID}}
+          scope: ${{ secrets.TEAM_ID}}
+          vercel-project-name: 'upstream'
+          alias-domains: |
+            upstream.staging.force11.org
