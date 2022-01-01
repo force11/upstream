@@ -34,9 +34,9 @@ const IndexPage = ({ tags }) => {
   const [tagString] = useQueryState('tag')
 
   const tag = tags.find(({ slug }) => slug === tagString) || {
-    name: 'Front Matter Blog',
-    description: 'Where Open Science matters',
-    feature_image: '/img/hero.jpg',
+    name: 'This is Upstream',
+    description: 'The community blog for all things open research',
+    feature_image: '/img/top.jpg',
     slug: null
   }
 
