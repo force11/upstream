@@ -18,6 +18,12 @@ const nextConfig = {
       type: "json",
       use: "js-yaml-loader",
     });
+    // workaround for package not defined as module
+    config.module.rules.push({
+      test: /\.js/,
+      include: /node_modules\/next-usequerystate/,
+      type: 'javascript/auto'
+    })
     return config;
   },
   env: {
