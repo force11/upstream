@@ -33,7 +33,7 @@ const HeaderLinks = [
 //   return classes.filter(Boolean).join(" ");
 // }
 
-const Header = ({ tags, tag }) => {
+const Header = ({ tag }) => {
   const [query, setQuery] = useQueryState('query')
 
   const inputRef = useRef<HTMLInputElement>(null)

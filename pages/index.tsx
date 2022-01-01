@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { jsonLdScriptProps } from "react-schemaorg";
-import { getAllTags, getIndexedPosts } from "../lib/posts";
+import { getAllTags } from "../lib/posts";
 import { generateAtomFeed } from "../lib/feed";
 // import { generateEpub, generatePdf, generateJats } from '../lib/pandoc'
 import { refreshIndex } from "../lib/typesense";
@@ -66,7 +66,7 @@ const IndexPage = ({ tags }) => {
           })}
         />
       </Head>
-      <Header tags={tags} tag={tag} />
+      <Header tag={tag} />
       <Top tag={tag} />
       <Tag tag={tag} />
       {process.env.GIT_BRANCH === "staging" && <Newsletter />}

@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://blog.front-matter.io</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.684Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/authors</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.684Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/authors/ghost</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.684Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/welcome</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.684Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/design</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/write</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/portal</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/sell</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/grow</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/integrations</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/contribute</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/privacy</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/contact</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-12-01T07:53:48.685Z</lastmod></url>
+<url><loc>https://blog.front-matter.io</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/authors</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/authors/christine</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/authors/ginny</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/authors/john</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/authors/mfenner</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/posts/welcome-to-upstream</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/pages/code-of-conduct</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/pages/upstream-community</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/pages/author-guidelines</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://blog.front-matter.io/pages/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
 </urlset>

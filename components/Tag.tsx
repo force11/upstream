@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { fromUnixTime } from "date-fns";
 import useSWR from "swr";
 import fetch from "unfetch";
