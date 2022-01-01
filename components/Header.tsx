@@ -1,12 +1,11 @@
-import React from "react";
-// import { render } from "react-dom";
-// import { autocomplete } from "@algolia/autocomplete-js";
+import React, { useRef } from "react";
 import { Disclosure } from "@headlessui/react";
-// import { SearchIcon } from "@heroicons/react/solid";
+import { SearchIcon } from "@heroicons/react/solid";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/img/force11.png";
+import { useQueryState } from 'next-usequerystate'
 
 // To Do import yaml
 const HeaderLinks = [
@@ -34,7 +33,22 @@ const HeaderLinks = [
 //   return classes.filter(Boolean).join(" ");
 // }
 
-export default function Navbar() {
+const Header = ({ tag }) => {
+  const [query, setQuery] = useQueryState('query')
+
+  const inputRef = useRef<HTMLInputElement>(null)
+
+  const onSubmit = () => {
+    setQuery(inputRef.current?.value)
+    console.log(query)
+  }
+
+  const onKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      onSubmit()
+    }
+  }
+
   return (
     <Disclosure as="header" className="bg-white shadow">
       {({ open }) => (
@@ -62,28 +76,34 @@ export default function Navbar() {
                   </Link>
                 </div>
               </div>
-              {/*<div className="relative z-0 flex-1 px-2 flex items-center justify-center sm:absolute sm:inset-0">
-                <div className="w-full sm:max-w-xs">
-                  <label htmlFor="search" className="sr-only">
-                    Search
-                  </label>
-                  <div className="relative">
-                    <div className="pointer-events-none absolute inset-y-0 left-0 pl-3 flex items-center">
-                      <SearchIcon
-                        className="h-5 w-5 text-gray-400"
-                        aria-hidden="true"
+              <div className="relative z-0 flex-1 px-2 flex items-center justify-center sm:absolute sm:inset-0">
+                {tag && tag.name && 
+                  (<div className="w-full sm:max-w-xs">
+                    <label htmlFor="search" className="sr-only">
+                      Search
+                    </label>
+                    <div className="relative">
+                      <div className="pointer-events-none absolute inset-y-0 left-0 pl-3 flex items-center">
+                        <SearchIcon
+                          className="h-5 w-5 text-gray-400"
+                          aria-hidden="true"
+                        />
+                      </div>
+                      <input
+                        id="search"
+                        name="search"
+                        className="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-green-600 focus:border-green-600 sm:text-sm font-sans"
+                        placeholder="Search..."
+                        type="search"
+                        defaultValue=''
+                        onSubmit={onSubmit}
+                        onKeyDown={onKeyDown}
+                        ref={inputRef}
                       />
                     </div>
-                    <input
-                      id="search"
-                      name="search"
-                      className="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-force-blue focus:border-force-blue sm:text-sm font-sans"
-                      placeholder="Search coming soon..."
-                      type="search"
-                    />
                   </div>
-                </div>
-              </div> */}
+                )}
+              </div>
               <nav
                 className="py-5 pl-0 space-x-2 lg:space-x-6 font-semibold block"
                 aria-label="Global"
@@ -150,26 +170,4 @@ export default function Navbar() {
   );
 }
 
-// export function Autocomplete(props) {
-//   const containerRef = useRef(null);
-
-//   useEffect(() => {
-//     if (!containerRef.current) {
-//       return undefined;
-//     }
-//     const search = autocomplete({
-//       container: containerRef.current,
-//       renderer: { createElement, Fragment },
-//       render({ children }, root) {
-//         render(children, root);
-//       },
-//       ...props,
-//     });
-
-//     return () => {
-//       search.destroy();
-//     };
-//   }, [props]);
-
-//   return <div ref={containerRef} />;
-// }
+export default Header

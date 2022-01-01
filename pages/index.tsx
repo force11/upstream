@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { jsonLdScriptProps } from "react-schemaorg";
-import { getAllTags, getIndexedPosts } from "../lib/posts";
+import { getAllTags } from "../lib/posts";
 import { generateAtomFeed } from "../lib/feed";
 // import { generateEpub, generatePdf, generateJats } from '../lib/pandoc'
 import { refreshIndex } from "../lib/typesense";
@@ -12,16 +12,11 @@ import Top from "../components/Top";
 import Tag from "../components/Tag";
 import Newsletter from "../components/Newsletter";
 import { Blog } from "schema-dts";
+import { useQueryState } from 'next-usequerystate'
 
 export async function getStaticProps() {
-  const tags = await getAllTags();
-  const posts = await getIndexedPosts("*");
-
-  if (!posts.posts || !tags) {
-    return {
-      props: { notFound: true },
-    };
-  }
+  // this needs to be loaded only at startup
+  const tags = await getAllTags()
 
   await generateAtomFeed();
   // await generateEpub()
@@ -31,24 +26,19 @@ export async function getStaticProps() {
   await refreshIndex();
 
   return {
-    props: { posts: posts.posts, tags },
+    props: { tags },
   };
 }
 
-const IndexPage = ({ posts }) => {
-  const tag = {
-    name: "This is Upstream",
-    description: "The community blog for all things open research",
-    feature_image: "/img/top.jpg",
-  };
+const IndexPage = ({ tags }) => {
+  const [tagString] = useQueryState('tag')
 
-  const pagination = {
-    page: 1,
-    pages: 1,
-    total: posts ? posts.length : 0,
-    prev: null,
-    next: null,
-  };
+  const tag = tags.find(({ slug }) => slug === tagString) || {
+    name: 'Front Matter Blog',
+    description: 'Where Open Science matters',
+    feature_image: '/img/hero.jpg',
+    slug: null
+  }
 
   return (
     <>
@@ -76,9 +66,9 @@ const IndexPage = ({ posts }) => {
           })}
         />
       </Head>
-      <Header />
+      <Header tag={tag} />
       <Top tag={tag} />
-      <Tag posts={posts} pagination={pagination} />
+      <Tag tag={tag} />
       {process.env.GIT_BRANCH === "staging" && <Newsletter />}
       <Footer />
     </>

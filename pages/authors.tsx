@@ -33,7 +33,7 @@ const AuthorsPage = ({ authors }) => {
           content="https://upstream.force11.org/img/hero.jpg"
         />
       </Head>
-      <Header />
+      <Header tag={{}} />
       <Authors authors={authors} />
       <Footer />
     </>

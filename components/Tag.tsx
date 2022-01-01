@@ -1,39 +1,38 @@
 import React from "react";
-import { useState } from "react";
 import { fromUnixTime } from "date-fns";
 import useSWR from "swr";
 import fetch from "unfetch";
 import Byline from "./Byline";
+import { useQueryState } from 'next-usequerystate'
 
-const fetcher = (url) => fetch(url).then((r) => r.json());
+const fetcher = (url) => fetch(url).then((r) => r.json())
 
-export default function Tag({ posts, pagination }) {
-  if (!posts) {
-    return null;
-  }
+export default function Tag({ tag }) {
+  const [queryString] = useQueryState('query')
+  const [pageIndex, setPageIndex] = useQueryState('page')
 
-  const [pageIndex, setPageIndex] = useState(1);
-
-  // The API URL includes the page index, which is a React state.
-  const query = `https://${process.env.NEXT_PUBLIC_TYPESENSE_HOST_0}/collections/upstream/documents/search/?q=*&sort_by=published:desc&per_page=15&page=${pageIndex}&x-typesense-api-key=${process.env.NEXT_PUBLIC_TYPESENSE_API_KEY}`;
-  const { data } = useSWR(query, fetcher);
+  // The API URL includes pageIndex, which is a React state.
+  const filter = tag.slug ? '&filter_by=tags:' + tag.slug : ''
+  const query = queryString ? 'q=' + queryString + '&query_by=tags,title,content,authors' : 'q=*'
+  const page = pageIndex ? '&page=' + pageIndex : ''
+  const typesenseQuery = `https://${process.env.NEXT_PUBLIC_TYPESENSE_HOST_0}/collections/${process.env.NEXT_PUBLIC_TYPESENSE_COLLECTION}/documents/search/?${query}${filter}&sort_by=published:desc&per_page=15${page}&x-typesense-api-key=${process.env.NEXT_PUBLIC_TYPESENSE_API_KEY}`
+  const { data } = useSWR(typesenseQuery, fetcher)
 
   // ... handle loading and error states
   if (!data) {
-    return null;
+    return null
   }
 
   // duplication from lib/posts
-  const pages = Math.ceil(data.found / 15);
-
-  posts = data.hits.map((hit) => hit.document);
-  pagination = {
+  const pages = Math.ceil(data.found / 15)
+  const posts = data.hits.map((hit) => hit.document)
+  const pagination = {
     page: data.page,
     pages: pages,
     total: data.found,
     prev: data.page > 1 ? data.page - 1 : null,
-    next: data.page < pages ? data.page + 1 : null,
-  };
+    next: data.page < pages ? data.page + 1 : null
+  }
 
   return (
     <>
@@ -46,7 +45,7 @@ export default function Tag({ posts, pagination }) {
             <div className="mt-4 md:mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 lg:max-w-none">
               {posts.slice(0, 1).map((post) => (
                 <div
-                  className="grid gap-5 lg:grid-cols-2 rounded-lg shadow-lg overflow-hidden"
+                  className="grid gap-5 lg:grid-cols-2 bg-white rounded-lg shadow-lg overflow-hidden"
                   key={post.id}
                 >
                   <div className="flex-shrink-0 bg-white py-6 px-6">
@@ -204,7 +203,7 @@ export default function Tag({ posts, pagination }) {
               <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 lg:max-w-none">
                 {posts.slice(6, 7).map((post) => (
                   <div
-                    className="grid gap-5 lg:grid-cols-2 rounded-lg shadow-lg overflow-hidden"
+                    className="grid gap-5 lg:grid-cols-2 bg-white rounded-lg shadow-lg overflow-hidden"
                     key={post.id}
                   >
                     <div className="flex-shrink-0 bg-white py-6 px-6">
@@ -425,17 +424,17 @@ export default function Tag({ posts, pagination }) {
                   total pages
                 </p>
               </div>
-              <div className="flex-1 flex justify-between sm:justify-end">
+              <div className="flex-1 flex justify-between sm:justify-end space-x-1">
                 {pagination.prev && (
-                  <button onClick={() => setPageIndex(pagination.prev)}>
-                    <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 hover:text-green-500 hover:border-green-500 hover:bg-gray-50">
+                  <button onClick={() => setPageIndex(pagination.prev.toString())}>
+                    <a className="relative inline-flex items-center h-8 px-4 py-1 border border-gray-300 text-sm font-medium rounded-md text-gray-700 hover:text-green-600 hover:border-green-600 active:text-green-600 active:border-green-600">
                       Previous
                     </a>
                   </button>
                 )}
                 {pagination.next && (
-                  <button onClick={() => setPageIndex(pagination.next)}>
-                    <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 hover:text-green-500 hover:border-green-500 hover:bg-gray-50">
+                  <button onClick={() => setPageIndex(pagination.next.toString())}>
+                    <a className="relative inline-flex items-center h-8 px-4 py-1 border border-gray-300 text-sm font-medium rounded-md text-gray-700 hover:text-green-600 hover:border-green-600 active:text-green-600 active:border-green-600">
                       Next
                     </a>
                   </button>
