@@ -68,7 +68,7 @@ const Header = ({ tag }) => {
                       />
                       <span
                         data-cy="sitename"
-                        className="text-2xl font-semibold font-sans pl-2 pt-2"
+                        className="text-2xl font-semibold font-sans pl-2 pt-2 hidden md:inline"
                       >
                         Upstream
                       </span>
@@ -76,9 +76,9 @@ const Header = ({ tag }) => {
                   </Link>
                 </div>
               </div>
-              <div className="relative z-0 flex-1 px-2 flex items-center justify-center sm:absolute sm:inset-0">
+              <div className="px-2 flex items-center xl:justify-center sm:inset-0">
                 {tag && tag.name && 
-                  (<div className="w-full sm:max-w-xs">
+                  (<div className="md:w-48 lg:w-72 sm:max-w-xs">
                     <label htmlFor="search" className="sr-only">
                       Search
                     </label>
@@ -92,7 +92,7 @@ const Header = ({ tag }) => {
                       <input
                         id="search"
                         name="search"
-                        className="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-green-600 focus:border-green-600 sm:text-sm font-sans"
+                        className="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-force-blue focus:border-force-blue sm:text-sm font-sans"
                         placeholder="Search..."
                         type="search"
                         defaultValue=''
@@ -123,7 +123,7 @@ const Header = ({ tag }) => {
                   </>
                 ))}
               </nav>
-              <div className="relative right-0 z-10 flex py-3 md:hidden">
+              <div className="relative right-0 flex py-3 md:hidden">
                 <Disclosure.Button className="rounded-md p-2 inline-flex text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-force-blue">
                   <span className="sr-only">Open menu</span>
                   {open ? (
@@ -143,7 +143,7 @@ const Header = ({ tag }) => {
               </div>
             </div>
           </div>
-          <Disclosure.Panel as="nav" className="lg:hidden" aria-label="Global">
+          <Disclosure.Panel as="nav" className="lg:hidden z-10" aria-label="Global">
             <div className="px-6 space-y-1">
               <ul className="mt-1 list-none">
                 {HeaderLinks.map((headerLink) => (
