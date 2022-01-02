@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://blog.front-matter.io',
+  siteUrl: 'https://upstream.force11.org',
   generateRobotsTxt: true,
   exclude: [
     '/features',
