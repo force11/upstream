@@ -72,13 +72,13 @@ export default function Newsletter() {
               type="email"
               autoComplete="email"
               required
-              className="w-full px-3 py-2 border font-sans border-gray-300 shadow-sm placeholder-gray-400 focus:ring-1 focus:ring-green-600 focus:border-green-600 sm:max-w-xs rounded-md"
+              className="w-full px-3 py-2 border font-sans border-gray-300 shadow-sm placeholder-gray-400 focus:ring-1 focus:ring-force-blue focus:border-force-blue sm:max-w-xs rounded-md"
               placeholder="Enter your email"
             />
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-green-600 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-green-600"
+                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-force-blue shadow-lg shadow-force-blue/50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-force-blue"
               >
                 Subscribe
               </button>
