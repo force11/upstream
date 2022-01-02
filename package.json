@@ -20,9 +20,10 @@
     "@popperjs/core": "^2.9.2",
     "@sentry/browser": "^6.14.0",
     "@sentry/nextjs": "^6.15",
-    "@tailwindcss/aspect-ratio": "0.3.0",
-    "@tailwindcss/forms": "^0.3.3",
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.3.0",
+    "@tailwindcss/typography": "^0.5.0",
     "@tryghost/admin-api": "^1.4.4",
     "@tryghost/content-api": "^1.5.7",
     "@tryghost/members-api": "^2.8.6",
@@ -93,7 +94,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
-    "autoprefixer": "^10.2.6",
+    "autoprefixer": "^10.4.1",
     "current-git-branch": "^1.1.0",
     "eslint": "^7.29.0",
     "eslint-config-next": "12.0.1",
@@ -101,8 +102,8 @@
     "js-yaml-loader": "^1.2.2",
     "next-sitemap": "^1.6.116",
     "pandoc-url2cite": "^0.6.7",
-    "postcss": "^8.3.4",
-    "tailwindcss": "^2.1.4"
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.8"
   },
   "browser": {
     "fs": false,

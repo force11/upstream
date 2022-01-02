@@ -78,7 +78,7 @@ const Header = ({ tag }) => {
               </div>
               <div className="px-2 flex items-center xl:justify-center sm:inset-0">
                 {tag && tag.name && 
-                  (<div className="md:w-48 lg:w-72 sm:max-w-xs">
+                  (<div className="sm:max-w-xs md:w-48 lg:w-72">
                     <label htmlFor="search" className="sr-only">
                       Search
                     </label>
