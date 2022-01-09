@@ -40,6 +40,8 @@ const IndexPage = ({ tags }) => {
     slug: null
   }
 
+  console.log(process.env.GIT_BRANCH)
+
   return (
     <>
       <Head>
