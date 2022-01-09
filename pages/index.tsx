@@ -69,7 +69,7 @@ const IndexPage = ({ tags }) => {
       <Header tag={tag} />
       <Top tag={tag} />
       <Tag tag={tag} />
-      {process.env.GIT_BRANCH === "staging" && <Newsletter />}
+      <Newsletter />
       <Footer />
     </>
   );
