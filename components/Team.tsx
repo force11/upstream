@@ -24,7 +24,15 @@ export default function Team() {
             </h2>
             <p className="text-xl text-gray-500">
               Team Upstream manages the Upstream blog for the FORCE11 community.
-              Please contact us for inquiries, feedback or general questions.
+              Please contact us by email at{' '} 
+              <Link href={'mailto:upstream@force11.org'} passHref>
+                <a
+                  href="dummy"
+                  className="text-gray-500 hover:text-gray-400 border-b-0"
+                >
+                  <span className="text-force-blue border-b-0 hover:border-b hover:border-force-blue">upstream@force11.org</span>
+                </a>
+              </Link>{' ' } for inquiries, feedback or general questions.
             </p>
           </div>
           <div className="lg:col-span-2">
