@@ -86,7 +86,7 @@ export default function Newsletter() {
           </form>
           <p className="mt-3 text-sm text-gray-500">
             We care about the protection of your data. Read our{' '}
-            <a href="/pages/privacy-policy" className="font-medium underline">
+            <a href="https://www.force11.org/privacy-statement" target="_blank" rel="noopener noreferrer" className="font-medium underline">
               Privacy Policy.
             </a>
           </p>
