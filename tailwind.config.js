@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         "force-blue": "#8cbfd0",
+        "force-blue-dark": "#6D94A5",
         green: colors.emerald,
         yellow: colors.amber,
         purple: colors.violet,

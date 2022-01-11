@@ -78,7 +78,7 @@ export default function Newsletter() {
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-force-blue shadow-lg shadow-force-blue/50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-force-blue"
+                className="w-full flex items-center justify-center py-2 px-3 border border-transparent text-base font-medium font-sans rounded-md text-white bg-force-blue hover:bg-force-blue-dark shadow-lg shadow-force-blue/50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-force-blue"
               >
                 Subscribe
               </button>
