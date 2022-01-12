@@ -43,22 +43,19 @@ export default function Author({ posts, author, pagination }) {
 
   return (
     <>
-      <div className="bg-gray-100">
-        <div className="container flex mx-auto py-8 px-20 max-w-7xl sm:px-6 lg:px-20">
+      <div className="bg-white">
+        <div className="px-24 py-6 space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
           <div className="space-y-4 sm:space-y-0">
-            <div className="aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2">
-              {author.profile_image && (
-                <Image
-                  className="mx-auto h-40 w-40 inline-block rounded-full xl:w-56 xl:h-56"
-                  src={author.profile_image}
-                  alt={"image " + author.name}
-                  layout="fill"
-                />
-              )}
+            <div className="aspect-square w-72">
+              <img className="object-cover shadow-lg rounded-lg" src={author.profile_image} alt="" />
             </div>
 
-            <div className="text-xl pt-2 leading-6 font-medium font-sans space-y-1">
+            <div className="pt-8 text-xl pt-2 leading-6 font-medium font-sans space-y-1">
               <div>{author.name}</div>
+            </div>
+
+            <div className="text-lg w-1/2">
+              <p className="text-gray-500">{author.bio}</p>
             </div>
 
             <ul className="flex space-x-5 mt-1 list-none">
@@ -444,10 +441,10 @@ export default function Author({ posts, author, pagination }) {
             >
               <div className="hidden sm:block">
                 <p className="text-sm text-gray-700">
-                  Showing{" "}
-                  <span className="font-medium">page {pagination.page}</span>{" "}
-                  out of <span className="font-medium">{pagination.pages}</span>{" "}
-                  total pages
+                  Showing{' '}
+                  <span className="font-medium">page {pagination.page}</span>{' '}
+                  out of <span className="font-medium">{pagination.pages}</span>{' '}
+                  total pages for {pagination.total} posts.
                 </p>
               </div>
               <div className="flex-1 flex justify-between sm:justify-end">

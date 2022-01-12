@@ -432,10 +432,10 @@ export default function Tag({ tag }) {
             >
               <div className="hidden sm:block">
                 <p className="text-sm text-gray-700">
-                  Showing{" "}
-                  <span className="font-medium">page {pagination.page}</span>{" "}
-                  out of <span className="font-medium">{pagination.pages}</span>{" "}
-                  total pages
+                  Showing{' '}
+                  <span className="font-medium">page {pagination.page}</span>{' '}
+                  out of <span className="font-medium">{pagination.pages}</span>{' '}
+                  total pages for {pagination.total} posts.
                 </p>
               </div>
               <div className="flex-1 flex justify-between sm:justify-end space-x-1">
