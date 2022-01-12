@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { fromUnixTime } from "date-fns";
 import Link from "next/link";
-import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faOrcid } from "@fortawesome/free-brands-svg-icons";
 
