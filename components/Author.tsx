@@ -184,7 +184,12 @@ export default function Author({ posts, author, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.author}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={
                             process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
@@ -234,7 +239,12 @@ export default function Author({ posts, author, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.author}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={
                             process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
@@ -284,7 +294,12 @@ export default function Author({ posts, author, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.author}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={
                             process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
@@ -334,7 +349,12 @@ export default function Author({ posts, author, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.author}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={
                             process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
@@ -384,7 +404,12 @@ export default function Author({ posts, author, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.author}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={
                             process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
@@ -434,7 +459,12 @@ export default function Author({ posts, author, pagination }) {
                       </div>
                       <div className="mt-0 flex items-center">
                         <Byline
-                          authors={post.author}
+                          authors={post.authors.map((author, idx) => ({
+                            name: author,
+                            slug: post.author_ids[idx],
+                            website: null,
+                            profile_image: null,
+                          }))}
                           published={fromUnixTime(post.published)}
                           doi={
                             process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
