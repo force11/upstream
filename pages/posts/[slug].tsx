@@ -135,7 +135,7 @@ const Post = (props) => {
           {props.post.feature_image && (
             <div className="flex-shrink-0 bg-white py-6">
               <img
-                className="h-48 w-full object-contain"
+                className="object-cover h-48 md:h-72 w-full"
                 src={props.post.feature_image}
                 alt=""
               />
