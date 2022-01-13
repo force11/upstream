@@ -44,7 +44,7 @@ export default function Author({ posts, author, pagination }) {
     <>
       <div className="container mx-auto flex flex-auto bg-white">
         <div className="px-10 py-6 md:py-12 space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-          <div className="grid gap-5 lg:grid-cols-3 space-y-4 sm:space-y-0">
+          <div className="grid gap-5 xl:grid-cols-3 space-y-4 sm:space-y-0">
             <div className="aspect-square w-48 md:w-72">
               <img className="object-cover shadow-lg rounded-lg" src={author.profile_image} alt="" />
             </div>
