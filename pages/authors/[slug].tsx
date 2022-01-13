@@ -12,8 +12,8 @@ import { GetStaticProps } from "next";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const authors = await getAllAuthors();
-  const paths = authors.map((tag) => ({
-    params: { slug: tag.slug },
+  const paths = authors.map((author) => ({
+    params: { slug: author.slug },
   }));
 
   return { paths, fallback: true };

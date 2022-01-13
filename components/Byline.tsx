@@ -26,7 +26,7 @@ const Byline: React.FunctionComponent<Props> = ({
     <div className="flex flex-row pt-2 pb-4">
       <div className="">
         <div className="font-bold font-sans uppercase text-sm">
-          {authors.map((author, idx) => (
+          {authors !== undefined ? authors.map((author, idx) => (
             <>
               <a
                 className="border-b-0 hover:border-b hover:border-force-blue"
@@ -36,7 +36,7 @@ const Byline: React.FunctionComponent<Props> = ({
               </a>
               {idx + 1 < authors.length ? ", " : ""}
             </>
-          ))}
+          )) : []}
         </div>
         <div className="font-sans text-sm text-gray-600">
           {published.toLocaleDateString("en-US", {
