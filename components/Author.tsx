@@ -491,7 +491,7 @@ export default function Author({ posts, author, pagination }) {
                   total pages for {pagination.total} posts.
                 </p>
               </div>
-              <div className="flex-1 flex justify-between sm:justify-end">
+              <div className="flex-1 flex justify-between sm:justify-end space-x-1">
                 {pagination.prev && (
                   <button onClick={() => setPageIndex(pagination.prev)}>
                     <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 hover:text-green-500 hover:border-green-500 hover:bg-gray-50">
