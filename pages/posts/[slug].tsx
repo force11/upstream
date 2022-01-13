@@ -8,7 +8,6 @@ import { jsonLdScriptProps } from "react-schemaorg";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { readabilityScore } from "../../lib/helpers";
-import RecommendedPosts from "../../components/RecommendedPosts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCreativeCommons,
@@ -20,7 +19,6 @@ import {
   getAllPosts,
   getAllTags,
   getSinglePost,
-  getSimilarIndexedPosts,
 } from "../../lib/posts";
 import Byline from "../../components/Byline";
 import { sanitizeDescription, uuid2base32 } from "../../lib/helpers";
@@ -45,12 +43,8 @@ export async function getStaticProps(context) {
     };
   }
 
-  const recommendedPosts = await getSimilarIndexedPosts(
-    post.title + " " + post.tags.map((tag) => tag.name).join(" "),
-    uuid2base32(post.id)
-  );
   return {
-    props: { post, tags, recommendedPosts },
+    props: { post, tags },
   };
 }
 
@@ -89,7 +83,7 @@ const Post = (props) => {
         />
         <meta name="citation_journal_title" content="FORCE11" />
         <meta name="citation_language" content="en" />
-        {props.post.tags && (
+        {props.post.tags.length > 0 && (
           <meta
             name="citation_keywords"
             content={props.post.tags.map((tag) => tag.slug).join(", ")}
@@ -124,7 +118,7 @@ const Post = (props) => {
               name: "FORCE11",
             },
             publisher: { "@type": "Organization", name: "FORCE11" },
-            keywords: props.post.tags
+            keywords: props.post.tags.length > 0
               ? props.post.tags.map((tag) => tag.slug).join(", ")
               : null,
             inLanguage: "en",
@@ -138,7 +132,7 @@ const Post = (props) => {
       <Header tag={{}} />
       <div className="md:container mx-6 md:mx-auto py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
-          {props.post.tags && (
+          {props.post.tags.length > 0 && (
             <p className="text-sm uppercase font-sans font-bold mb-0">
               {props.post.tags.map((tag, index) => (
                 <>
@@ -189,9 +183,6 @@ const Post = (props) => {
           <DiscourseForum post={props.post} />
         </div>
       </div>
-      {props.recommendedPosts.length > 0 && (
-        <RecommendedPosts posts={props.recommendedPosts} />
-      )}
       <Footer />
     </>
   );

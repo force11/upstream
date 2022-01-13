@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://blog.front-matter.io</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/authors</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/authors/christine</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/authors/ginny</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/authors/john</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/authors/mfenner</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/posts/welcome-to-upstream</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/code-of-conduct</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/upstream-community</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/author-guidelines</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
-<url><loc>https://blog.front-matter.io/pages/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-01T15:36:56.530Z</lastmod></url>
+<url><loc>https://upstream.force11.org</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.406Z</lastmod></url>
+<url><loc>https://upstream.force11.org/authors</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/authors/christine</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/authors/ginny</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/authors/jgibson</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/authors/john</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/authors/mfenner</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/posts/changing-perspectives</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/posts/a-modern-take-on-research-communication</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/posts/welcome-to-upstream</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/pages/code-of-conduct</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/pages/upstream-community</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/pages/author-guidelines</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
+<url><loc>https://upstream.force11.org/pages/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-01-13T11:58:28.407Z</lastmod></url>
 </urlset>
