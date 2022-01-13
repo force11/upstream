@@ -42,49 +42,50 @@ export default function Author({ posts, author, pagination }) {
 
   return (
     <>
-      <div className="bg-white">
-        <div className="px-24 py-6 space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-          <div className="space-y-4 sm:space-y-0">
-            <div className="aspect-square w-72">
+      <div className="container mx-auto flex flex-auto bg-white">
+        <div className="px-10 py-6 md:py-12 space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+          <div className="grid gap-5 lg:grid-cols-3 space-y-4 sm:space-y-0">
+            <div className="aspect-square w-48 md:w-72">
               <img className="object-cover shadow-lg rounded-lg" src={author.profile_image} alt="" />
             </div>
+            <div className="col-span-2">
+              <div className="pt-8 text-xl pt-2 leading-6 font-medium font-sans space-y-1">
+                <div>{author.name}</div>
+              </div>
 
-            <div className="pt-8 text-xl pt-2 leading-6 font-medium font-sans space-y-1">
-              <div>{author.name}</div>
+              <div className="text-lg">
+                <p className="text-gray-500">{author.bio}</p>
+              </div>
+
+              <ul className="flex space-x-5 mt-1 list-none">
+                {author.website && (
+                  <li>
+                    <Link href={author.website} passHref>
+                      <a
+                        href="dummy"
+                        className="text-gray-500 hover:text-gray-400 border-b-0"
+                      >
+                        <span className="sr-only">ORCID</span>
+                        <FontAwesomeIcon icon={faOrcid} />
+                      </a>
+                    </Link>
+                  </li>
+                )}
+                {author.twitter && (
+                  <li>
+                    <Link href={"https://twitter.com/" + author.twitter} passHref>
+                      <a
+                        href="dummy"
+                        className="text-gray-500 hover:text-gray-400 border-b-0"
+                      >
+                        <span className="sr-only">Twitter</span>
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                    </Link>
+                  </li>
+                )}
+              </ul>
             </div>
-
-            <div className="text-lg w-1/2">
-              <p className="text-gray-500">{author.bio}</p>
-            </div>
-
-            <ul className="flex space-x-5 mt-1 list-none">
-              {author.website && (
-                <li>
-                  <Link href={author.website} passHref>
-                    <a
-                      href="dummy"
-                      className="text-gray-500 hover:text-gray-400 border-b-0"
-                    >
-                      <span className="sr-only">ORCID</span>
-                      <FontAwesomeIcon icon={faOrcid} />
-                    </a>
-                  </Link>
-                </li>
-              )}
-              {author.twitter && (
-                <li>
-                  <Link href={"https://twitter.com/" + author.twitter} passHref>
-                    <a
-                      href="dummy"
-                      className="text-gray-500 hover:text-gray-400 border-b-0"
-                    >
-                      <span className="sr-only">Twitter</span>
-                      <FontAwesomeIcon icon={faTwitter} />
-                    </a>
-                  </Link>
-                </li>
-              )}
-            </ul>
           </div>
         </div>
       </div>
