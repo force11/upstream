@@ -132,7 +132,16 @@ const Post = (props) => {
       <Header tag={{}} />
       <div className="md:container mx-6 md:mx-auto py-8 flex flex-wrap justify-center">
         <div className="w-full md:w-8/12 ">
-          {props.post.tags.length > 0 && (
+          {props.post.feature_image && (
+            <div className="flex-shrink-0 bg-white py-6">
+              <img
+                className="h-48 w-full object-contain"
+                src={props.post.feature_image}
+                alt=""
+              />
+            </div>
+          )}
+            {props.post.tags.length > 0 && (
             <p className="text-sm uppercase font-sans font-bold mb-0">
               {props.post.tags.map((tag, index) => (
                 <>
