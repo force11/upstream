@@ -137,7 +137,9 @@ export default function Author({ posts, author, pagination }) {
                           profile_image: null,
                         }))}
                         published={fromUnixTime(post.published)}
-                        doi={null}
+                        doi={
+                          process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
+                        }
                         readingTime={post.readingTime}
                         readabilityScore={post.readabilityScore}
                       />
@@ -184,7 +186,9 @@ export default function Author({ posts, author, pagination }) {
                         <Byline
                           authors={post.author}
                           published={fromUnixTime(post.published)}
-                          doi={null}
+                          doi={
+                            process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
+                          }
                           readingTime={post.readingTime}
                           readabilityScore={post.readabilityScore}
                         />
@@ -232,7 +236,9 @@ export default function Author({ posts, author, pagination }) {
                         <Byline
                           authors={post.author}
                           published={fromUnixTime(post.published)}
-                          doi={null}
+                          doi={
+                            process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
+                          }
                           readingTime={post.readingTime}
                           readabilityScore={post.readabilityScore}
                         />
@@ -280,7 +286,9 @@ export default function Author({ posts, author, pagination }) {
                         <Byline
                           authors={post.author}
                           published={fromUnixTime(post.published)}
-                          doi={null}
+                          doi={
+                            process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
+                          }
                           readingTime={post.readingTime}
                           readabilityScore={post.readabilityScore}
                         />
@@ -328,7 +336,9 @@ export default function Author({ posts, author, pagination }) {
                         <Byline
                           authors={post.author}
                           published={fromUnixTime(post.published)}
-                          doi={null}
+                          doi={
+                            process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
+                          }
                           readingTime={post.readingTime}
                           readabilityScore={post.readabilityScore}
                         />
@@ -376,7 +386,9 @@ export default function Author({ posts, author, pagination }) {
                         <Byline
                           authors={post.author}
                           published={fromUnixTime(post.published)}
-                          doi={null}
+                          doi={
+                            process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
+                          }
                           readingTime={post.readingTime}
                           readabilityScore={post.readabilityScore}
                         />
@@ -424,7 +436,9 @@ export default function Author({ posts, author, pagination }) {
                         <Byline
                           authors={post.author}
                           published={fromUnixTime(post.published)}
-                          doi={null}
+                          doi={
+                            process.env.NEXT_PUBLIC_PREFIX ? 'https://doi.org/' + process.env.NEXT_PUBLIC_PREFIX + '/' + post.id : null
+                          }
                           readingTime={post.readingTime}
                           readabilityScore={post.readabilityScore}
                         />
