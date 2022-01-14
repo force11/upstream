@@ -141,7 +141,7 @@ const Post = (props) => {
               />
             </div>
           )}
-            {props.post.tags.length > 0 && (
+          {props.post.tags.length > 0 && (
             <p className="text-sm uppercase font-sans font-bold mb-0">
               {props.post.tags.map((tag, index) => (
                 <>
