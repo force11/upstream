@@ -43,6 +43,7 @@ const IndexPage = ({ tags }) => {
   return (
     <>
       <Head>
+        <link rel="alternate" type="application/rss+xml" title="Upstream" href="https://upstream.force11.org/feed.xml" />
         <meta name="og:title" content="Upstream" />
         <meta
           name="og:description"
