@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  a {
-    @apply pb-0.5 border-b border-force-blue hover:border-force-blue visited:border-force-blue;
-  }
+
   body {
     @apply font-serif;
   }
@@ -13,11 +11,16 @@
     @apply font-mono text-sm p-1 bg-gray-50 mb-3;
   }
   figcaption {
-    @apply font-sans leading-snug italic;
+    @apply font-sans leading-snug italic mb-1 mt-1;
   }
   figure {
     @apply mb-3;
   }
+
+  figure img {
+    @apply mb-3 rounded-lg shadow-lg;
+  }
+
   footer {
     @apply font-sans text-base list-none border-b-0;
   }
@@ -25,7 +28,7 @@
     @apply text-3xl font-sans font-semibold mt-8;
   }
   h2 {
-    @apply text-2xl font-sans font-semibold;
+    @apply text-2xl font-sans font-semibold mb-1;
   }
   h3 {
     @apply text-xl font-sans font-semibold;

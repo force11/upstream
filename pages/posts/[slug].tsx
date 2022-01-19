@@ -161,7 +161,7 @@ const Post = (props) => {
               process.env.NEXT_PUBLIC_PREFIX ? "https://doi.org/" + pid : null
             }
           />
-          <div className="text-lg">{ReactHtmlParser(props.post.html)}</div>
+          <div className="prose prose-xl">{ReactHtmlParser(props.post.html)}</div>
           <div
             className="text-base leading-snug text-gray-600 py-1 font-sans"
             data-cy="copyright"
