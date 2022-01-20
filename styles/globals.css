@@ -17,6 +17,11 @@
     @apply mb-3;
   }
 
+  figure iframe {
+    width: 740px;
+    height: 416px;
+  }
+
   figure img {
     @apply mb-3 rounded-lg shadow-lg;
   }
