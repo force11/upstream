@@ -17,7 +17,7 @@
     @apply mb-3;
   }
 
-  figure iframe {
+  figure.kg-card iframe {
     width: 740px;
     height: 416px;
   }
