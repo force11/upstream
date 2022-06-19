@@ -39,7 +39,7 @@ export async function refreshIndex() {
 
   for (const post of posts) {
     const description = sanitizeDescription(post.html);
-    const id = uuid2base32(post.id);
+    const id = uuid2base32(post.uuid);
 
     const document = {
       id: id,
