@@ -43,7 +43,7 @@ const Page = (props) => {
   if (!props.page) return <div>Not found</div>;
 
   const pid = process.env.NEXT_PUBLIC_PREFIX
-    ? process.env.NEXT_PUBLIC_PREFIX + "/" + uuid2base32(props.page.id)
+    ? process.env.NEXT_PUBLIC_PREFIX + "/" + uuid2base32(props.page.uuid)
     : null;
   const description = sanitizeDescription(props.page.html);
 
