@@ -50,7 +50,7 @@ jobs:
         id: extract_variables
 
       - name: Vercel deploy
-        uses: amondnet/vercel-action@v19
+        uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID}}
