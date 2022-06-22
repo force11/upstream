@@ -1,6 +1,6 @@
 # Upstream
 
-A Next.js application that powers the FORCE11 Upstream blog with a Ghost.org-powered backend editor and a Typesense full-text search index.
+A Next.js application that powers the FORCE11 Upstream blog with a Ghost.org-powered backend editor, and a Typesense full-text search index.
 
 ## License
 
