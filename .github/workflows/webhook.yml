@@ -1,4 +1,4 @@
-name: Webhook
+name: DOI Registration Upstream
 on:
   workflow_dispatch:
     inputs:
@@ -14,8 +14,6 @@ on:
 jobs:
   register:
     runs-on: ubuntu-latest
-    env:
-      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
       - uses: actions/checkout@v2          
       - uses: actions/cache@v2
@@ -36,7 +34,7 @@ jobs:
       - name: Generate XML
         run: |
           mkdir -p upload
-          bundle exec briard https://upstream.force11.org/posts/${{ github.event.inputs.slug }} -t crossref > upload/${{ github.event.inputs.slug }}
+          bundle exec briard https://upstream.force11.org/${{ github.event.inputs.slug }} -t crossref > upload/${{ github.event.inputs.slug }}
         env:
           CROSSREF_DEPOSITOR_NAME: ${{ secrets.CROSSREF_DEPOSITOR_NAME }}
           CROSSREF_DEPOSITOR_EMAIL: ${{ secrets.CROSSREF_DEPOSITOR_EMAIL }}
@@ -55,25 +53,3 @@ jobs:
         id: api
         with:
           args: -X POST -F "operation=doMDUpload" -F "login_id=${{ secrets.CROSSREF_USERNAME_WITH_ROLE }}" -F "login_passwd=${{ secrets.CROSSREF_PASSWORD }}" -F "fname=@upload/${{ github.event.inputs.slug }} https://doi.crossref.org/servlet/deposit
-      - name: Extract variables
-        shell: bash
-        run: |
-          echo "::set-output name=BRANCH::$(echo ${GITHUB_REF#refs/heads/} | sed 's/\//_/g')"
-          echo "::set-output name=TAG::$(git tag --points-at HEAD)"
-          echo "::set-output name=GIT_SHA::$(git rev-parse HEAD)"
-          echo "::set-output name=GIT_SHA_SHORT::$(git rev-parse --short HEAD)"
-          echo "::set-output name=MESSAGE::$(git log --format=%B -n 1 ${{ github.event.after }})"
-        id: extract_variables
-      - name: Notify Slack
-        uses: edge/simple-slack-notify@master
-        with:
-          channel: '#ops'
-          color: 'good'
-          text: 'A blog post is being updated: https://blog.front-matter.io/posts/${{ github.event.inputs.slug }}.'
-          failure_text: '${env.GITHUB_WORKFLOW} (${env.GITHUB_RUN_NUMBER}) build failed'
-          fields: |
-            [{ "title": "Commit message", "value": "${{ steps.extract_variables.outputs.MESSAGE }}" },
-             { "title": "Committed by", "value": "<https://github.com/${{ github.repository }}/commits?author=${{ github.actor }}|${{ github.actor }}>", "short": true },
-             { "title": "Commit SHA", "value": "<https://github.com/${{ github.repository }}/commit/${{ steps.extract_variables.outputs.GIT_SHA }}|${{ steps.extract_variables.outputs.GIT_SHA_SHORT }}>", "short": true },
-             { "title": "Repository", "value": "<https://github.com/${{ github.repository }}|${{ github.repository }}>", "short": true },
-             { "title": "Branch", "value": "<https://github.com/${{ github.repository }}/tree/${{ steps.extract_variables.outputs.BRANCH }}|${{ steps.extract_variables.outputs.BRANCH }}>", "short": true }]
