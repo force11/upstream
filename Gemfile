@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem "briard", "~> 2.3"
+gem "briard", "~> 2.9.1"
